@@ -1,7 +1,7 @@
 # CapstoneProject
 Code style guidelines:
 - Use 4 spaces for indentation.
-- Follow PEP 8 style for Python.
+- Follow PEP 8 style for Python and Google's C++ style for C++.
 - All function names should be appropriate.
 - Use meaningful variable names.
 
