@@ -1,0 +1,4 @@
+[console_scripts]
+square_move = square_move.square_move:main
+square_path = square_move.square_path:main
+

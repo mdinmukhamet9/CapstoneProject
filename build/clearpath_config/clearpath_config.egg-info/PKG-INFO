@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: clearpath-config
+Version: 0.2.11
+Summary: Clearpath Configuration YAML Parser and Writer
+Home-page: UNKNOWN
+Author: Luis Camero
+Author-email: lcamero@clearpathrobotics.com
+Maintainer: Luis Camero
+Maintainer-email: lcamero@clearpathrobotics.com
+License: BSD-3
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

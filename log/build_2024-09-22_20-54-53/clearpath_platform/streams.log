@@ -1,0 +1,81 @@
+[0.022s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform': CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/square_move:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dinm/debug_clear_ws/install/clearpath_platform/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_platform -- -j8 -l8
+[0.108s] [ 13%] Built target clearpath_platform_lighting
+[0.112s] [ 30%] Built target j100_hardware
+[0.112s] [ 40%] Built target puma_hardware
+[0.113s] [ 83%] Built target a200_hardware
+[0.116s] [ 93%] Built target w200_hardware
+[0.136s] [100%] Built target lighting_node
+[0.146s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform' returned '0': CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/square_move:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dinm/debug_clear_ws/install/clearpath_platform/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_platform -- -j8 -l8
+[0.215s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform': CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/square_move:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dinm/debug_clear_ws/install/clearpath_platform/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_platform
+[0.225s] -- Install configuration: ""
+[0.225s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/a200/hardware.xml
+[0.225s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/j100/hardware.xml
+[0.225s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/w200/hardware.xml
+[0.225s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/puma/hardware.xml
+[0.225s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/liba200_hardware.so
+[0.226s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libj100_hardware.so
+[0.226s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libw200_hardware.so
+[0.226s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libpuma_hardware.so
+[0.226s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/clearpath_platform/lighting_node
+[0.227s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libclearpath_platform_lighting.so
+[0.227s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include
+[0.227s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform
+[0.227s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma
+[0.227s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma/hardware_interface.hpp
+[0.227s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma/hardware.hpp
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware_interface.hpp
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware.hpp
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware_interface.hpp
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware.hpp
+[0.228s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/serial.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Transport.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/crc.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/horizon_legacy_wrapper.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Exception.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Number.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Logger.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_data.h
+[0.229s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_cmd.h
+[0.230s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/clearpath.h
+[0.230s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_request.h
+[0.230s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message.h
+[0.230s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/hardware.hpp
+[0.230s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/status.hpp
+[0.231s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200
+[0.231s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware_interface.hpp
+[0.231s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware.hpp
+[0.231s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting
+[0.232s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/sequence.hpp
+[0.232s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/color.hpp
+[0.232s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/lighting.hpp
+[0.232s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/platform.hpp
+[0.233s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/config
+[0.233s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/config/imu_filter.yaml
+[0.233s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/launch
+[0.234s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/launch/platform.launch.py
+[0.234s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.sh
+[0.234s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.dsv
+[0.234s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/package_run_dependencies/clearpath_platform
+[0.235s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/parent_prefix_path/clearpath_platform
+[0.235s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.sh
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.dsv
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/path.sh
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/path.dsv
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.bash
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.sh
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.zsh
+[0.236s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.dsv
+[0.237s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/package.dsv
+[0.237s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/packages/clearpath_platform
+[0.237s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/clearpath_platform
+[0.237s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.237s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_libraries-extras.cmake
+[0.237s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.237s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig.cmake
+[0.238s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig-version.cmake
+[0.239s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/package.xml
+[0.239s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform' returned '0': CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/square_move:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dinm/debug_clear_ws/install/clearpath_platform/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_platform

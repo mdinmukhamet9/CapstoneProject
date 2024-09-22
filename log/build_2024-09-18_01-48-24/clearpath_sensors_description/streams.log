@@ -1,0 +1,63 @@
+[0.026s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_common/clearpath_sensors_description -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_sensors_description
+[0.343s] -- The C compiler identification is GNU 11.4.0
+[0.343s] -- The CXX compiler identification is GNU 11.4.0
+[0.343s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.344s] -- Detecting C compile features
+[0.344s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.451s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.466s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.950s] -- Configuring done
+[0.952s] -- Generating done
+[0.956s] -- Build files have been written to: /home/dinm/debug_clear_ws/build/clearpath_sensors_description
+[0.968s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_common/clearpath_sensors_description -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_sensors_description
+[0.969s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_sensors_description -- -j8 -l8
+[1.024s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_sensors_description -- -j8 -l8
+[1.062s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_sensors_description
+[1.092s] -- Install configuration: ""
+[1.092s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes
+[1.092s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/sick_lms1xx_small.dae
+[1.093s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/novatel_smart6.stl
+[1.093s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/swift_antenna.stl
+[1.093s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/novatel_smart7.stl
+[1.093s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/flir_blackfly.stl
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/hokuyo_utm30.stl
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/hokuyo_ust.stl
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/sick_lms1xx_collision.stl
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/novatel_smart7.urdf.xacro
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/microstrain_gq7.urdf.xacro
+[1.095s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/microstrain_imu.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/swiftnav_duro.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/velodyne_lidar.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/chrobotics_um6.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/novatel_smart6.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/redshift_um7.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/stereolabs_zed.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/hokuyo_ust.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/intel_realsense.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/garmin_18x.urdf.xacro
+[1.096s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/sick_lms1xx.urdf.xacro
+[1.097s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/flir_blackfly.urdf.xacro
+[1.097s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/ament_index/resource_index/package_run_dependencies/clearpath_sensors_description
+[1.097s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/ament_index/resource_index/parent_prefix_path/clearpath_sensors_description
+[1.097s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/ament_prefix_path.sh
+[1.097s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/ament_prefix_path.dsv
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/path.sh
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/path.dsv
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.bash
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.sh
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.zsh
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.dsv
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/package.dsv
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/ament_index/resource_index/packages/clearpath_sensors_description
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/cmake/clearpath_sensors_descriptionConfig.cmake
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/cmake/clearpath_sensors_descriptionConfig-version.cmake
+[1.098s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/package.xml
+[1.114s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_sensors_description

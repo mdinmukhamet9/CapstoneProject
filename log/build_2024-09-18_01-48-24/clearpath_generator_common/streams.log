@@ -1,0 +1,208 @@
+[0.013s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_config:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_control:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble PYTHONPATH=/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/build/clearpath_config:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_common/clearpath_generator_common -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_generator_common
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.225s] -- Detecting CXX compile features
+[0.225s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.354s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.445s] -- Found moveit_setup_framework: 2.5.5 (/opt/ros/humble/share/moveit_setup_framework/cmake)
+[0.509s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.523s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.596s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.624s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.633s] -- Looking for pthread.h
+[0.685s] -- Looking for pthread.h - found
+[0.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.739s] -- Found Threads: TRUE  
+[0.883s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.904s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.930s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.955s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.052s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.128s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.128s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.414s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.453s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[1.471s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.487s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.552s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.619s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.621s] -- Found OGRE
+[1.621s] --   static     : OFF
+[1.621s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.621s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.621s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.621s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.621s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.621s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.621s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.621s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.622s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.622s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.622s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.641s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.646s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.724s] -- Found X11: /usr/include   
+[1.725s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.781s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.781s] -- Looking for gethostbyname
+[1.832s] -- Looking for gethostbyname - found
+[1.832s] -- Looking for connect
+[1.883s] -- Looking for connect - found
+[1.883s] -- Looking for remove
+[1.933s] -- Looking for remove - found
+[1.933s] -- Looking for shmat
+[1.984s] -- Looking for shmat - found
+[1.984s] -- Looking for IceConnectionNumber in ICE
+[2.035s] -- Looking for IceConnectionNumber in ICE - found
+[2.053s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.155s] -- Found moveit_setup_srdf_plugins: 2.5.5 (/opt/ros/humble/share/moveit_setup_srdf_plugins/cmake)
+[2.232s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.135s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.136s] -- Configured cppcheck include dirs: 
+[3.136s] -- Configured cppcheck exclude dirs and/or files: 
+[3.137s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.138s] -- Added test 'lint_cmake' to check CMake code style
+[3.139s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.141s] -- Added test 'uncrustify' to check C / C++ code style
+[3.141s] -- Configured uncrustify additional arguments: 
+[3.142s] -- Added test 'xmllint' to check XML markup files
+[3.143s] -- Configuring done
+[3.180s] -- Generating done
+[3.183s] -- Build files have been written to: /home/dinm/debug_clear_ws/build/clearpath_generator_common
+[3.195s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_config:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_control:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble PYTHONPATH=/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/build/clearpath_config:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_common/clearpath_generator_common -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_generator_common
+[3.197s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_config:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_control:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble PYTHONPATH=/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/build/clearpath_config:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_generator_common -- -j8 -l8
+[3.235s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_collision_updater.dir/src/moveit_collision_updater.cpp.o[0m
+[3.347s] [ 50%] Built target ament_cmake_python_copy_clearpath_generator_common
+[3.603s] running egg_info
+[3.604s] creating clearpath_generator_common.egg-info
+[3.604s] writing clearpath_generator_common.egg-info/PKG-INFO
+[3.604s] writing dependency_links to clearpath_generator_common.egg-info/dependency_links.txt
+[3.604s] writing top-level names to clearpath_generator_common.egg-info/top_level.txt
+[3.604s] writing manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[3.607s] reading manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[3.607s] writing manifest file 'clearpath_generator_common.egg-info/SOURCES.txt'
+[3.631s] [ 50%] Built target ament_cmake_python_build_clearpath_generator_common_egg
+[15.414s] [100%] [32m[1mLinking CXX executable moveit_collision_updater[0m
+[16.185s] [100%] Built target moveit_collision_updater
+[16.198s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_config:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_control:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble PYTHONPATH=/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/build/clearpath_config:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_generator_common -- -j8 -l8
+[16.238s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_generator_common': AMENT_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_config:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_control:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble PYTHONPATH=/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/build/clearpath_config:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_generator_common
+[16.248s] -- Install configuration: ""
+[16.248s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_description
+[16.248s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_discovery_server
+[16.248s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_bash
+[16.248s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/lib/clearpath_generator_common/generate_semantic_description
+[16.249s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/lib/clearpath_generator_common/moveit_collision_updater
+[16.250s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_generator_common/lib/clearpath_generator_common/moveit_collision_updater" to ""
+[16.250s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/pythonpath.sh
+[16.251s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/pythonpath.dsv
+[16.251s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.11-py3.10.egg-info
+[16.251s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.11-py3.10.egg-info/dependency_links.txt
+[16.251s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.11-py3.10.egg-info/SOURCES.txt
+[16.251s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.11-py3.10.egg-info/PKG-INFO
+[16.252s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common-0.2.11-py3.10.egg-info/top_level.txt
+[16.252s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common
+[16.252s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/__init__.py
+[16.252s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/common.py
+[16.252s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param
+[16.252s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/__init__.py
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/writer.py
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/manipulators.py
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/generator.py
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/platform.py
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/__init__.py
+[16.253s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/writer.py
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/generator.py
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/__init__.py
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/writer.py
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/__init__.py
+[16.254s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/sensors.py
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/writer.py
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/attachments.py
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/links.py
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/mounts.py
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/manipulators.py
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generate_description
+[16.255s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generator.py
+[16.256s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/platform.py
+[16.256s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server
+[16.256s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generate_discovery_server
+[16.256s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generator.py
+[16.256s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash
+[16.256s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/__init__.py
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/writer.py
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generate_bash
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generator.py
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/__init__.py
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/manipulators.py
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/generator.py
+[16.257s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/generate_semantic_description
+[16.318s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common'...
+[16.318s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/__init__.py'...
+[16.318s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash'...
+[16.318s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/__init__.py'...
+[16.318s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/generator.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/bash/writer.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/common.py'...
+[16.319s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/__init__.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/attachments.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/generator.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/links.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/manipulators.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/mounts.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/platform.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/sensors.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/description/writer.py'...
+[16.319s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/discovery_server/generator.py'...
+[16.319s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/__init__.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/generator.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/launch/writer.py'...
+[16.319s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/__init__.py'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/package/writer.py'...
+[16.319s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param'...
+[16.319s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/__init__.py'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/generator.py'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/manipulators.py'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/platform.py'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/param/writer.py'...
+[16.320s] Listing '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/__init__.py'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/generator.py'...
+[16.320s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common/semantic_description/manipulators.py'...
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/ament_index/resource_index/package_run_dependencies/clearpath_generator_common
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/ament_index/resource_index/parent_prefix_path/clearpath_generator_common
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/ament_prefix_path.sh
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/ament_prefix_path.dsv
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/path.sh
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/environment/path.dsv
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.bash
+[16.322s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.sh
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.zsh
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/local_setup.dsv
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/package.dsv
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/ament_index/resource_index/packages/clearpath_generator_common
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/cmake/clearpath_generator_commonConfig.cmake
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/cmake/clearpath_generator_commonConfig-version.cmake
+[16.323s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_generator_common/share/clearpath_generator_common/package.xml
+[16.325s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_generator_common' returned '0': AMENT_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_config:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_control:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dinm/debug_clear_ws/install/clearpath_platform:/home/dinm/debug_clear_ws/install/clearpath_description:/home/dinm/debug_clear_ws/install/clearpath_sensors_description:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs:/home/dinm/debug_clear_ws/install/clearpath_platform_description:/home/dinm/debug_clear_ws/install/clearpath_mounts_description:/home/dinm/debug_clear_ws/install/clearpath_control:/home/dinm/debug_clear_ws/install/clearpath_simulator:/home/dinm/debug_clear_ws/install/clearpath_gz:/home/dinm/debug_clear_ws/install/clearpath_generator_gz:/home/dinm/debug_clear_ws/install/clearpath_common:/home/dinm/debug_clear_ws/install/clearpath_generator_common:/home/dinm/debug_clear_ws/install/clearpath_msgs:/home/dinm/debug_clear_ws/install/clearpath_manipulators:/home/dinm/debug_clear_ws/install/clearpath_manipulators_description:/home/dinm/debug_clear_ws/install/clearpath_customization:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble PYTHONPATH=/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/dinm/debug_clear_ws/build/clearpath_config:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_generator_common

@@ -1,0 +1,77 @@
+[ 10%] Built target puma_hardware
+[ 20%] Built target w200_hardware
+[ 33%] Built target clearpath_platform_lighting
+[ 50%] Built target j100_hardware
+[ 93%] Built target a200_hardware
+[100%] Built target lighting_node
+-- Install configuration: ""
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/a200/hardware.xml
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/j100/hardware.xml
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/w200/hardware.xml
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/puma/hardware.xml
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/liba200_hardware.so
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libj100_hardware.so
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libw200_hardware.so
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libpuma_hardware.so
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/clearpath_platform/lighting_node
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/lib/libclearpath_platform_lighting.so
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma/hardware_interface.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma/hardware.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware_interface.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware_interface.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/serial.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Transport.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/crc.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/horizon_legacy_wrapper.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Exception.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Number.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Logger.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_data.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_cmd.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/clearpath.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_request.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message.h
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/hardware.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/status.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware_interface.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/sequence.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/color.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/lighting.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/platform.hpp
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/config
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/config/imu_filter.yaml
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/launch
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/launch/platform.launch.py
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.sh
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.dsv
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/package_run_dependencies/clearpath_platform
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/parent_prefix_path/clearpath_platform
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/path.sh
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/path.dsv
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.bash
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.sh
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.zsh
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.dsv
+-- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/package.dsv
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/packages/clearpath_platform
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/clearpath_platform
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig.cmake
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig-version.cmake
+-- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/package.xml

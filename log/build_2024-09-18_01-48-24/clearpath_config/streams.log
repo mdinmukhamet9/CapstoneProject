@@ -1,0 +1,336 @@
+[0.959s] Invoking command in '/home/dinm/debug_clear_ws/src/clearpath_config': PYTHONPATH=/home/dinm/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/clearpath_config build --build-base /home/dinm/debug_clear_ws/build/clearpath_config/build install --record /home/dinm/debug_clear_ws/build/clearpath_config/install.log --single-version-externally-managed install_data
+[1.295s] running egg_info
+[1.296s] creating ../../build/clearpath_config/clearpath_config.egg-info
+[1.296s] writing ../../build/clearpath_config/clearpath_config.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/clearpath_config/clearpath_config.egg-info/dependency_links.txt
+[1.296s] writing requirements to ../../build/clearpath_config/clearpath_config.egg-info/requires.txt
+[1.296s] writing top-level names to ../../build/clearpath_config/clearpath_config.egg-info/top_level.txt
+[1.296s] writing manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[1.300s] reading manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[1.300s] adding license file 'LICENSE'
+[1.301s] writing manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[1.301s] running build
+[1.301s] running build_py
+[1.301s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build
+[1.302s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib
+[1.302s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config
+[1.302s] copying clearpath_config/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config
+[1.302s] copying clearpath_config/clearpath_config.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config
+[1.302s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common
+[1.302s] copying clearpath_config/common/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common
+[1.302s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.302s] copying clearpath_config/common/types/domain_id.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.302s] copying clearpath_config/common/types/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.302s] copying clearpath_config/common/types/ip.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.302s] copying clearpath_config/common/types/accessory.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/rmw_implementation.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/list.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/discovery.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/hostname.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/namespace.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/package_path.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/config.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/port.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/file.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.303s] copying clearpath_config/common/types/username.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.304s] copying clearpath_config/common/types/serial_number.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.304s] copying clearpath_config/common/types/platform.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[1.304s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[1.304s] copying clearpath_config/common/utils/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[1.304s] copying clearpath_config/common/utils/dictionary.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[1.304s] copying clearpath_config/common/utils/yaml.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[1.304s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links
+[1.304s] copying clearpath_config/links/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links
+[1.304s] copying clearpath_config/links/links.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links
+[1.304s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/frame.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/sphere.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/mesh.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/cylinder.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/link.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] copying clearpath_config/links/types/box.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[1.305s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts
+[1.305s] copying clearpath_config/mounts/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts
+[1.305s] copying clearpath_config/mounts/mounts.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts
+[1.306s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/sick.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/fath_pivot.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/pacs.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/disk.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/post.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/mount.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] copying clearpath_config/mounts/types/flir_ptu.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[1.306s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[1.307s] copying clearpath_config/platform/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[1.307s] copying clearpath_config/platform/extras.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[1.307s] copying clearpath_config/platform/battery.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[1.307s] copying clearpath_config/platform/platform.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[1.307s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.307s] copying clearpath_config/platform/attachments/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.307s] copying clearpath_config/platform/attachments/generic.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.307s] copying clearpath_config/platform/attachments/do150.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.307s] copying clearpath_config/platform/attachments/mux.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.307s] copying clearpath_config/platform/attachments/dd100.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/config.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/j100.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/w200.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/r100.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/do100.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/a200.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] copying clearpath_config/platform/attachments/dd150.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[1.308s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[1.308s] copying clearpath_config/platform/types/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[1.308s] copying clearpath_config/platform/types/attachment.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[1.308s] copying clearpath_config/platform/types/bumper.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[1.309s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors
+[1.309s] copying clearpath_config/sensors/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors
+[1.309s] copying clearpath_config/sensors/sensors.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors
+[1.309s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.309s] copying clearpath_config/sensors/types/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.309s] copying clearpath_config/sensors/types/lidars_3d.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.309s] copying clearpath_config/sensors/types/sensor.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.309s] copying clearpath_config/sensors/types/gps.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.309s] copying clearpath_config/sensors/types/lidars_2d.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.309s] copying clearpath_config/sensors/types/imu.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.310s] copying clearpath_config/sensors/types/cameras.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[1.310s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[1.310s] copying clearpath_config/system/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[1.310s] copying clearpath_config/system/system.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[1.310s] copying clearpath_config/system/hosts.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[1.310s] copying clearpath_config/system/middleware.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[1.311s] copying clearpath_config/system/servers.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[1.311s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators
+[1.311s] copying clearpath_config/manipulators/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators
+[1.311s] copying clearpath_config/manipulators/manipulators.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators
+[1.311s] creating /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[1.311s] copying clearpath_config/manipulators/types/__init__.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[1.311s] copying clearpath_config/manipulators/types/arms.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[1.311s] copying clearpath_config/manipulators/types/grippers.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[1.312s] copying clearpath_config/manipulators/types/manipulator.py -> /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[1.313s] running install
+[1.313s] running install_lib
+[1.314s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config
+[1.314s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config
+[1.314s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common
+[1.314s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common
+[1.314s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/domain_id.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/ip.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/accessory.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/rmw_implementation.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/list.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/discovery.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.315s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/hostname.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/namespace.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/package_path.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/config.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/port.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/file.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/username.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/serial_number.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.316s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/platform.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[1.317s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[1.317s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[1.317s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils/dictionary.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[1.317s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils/yaml.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[1.317s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[1.317s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[1.317s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/system.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[1.317s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/hosts.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[1.318s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/middleware.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[1.318s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/servers.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[1.318s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts
+[1.318s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts
+[1.318s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.318s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.318s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/sick.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.318s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/fath_pivot.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/pacs.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/disk.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/post.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/mount.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/flir_ptu.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/mounts.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts
+[1.319s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links
+[1.319s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/links.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links
+[1.320s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/frame.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/sphere.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/mesh.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/cylinder.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.320s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/link.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/box.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/clearpath_config.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config
+[1.321s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators
+[1.321s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/arms.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/grippers.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[1.321s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/manipulator.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/manipulators.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators
+[1.322s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[1.322s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types/attachment.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types/bumper.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/extras.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[1.322s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/battery.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[1.323s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/generic.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/do150.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/mux.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/dd100.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/config.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/j100.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.323s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/w200.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/r100.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/do100.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/a200.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/dd150.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/platform.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[1.324s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors
+[1.324s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/sensors.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors
+[1.324s] creating /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/__init__.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/lidars_3d.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/sensor.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/gps.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/lidars_2d.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/imu.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] copying /home/dinm/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/cameras.py -> /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[1.325s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/__init__.py to __init__.cpython-310.pyc
+[1.325s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/__init__.py to __init__.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/domain_id.py to domain_id.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/__init__.py to __init__.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/ip.py to ip.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/accessory.py to accessory.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/rmw_implementation.py to rmw_implementation.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/list.py to list.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/discovery.py to discovery.cpython-310.pyc
+[1.326s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/hostname.py to hostname.cpython-310.pyc
+[1.327s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/namespace.py to namespace.cpython-310.pyc
+[1.327s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/package_path.py to package_path.cpython-310.pyc
+[1.328s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/config.py to config.cpython-310.pyc
+[1.328s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/port.py to port.cpython-310.pyc
+[1.329s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/file.py to file.cpython-310.pyc
+[1.329s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/username.py to username.cpython-310.pyc
+[1.330s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/serial_number.py to serial_number.cpython-310.pyc
+[1.330s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/platform.py to platform.cpython-310.pyc
+[1.331s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils/__init__.py to __init__.cpython-310.pyc
+[1.331s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils/dictionary.py to dictionary.cpython-310.pyc
+[1.332s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils/yaml.py to yaml.cpython-310.pyc
+[1.332s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/__init__.py to __init__.cpython-310.pyc
+[1.332s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/system.py to system.cpython-310.pyc
+[1.333s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/hosts.py to hosts.cpython-310.pyc
+[1.334s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/middleware.py to middleware.cpython-310.pyc
+[1.335s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/servers.py to servers.cpython-310.pyc
+[1.336s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/__init__.py to __init__.cpython-310.pyc
+[1.336s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/__init__.py to __init__.cpython-310.pyc
+[1.337s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/sick.py to sick.cpython-310.pyc
+[1.337s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/fath_pivot.py to fath_pivot.cpython-310.pyc
+[1.337s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/pacs.py to pacs.cpython-310.pyc
+[1.338s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/disk.py to disk.cpython-310.pyc
+[1.338s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/post.py to post.cpython-310.pyc
+[1.339s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/mount.py to mount.cpython-310.pyc
+[1.339s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/flir_ptu.py to flir_ptu.cpython-310.pyc
+[1.340s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/mounts.py to mounts.cpython-310.pyc
+[1.341s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/__init__.py to __init__.cpython-310.pyc
+[1.341s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/links.py to links.cpython-310.pyc
+[1.344s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/__init__.py to __init__.cpython-310.pyc
+[1.344s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/frame.py to frame.cpython-310.pyc
+[1.344s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/sphere.py to sphere.cpython-310.pyc
+[1.344s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/mesh.py to mesh.cpython-310.pyc
+[1.345s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/cylinder.py to cylinder.cpython-310.pyc
+[1.345s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/link.py to link.cpython-310.pyc
+[1.346s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/box.py to box.cpython-310.pyc
+[1.346s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/clearpath_config.py to clearpath_config.cpython-310.pyc
+[1.347s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/__init__.py to __init__.cpython-310.pyc
+[1.348s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/__init__.py to __init__.cpython-310.pyc
+[1.348s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/arms.py to arms.cpython-310.pyc
+[1.348s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/grippers.py to grippers.cpython-310.pyc
+[1.349s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/manipulator.py to manipulator.cpython-310.pyc
+[1.349s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/manipulators.py to manipulators.cpython-310.pyc
+[1.350s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/__init__.py to __init__.cpython-310.pyc
+[1.350s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types/__init__.py to __init__.cpython-310.pyc
+[1.350s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types/attachment.py to attachment.cpython-310.pyc
+[1.351s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types/bumper.py to bumper.cpython-310.pyc
+[1.351s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/extras.py to extras.cpython-310.pyc
+[1.353s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/battery.py to battery.cpython-310.pyc
+[1.354s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/__init__.py to __init__.cpython-310.pyc
+[1.354s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/generic.py to generic.cpython-310.pyc
+[1.354s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/do150.py to do150.cpython-310.pyc
+[1.355s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/mux.py to mux.cpython-310.pyc
+[1.355s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/dd100.py to dd100.cpython-310.pyc
+[1.356s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/config.py to config.cpython-310.pyc
+[1.356s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/j100.py to j100.cpython-310.pyc
+[1.356s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/w200.py to w200.cpython-310.pyc
+[1.357s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/r100.py to r100.cpython-310.pyc
+[1.358s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/do100.py to do100.cpython-310.pyc
+[1.358s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/a200.py to a200.cpython-310.pyc
+[1.358s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/dd150.py to dd150.cpython-310.pyc
+[1.359s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/platform.py to platform.cpython-310.pyc
+[1.360s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/__init__.py to __init__.cpython-310.pyc
+[1.360s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/sensors.py to sensors.cpython-310.pyc
+[1.365s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/__init__.py to __init__.cpython-310.pyc
+[1.365s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/lidars_3d.py to lidars_3d.cpython-310.pyc
+[1.366s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/sensor.py to sensor.cpython-310.pyc
+[1.367s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/gps.py to gps.cpython-310.pyc
+[1.369s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/lidars_2d.py to lidars_2d.cpython-310.pyc
+[1.370s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/imu.py to imu.cpython-310.pyc
+[1.371s] byte-compiling /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/cameras.py to cameras.cpython-310.pyc
+[1.375s] running install_data
+[1.375s] creating /home/dinm/debug_clear_ws/install/clearpath_config/share/ament_index
+[1.375s] creating /home/dinm/debug_clear_ws/install/clearpath_config/share/ament_index/resource_index
+[1.375s] creating /home/dinm/debug_clear_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[1.375s] copying resource/clearpath_config -> /home/dinm/debug_clear_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[1.375s] copying package.xml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config
+[1.376s] creating /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/a200/a200_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/a200/a200_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/a200/a200_sample.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/a200/a200_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/a200/a200_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/j100/j100_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/j100/j100_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/j100/j100_sample.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/j100/j100_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/j100/j100_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/j100/j100_microstrain_gq7.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/w200/w200_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/w200/w200_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.376s] copying clearpath_config/sample/w200/w200_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/w200/w200_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd150/dd150_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd150/dd150_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd150/dd150_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd150/dd150_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd100/dd100_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd100/dd100_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd100/dd100_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/dd100/dd100_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/r100/r100_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/r100/r100_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/r100/r100_dual_laser_hokuyo.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.377s] copying clearpath_config/sample/r100/r100_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do100/do100_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do100/do100_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do100/do100_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do100/do100_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do150/do150_dual_laser.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do150/do150_outline.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do150/do150_velodyne.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] copying clearpath_config/sample/do150/do150_default.yaml -> /home/dinm/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[1.378s] running install_egg_info
+[1.380s] Copying ../../build/clearpath_config/clearpath_config.egg-info to /home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config-0.2.11-py3.10.egg-info
+[1.380s] running install_scripts
+[1.401s] writing list of installed files to '/home/dinm/debug_clear_ws/build/clearpath_config/install.log'
+[1.479s] Invoked command in '/home/dinm/debug_clear_ws/src/clearpath_config' returned '0': PYTHONPATH=/home/dinm/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dinm/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/clearpath_config build --build-base /home/dinm/debug_clear_ws/build/clearpath_config/build install --record /home/dinm/debug_clear_ws/build/clearpath_config/install.log --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+controller_interface;controller_manager;controller_manager_msgs;clearpath_platform_msgs;hardware_interface;geometry_msgs;nav_msgs;pluginlib;puma_motor_msgs;rclcpp;sensor_msgs;std_msgs;std_srvs;tf2;tf2_ros;clearpath_control;clearpath_platform_description;xacro

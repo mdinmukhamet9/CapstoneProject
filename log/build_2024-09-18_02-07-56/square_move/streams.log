@@ -1,0 +1,24 @@
+[0.738s] Invoking command in '/home/dinm/debug_clear_ws/src/square_move': PYTHONPATH=/home/dinm/debug_clear_ws/build/square_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dinm/debug_clear_ws/install/square_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/square_move build --build-base /home/dinm/debug_clear_ws/build/square_move/build install --record /home/dinm/debug_clear_ws/build/square_move/install.log --single-version-externally-managed install_data
+[0.966s] running egg_info
+[0.967s] writing ../../build/square_move/square_move.egg-info/PKG-INFO
+[0.967s] writing dependency_links to ../../build/square_move/square_move.egg-info/dependency_links.txt
+[0.967s] writing entry points to ../../build/square_move/square_move.egg-info/entry_points.txt
+[0.967s] writing requirements to ../../build/square_move/square_move.egg-info/requires.txt
+[0.967s] writing top-level names to ../../build/square_move/square_move.egg-info/top_level.txt
+[0.969s] reading manifest file '../../build/square_move/square_move.egg-info/SOURCES.txt'
+[0.969s] writing manifest file '../../build/square_move/square_move.egg-info/SOURCES.txt'
+[0.969s] running build
+[0.969s] running build_py
+[0.970s] copying square_move/square_path.py -> /home/dinm/debug_clear_ws/build/square_move/build/lib/square_move
+[0.970s] running install
+[0.970s] running install_lib
+[0.971s] copying /home/dinm/debug_clear_ws/build/square_move/build/lib/square_move/square_path.py -> /home/dinm/debug_clear_ws/install/square_move/lib/python3.10/site-packages/square_move
+[0.972s] byte-compiling /home/dinm/debug_clear_ws/install/square_move/lib/python3.10/site-packages/square_move/square_path.py to square_path.cpython-310.pyc
+[0.972s] running install_data
+[0.972s] running install_egg_info
+[0.974s] removing '/home/dinm/debug_clear_ws/install/square_move/lib/python3.10/site-packages/square_move-0.0.0-py3.10.egg-info' (and everything under it)
+[0.974s] Copying ../../build/square_move/square_move.egg-info to /home/dinm/debug_clear_ws/install/square_move/lib/python3.10/site-packages/square_move-0.0.0-py3.10.egg-info
+[0.975s] running install_scripts
+[0.992s] Installing square_path script to /home/dinm/debug_clear_ws/install/square_move/lib/square_move
+[0.992s] writing list of installed files to '/home/dinm/debug_clear_ws/build/square_move/install.log'
+[1.011s] Invoked command in '/home/dinm/debug_clear_ws/src/square_move' returned '0': PYTHONPATH=/home/dinm/debug_clear_ws/build/square_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dinm/debug_clear_ws/install/square_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/square_move build --build-base /home/dinm/debug_clear_ws/build/square_move/build install --record /home/dinm/debug_clear_ws/build/square_move/install.log --single-version-externally-managed install_data

@@ -1,0 +1,45 @@
+[0.049s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_mounts_description -- -j8 -l8
+[0.499s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_mounts_description -- -j8 -l8
+[0.551s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_mounts_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_mounts_description
+[0.575s] -- Install configuration: ""
+[0.575s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes
+[0.575s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_horizontal_large.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_horizontal.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/riser_1x7.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_20.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_80.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_vertical.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_60.stl
+[0.576s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/bracket_extension_40.stl
+[0.577s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/pacs/riser_8x7.stl
+[0.584s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/sick_upright.stl
+[0.584s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/sick_inverted.dae
+[0.584s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/disk.stl
+[0.584s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/fath_pivot_mount_base.dae
+[0.585s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/meshes/fath_pivot_mount.dae
+[0.585s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf
+[0.585s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs
+[0.585s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/bracket.urdf.xacro
+[0.585s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/riser.urdf.xacro
+[0.586s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/pacs/riser_leg.urdf.xacro
+[0.586s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/post.urdf.xacro
+[0.586s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/sick.urdf.xacro
+[0.586s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/fath_pivot.urdf.xacro
+[0.586s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/urdf/disk.urdf.xacro
+[0.586s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/ament_index/resource_index/package_run_dependencies/clearpath_mounts_description
+[0.589s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/ament_index/resource_index/parent_prefix_path/clearpath_mounts_description
+[0.589s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/ament_prefix_path.sh
+[0.589s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/ament_prefix_path.dsv
+[0.589s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/path.sh
+[0.589s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/environment/path.dsv
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.bash
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.sh
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.zsh
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/local_setup.dsv
+[0.590s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/package.dsv
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/ament_index/resource_index/packages/clearpath_mounts_description
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/cmake/clearpath_mounts_descriptionConfig.cmake
+[0.590s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/cmake/clearpath_mounts_descriptionConfig-version.cmake
+[0.593s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_mounts_description/share/clearpath_mounts_description/package.xml
+[0.628s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_mounts_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_mounts_description

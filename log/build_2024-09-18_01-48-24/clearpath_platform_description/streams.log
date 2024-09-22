@@ -1,0 +1,198 @@
+[0.033s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_common/clearpath_platform_description -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_platform_description
+[0.351s] -- The C compiler identification is GNU 11.4.0
+[0.351s] -- The CXX compiler identification is GNU 11.4.0
+[0.351s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.454s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.469s] -- Detecting CXX compile features - done
+[0.473s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.958s] -- Configuring done
+[0.961s] -- Generating done
+[0.962s] -- Build files have been written to: /home/dinm/debug_clear_ws/build/clearpath_platform_description
+[0.982s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_common/clearpath_platform_description -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_platform_description
+[0.983s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_platform_description -- -j8 -l8
+[1.033s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_platform_description -- -j8 -l8
+[1.073s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_platform_description
+[1.083s] -- Install configuration: ""
+[1.083s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/launch
+[1.084s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/launch/description.launch.py
+[1.087s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes
+[1.088s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100
+[1.088s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/chassis.dae
+[1.089s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/wheel.stl
+[1.090s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/chassis_collision.stl
+[1.090s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/attachments
+[1.090s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/dd100/attachments/pacs_top_plate.stl
+[1.091s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100
+[1.091s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/omni_chassis.dae
+[1.092s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/old_mecanum_wheel.dae
+[1.124s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/omni_chassis_collision.stl
+[1.124s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/do100/mecanum_wheel.dae
+[1.156s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100
+[1.156s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/kinect_mount.stl
+[1.157s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/sick_lms1xx_inverted_bracket.stl
+[1.158s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/j100_wheel.stl
+[1.158s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/sick_lms1xx_upright_bracket.stl
+[1.159s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/stereo_camera_bracket.stl
+[1.159s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/bridge_plate.stl
+[1.164s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/camera_beam.stl
+[1.164s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/stereo_camera_beam.stl
+[1.164s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/j100_base.stl
+[1.164s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/camera_bracket.stl
+[1.165s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/velodyne_tower.stl
+[1.166s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments
+[1.166s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments/sensor_fender.stl
+[1.166s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments/ark_enclosure.stl
+[1.168s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/attachments/default_fender.stl
+[1.168s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/j100/wibotic_bumper.stl
+[1.168s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100
+[1.169s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/rocker.stl
+[1.169s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/end-cover.stl
+[1.169s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/axle.stl
+[1.169s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/lights.stl
+[1.169s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/body-collision.stl
+[1.169s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/body.stl
+[1.170s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/top.stl
+[1.170s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/wheel.stl
+[1.170s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/side-cover.stl
+[1.170s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments
+[1.171s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_shoulder_collision.stl
+[1.171s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_shoulder.stl
+[1.171s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/hams_top.stl
+[1.171s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/hams_mount.stl
+[1.172s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_body.stl
+[1.174s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/leg.stl
+[1.174s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/r100/attachments/tower_body_collision.stl
+[1.174s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200
+[1.175s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/top_chassis.dae
+[1.177s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories
+[1.177s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories/lms1xx_mount.dae
+[1.178s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories/lidar_mount.stl
+[1.178s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/accessories/lms1xx_mount.stl
+[1.179s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/top_chassis.stl
+[1.182s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/base_link.dae
+[1.183s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/base_link.stl
+[1.184s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/wheel.dae
+[1.189s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/wheel.stl
+[1.193s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments
+[1.193s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/top_plate.stl
+[1.193s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/300_mm_sensor_arch.stl
+[1.193s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/large_top_plate.dae
+[1.194s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/top_plate.dae
+[1.194s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper3.dae
+[1.196s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/pacs_top_plate.stl
+[1.196s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/user_rail.stl
+[1.198s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/510_mm_sensor_arch.stl
+[1.198s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper_extension.dae
+[1.198s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/300_mm_sensor_arch.dae
+[1.198s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/510_mm_sensor_arch.dae
+[1.198s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper.dae
+[1.199s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/large_top_plate_collision.stl
+[1.199s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/bumper2.dae
+[1.200s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/a200/attachments/user_rail.dae
+[1.201s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200
+[1.202s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/rocker.stl
+[1.202s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/diff-link.stl
+[1.202s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/generator.stl
+[1.204s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/susp-link.stl
+[1.204s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/chassis.stl
+[1.205s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/chassis-collision.stl
+[1.205s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/bulkhead.stl
+[1.206s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/tracks.dae
+[1.207s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/light.stl
+[1.207s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/arm-mount-plate.stl
+[1.207s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/bulkhead-collision.stl
+[1.208s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/wheel.stl
+[1.210s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/e-stop.stl
+[1.211s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/tracks_collision.stl
+[1.212s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/meshes/w200/fenders.stl
+[1.212s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf
+[1.212s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100
+[1.212s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/wheels
+[1.212s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/wheels/wheel.urdf.xacro
+[1.213s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/dd100.urdf.xacro
+[1.213s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/attachments
+[1.213s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd100/attachments/top_plate.urdf.xacro
+[1.213s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do150
+[1.213s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do150/do150.urdf.xacro
+[1.214s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do150/attachments
+[1.214s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do150/attachments/top_plate.urdf.xacro
+[1.214s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100
+[1.214s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/wheels
+[1.214s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/wheels/wheel.urdf.xacro
+[1.214s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/do100.urdf.xacro
+[1.215s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/attachments
+[1.215s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/do100/attachments/top_plate.urdf.xacro
+[1.215s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/common.urdf.xacro
+[1.215s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100
+[1.215s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/j100.urdf.xacro
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/wheels
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/wheels/wheel.urdf.xacro
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/attachments
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/attachments/top_plate.urdf.xacro
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/j100/attachments/fender.urdf.xacro
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150
+[1.216s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/wheels
+[1.217s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/wheels/wheel.urdf.xacro
+[1.217s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/dd150.urdf.xacro
+[1.217s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/attachments
+[1.217s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/dd150/attachments/top_plate.urdf.xacro
+[1.217s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/rocker.urdf.xacro
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/wheels
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/wheels/wheel.urdf.xacro
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/r100.urdf.xacro
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/fams.urdf.xacro
+[1.218s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/tower.urdf.xacro
+[1.219s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/legs.urdf.xacro
+[1.219s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/r100/attachments/hams.urdf.xacro
+[1.219s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200
+[1.219s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/wheels
+[1.220s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/wheels/wheel.urdf.xacro
+[1.220s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/a200.urdf.xacro
+[1.220s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments
+[1.220s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments/top_plate.urdf.xacro
+[1.220s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments/sensor_arch.urdf.xacro
+[1.220s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/a200/attachments/bumper.urdf.xacro
+[1.221s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200
+[1.221s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/w200.urdf.xacro
+[1.221s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/wheels
+[1.221s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/wheels/wheel.urdf.xacro
+[1.221s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/wheels/track.urdf.xacro
+[1.222s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/diff_unit.urdf.xacro
+[1.222s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments
+[1.222s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments/generator.urdf.xacro
+[1.222s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments/bulkhead.urdf.xacro
+[1.222s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/w200/attachments/arm_plate.urdf.xacro
+[1.223s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links
+[1.223s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/mesh.urdf.xacro
+[1.223s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/frame.urdf.xacro
+[1.223s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/box.urdf.xacro
+[1.224s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/sphere.urdf.xacro
+[1.224s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/links/cylinder.urdf.xacro
+[1.226s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/generic
+[1.226s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/urdf/generic/gazebo.urdf.xacro
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/ament_index/resource_index/package_run_dependencies/clearpath_platform_description
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/ament_index/resource_index/parent_prefix_path/clearpath_platform_description
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/environment/ament_prefix_path.sh
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/environment/ament_prefix_path.dsv
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/environment/path.sh
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/environment/path.dsv
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.bash
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.sh
+[1.227s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.zsh
+[1.228s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/local_setup.dsv
+[1.228s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/package.dsv
+[1.229s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/ament_index/resource_index/packages/clearpath_platform_description
+[1.229s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/cmake/clearpath_platform_descriptionConfig.cmake
+[1.229s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/cmake/clearpath_platform_descriptionConfig-version.cmake
+[1.229s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_description/share/clearpath_platform_description/package.xml
+[1.506s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_platform_description

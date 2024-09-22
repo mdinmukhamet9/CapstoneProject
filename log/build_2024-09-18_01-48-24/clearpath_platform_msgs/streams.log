@@ -1,0 +1,496 @@
+[0.030s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.347s] -- The CXX compiler identification is GNU 11.4.0
+[0.347s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.348s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.348s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.349s] -- Detecting CXX compiler ABI info
+[0.459s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.720s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.873s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.937s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.969s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.061s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.445s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.967s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.969s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.002s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.002s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.002s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.002s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.022s] -- Found PythonExtra: .so  
+[2.080s] -- Configuring done
+[2.123s] -- Generating done
+[2.126s] -- Build files have been written to: /home/dinm/debug_clear_ws/build/clearpath_platform_msgs
+[2.132s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dinm/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/dinm/debug_clear_ws/install/clearpath_platform_msgs
+[2.133s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_platform_msgs -- -j8 -l8
+[2.172s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.183s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.190s] [  1%] Built target ament_cmake_python_copy_clearpath_platform_msgs
+[2.436s] running egg_info
+[2.437s] creating clearpath_platform_msgs.egg-info
+[2.437s] writing clearpath_platform_msgs.egg-info/PKG-INFO
+[2.437s] writing dependency_links to clearpath_platform_msgs.egg-info/dependency_links.txt
+[2.437s] writing top-level names to clearpath_platform_msgs.egg-info/top_level.txt
+[2.438s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[2.439s] reading manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[2.440s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[2.462s] [  1%] Built target ament_cmake_python_build_clearpath_platform_msgs_egg
+[3.729s] [  2%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive__functions.c.o[0m
+[3.729s] [  3%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/feedback__functions.c.o[0m
+[3.730s] [  4%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/fans__functions.c.o[0m
+[3.731s] [  5%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive_feedback__functions.c.o[0m
+[3.731s] [  6%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/lights__functions.c.o[0m
+[3.749s] [  8%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/power__functions.c.o[0m
+[3.749s] [  8%] Built target clearpath_platform_msgs__cpp
+[3.749s] [  8%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/rgb__functions.c.o[0m
+[3.758s] [  9%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/status__functions.c.o[0m
+[3.806s] [ 10%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/configure_mcu__functions.c.o[0m
+[3.806s] [ 11%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/stop_status__functions.c.o[0m
+[3.808s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.809s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.809s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.868s] [ 15%] [32m[1mLinking C shared library libclearpath_platform_msgs__rosidl_generator_c.so[0m
+[3.900s] [ 15%] Built target clearpath_platform_msgs__rosidl_generator_c
+[3.910s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.912s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.912s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.176s] [ 20%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/drive_feedback__type_support.cpp.o[0m
+[5.176s] [ 20%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/drive__type_support.cpp.o[0m
+[5.180s] [ 21%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/fans__type_support.cpp.o[0m
+[5.490s] [ 22%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.cpp.o[0m
+[5.642s] [ 23%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/feedback__type_support.cpp.o[0m
+[5.644s] [ 24%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/lights__type_support.cpp.o[0m
+[5.648s] [ 25%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.cpp.o[0m
+[6.088s] [ 26%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/fans__type_support.cpp.o[0m
+[6.095s] [ 27%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/power__type_support.cpp.o[0m
+[6.134s] [ 28%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.cpp.o[0m
+[6.264s] [ 29%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/rgb__type_support.cpp.o[0m
+[6.461s] [ 30%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/drive__type_support.cpp.o[0m
+[6.503s] [ 31%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/drive_feedback__type_support.cpp.o[0m
+[6.517s] [ 32%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/fans__type_support.cpp.o[0m
+[6.545s] [ 33%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/status__type_support.cpp.o[0m
+[6.559s] [ 34%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/feedback__type_support.cpp.o[0m
+[6.605s] [ 35%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/lights__type_support.cpp.o[0m
+[6.650s] [ 36%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/power__type_support.cpp.o[0m
+[6.691s] [ 37%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/rgb__type_support.cpp.o[0m
+[6.700s] [ 38%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.cpp.o[0m
+[6.730s] [ 39%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/status__type_support.cpp.o[0m
+[6.763s] [ 40%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/stop_status__type_support.cpp.o[0m
+[6.772s] [ 40%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/stop_status__type_support.cpp.o[0m
+[6.774s] [ 41%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/srv/configure_mcu__type_support.cpp.o[0m
+[6.782s] [ 42%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/drive__type_support.cpp.o[0m
+[6.816s] [ 43%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/srv/configure_mcu__type_support.cpp.o[0m
+[6.823s] [ 44%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_c.so[0m
+[6.854s] [ 45%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/drive__type_support.c.o[0m
+[6.865s] [ 46%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/drive__type_support_c.cpp.o[0m
+[6.900s] [ 46%] Built target clearpath_platform_msgs__rosidl_typesupport_c
+[6.912s] [ 47%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.c.o[0m
+[6.914s] [ 48%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/drive_feedback__type_support_c.cpp.o[0m
+[6.960s] [ 49%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/fans__type_support.c.o[0m
+[6.983s] [ 50%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/drive_feedback__type_support.cpp.o[0m
+[7.012s] [ 51%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/feedback__type_support.c.o[0m
+[7.084s] [ 52%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/lights__type_support.c.o[0m
+[7.151s] [ 53%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/power__type_support.c.o[0m
+[7.221s] [ 54%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/rgb__type_support.c.o[0m
+[7.249s] [ 55%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/power__type_support.cpp.o[0m
+[7.262s] [ 56%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_cpp.so[0m
+[7.276s] [ 57%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/status__type_support.c.o[0m
+[7.330s] [ 58%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/stop_status__type_support.c.o[0m
+[7.334s] [ 58%] Built target clearpath_platform_msgs__rosidl_typesupport_cpp
+[7.347s] [ 59%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/fans__type_support_c.cpp.o[0m
+[7.382s] [ 60%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.c.o[0m
+[7.402s] [ 60%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/fans__type_support.cpp.o[0m
+[7.415s] [ 61%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[7.432s] [ 62%] [32m[1mLinking C shared library libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.438s] [ 63%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/lights__type_support_c.cpp.o[0m
+[7.468s] [ 64%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[7.488s] [ 64%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c
+[7.503s] [ 65%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/lights__type_support.cpp.o[0m
+[7.702s] [ 66%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/power__type_support_c.cpp.o[0m
+[7.911s] [ 67%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.cpp.o[0m
+[7.939s] [ 68%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/rgb__type_support_c.cpp.o[0m
+[7.965s] [ 69%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/power__type_support.cpp.o[0m
+[7.980s] [ 70%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/rgb__type_support.cpp.o[0m
+[8.095s] [ 71%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[8.141s] [ 72%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/status__type_support.cpp.o[0m
+[8.218s] [ 73%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/stop_status__type_support_c.cpp.o[0m
+[8.241s] [ 74%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.cpp.o[0m
+[8.463s] [ 75%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.cpp.o[0m
+[8.513s] [ 76%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/srv/detail/configure_mcu__type_support_c.cpp.o[0m
+[8.601s] [ 77%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[8.648s] [ 78%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/stop_status__type_support.cpp.o[0m
+[8.668s] [ 79%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/srv/detail/dds_fastrtps/configure_mcu__type_support.cpp.o[0m
+[9.005s] [ 80%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.088s] [ 80%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c
+[9.103s] [ 81%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.172s] [ 81%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_cpp
+[9.208s] [ 82%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.268s] [ 82%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp
+[9.282s] [ 82%] Built target clearpath_platform_msgs
+[9.297s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.811s] [ 83%] Built target clearpath_platform_msgs__py
+[11.828s] [ 84%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_feedback_s.c.o[0m
+[11.829s] [ 85%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_fans_s.c.o[0m
+[11.829s] [ 87%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_power_s.c.o[0m
+[11.829s] [ 87%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_lights_s.c.o[0m
+[11.830s] [ 89%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_status_s.c.o[0m
+[11.830s] [ 88%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_rgb_s.c.o[0m
+[11.832s] [ 90%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_s.c.o[0m
+[11.832s] [ 91%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_feedback_s.c.o[0m
+[12.003s] [ 92%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_stop_status_s.c.o[0m
+[12.008s] [ 93%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/srv/_configure_mcu_s.c.o[0m
+[12.099s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/clearpath_platform_msgs/libclearpath_platform_msgs__rosidl_generator_py.so[0m
+[12.131s] [ 94%] Built target clearpath_platform_msgs__rosidl_generator_py
+[12.146s] [ 96%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.146s] [ 96%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.146s] [ 97%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.256s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.256s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.257s] [100%] [32m[1mLinking C shared library rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.286s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.287s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_c__pyext
+[12.287s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext
+[12.296s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dinm/debug_clear_ws/build/clearpath_platform_msgs -- -j8 -l8
+[12.453s] Invoking command in '/home/dinm/debug_clear_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_platform_msgs
+[12.459s] -- Install configuration: ""
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/rosidl_interfaces/clearpath_platform_msgs
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.h
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.h
+[12.459s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__functions.c
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__functions.c
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__functions.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__functions.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__functions.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.h
+[12.460s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__functions.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__functions.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__functions.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__functions.c
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__functions.c
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.h
+[12.461s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__functions.c
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__functions.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__functions.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__functions.c
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__functions.h
+[12.462s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.h
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.h
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__functions.c
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__functions.c
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.h
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__functions.c
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.h
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.h
+[12.463s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.h
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail
+[12.464s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__functions.c
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.h
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.h
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__functions.h
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.h
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.sh
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.dsv
+[12.465s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+[12.466s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so" to ""
+[12.466s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs
+[12.466s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg
+[12.466s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail
+[12.466s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_c.h
+[12.466s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[12.466s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_c.h
+[12.466s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[12.466s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_c.h
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_c.h
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_c.h
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_c.h
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.467s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv
+[12.467s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_c.h
+[12.467s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+[12.468s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.468s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs
+[12.468s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg
+[12.468s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail
+[12.468s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp
+[12.468s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__builder.hpp
+[12.468s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp
+[12.468s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
+[12.468s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.hpp
+[12.468s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__traits.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__traits.hpp
+[12.469s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+[12.470s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__builder.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.hpp
+[12.471s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp
+[12.472s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv
+[12.472s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
+[12.472s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.hpp
+[12.473s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs
+[12.473s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg
+[12.473s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/dds_fastrtps
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_cpp.hpp
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.473s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_cpp.hpp
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_cpp.hpp
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_cpp.hpp
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.474s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv
+[12.474s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/dds_fastrtps
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_cpp.hpp
+[12.474s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.475s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.475s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs
+[12.475s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg
+[12.475s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail
+[12.475s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.c
+[12.475s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_c.h
+[12.475s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.c
+[12.475s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.c
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.c
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.c
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_c.h
+[12.476s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.c
+[12.477s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[12.477s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.c
+[12.477s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.c
+[12.477s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.c
+[12.477s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.477s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv
+[12.477s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail
+[12.477s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.c
+[12.478s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_c.h
+[12.478s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+[12.478s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.478s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+[12.478s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so" to ""
+[12.478s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs
+[12.478s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg
+[12.479s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.cpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[12.479s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_cpp.hpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.cpp
+[12.480s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_cpp.hpp
+[12.481s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv
+[12.481s] -- Up-to-date: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail
+[12.481s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.cpp
+[12.481s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_cpp.hpp
+[12.481s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+[12.481s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+[12.482s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so" to ""
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.sh
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.dsv
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.2.0-py3.10.egg-info
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.2.0-py3.10.egg-info/dependency_links.txt
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.2.0-py3.10.egg-info/SOURCES.txt
+[12.482s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.2.0-py3.10.egg-info/PKG-INFO
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.2.0-py3.10.egg-info/top_level.txt
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/__init__.py
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/__init__.py
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_rgb.py
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_lights_s.c
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_power_s.c
+[12.483s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_status.py
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_feedback_s.c
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_fans_s.c
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_stop_status_s.c
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_lights.py
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_s.c
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_rgb_s.c
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_feedback.py
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_feedback.py
+[12.484s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_power.py
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_feedback_s.c
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_status_s.c
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_fans.py
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive.py
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_stop_status.py
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/__init__.py
+[12.485s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/_configure_mcu_s.c
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/_configure_mcu.py
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/libclearpath_platform_msgs__rosidl_generator_py.so
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.486s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.533s] Listing '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/__init__.py'...
+[12.533s] Listing '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/__init__.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_feedback.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_fans.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_feedback.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_lights.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_power.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_rgb.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_status.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_stop_status.py'...
+[12.533s] Listing '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/__init__.py'...
+[12.533s] Compiling '/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/_configure_mcu.py'...
+[12.536s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.537s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.537s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.537s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.537s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.538s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+[12.538s] -- Set runtime path of "/home/dinm/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so" to ""
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.idl
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.idl
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.idl
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.idl
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.idl
+[12.538s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.idl
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.idl
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.idl
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.idl
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.idl
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.msg
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.msg
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.msg
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.msg
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.msg
+[12.539s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.msg
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.msg
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.msg
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.msg
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.srv
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu_Request.msg
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu_Response.msg
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/package_run_dependencies/clearpath_platform_msgs
+[12.540s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/parent_prefix_path/clearpath_platform_msgs
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.sh
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.dsv
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.sh
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.dsv
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.bash
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.sh
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.zsh
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.dsv
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.dsv
+[12.541s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/packages/clearpath_platform_msgs
+[12.542s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport.cmake
+[12.542s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.542s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.542s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.542s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cppExport.cmake
+[12.542s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport.cmake
+[12.543s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.544s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig.cmake
+[12.545s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig-version.cmake
+[12.545s] -- Installing: /home/dinm/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.xml
+[12.547s] Invoked command in '/home/dinm/debug_clear_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dinm/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dinm/debug_clear_ws/build/clearpath_platform_msgs
