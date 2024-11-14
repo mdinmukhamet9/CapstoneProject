@@ -1,0 +1,31 @@
+[0.800s] Invoking command in '/home/robot/debug_clear_ws/src/yolov8_ros/yolov8_ros': AMENT_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolov8_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/debug_clear_ws/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/debug_clear_ws/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/yolov8_ros/lib/python3.10/site-packages:/home/robot/debug_clear_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/robot/debug_clear_ws/build/yolov8_ros/build install --record /home/robot/debug_clear_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[1.069s] running egg_info
+[1.087s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[1.088s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[1.088s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[1.126s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.127s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.127s] running build
+[1.127s] running build_py
+[1.128s] copying yolov8_ros/detect_3d_node.py -> /home/robot/debug_clear_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.128s] copying yolov8_ros/tracking_node.py -> /home/robot/debug_clear_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.128s] copying yolov8_ros/yolov8_node.py -> /home/robot/debug_clear_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.128s] copying yolov8_ros/__init__.py -> /home/robot/debug_clear_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.128s] copying yolov8_ros/debug_node.py -> /home/robot/debug_clear_ws/build/yolov8_ros/build/lib/yolov8_ros
+[1.129s] running install
+[1.134s] running install_lib
+[1.154s] running install_data
+[1.155s] copying resource/yolov8_ros -> /home/robot/debug_clear_ws/install/yolov8_ros/share/ament_index/resource_index/packages
+[1.155s] copying package.xml -> /home/robot/debug_clear_ws/install/yolov8_ros/share/yolov8_ros
+[1.155s] running install_egg_info
+[1.177s] removing '/home/robot/debug_clear_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.177s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/robot/debug_clear_ws/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[1.178s] running install_scripts
+[1.339s] Installing debug_node script to /home/robot/debug_clear_ws/install/yolov8_ros/lib/yolov8_ros
+[1.339s] Installing detect_3d_node script to /home/robot/debug_clear_ws/install/yolov8_ros/lib/yolov8_ros
+[1.340s] Installing tracking_node script to /home/robot/debug_clear_ws/install/yolov8_ros/lib/yolov8_ros
+[1.340s] Installing yolov8_node script to /home/robot/debug_clear_ws/install/yolov8_ros/lib/yolov8_ros
+[1.340s] writing list of installed files to '/home/robot/debug_clear_ws/build/yolov8_ros/install.log'
+[1.365s] Invoked command in '/home/robot/debug_clear_ws/src/yolov8_ros/yolov8_ros' returned '0': AMENT_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolov8_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/debug_clear_ws/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/debug_clear_ws/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/yolov8_ros/lib/python3.10/site-packages:/home/robot/debug_clear_ws/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/robot/debug_clear_ws/build/yolov8_ros/build install --record /home/robot/debug_clear_ws/build/yolov8_ros/install.log --single-version-externally-managed install_data
