@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp"
 #include "clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp"
 #include "clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp"
+#include "clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__SRV__CONFIGURE_MCU_HPP_

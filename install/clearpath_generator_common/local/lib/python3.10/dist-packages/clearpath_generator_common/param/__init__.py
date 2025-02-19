@@ -1,0 +1,1 @@
+/home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/param/__init__.py

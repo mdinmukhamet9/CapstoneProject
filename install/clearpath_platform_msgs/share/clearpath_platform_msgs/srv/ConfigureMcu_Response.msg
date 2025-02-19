@@ -1,3 +1,1 @@
-
-bool success   # Indicate successful update
-string message # Error/Success message
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_cmake/srv/ConfigureMcu_Response.msg

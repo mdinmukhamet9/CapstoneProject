@@ -1,2 +1,1 @@
-uint8 domain_id # ROS_DOMAIN_ID
-string robot_namespace # Robot namespace
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_cmake/srv/ConfigureMcu_Request.msg

@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/msg/detail/drive__struct.hpp"
 #include "clearpath_platform_msgs/msg/detail/drive__builder.hpp"
 #include "clearpath_platform_msgs/msg/detail/drive__traits.hpp"
+#include "clearpath_platform_msgs/msg/detail/drive__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__MSG__DRIVE_HPP_

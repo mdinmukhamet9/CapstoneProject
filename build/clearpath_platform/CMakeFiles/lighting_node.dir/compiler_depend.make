@@ -427,12 +427,14 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -481,6 +483,7 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -496,6 +499,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -506,6 +511,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -558,6 +565,7 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -566,6 +574,7 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -574,6 +583,7 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -589,13 +599,16 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -628,26 +641,32 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -666,42 +685,54 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
   /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/lighting.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/lights.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rgb.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/status.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/power.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/stop_status.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/sequence.hpp \
   /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/color.hpp \
   /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/platform.hpp
@@ -713,6 +744,10 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/sequence.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp:
+
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:
@@ -723,31 +758,35 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__builder.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__struct.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__struct.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__builder.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__builder.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__struct.hpp:
 
 /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/lighting.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
-
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
 
@@ -769,17 +808,23 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
@@ -795,8 +840,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
@@ -807,6 +850,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
@@ -814,6 +859,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
 
@@ -829,11 +876,17 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
@@ -855,7 +908,11 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/power.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
 
@@ -889,9 +946,21 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
 /usr/include/c++/11/bits/vector.tcc:
 
@@ -923,8 +992,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp:
-
 /usr/include/c++/11/bits/basic_ios.tcc:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
@@ -934,8 +1001,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/c++/11/bits/std_thread.h:
 
 /usr/include/c++/11/stdexcept:
 
@@ -947,17 +1012,19 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/ios:
 
-/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
-
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
 /usr/include/c++/11/future:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
@@ -979,6 +1046,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__builder.hpp:
+
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
@@ -992,6 +1061,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/endian.h:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
@@ -1008,6 +1079,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
@@ -1041,11 +1114,11 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp:
-
 /usr/include/c++/11/ratio:
 
 /usr/include/stdio.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
@@ -1058,6 +1131,10 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /usr/include/c++/11/string_view:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/11/numeric:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
@@ -1083,25 +1160,25 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/iomanip:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/lights.hpp:
 
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rgb.hpp:
 
 /usr/include/c++/11/bits/localefwd.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
 /usr/include/c++/11/functional:
-
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
@@ -1115,11 +1192,17 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/string:
 
+/usr/include/c++/11/bits/std_thread.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
 /opt/ros/humble/include/rmw/rmw/publisher_options.h:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
 
@@ -1173,10 +1256,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -1198,6 +1277,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp:
 
 /usr/include/locale.h:
 
@@ -1279,7 +1360,13 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/unordered_set:
 
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/linux/close_range.h:
+
 /opt/ros/humble/include/rcl/rcl/init_options.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
@@ -1302,6 +1389,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
 /usr/include/c++/11/bits/exception.h:
 
@@ -1328,6 +1417,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /usr/include/unistd.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -1371,8 +1462,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp:
-
 /usr/include/errno.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
@@ -1400,6 +1489,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /usr/include/c++/11/tr1/special_function_util.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/stop_status.hpp:
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
@@ -1458,6 +1549,12 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/c++/11/ctime:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__traits.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -1543,8 +1640,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/bits/functional_hash.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp:
-
 /usr/include/features.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
@@ -1629,13 +1724,11 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp:
-
 /usr/include/c++/11/list:
 
 /usr/include/c++/11/bits/stl_list.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__builder.hpp:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
@@ -1673,8 +1766,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__traits.hpp:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
@@ -1692,6 +1783,10 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
+
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
@@ -1711,11 +1806,11 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
-/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
 /opt/ros/humble/include/rcutils/rcutils/types.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
 
@@ -1764,6 +1859,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
 
@@ -1885,6 +1982,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/optional:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/status.hpp:
+
 /usr/include/c++/11/sstream:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
@@ -1901,6 +2000,10 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp:
@@ -1912,6 +2015,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
@@ -1947,8 +2052,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/cxxabi.h:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp:
-
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -1961,9 +2064,11 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/bits/locale_conv.h:
 
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
 
@@ -1986,6 +2091,8 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -2093,20 +2200,6 @@ CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
-
-/usr/include/c++/11/numeric:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/c++/11/bits/stl_numeric.h:

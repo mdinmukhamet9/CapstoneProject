@@ -1,10 +1,1 @@
-# Default initial positions for robot's ros2_control fake system
-
-initial_positions:
-  ${name}_joint_1: 0
-  ${name}_joint_2: 0
-  ${name}_joint_3: 0
-  ${name}_joint_4: 0
-  ${name}_joint_5: 0
-  ${name}_joint_6: 0
-  ${name}_joint_7: 0
+/home/robot/debug_clear_ws/src/clearpath_common/clearpath_manipulators_description/config/arm/kinova_gen3_7dof/initial_positions.yaml

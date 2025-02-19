@@ -70,42 +70,53 @@ CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive_feedback.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/fans.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/lights.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/power.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/rgb.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/status.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/stop_status.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/configure_mcu.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp
 CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp
+CMakeFiles/clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -176,6 +187,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp: rosid
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp
 
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp
+
 rosidl_generator_cpp/clearpath_platform_msgs/msg/drive_feedback.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/drive_feedback.hpp
 
@@ -187,6 +201,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.h
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/fans.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/fans.hpp
@@ -200,6 +217,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__struct.hpp: rosidl
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__traits.hpp
 
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__type_support.hpp
+
 rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp
 
@@ -211,6 +231,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp: ro
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/lights.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/lights.hpp
@@ -224,6 +247,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__struct.hpp: rosi
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__traits.hpp
 
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.hpp
+
 rosidl_generator_cpp/clearpath_platform_msgs/msg/power.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/power.hpp
 
@@ -235,6 +261,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__struct.hpp: rosid
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp
+
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/rgb.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/rgb.hpp
@@ -248,6 +277,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__struct.hpp: rosidl_
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
 
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp
+
 rosidl_generator_cpp/clearpath_platform_msgs/msg/status.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/status.hpp
 
@@ -259,6 +291,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__struct.hpp: rosi
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp
+
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/stop_status.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/stop_status.hpp
@@ -272,6 +307,9 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp:
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
 
+rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp
+
 rosidl_generator_cpp/clearpath_platform_msgs/srv/configure_mcu.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/srv/configure_mcu.hpp
 
@@ -284,34 +322,46 @@ rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hp
 rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
 
+rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp
+
 clearpath_platform_msgs__cpp: CMakeFiles/clearpath_platform_msgs__cpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/fans__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive_feedback.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/fans.hpp
@@ -325,6 +375,7 @@ clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/c
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp
 clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
+clearpath_platform_msgs__cpp: rosidl_generator_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp
 clearpath_platform_msgs__cpp: CMakeFiles/clearpath_platform_msgs__cpp.dir/build.make
 .PHONY : clearpath_platform_msgs__cpp
 

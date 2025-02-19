@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/msg/detail/lights__struct.hpp"
 #include "clearpath_platform_msgs/msg/detail/lights__builder.hpp"
 #include "clearpath_platform_msgs/msg/detail/lights__traits.hpp"
+#include "clearpath_platform_msgs/msg/detail/lights__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__MSG__LIGHTS_HPP_

@@ -198,17 +198,17 @@ clearpath_generator_gz_uninstall/fast:
 .PHONY : clearpath_generator_gz_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_clearpath_generator_gz
+# Target rules for targets named ament_cmake_python_symlink_clearpath_generator_gz
 
 # Build rule for target.
-ament_cmake_python_copy_clearpath_generator_gz: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_clearpath_generator_gz
-.PHONY : ament_cmake_python_copy_clearpath_generator_gz
+ament_cmake_python_symlink_clearpath_generator_gz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_clearpath_generator_gz
+.PHONY : ament_cmake_python_symlink_clearpath_generator_gz
 
 # fast build rule for target.
-ament_cmake_python_copy_clearpath_generator_gz/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_clearpath_generator_gz.dir/build.make CMakeFiles/ament_cmake_python_copy_clearpath_generator_gz.dir/build
-.PHONY : ament_cmake_python_copy_clearpath_generator_gz/fast
+ament_cmake_python_symlink_clearpath_generator_gz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_clearpath_generator_gz.dir/build.make CMakeFiles/ament_cmake_python_symlink_clearpath_generator_gz.dir/build
+.PHONY : ament_cmake_python_symlink_clearpath_generator_gz/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_clearpath_generator_gz_egg
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_clearpath_generator_gz_egg"
-	@echo "... ament_cmake_python_copy_clearpath_generator_gz"
+	@echo "... ament_cmake_python_symlink_clearpath_generator_gz"
 	@echo "... clearpath_generator_gz_uninstall"
 	@echo "... uninstall"
 .PHONY : help

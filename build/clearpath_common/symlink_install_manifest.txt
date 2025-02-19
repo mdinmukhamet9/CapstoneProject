@@ -1,0 +1,15 @@
+/home/robot/debug_clear_ws/install/clearpath_common/share/ament_index/resource_index/package_run_dependencies/clearpath_common
+/home/robot/debug_clear_ws/install/clearpath_common/share/ament_index/resource_index/parent_prefix_path/clearpath_common
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/environment/ament_prefix_path.sh
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/environment/ament_prefix_path.dsv
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/environment/path.sh
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/environment/path.dsv
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/local_setup.bash
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/local_setup.sh
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/local_setup.zsh
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/local_setup.dsv
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/package.dsv
+/home/robot/debug_clear_ws/install/clearpath_common/share/ament_index/resource_index/packages/clearpath_common
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/cmake/clearpath_commonConfig.cmake
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/cmake/clearpath_commonConfig-version.cmake
+/home/robot/debug_clear_ws/install/clearpath_common/share/clearpath_common/package.xml

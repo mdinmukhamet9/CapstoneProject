@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/msg/detail/rgb__struct.hpp"
 #include "clearpath_platform_msgs/msg/detail/rgb__builder.hpp"
 #include "clearpath_platform_msgs/msg/detail/rgb__traits.hpp"
+#include "clearpath_platform_msgs/msg/detail/rgb__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__MSG__RGB_HPP_
