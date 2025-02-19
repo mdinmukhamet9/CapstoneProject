@@ -45,7 +45,7 @@
   <!-- camera_0 -->
   <xacro:include filename="$(find clearpath_sensors_description)/urdf/intel_realsense.urdf.xacro"/>
   <xacro:intel_realsense name="camera_0" parent_link="default_mount" update_rate="30" image_height="480" image_width="640">
-    <origin xyz="0.15 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <origin xyz="0.15 0.0 0.0" rpy="0.0 -0.2618 0.0"/>
   </xacro:intel_realsense>
 
 

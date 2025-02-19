@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/msg/detail/fans__struct.hpp"
 #include "clearpath_platform_msgs/msg/detail/fans__builder.hpp"
 #include "clearpath_platform_msgs/msg/detail/fans__traits.hpp"
+#include "clearpath_platform_msgs/msg/detail/fans__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__MSG__FANS_HPP_

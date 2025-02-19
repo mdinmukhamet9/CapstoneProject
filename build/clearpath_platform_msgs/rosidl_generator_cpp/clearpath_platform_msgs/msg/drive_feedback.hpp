@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp"
 #include "clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp"
 #include "clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp"
+#include "clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__MSG__DRIVE_FEEDBACK_HPP_

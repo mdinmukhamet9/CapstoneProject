@@ -1,0 +1,310 @@
+[0.050s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_platform_msgs
+[0.421s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.422s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.422s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.422s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.424s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.425s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.935s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.525s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.551s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.551s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.551s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.600s] -- Configuring done
+[1.652s] -- Generating done
+[1.665s] -- Build files have been written to: /home/robot/debug_clear_ws/build/clearpath_platform_msgs
+[1.672s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_platform_msgs
+[1.674s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_platform_msgs -- -j12 -l12
+[1.718s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_generator_c[0m
+[1.730s] [  0%] Built target clearpath_platform_msgs__cpp
+[1.738s] [ 12%] Built target clearpath_platform_msgs__rosidl_generator_c
+[1.741s] [ 12%] Built target ament_cmake_python_symlink_clearpath_platform_msgs
+[1.749s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.750s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_cpp[0m
+[1.751s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.755s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_c[0m
+[1.760s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_introspection_c[0m
+[1.762s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.773s] [ 23%] Built target clearpath_platform_msgs__rosidl_typesupport_c
+[1.781s] [ 35%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_cpp
+[1.783s] [ 62%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp
+[1.783s] [ 62%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c
+[1.783s] [ 70%] Built target clearpath_platform_msgs__rosidl_typesupport_cpp
+[1.791s] [ 82%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c
+[1.813s] [ 82%] Built target clearpath_platform_msgs
+[1.837s] [ 83%] Built target clearpath_platform_msgs__py
+[1.851s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_generator_py[0m
+[1.872s] [ 94%] Built target clearpath_platform_msgs__rosidl_generator_py
+[1.885s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.885s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_c__pyext[0m
+[1.886s] [35m[1mConsolidate compiler generated dependencies of target clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.902s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.902s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_c__pyext
+[1.902s] [100%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext
+[2.027s] running egg_info
+[2.050s] writing clearpath_platform_msgs.egg-info/PKG-INFO
+[2.051s] writing dependency_links to clearpath_platform_msgs.egg-info/dependency_links.txt
+[2.051s] writing top-level names to clearpath_platform_msgs.egg-info/top_level.txt
+[2.121s] reading manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[2.122s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[2.151s] [100%] Built target ament_cmake_python_build_clearpath_platform_msgs_egg
+[2.168s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_platform_msgs -- -j12 -l12
+[2.171s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_platform_msgs
+[2.184s] -- Install configuration: ""
+[2.185s] -- Execute custom install script
+[2.185s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/rosidl_interfaces/clearpath_platform_msgs
+[2.187s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__functions.h
+[2.188s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.h
+[2.188s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.h
+[2.189s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__functions.h
+[2.189s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.h
+[2.190s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.h
+[2.190s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__functions.h
+[2.190s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.h
+[2.190s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.h
+[2.190s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__functions.h
+[2.191s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.h
+[2.191s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.h
+[2.191s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__functions.h
+[2.192s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.h
+[2.192s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.h
+[2.193s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__functions.h
+[2.193s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.h
+[2.193s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.h
+[2.193s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__functions.h
+[2.194s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.h
+[2.194s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.h
+[2.194s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__functions.h
+[2.195s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.h
+[2.195s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.h
+[2.195s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__functions.h
+[2.196s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.h
+[2.196s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.h
+[2.196s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.h
+[2.196s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.h
+[2.197s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.h
+[2.197s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.h
+[2.197s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.h
+[2.197s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.h
+[2.198s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.h
+[2.198s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.198s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.h
+[2.199s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.h
+[2.199s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.h
+[2.199s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__functions.h
+[2.199s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.h
+[2.200s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.h
+[2.200s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.sh
+[2.200s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.dsv
+[2.202s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[2.202s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_c.h
+[2.202s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_c.h
+[2.203s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[2.203s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_c.h
+[2.203s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_c.h
+[2.203s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_c.h
+[2.204s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[2.205s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_c.h
+[2.205s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.206s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp
+[2.206s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp
+[2.207s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp
+[2.207s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.hpp
+[2.207s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp
+[2.207s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp
+[2.208s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+[2.208s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp
+[2.208s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__builder.hpp
+[2.208s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.hpp
+[2.209s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__traits.hpp
+[2.209s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.hpp
+[2.209s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp
+[2.210s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp
+[2.210s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+[2.210s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
+[2.210s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__builder.hpp
+[2.211s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.hpp
+[2.212s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__traits.hpp
+[2.212s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.hpp
+[2.212s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp
+[2.213s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp
+[2.213s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp
+[2.213s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.hpp
+[2.213s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp
+[2.213s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp
+[2.214s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
+[2.214s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp
+[2.214s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp
+[2.214s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp
+[2.215s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp
+[2.215s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.hpp
+[2.215s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp
+[2.215s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp
+[2.215s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
+[2.216s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp
+[2.216s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp
+[2.216s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.hpp
+[2.216s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.hpp
+[2.217s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp
+[2.217s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.hpp
+[2.217s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp
+[2.217s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp
+[2.217s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.217s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp
+[2.218s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp
+[2.218s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.hpp
+[2.218s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp
+[2.218s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp
+[2.218s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
+[2.219s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp
+[2.219s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[2.220s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[2.220s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_cpp.hpp
+[2.220s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[2.220s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_cpp.hpp
+[2.220s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.221s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_cpp.hpp
+[2.222s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[2.222s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_c.h
+[2.222s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_c.h
+[2.222s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[2.223s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_c.h
+[2.223s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_c.h
+[2.223s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_c.h
+[2.223s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[2.223s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_c.h
+[2.224s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.224s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_c.h
+[2.224s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[2.225s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_cpp.hpp
+[2.225s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_cpp.hpp
+[2.225s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[2.225s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_cpp.hpp
+[2.226s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_cpp.hpp
+[2.226s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_cpp.hpp
+[2.226s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[2.226s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_cpp.hpp
+[2.227s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_cpp.hpp
+[2.227s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.sh
+[2.227s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.dsv
+[2.228s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.3.0-py3.10.egg-info/PKG-INFO
+[2.228s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.3.0-py3.10.egg-info/SOURCES.txt
+[2.229s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.3.0-py3.10.egg-info/dependency_links.txt
+[2.229s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs-0.3.0-py3.10.egg-info/top_level.txt
+[2.230s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/__init__.py
+[2.230s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c
+[2.231s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.231s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.231s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.231s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.231s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.231s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/libclearpath_platform_msgs__rosidl_generator_py.so
+[2.232s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/__init__.py
+[2.232s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive.py
+[2.232s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_feedback.py
+[2.232s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_feedback_s.c
+[2.232s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_drive_s.c
+[2.233s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_fans.py
+[2.233s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_fans_s.c
+[2.233s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_feedback.py
+[2.233s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_feedback_s.c
+[2.233s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_lights.py
+[2.233s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_lights_s.c
+[2.234s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_power.py
+[2.234s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_power_s.c
+[2.234s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_rgb.py
+[2.234s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_rgb_s.c
+[2.234s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_status.py
+[2.235s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_status_s.c
+[2.235s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_stop_status.py
+[2.235s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg/_stop_status_s.c
+[2.235s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/__init__.py
+[2.235s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/_configure_mcu.py
+[2.235s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv/_configure_mcu_s.c
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.idl
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.idl
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.idl
+[2.236s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.idl
+[2.237s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.idl
+[2.237s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.idl
+[2.237s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.idl
+[2.237s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.idl
+[2.237s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.idl
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.idl
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.msg
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.msg
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.msg
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.msg
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.msg
+[2.238s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.msg
+[2.239s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.msg
+[2.239s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.msg
+[2.239s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.msg
+[2.239s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.srv
+[2.240s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu_Request.msg
+[2.240s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu_Response.msg
+[2.240s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/package_run_dependencies/clearpath_platform_msgs
+[2.240s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/parent_prefix_path/clearpath_platform_msgs
+[2.240s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.sh
+[2.240s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.dsv
+[2.241s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.sh
+[2.241s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.dsv
+[2.241s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.bash
+[2.241s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.sh
+[2.241s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.zsh
+[2.242s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.dsv
+[2.242s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.dsv
+[2.252s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/packages/clearpath_platform_msgs
+[2.253s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake-extras.cmake
+[2.253s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.253s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.253s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.253s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.253s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.254s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.254s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig.cmake
+[2.254s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig-version.cmake
+[2.254s] -- Up-to-date symlink: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.xml
+[2.254s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+[2.255s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+[2.255s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.256s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+[2.256s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+[2.257s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+[2.258s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+[2.303s] Listing '/home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs'...
+[2.303s] Compiling '/home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/__init__.py'...
+[2.303s] Listing '/home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/msg'...
+[2.303s] Listing '/home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages/clearpath_platform_msgs/srv'...
+[2.308s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+[2.308s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport.cmake
+[2.309s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.309s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.309s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.309s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cppExport.cmake
+[2.310s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.310s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.310s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.310s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.310s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport.cmake
+[2.311s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.311s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.311s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.311s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport.cmake
+[2.311s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.311s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport.cmake
+[2.312s] -- Up-to-date: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.315s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_platform_msgs

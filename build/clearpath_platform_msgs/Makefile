@@ -315,17 +315,17 @@ clearpath_platform_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : clearpath_platform_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_clearpath_platform_msgs
+# Target rules for targets named ament_cmake_python_symlink_clearpath_platform_msgs
 
 # Build rule for target.
-ament_cmake_python_copy_clearpath_platform_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_clearpath_platform_msgs
-.PHONY : ament_cmake_python_copy_clearpath_platform_msgs
+ament_cmake_python_symlink_clearpath_platform_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_clearpath_platform_msgs
+.PHONY : ament_cmake_python_symlink_clearpath_platform_msgs
 
 # fast build rule for target.
-ament_cmake_python_copy_clearpath_platform_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_clearpath_platform_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_clearpath_platform_msgs.dir/build
-.PHONY : ament_cmake_python_copy_clearpath_platform_msgs/fast
+ament_cmake_python_symlink_clearpath_platform_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_clearpath_platform_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_clearpath_platform_msgs.dir/build
+.PHONY : ament_cmake_python_symlink_clearpath_platform_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_clearpath_platform_msgs_egg
@@ -2411,7 +2411,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_clearpath_platform_msgs_egg"
-	@echo "... ament_cmake_python_copy_clearpath_platform_msgs"
+	@echo "... ament_cmake_python_symlink_clearpath_platform_msgs"
 	@echo "... clearpath_platform_msgs"
 	@echo "... clearpath_platform_msgs__cpp"
 	@echo "... clearpath_platform_msgs__py"

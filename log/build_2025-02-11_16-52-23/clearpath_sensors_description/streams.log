@@ -1,0 +1,67 @@
+[0.039s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_common/clearpath_sensors_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_sensors_description
+[0.466s] -- The C compiler identification is GNU 11.4.0
+[0.466s] -- The CXX compiler identification is GNU 11.4.0
+[0.466s] -- Detecting C compiler ABI info
+[0.466s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.467s] -- Detecting CXX compiler ABI info
+[0.570s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.597s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.345s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.481s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.686s] -- Configuring done
+[1.692s] -- Generating done
+[1.694s] -- Build files have been written to: /home/robot/debug_clear_ws/build/clearpath_sensors_description
+[1.704s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_common/clearpath_sensors_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_sensors_description
+[1.706s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_sensors_description -- -j12 -l12
+[1.771s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_sensors_description -- -j12 -l12
+[1.778s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_sensors_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_sensors_description
+[1.787s] -- Install configuration: ""
+[1.787s] -- Execute custom install script
+[1.789s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/flir_blackfly.stl
+[1.804s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/hokuyo_ust.stl
+[1.821s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/hokuyo_utm30.stl
+[1.837s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/novatel_smart6.stl
+[1.854s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/novatel_smart7.stl
+[1.867s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/oakd_lite.dae
+[1.882s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/oakd_pro.dae
+[1.896s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/sick_lms1xx_collision.stl
+[1.911s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/sick_lms1xx_small.dae
+[1.926s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/meshes/swift_antenna.stl
+[1.942s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/chrobotics_um6.urdf.xacro
+[1.958s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/flir_blackfly.urdf.xacro
+[1.974s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/garmin_18x.urdf.xacro
+[1.987s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/hokuyo_ust.urdf.xacro
+[2.002s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/intel_realsense.urdf.xacro
+[2.018s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/luxonis_oakd.urdf.xacro
+[2.034s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/microstrain_gq7.urdf.xacro
+[2.049s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/microstrain_imu.urdf.xacro
+[2.063s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/novatel_smart6.urdf.xacro
+[2.078s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/novatel_smart7.urdf.xacro
+[2.092s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/phidgets_spatial.urdf.xacro
+[2.105s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/redshift_um7.urdf.xacro
+[2.119s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/sick_lms1xx.urdf.xacro
+[2.130s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/stereolabs_zed.urdf.xacro
+[2.145s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/swiftnav_duro.urdf.xacro
+[2.160s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/urdf/velodyne_lidar.urdf.xacro
+[2.175s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/ament_index/resource_index/package_run_dependencies/clearpath_sensors_description
+[2.190s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/ament_index/resource_index/parent_prefix_path/clearpath_sensors_description
+[2.205s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/ament_prefix_path.sh
+[2.220s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/ament_prefix_path.dsv
+[2.234s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/path.sh
+[2.249s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/environment/path.dsv
+[2.259s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.bash
+[2.274s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.sh
+[2.290s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.zsh
+[2.304s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/local_setup.dsv
+[2.318s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/package.dsv
+[2.334s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/ament_index/resource_index/packages/clearpath_sensors_description
+[2.349s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/cmake/clearpath_sensors_descriptionConfig.cmake
+[2.364s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/cmake/clearpath_sensors_descriptionConfig-version.cmake
+[2.377s] -- Symlinking: /home/robot/debug_clear_ws/install/clearpath_sensors_description/share/clearpath_sensors_description/package.xml
+[2.396s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_sensors_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolov8_ros:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_sensors_description

@@ -28,7 +28,7 @@ AMENT_CMAKE_PYTEST_WITH_COVERAGE:BOOL=OFF
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -820,6 +820,9 @@ clearpath_generator_common_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 clearpath_generator_common_SOURCE_DIR:STATIC=/home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common
 
+//The directory containing a CMake configuration file for common_interfaces.
+common_interfaces_DIR:PATH=/opt/ros/humble/share/common_interfaces/cmake
+
 //The directory containing a CMake configuration file for composition_interfaces.
 composition_interfaces_DIR:PATH=/opt/ros/humble/share/composition_interfaces/cmake
 
@@ -846,6 +849,9 @@ fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
 
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
+
+//The directory containing a CMake configuration file for fcl.
+fcl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fcl
 
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
@@ -1146,6 +1152,9 @@ tf2_eigen_DIR:PATH=/opt/ros/humble/share/tf2_eigen/cmake
 
 //The directory containing a CMake configuration file for tf2_geometry_msgs.
 tf2_geometry_msgs_DIR:PATH=/opt/ros/humble/share/tf2_geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_kdl.
+tf2_kdl_DIR:PATH=/opt/ros/humble/share/tf2_kdl/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
 tf2_msgs_DIR:PATH=/opt/ros/humble/share/tf2_msgs/cmake
@@ -1720,6 +1729,8 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
 __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments_PKG_FONTCONFIG:INTERNAL=QUIET;fontconfig
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl

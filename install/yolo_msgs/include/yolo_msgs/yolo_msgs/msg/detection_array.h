@@ -1,0 +1,1 @@
+/home/robot/debug_clear_ws/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detection_array.h

@@ -7,5 +7,6 @@
 #include "clearpath_platform_msgs/msg/detail/feedback__struct.hpp"
 #include "clearpath_platform_msgs/msg/detail/feedback__builder.hpp"
 #include "clearpath_platform_msgs/msg/detail/feedback__traits.hpp"
+#include "clearpath_platform_msgs/msg/detail/feedback__type_support.hpp"
 
 #endif  // CLEARPATH_PLATFORM_MSGS__MSG__FEEDBACK_HPP_

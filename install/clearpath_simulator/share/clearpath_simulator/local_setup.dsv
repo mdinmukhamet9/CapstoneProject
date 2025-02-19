@@ -1,2 +1,1 @@
-source;share/clearpath_simulator/environment/ament_prefix_path.sh
-source;share/clearpath_simulator/environment/path.sh
+/home/robot/debug_clear_ws/build/clearpath_simulator/ament_cmake_environment_hooks/local_setup.dsv

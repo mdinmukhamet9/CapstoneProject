@@ -1,0 +1,332 @@
+[1.374s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_config': PYTHONPATH=/home/robot/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robot/debug_clear_ws/build/clearpath_config/build
+[1.825s] running develop
+[2.195s] Removing /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath-config.egg-link (link to .)
+[2.237s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_config' returned '0': PYTHONPATH=/home/robot/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robot/debug_clear_ws/build/clearpath_config/build
+[2.239s] Invoking command in '/home/robot/debug_clear_ws/src/clearpath_config': PYTHONPATH=/home/robot/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clearpath_config build --build-base /home/robot/debug_clear_ws/build/clearpath_config/build install --record /home/robot/debug_clear_ws/build/clearpath_config/install.log --single-version-externally-managed install_data --force
+[2.621s] running egg_info
+[2.647s] writing ../../build/clearpath_config/clearpath_config.egg-info/PKG-INFO
+[2.647s] writing dependency_links to ../../build/clearpath_config/clearpath_config.egg-info/dependency_links.txt
+[2.648s] writing requirements to ../../build/clearpath_config/clearpath_config.egg-info/requires.txt
+[2.648s] writing top-level names to ../../build/clearpath_config/clearpath_config.egg-info/top_level.txt
+[2.735s] reading manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[2.738s] adding license file 'LICENSE'
+[2.743s] writing manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[2.743s] running build
+[2.743s] running build_py
+[2.743s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config
+[2.744s] copying clearpath_config/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config
+[2.744s] copying clearpath_config/clearpath_config.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config
+[2.744s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common
+[2.744s] copying clearpath_config/common/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common
+[2.745s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.745s] copying clearpath_config/common/types/port.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.745s] copying clearpath_config/common/types/discovery.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.746s] copying clearpath_config/common/types/accessory.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.746s] copying clearpath_config/common/types/package_path.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.746s] copying clearpath_config/common/types/file.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.746s] copying clearpath_config/common/types/username.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.746s] copying clearpath_config/common/types/domain_id.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.747s] copying clearpath_config/common/types/config.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.747s] copying clearpath_config/common/types/hostname.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.747s] copying clearpath_config/common/types/serial_number.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.747s] copying clearpath_config/common/types/platform.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.748s] copying clearpath_config/common/types/list.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.748s] copying clearpath_config/common/types/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.748s] copying clearpath_config/common/types/rmw_implementation.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.748s] copying clearpath_config/common/types/ip.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.748s] copying clearpath_config/common/types/namespace.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types
+[2.749s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[2.749s] copying clearpath_config/common/utils/dictionary.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[2.749s] copying clearpath_config/common/utils/yaml.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[2.749s] copying clearpath_config/common/utils/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils
+[2.750s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links
+[2.750s] copying clearpath_config/links/links.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links
+[2.750s] copying clearpath_config/links/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links
+[2.750s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.751s] copying clearpath_config/links/types/cylinder.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.751s] copying clearpath_config/links/types/mesh.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.751s] copying clearpath_config/links/types/frame.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.751s] copying clearpath_config/links/types/sphere.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.751s] copying clearpath_config/links/types/link.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.752s] copying clearpath_config/links/types/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.752s] copying clearpath_config/links/types/box.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types
+[2.752s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators
+[2.752s] copying clearpath_config/manipulators/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators
+[2.753s] copying clearpath_config/manipulators/manipulators.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators
+[2.753s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[2.753s] copying clearpath_config/manipulators/types/grippers.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[2.753s] copying clearpath_config/manipulators/types/arms.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[2.753s] copying clearpath_config/manipulators/types/manipulator.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[2.754s] copying clearpath_config/manipulators/types/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types
+[2.754s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts
+[2.754s] copying clearpath_config/mounts/mounts.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts
+[2.754s] copying clearpath_config/mounts/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts
+[2.755s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.755s] copying clearpath_config/mounts/types/post.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.755s] copying clearpath_config/mounts/types/sick.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.755s] copying clearpath_config/mounts/types/mount.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.755s] copying clearpath_config/mounts/types/flir_ptu.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.756s] copying clearpath_config/mounts/types/pacs.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.756s] copying clearpath_config/mounts/types/disk.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.756s] copying clearpath_config/mounts/types/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.756s] copying clearpath_config/mounts/types/fath_pivot.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types
+[2.757s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[2.757s] copying clearpath_config/platform/extras.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[2.757s] copying clearpath_config/platform/battery.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[2.757s] copying clearpath_config/platform/platform.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[2.758s] copying clearpath_config/platform/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform
+[2.758s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.758s] copying clearpath_config/platform/attachments/do100.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.759s] copying clearpath_config/platform/attachments/a200.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.759s] copying clearpath_config/platform/attachments/mux.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.759s] copying clearpath_config/platform/attachments/do150.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.759s] copying clearpath_config/platform/attachments/r100.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.759s] copying clearpath_config/platform/attachments/dd100.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.760s] copying clearpath_config/platform/attachments/dd150.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.760s] copying clearpath_config/platform/attachments/w200.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.760s] copying clearpath_config/platform/attachments/config.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.760s] copying clearpath_config/platform/attachments/j100.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.760s] copying clearpath_config/platform/attachments/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.761s] copying clearpath_config/platform/attachments/generic.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments
+[2.761s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[2.761s] copying clearpath_config/platform/types/bumper.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[2.761s] copying clearpath_config/platform/types/attachment.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[2.762s] copying clearpath_config/platform/types/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types
+[2.762s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors
+[2.762s] copying clearpath_config/sensors/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors
+[2.762s] copying clearpath_config/sensors/sensors.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors
+[2.763s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.763s] copying clearpath_config/sensors/types/lidars_3d.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.763s] copying clearpath_config/sensors/types/gps.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.763s] copying clearpath_config/sensors/types/lidars_2d.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.764s] copying clearpath_config/sensors/types/sensor.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.764s] copying clearpath_config/sensors/types/cameras.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.764s] copying clearpath_config/sensors/types/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.764s] copying clearpath_config/sensors/types/imu.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types
+[2.765s] creating /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[2.765s] copying clearpath_config/system/system.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[2.765s] copying clearpath_config/system/servers.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[2.765s] copying clearpath_config/system/__init__.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[2.765s] copying clearpath_config/system/hosts.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[2.766s] copying clearpath_config/system/middleware.py -> /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system
+[2.771s] running install
+[2.776s] running install_lib
+[2.802s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config
+[2.803s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors
+[2.803s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.804s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/lidars_3d.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.804s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/gps.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.805s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/lidars_2d.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.805s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/sensor.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.805s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/cameras.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.806s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.806s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/types/imu.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types
+[2.806s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors
+[2.806s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/sensors/sensors.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors
+[2.806s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[2.807s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/system.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[2.807s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/servers.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[2.807s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[2.808s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/hosts.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[2.808s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/system/middleware.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system
+[2.808s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators
+[2.808s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[2.809s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/grippers.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[2.809s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/arms.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[2.809s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/manipulator.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[2.809s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/types/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types
+[2.809s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators
+[2.809s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/manipulators/manipulators.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators
+[2.810s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common
+[2.810s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.810s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/port.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.810s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/discovery.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.810s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/accessory.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.811s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/package_path.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.811s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/file.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.811s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/username.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.811s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/domain_id.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.811s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/config.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.814s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/hostname.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.814s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/serial_number.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.814s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/platform.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.815s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/list.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.815s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.815s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/rmw_implementation.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.816s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/ip.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.816s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/types/namespace.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types
+[2.817s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[2.817s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils/dictionary.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[2.817s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils/yaml.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[2.817s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/utils/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils
+[2.817s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/common/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common
+[2.817s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[2.817s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/extras.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[2.818s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types/bumper.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types/attachment.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/types/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types
+[2.818s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/do100.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/a200.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/mux.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.818s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/do150.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/r100.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/dd100.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/dd150.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/w200.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/config.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/j100.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/attachments/generic.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments
+[2.819s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/battery.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[2.820s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/platform.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[2.820s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/platform/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform
+[2.820s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts
+[2.820s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.820s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/post.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.821s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/sick.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.821s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/mount.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.822s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/flir_ptu.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.822s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/pacs.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.822s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/disk.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.822s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.822s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/types/fath_pivot.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/mounts.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/mounts/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/clearpath_config.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config
+[2.823s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links
+[2.823s] creating /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/cylinder.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/mesh.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/frame.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.823s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/sphere.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.824s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/link.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.824s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.824s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/types/box.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types
+[2.824s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/links.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links
+[2.824s] copying /home/robot/debug_clear_ws/build/clearpath_config/build/lib/clearpath_config/links/__init__.py -> /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links
+[2.824s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/lidars_3d.py to lidars_3d.cpython-310.pyc
+[2.824s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/gps.py to gps.cpython-310.pyc
+[2.825s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/lidars_2d.py to lidars_2d.cpython-310.pyc
+[2.825s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/sensor.py to sensor.cpython-310.pyc
+[2.825s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/cameras.py to cameras.cpython-310.pyc
+[2.829s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/__init__.py to __init__.cpython-310.pyc
+[2.829s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/types/imu.py to imu.cpython-310.pyc
+[2.831s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/__init__.py to __init__.cpython-310.pyc
+[2.831s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/sensors/sensors.py to sensors.cpython-310.pyc
+[2.837s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/system.py to system.cpython-310.pyc
+[2.838s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/servers.py to servers.cpython-310.pyc
+[2.839s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/__init__.py to __init__.cpython-310.pyc
+[2.839s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/hosts.py to hosts.cpython-310.pyc
+[2.840s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/system/middleware.py to middleware.cpython-310.pyc
+[2.842s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/grippers.py to grippers.cpython-310.pyc
+[2.842s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/arms.py to arms.cpython-310.pyc
+[2.843s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/manipulator.py to manipulator.cpython-310.pyc
+[2.844s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/types/__init__.py to __init__.cpython-310.pyc
+[2.845s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/__init__.py to __init__.cpython-310.pyc
+[2.845s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/manipulators/manipulators.py to manipulators.cpython-310.pyc
+[2.846s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/port.py to port.cpython-310.pyc
+[2.846s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/discovery.py to discovery.cpython-310.pyc
+[2.847s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/accessory.py to accessory.cpython-310.pyc
+[2.848s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/package_path.py to package_path.cpython-310.pyc
+[2.848s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/file.py to file.cpython-310.pyc
+[2.849s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/username.py to username.cpython-310.pyc
+[2.849s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/domain_id.py to domain_id.cpython-310.pyc
+[2.850s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/config.py to config.cpython-310.pyc
+[2.850s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/hostname.py to hostname.cpython-310.pyc
+[2.851s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/serial_number.py to serial_number.cpython-310.pyc
+[2.852s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/platform.py to platform.cpython-310.pyc
+[2.852s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/list.py to list.cpython-310.pyc
+[2.853s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/__init__.py to __init__.cpython-310.pyc
+[2.854s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/rmw_implementation.py to rmw_implementation.cpython-310.pyc
+[2.854s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/ip.py to ip.cpython-310.pyc
+[2.855s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/types/namespace.py to namespace.cpython-310.pyc
+[2.855s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils/dictionary.py to dictionary.cpython-310.pyc
+[2.856s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils/yaml.py to yaml.cpython-310.pyc
+[2.857s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/utils/__init__.py to __init__.cpython-310.pyc
+[2.857s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/common/__init__.py to __init__.cpython-310.pyc
+[2.857s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/extras.py to extras.cpython-310.pyc
+[2.859s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types/bumper.py to bumper.cpython-310.pyc
+[2.860s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types/attachment.py to attachment.cpython-310.pyc
+[2.861s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/types/__init__.py to __init__.cpython-310.pyc
+[2.861s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/do100.py to do100.cpython-310.pyc
+[2.861s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/a200.py to a200.cpython-310.pyc
+[2.862s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/mux.py to mux.cpython-310.pyc
+[2.862s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/do150.py to do150.cpython-310.pyc
+[2.863s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/r100.py to r100.cpython-310.pyc
+[2.864s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/dd100.py to dd100.cpython-310.pyc
+[2.864s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/dd150.py to dd150.cpython-310.pyc
+[2.864s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/w200.py to w200.cpython-310.pyc
+[2.865s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/config.py to config.cpython-310.pyc
+[2.866s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/j100.py to j100.cpython-310.pyc
+[2.866s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/__init__.py to __init__.cpython-310.pyc
+[2.866s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/attachments/generic.py to generic.cpython-310.pyc
+[2.867s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/battery.py to battery.cpython-310.pyc
+[2.868s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/platform.py to platform.cpython-310.pyc
+[2.869s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/platform/__init__.py to __init__.cpython-310.pyc
+[2.869s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/post.py to post.cpython-310.pyc
+[2.870s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/sick.py to sick.cpython-310.pyc
+[2.871s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/mount.py to mount.cpython-310.pyc
+[2.871s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/flir_ptu.py to flir_ptu.cpython-310.pyc
+[2.872s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/pacs.py to pacs.cpython-310.pyc
+[2.873s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/disk.py to disk.cpython-310.pyc
+[2.873s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/__init__.py to __init__.cpython-310.pyc
+[2.873s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/types/fath_pivot.py to fath_pivot.cpython-310.pyc
+[2.874s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/mounts.py to mounts.cpython-310.pyc
+[2.876s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/mounts/__init__.py to __init__.cpython-310.pyc
+[2.876s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/__init__.py to __init__.cpython-310.pyc
+[2.876s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/clearpath_config.py to clearpath_config.cpython-310.pyc
+[2.877s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/cylinder.py to cylinder.cpython-310.pyc
+[2.878s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/mesh.py to mesh.cpython-310.pyc
+[2.878s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/frame.py to frame.cpython-310.pyc
+[2.878s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/sphere.py to sphere.cpython-310.pyc
+[2.879s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/link.py to link.cpython-310.pyc
+[2.880s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/__init__.py to __init__.cpython-310.pyc
+[2.880s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/types/box.py to box.cpython-310.pyc
+[2.880s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/links.py to links.cpython-310.pyc
+[2.883s] byte-compiling /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config/links/__init__.py to __init__.cpython-310.pyc
+[2.883s] running install_data
+[2.884s] copying resource/clearpath_config -> /home/robot/debug_clear_ws/install/clearpath_config/share/ament_index/resource_index/packages
+[2.884s] copying package.xml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config
+[2.884s] copying clearpath_config/sample/a200/a200_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.885s] copying clearpath_config/sample/a200/a200_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.885s] copying clearpath_config/sample/a200/a200_sample.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.885s] copying clearpath_config/sample/a200/a200_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.885s] copying clearpath_config/sample/a200/a200_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.885s] copying clearpath_config/sample/j100/j100_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.886s] copying clearpath_config/sample/j100/j100_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.886s] copying clearpath_config/sample/j100/j100_sample.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.886s] copying clearpath_config/sample/j100/j100_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.886s] copying clearpath_config/sample/j100/j100_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.886s] copying clearpath_config/sample/j100/j100_microstrain_gq7.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.886s] copying clearpath_config/sample/w200/w200_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.887s] copying clearpath_config/sample/w200/w200_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.887s] copying clearpath_config/sample/w200/w200_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.887s] copying clearpath_config/sample/w200/w200_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.888s] copying clearpath_config/sample/dd150/dd150_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.888s] copying clearpath_config/sample/dd150/dd150_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.888s] copying clearpath_config/sample/dd150/dd150_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.888s] copying clearpath_config/sample/dd150/dd150_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.889s] copying clearpath_config/sample/dd100/dd100_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.889s] copying clearpath_config/sample/dd100/dd100_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.889s] copying clearpath_config/sample/dd100/dd100_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.889s] copying clearpath_config/sample/dd100/dd100_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.889s] copying clearpath_config/sample/r100/r100_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.889s] copying clearpath_config/sample/r100/r100_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.890s] copying clearpath_config/sample/r100/r100_dual_laser_hokuyo.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.890s] copying clearpath_config/sample/r100/r100_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.890s] copying clearpath_config/sample/do100/do100_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.890s] copying clearpath_config/sample/do100/do100_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.890s] copying clearpath_config/sample/do100/do100_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.891s] copying clearpath_config/sample/do100/do100_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.891s] copying clearpath_config/sample/do150/do150_dual_laser.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.891s] copying clearpath_config/sample/do150/do150_outline.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.891s] copying clearpath_config/sample/do150/do150_velodyne.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.891s] copying clearpath_config/sample/do150/do150_default.yaml -> /home/robot/debug_clear_ws/install/clearpath_config/share/clearpath_config/sample
+[2.891s] running install_egg_info
+[2.919s] Copying ../../build/clearpath_config/clearpath_config.egg-info to /home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config-0.3.3-py3.10.egg-info
+[2.920s] running install_scripts
+[3.119s] writing list of installed files to '/home/robot/debug_clear_ws/build/clearpath_config/install.log'
+[3.144s] Invoked command in '/home/robot/debug_clear_ws/src/clearpath_config' returned '0': PYTHONPATH=/home/robot/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clearpath_config build --build-base /home/robot/debug_clear_ws/build/clearpath_config/build install --record /home/robot/debug_clear_ws/build/clearpath_config/install.log --single-version-externally-managed install_data --force

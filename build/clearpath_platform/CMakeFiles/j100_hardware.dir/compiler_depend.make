@@ -259,11 +259,19 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
@@ -318,11 +326,13 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
   /opt/ros/humble/include/rcl/rcl/rcl.h \
@@ -338,9 +348,6 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rcl/rcl/node_options.h \
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/publisher.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
@@ -473,7 +480,6 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -532,6 +538,8 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -542,6 +550,8 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -594,6 +604,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -602,6 +613,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -610,6 +622,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -625,13 +638,16 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -663,26 +679,32 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -700,18 +722,21 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_cl
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp \
   /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp \
@@ -1141,12 +1166,14 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -1195,6 +1222,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -1210,6 +1238,8 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -1220,6 +1250,8 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -1272,6 +1304,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -1280,6 +1313,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -1288,6 +1322,7 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -1303,13 +1338,16 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -1342,26 +1380,32 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -1379,18 +1423,21 @@ CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robo
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp \
   /usr/include/stdc-predef.h \
@@ -1651,11 +1698,19 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rcl/rcl/time.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
@@ -1710,11 +1765,13 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
   /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+  /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h \
   /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
   /opt/ros/humble/include/rcl/rcl/rcl.h \
@@ -1730,9 +1787,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl/rcl/node_options.h \
   /opt/ros/humble/include/rcl/rcl/domain_id.h \
   /opt/ros/humble/include/rcl/rcl/publisher.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/humble/include/rcl/rcl/subscription.h \
   /opt/ros/humble/include/rcl/rcl/event_callback.h \
   /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
@@ -1865,7 +1919,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -1924,6 +1977,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -1934,6 +1989,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -1986,6 +2043,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -1994,6 +2052,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -2002,6 +2061,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -2017,13 +2077,16 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -2055,26 +2118,32 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -2092,18 +2161,21 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp \
   /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/j100/hardware_interface.hpp \
   /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
@@ -2545,12 +2617,14 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
   /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
   /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
   /opt/ros/humble/include/rmw/rmw/error_handling.h \
   /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
@@ -2599,6 +2673,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -2614,6 +2689,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -2624,6 +2701,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
   /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /usr/include/c++/11/cmath \
@@ -2676,6 +2755,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
@@ -2684,6 +2764,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
@@ -2692,6 +2773,7 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
   /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
@@ -2707,13 +2789,16 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
@@ -2746,26 +2831,32 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
   /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
   /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
   /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
@@ -2783,18 +2874,21 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp \
+  /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
 
 
 /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:
@@ -2805,23 +2899,17 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/c++/11/cstddef:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp:
-
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp:
-
 /usr/include/console_bridge_export.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__struct.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__traits.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp:
-
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp:
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -2833,6 +2921,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
@@ -2843,17 +2933,23 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
@@ -2877,6 +2973,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:
@@ -2897,11 +2995,17 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
@@ -2922,6 +3026,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
@@ -2956,6 +3062,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
@@ -3015,6 +3123,22 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+
 /usr/include/c++/11/bits/locale_conv.h:
 
 /usr/include/c++/11/cxxabi.h:
@@ -3055,10 +3179,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
@@ -3089,8 +3209,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/c++/11/sstream:
 
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp:
-
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -3110,8 +3228,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/c++/11/bits/stl_algo.h:
 
 /opt/ros/humble/include/hardware_interface/system_interface.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -3149,12 +3265,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
-
 /opt/ros/humble/include/rcl/rcl/init.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
@@ -3181,6 +3291,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
 /usr/include/c++/11/cerrno:
@@ -3199,13 +3311,13 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
-
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -3261,8 +3373,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
-
 /usr/include/console_bridge/console.h:
 
 /usr/include/c++/11/bits/localefwd.h:
@@ -3307,6 +3417,10 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
+
+/opt/ros/humble/include/rmw/rmw/time.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/c++/11/typeinfo:
@@ -3320,6 +3434,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/endian.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/c++/11/bits/std_thread.h:
 
@@ -3350,6 +3466,10 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
+
+/usr/include/features.h:
 
 /usr/include/c++/11/bits/atomic_base.h:
 
@@ -3408,6 +3528,10 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/ctime:
+
+/opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
@@ -3487,6 +3611,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp:
+
 /usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
@@ -3494,12 +3620,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/c++/11/tuple:
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
-
-/opt/ros/humble/include/rmw/rmw/visibility_control.h:
-
-/usr/include/c++/11/type_traits:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -3597,10 +3717,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/c++/11/bits/functional_hash.h:
 
-/usr/include/features.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
-
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/c++/11/bits/postypes.h:
@@ -3628,6 +3744,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/unistd.h:
 
 /usr/include/c++/11/cwchar:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
@@ -3729,15 +3847,25 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+
+/opt/ros/humble/include/rmw/rmw/visibility_control.h:
+
+/usr/include/c++/11/type_traits:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
-
-/home/robot/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
@@ -3754,6 +3882,12 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__type_support.hpp:
+
+/opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
@@ -3772,6 +3906,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
@@ -3827,6 +3963,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
 
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/types/char_array.h:
 
 /usr/include/c++/11/variant:
@@ -3871,9 +4009,13 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/feedback.hpp:
+
 /usr/include/c++/11/bits/codecvt.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__type_support.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
 
@@ -3925,6 +4067,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
@@ -3934,6 +4078,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
 
@@ -3950,6 +4096,12 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/sched.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
+
+/opt/ros/humble/include/rcl/rcl/arguments.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
 
@@ -3991,8 +4143,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
 
-/opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
 /opt/ros/humble/include/rcl/rcl/subscription.h:
 
 /opt/ros/humble/include/rcl/rcl/context.h:
@@ -4018,6 +4168,12 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
 /usr/include/c++/11/clocale:
 
@@ -4076,6 +4232,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/c++/11/atomic:
+
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/feedback__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
@@ -4141,12 +4299,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
-
-/opt/ros/humble/include/rcl/rcl/arguments.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
@@ -4154,8 +4306,6 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp:
 
@@ -4171,6 +4321,8 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
 
+/home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
@@ -4180,6 +4332,10 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /usr/include/signal.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -4234,15 +4390,3 @@ CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debu
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
-
-/opt/ros/humble/include/rmw/rmw/time.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:

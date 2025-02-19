@@ -1,0 +1,1 @@
+/home/robot/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
