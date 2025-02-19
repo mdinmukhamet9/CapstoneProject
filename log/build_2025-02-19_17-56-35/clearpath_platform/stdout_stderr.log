@@ -1,0 +1,113 @@
+[  6%] [32mBuilding CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library liba200_hardware.so[0m
+[ 80%] Built target a200_hardware
+[ 83%] [32m[1mLinking CXX shared library libw200_hardware.so[0m
+[ 83%] Built target w200_hardware
+[ 86%] [32m[1mLinking CXX shared library libpuma_hardware.so[0m
+[ 90%] [32m[1mLinking CXX shared library libj100_hardware.so[0m
+[ 90%] Built target puma_hardware
+[ 90%] Built target j100_hardware
+[ 93%] [32m[1mLinking CXX shared library libclearpath_platform_lighting.so[0m
+[ 93%] Built target clearpath_platform_lighting
+[ 96%] [32mBuilding CXX object CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lighting_node[0m
+[100%] Built target lighting_node
+-- Install configuration: ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/a200/hardware.xml
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/j100/hardware.xml
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/w200/hardware.xml
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/src/puma/hardware.xml
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/lib/liba200_hardware.so
+-- Set runtime path of "/home/robot/debug_clear_ws/install/clearpath_platform/lib/liba200_hardware.so" to ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/lib/libj100_hardware.so
+-- Set runtime path of "/home/robot/debug_clear_ws/install/clearpath_platform/lib/libj100_hardware.so" to ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/lib/libw200_hardware.so
+-- Set runtime path of "/home/robot/debug_clear_ws/install/clearpath_platform/lib/libw200_hardware.so" to ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/lib/libpuma_hardware.so
+-- Set runtime path of "/home/robot/debug_clear_ws/install/clearpath_platform/lib/libpuma_hardware.so" to ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/lib/clearpath_platform/lighting_node
+-- Set runtime path of "/home/robot/debug_clear_ws/install/clearpath_platform/lib/clearpath_platform/lighting_node" to ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/lib/libclearpath_platform_lighting.so
+-- Set runtime path of "/home/robot/debug_clear_ws/install/clearpath_platform/lib/libclearpath_platform_lighting.so" to ""
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware_interface.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/diff_drive/hardware.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/platform.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/lighting.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/color.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/lighting/sequence.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma/hardware_interface.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/puma/hardware.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware_interface.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/w200/hardware.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware_interface.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/j100/hardware.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/hardware.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/crc.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/serial.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_data.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Exception.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Transport.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_request.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Logger.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Number.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/horizon_legacy_wrapper.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/clearpath.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_cmd.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message.h
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/include/clearpath_platform/a200/status.hpp
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/config
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/config/imu_filter.yaml
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/launch
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/launch/platform.launch.py
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.sh
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/library_path.dsv
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/package_run_dependencies/clearpath_platform
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/parent_prefix_path/clearpath_platform
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.sh
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/path.sh
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/environment/path.dsv
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.bash
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.sh
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.zsh
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/local_setup.dsv
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/package.dsv
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/packages/clearpath_platform
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/clearpath_platform
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig.cmake
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/cmake/clearpath_platformConfig-version.cmake
+-- Installing: /home/robot/debug_clear_ws/install/clearpath_platform/share/clearpath_platform/package.xml

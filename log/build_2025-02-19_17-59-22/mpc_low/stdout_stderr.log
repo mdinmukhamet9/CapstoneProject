@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
+[ 33%] Built target mpc_low
+[35m[1mConsolidate compiler generated dependencies of target custom_odometry_node_sim[0m
+[35m[1mConsolidate compiler generated dependencies of target mpc_low_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.o[0m
+[ 83%] Built target mpc_low_node
+[100%] [32m[1mLinking CXX executable custom_odometry_node_sim[0m
+[100%] Built target custom_odometry_node_sim
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/libmpc_low.so
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/mpc_low_node
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/custom_odometry_node_sim
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+-- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml

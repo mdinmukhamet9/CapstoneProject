@@ -1,1 +1,1 @@
-/home/robot/debug_clear_ws/build/clearpath_platform_msgs/ament_cmake_environment_hooks/pythonpath.dsv
+prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages

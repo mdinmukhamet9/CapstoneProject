@@ -1,1 +1,4 @@
-/home/robot/debug_clear_ws/build/clearpath_platform/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/clearpath_platform
+share/clearpath_platform/src/a200/hardware.xml
+share/clearpath_platform/src/j100/hardware.xml
+share/clearpath_platform/src/w200/hardware.xml
+share/clearpath_platform/src/puma/hardware.xml

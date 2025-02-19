@@ -211,17 +211,17 @@ moveit_collision_updater/fast:
 .PHONY : moveit_collision_updater/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_clearpath_generator_common
+# Target rules for targets named ament_cmake_python_copy_clearpath_generator_common
 
 # Build rule for target.
-ament_cmake_python_symlink_clearpath_generator_common: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_clearpath_generator_common
-.PHONY : ament_cmake_python_symlink_clearpath_generator_common
+ament_cmake_python_copy_clearpath_generator_common: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_clearpath_generator_common
+.PHONY : ament_cmake_python_copy_clearpath_generator_common
 
 # fast build rule for target.
-ament_cmake_python_symlink_clearpath_generator_common/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_clearpath_generator_common.dir/build.make CMakeFiles/ament_cmake_python_symlink_clearpath_generator_common.dir/build
-.PHONY : ament_cmake_python_symlink_clearpath_generator_common/fast
+ament_cmake_python_copy_clearpath_generator_common/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_clearpath_generator_common.dir/build.make CMakeFiles/ament_cmake_python_copy_clearpath_generator_common.dir/build
+.PHONY : ament_cmake_python_copy_clearpath_generator_common/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_clearpath_generator_common_egg
@@ -274,7 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_clearpath_generator_common_egg"
-	@echo "... ament_cmake_python_symlink_clearpath_generator_common"
+	@echo "... ament_cmake_python_copy_clearpath_generator_common"
 	@echo "... clearpath_generator_common_uninstall"
 	@echo "... uninstall"
 	@echo "... moveit_collision_updater"

@@ -1,0 +1,32 @@
+[0.325s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[0.474s] [35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
+[0.476s] [ 33%] Built target mpc_low
+[0.480s] [35m[1mConsolidate compiler generated dependencies of target custom_odometry_node_sim[0m
+[0.480s] [35m[1mConsolidate compiler generated dependencies of target mpc_low_node[0m
+[0.480s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.o[0m
+[0.480s] [ 83%] Built target mpc_low_node
+[14.029s] [100%] [32m[1mLinking CXX executable custom_odometry_node_sim[0m
+[14.245s] [100%] Built target custom_odometry_node_sim
+[14.257s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[14.259s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low
+[14.266s] -- Install configuration: "Release"
+[14.267s] -- Execute custom install script
+[14.267s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/libmpc_low.so
+[14.278s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/mpc_low_node
+[14.286s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/custom_odometry_node_sim
+[14.294s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+[14.303s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+[14.311s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+[14.319s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+[14.328s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+[14.337s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+[14.346s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+[14.354s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+[14.362s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+[14.371s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+[14.379s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+[14.388s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+[14.396s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+[14.405s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+[14.413s] -- Symlinking: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml
+[14.424s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low
