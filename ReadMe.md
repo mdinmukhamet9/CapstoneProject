@@ -73,3 +73,21 @@ ros2 launch realsense2_camera rs_launch.py
 - Modify `use_3d` as needed for your application.
 - The namespace `j100_0001` should match your robot’s configuration.
 
+# topic
+ros2 topic list
+ros2 topic echo /yolo/detections
+
+
+# launch YoloV8:
+ros2 launch yolo_bringup yolo.launch.py
+# launch YoloV8 with 3d bounding boxes
+ros2 launch yolo_bringup yolov8.launch.py use_3d:=True
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom camera_0_link
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom camera_0_color_optical_frame
+
+
+
+
+
+
