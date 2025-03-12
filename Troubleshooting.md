@@ -63,3 +63,8 @@ comment out 'tests_require'
 
 # IN YOLO - change topics 
 
+# Detected jump ack in time
+
+ros daemon stop
+ros daemon start
+

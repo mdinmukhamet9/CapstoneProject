@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (-) JobUnselected: {'identifier': 'clearpath_common'}
+[0.000422] (-) JobUnselected: {'identifier': 'clearpath_config'}
+[0.000463] (-) JobUnselected: {'identifier': 'clearpath_control'}
+[0.000532] (-) JobUnselected: {'identifier': 'clearpath_customization'}
+[0.000553] (-) JobUnselected: {'identifier': 'clearpath_description'}
+[0.000572] (-) JobUnselected: {'identifier': 'clearpath_generator_common'}
+[0.000640] (-) JobUnselected: {'identifier': 'clearpath_generator_gz'}
+[0.000660] (-) JobUnselected: {'identifier': 'clearpath_gz'}
+[0.000704] (-) JobUnselected: {'identifier': 'clearpath_manipulators'}
+[0.000723] (-) JobUnselected: {'identifier': 'clearpath_manipulators_description'}
+[0.000804] (-) JobUnselected: {'identifier': 'clearpath_mounts_description'}
+[0.000823] (-) JobUnselected: {'identifier': 'clearpath_msgs'}
+[0.000840] (-) JobUnselected: {'identifier': 'clearpath_platform'}
+[0.000861] (-) JobUnselected: {'identifier': 'clearpath_platform_description'}
+[0.000879] (-) JobUnselected: {'identifier': 'clearpath_platform_msgs'}
+[0.000896] (-) JobUnselected: {'identifier': 'clearpath_sensors_description'}
+[0.000917] (-) JobUnselected: {'identifier': 'clearpath_simulator'}
+[0.000934] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.000951] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.000968] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.000987] (mpc_low) JobQueued: {'identifier': 'mpc_low', 'dependencies': OrderedDict()}
+[0.001023] (mpc_low) JobStarted: {'identifier': 'mpc_low'}
+[0.009646] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'cmake'}
+[0.011031] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'build'}
+[0.011087] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/debug_clear_ws/build/mpc_low', '--', '-j12', '-l12'], 'cwd': '/home/robot/debug_clear_ws/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/debug_clear_ws/install/yolo_msgs/lib:/home/robot/debug_clear_ws/install/clearpath_platform/lib:/home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2683'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robot/debug_clear_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3edccd9e_6eeb_42b4_9355_d95ed33a6da8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1692'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/debug_clear_ws/install/yolo_bringup:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/yolo_msgs:/home/robot/debug_clear_ws/install/mpc_low:/home/robot/debug_clear_ws/install/clearpath_simulator:/home/robot/debug_clear_ws/install/clearpath_gz:/home/robot/debug_clear_ws/install/clearpath_generator_gz:/home/robot/debug_clear_ws/install/clearpath_common:/home/robot/debug_clear_ws/install/clearpath_generator_common:/home/robot/debug_clear_ws/install/clearpath_description:/home/robot/debug_clear_ws/install/clearpath_sensors_description:/home/robot/debug_clear_ws/install/clearpath_platform:/home/robot/debug_clear_ws/install/clearpath_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_description:/home/robot/debug_clear_ws/install/clearpath_mounts_description:/home/robot/debug_clear_ws/install/clearpath_manipulators:/home/robot/debug_clear_ws/install/clearpath_manipulators_description:/home/robot/debug_clear_ws/install/clearpath_customization:/home/robot/debug_clear_ws/install/clearpath_control:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/debug_clear_ws/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages:/home/robot/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/debug_clear_ws/install/yolo_bringup:/home/robot/debug_clear_ws/install/yolo_msgs:/home/robot/debug_clear_ws/install/mpc_low:/home/robot/debug_clear_ws/install/clearpath_simulator:/home/robot/debug_clear_ws/install/clearpath_gz:/home/robot/debug_clear_ws/install/clearpath_generator_gz:/home/robot/debug_clear_ws/install/clearpath_common:/home/robot/debug_clear_ws/install/clearpath_generator_common:/home/robot/debug_clear_ws/install/clearpath_description:/home/robot/debug_clear_ws/install/clearpath_sensors_description:/home/robot/debug_clear_ws/install/clearpath_platform:/home/robot/debug_clear_ws/install/clearpath_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_description:/home/robot/debug_clear_ws/install/clearpath_mounts_description:/home/robot/debug_clear_ws/install/clearpath_manipulators:/home/robot/debug_clear_ws/install/clearpath_manipulators_description:/home/robot/debug_clear_ws/install/clearpath_customization:/home/robot/debug_clear_ws/install/clearpath_control:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble')]), 'shell': False}
+[0.036875] (mpc_low) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099424] (-) TimerEvent: {}
+[0.159065] (mpc_low) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.187951] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.190429] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.196231] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199544] (-) TimerEvent: {}
+[0.206688] (mpc_low) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.220544] (mpc_low) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.257168] (mpc_low) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.259130] (mpc_low) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299671] (-) TimerEvent: {}
+[0.372132] (mpc_low) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399764] (-) TimerEvent: {}
+[0.432917] (mpc_low) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.469056] (mpc_low) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.473123] (mpc_low) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.491765] (mpc_low) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.499870] (-) TimerEvent: {}
+[0.588024] (mpc_low) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.593816] (mpc_low) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.596050] (mpc_low) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.598712] (mpc_low) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.599965] (-) TimerEvent: {}
+[0.700173] (-) TimerEvent: {}
+[0.733269] (mpc_low) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.760362] (mpc_low) StdoutLine: {'line': b'-- Generating done\n'}
+[0.769476] (mpc_low) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/debug_clear_ws/build/mpc_low\n'}
+[0.794472] (mpc_low) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpc_solver\x1b[0m\n'}
+[0.800279] (-) TimerEvent: {}
+[0.808293] (mpc_low) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.o\x1b[0m\n'}
+[0.808582] (mpc_low) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mpc_solver.dir/solver/acados_sim_solver_Jackal.c.o\x1b[0m\n'}
+[0.808843] (mpc_low) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/mpc_solver.dir/solver/acados_solver_Jackal.c.o\x1b[0m\n'}
+[0.809480] (mpc_low) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/mpc_solver.dir/solver/main_Jackal.c.o\x1b[0m\n'}
+[0.810359] (mpc_low) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/mpc_solver.dir/solver/main_sim_Jackal.c.o\x1b[0m\n'}
+[0.900400] (-) TimerEvent: {}
+[0.910893] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/python3.10/numpy/ndarraytypes.h:1969\x1b[m\x1b[K,\n'}
+[0.911052] (mpc_low) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/python3.10/numpy/ndarrayobject.h:12\x1b[m\x1b[K,\n'}
+[0.911141] (mpc_low) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/python3.10/numpy/arrayobject.h:4\x1b[m\x1b[K,\n'}
+[0.911204] (mpc_low) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:1230\x1b[m\x1b[K:\n'}
+[0.911258] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/python3.10/numpy/npy_1_7_deprecated_api.h:17:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.911342] (mpc_low) StderrLine: {'line': b'   17 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "Using deprecated NumPy API, disable it with " \\\n'}
+[0.911409] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.982829] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_5dtype_8itemsize_itemsize\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.988888] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20296:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyDataType_ELSIZE\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyDataType_ISUNSIZED\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.989073] (mpc_low) StderrLine: {'line': b'20296 |   __pyx_r = \x1b[01;35m\x1b[KPyDataType_ELSIZE\x1b[m\x1b[K(__pyx_v_self);\n'}
+[0.989198] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.989281] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyDataType_ISUNSIZED\x1b[m\x1b[K\n'}
+[0.997111] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_5dtype_9alignment_alignment\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.997252] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20330:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyDataType_ALIGNMENT\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyDataType_ISSIGNED\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.997389] (mpc_low) StderrLine: {'line': b'20330 |   __pyx_r = \x1b[01;35m\x1b[KPyDataType_ALIGNMENT\x1b[m\x1b[K(__pyx_v_self);\n'}
+[0.997477] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.997560] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyDataType_ISSIGNED\x1b[m\x1b[K\n'}
+[1.000522] (-) TimerEvent: {}
+[1.003716] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_5dtype_6fields_fields\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.003939] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20368:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyDataType_FIELDS\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyDataType_HASFIELDS\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.004006] (mpc_low) StderrLine: {'line': b'20368 |   __pyx_t_1 = \x1b[01;35m\x1b[KPyDataType_FIELDS\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.004061] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.004128] (mpc_low) StderrLine: {'line': b'      |               \x1b[32m\x1b[KPyDataType_HASFIELDS\x1b[m\x1b[K\n'}
+[1.004181] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20368:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kassignment to \xe2\x80\x98\x1b[01m\x1b[KPyObject *\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct _object *\x1b[m\x1b[K\xe2\x80\x99} from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 makes pointer from integer without a cast [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion\x07-Wint-conversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.004235] (mpc_low) StderrLine: {'line': b'20368 |   __pyx_t_1 \x1b[01;35m\x1b[K=\x1b[m\x1b[K PyDataType_FIELDS(__pyx_v_self);\n'}
+[1.004316] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.010940] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_5dtype_5names_names\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.011217] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20410:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyDataType_NAMES\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyDataType_ISNUMBER\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.011336] (mpc_low) StderrLine: {'line': b'20410 |   __pyx_t_1 = \x1b[01;35m\x1b[KPyDataType_NAMES\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.011395] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.011451] (mpc_low) StderrLine: {'line': b'      |               \x1b[32m\x1b[KPyDataType_ISNUMBER\x1b[m\x1b[K\n'}
+[1.011505] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20410:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kassignment to \xe2\x80\x98\x1b[01m\x1b[KPyObject *\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct _object *\x1b[m\x1b[K\xe2\x80\x99} from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 makes pointer from integer without a cast [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion\x07-Wint-conversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.011562] (mpc_low) StderrLine: {'line': b'20410 |   __pyx_t_1 \x1b[01;35m\x1b[K=\x1b[m\x1b[K PyDataType_NAMES(__pyx_v_self);\n'}
+[1.011617] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.018113] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_5dtype_8subarray_subarray\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.018290] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20448:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyDataType_SUBARRAY\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyDataType_HASSUBARRAY\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.018461] (mpc_low) StderrLine: {'line': b'20448 |   __pyx_r = \x1b[01;35m\x1b[KPyDataType_SUBARRAY\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.018624] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.018753] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyDataType_HASSUBARRAY\x1b[m\x1b[K\n'}
+[1.018876] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20448:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kassignment to \xe2\x80\x98\x1b[01m\x1b[KPyArray_ArrayDescr *\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct _arr_descr *\x1b[m\x1b[K\xe2\x80\x99} from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 makes pointer from integer without a cast [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion\x07-Wint-conversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.019004] (mpc_low) StderrLine: {'line': b'20448 |   __pyx_r \x1b[01;35m\x1b[K=\x1b[m\x1b[K PyDataType_SUBARRAY(__pyx_v_self);\n'}
+[1.019141] (mpc_low) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.024476] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_5dtype_5flags_flags\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.024716] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20482:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyDataType_FLAGS\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyDataType_FLAGCHK\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.024831] (mpc_low) StderrLine: {'line': b'20482 |   __pyx_r = \x1b[01;35m\x1b[KPyDataType_FLAGS\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.024934] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.025044] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyDataType_FLAGCHK\x1b[m\x1b[K\n'}
+[1.032476] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_9broadcast_7numiter_numiter\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.032707] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20516:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_NUMITER\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_NEXTi\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.032822] (mpc_low) StderrLine: {'line': b'20516 |   __pyx_r = \x1b[01;35m\x1b[KPyArray_MultiIter_NUMITER\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.032929] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.033024] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyArray_MultiIter_NEXTi\x1b[m\x1b[K\n'}
+[1.040840] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_9broadcast_4size_size\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.041138] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20550:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_SIZE\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_DATA\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.041268] (mpc_low) StderrLine: {'line': b'20550 |   __pyx_r = \x1b[01;35m\x1b[KPyArray_MultiIter_SIZE\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.041441] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.041578] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyArray_MultiIter_DATA\x1b[m\x1b[K\n'}
+[1.047802] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_9broadcast_5index_index\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.048060] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20584:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_INDEX\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_NEXT\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.048191] (mpc_low) StderrLine: {'line': b'20584 |   __pyx_r = \x1b[01;35m\x1b[KPyArray_MultiIter_INDEX\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.048314] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.048440] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyArray_MultiIter_NEXT\x1b[m\x1b[K\n'}
+[1.055320] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_9broadcast_2nd_nd\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.055583] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20618:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_NDIM\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_NEXT\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.055706] (mpc_low) StderrLine: {'line': b'20618 |   __pyx_r = \x1b[01;35m\x1b[KPyArray_MultiIter_NDIM\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.055820] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.055933] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyArray_MultiIter_NEXT\x1b[m\x1b[K\n'}
+[1.061452] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_9broadcast_10dimensions_dimensions\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.061733] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20652:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_DIMS\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_DATA\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.061870] (mpc_low) StderrLine: {'line': b'20652 |   __pyx_r = \x1b[01;35m\x1b[KPyArray_MultiIter_DIMS\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.061976] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.062079] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyArray_MultiIter_DATA\x1b[m\x1b[K\n'}
+[1.062195] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20652:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kassignment to \xe2\x80\x98\x1b[01m\x1b[Knpy_intp *\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int *\x1b[m\x1b[K\xe2\x80\x99} from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 makes pointer from integer without a cast [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion\x07-Wint-conversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.062338] (mpc_low) StderrLine: {'line': b'20652 |   __pyx_r \x1b[01;35m\x1b[K=\x1b[m\x1b[K PyArray_MultiIter_DIMS(__pyx_v_self);\n'}
+[1.062474] (mpc_low) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.069201] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K__pyx_f_5numpy_9broadcast_5iters_iters\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.069508] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20686:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_ITERS\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPyArray_MultiIter_NEXT\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.069643] (mpc_low) StderrLine: {'line': b'20686 |   __pyx_r = \x1b[01;35m\x1b[KPyArray_MultiIter_ITERS\x1b[m\x1b[K(__pyx_v_self);\n'}
+[1.069769] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.069892] (mpc_low) StderrLine: {'line': b'      |             \x1b[32m\x1b[KPyArray_MultiIter_NEXT\x1b[m\x1b[K\n'}
+[1.070015] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20686:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kassignment to \xe2\x80\x98\x1b[01m\x1b[Kvoid **\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 makes pointer from integer without a cast [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion\x07-Wint-conversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.070155] (mpc_low) StderrLine: {'line': b'20686 |   __pyx_r \x1b[01;35m\x1b[K=\x1b[m\x1b[K PyArray_MultiIter_ITERS(__pyx_v_self);\n'}
+[1.070313] (mpc_low) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.100625] (-) TimerEvent: {}
+[1.200945] (-) TimerEvent: {}
+[1.301200] (-) TimerEvent: {}
+[1.401479] (-) TimerEvent: {}
+[1.501774] (-) TimerEvent: {}
+[1.602053] (-) TimerEvent: {}
+[1.702307] (-) TimerEvent: {}
+[1.802584] (-) TimerEvent: {}
+[1.902857] (-) TimerEvent: {}
+[2.003141] (-) TimerEvent: {}
+[2.103406] (-) TimerEvent: {}
+[2.203674] (-) TimerEvent: {}
+[2.303950] (-) TimerEvent: {}
+[2.404185] (-) TimerEvent: {}
+[2.504442] (-) TimerEvent: {}
+[2.604694] (-) TimerEvent: {}
+[2.704962] (-) TimerEvent: {}
+[2.805184] (-) TimerEvent: {}
+[2.905449] (-) TimerEvent: {}
+[3.005716] (-) TimerEvent: {}
+[3.105987] (-) TimerEvent: {}
+[3.206247] (-) TimerEvent: {}
+[3.306529] (-) TimerEvent: {}
+[3.406829] (-) TimerEvent: {}
+[3.507130] (-) TimerEvent: {}
+[3.607397] (-) TimerEvent: {}
+[3.707671] (-) TimerEvent: {}
+[3.807968] (-) TimerEvent: {}
+[3.908292] (-) TimerEvent: {}
+[4.008615] (-) TimerEvent: {}
+[4.108944] (-) TimerEvent: {}
+[4.209242] (-) TimerEvent: {}
+[4.309539] (-) TimerEvent: {}
+[4.409825] (-) TimerEvent: {}
+[4.510112] (-) TimerEvent: {}
+[4.610346] (-) TimerEvent: {}
+[4.710621] (-) TimerEvent: {}
+[4.810888] (-) TimerEvent: {}
+[4.911171] (-) TimerEvent: {}
+[5.011454] (-) TimerEvent: {}
+[5.111731] (-) TimerEvent: {}
+[5.211982] (-) TimerEvent: {}
+[5.312264] (-) TimerEvent: {}
+[5.412537] (-) TimerEvent: {}
+[5.512813] (-) TimerEvent: {}
+[5.613113] (-) TimerEvent: {}
+[5.713389] (-) TimerEvent: {}
+[5.813669] (-) TimerEvent: {}
+[5.913950] (-) TimerEvent: {}
+[6.014188] (-) TimerEvent: {}
+[6.114450] (-) TimerEvent: {}
+[6.214737] (-) TimerEvent: {}
+[6.315012] (-) TimerEvent: {}
+[6.415270] (-) TimerEvent: {}
+[6.515539] (-) TimerEvent: {}
+[6.615813] (-) TimerEvent: {}
+[6.716090] (-) TimerEvent: {}
+[6.816345] (-) TimerEvent: {}
+[6.916629] (-) TimerEvent: {}
+[7.016902] (-) TimerEvent: {}
+[7.117175] (-) TimerEvent: {}
+[7.217459] (-) TimerEvent: {}
+[7.317743] (-) TimerEvent: {}
+[7.418013] (-) TimerEvent: {}
+[7.518283] (-) TimerEvent: {}
+[7.618570] (-) TimerEvent: {}
+[7.718887] (-) TimerEvent: {}
+[7.819140] (-) TimerEvent: {}
+[7.919424] (-) TimerEvent: {}
+[8.019708] (-) TimerEvent: {}
+[8.120013] (-) TimerEvent: {}
+[8.220264] (-) TimerEvent: {}
+[8.320576] (-) TimerEvent: {}
+[8.420837] (-) TimerEvent: {}
+[8.521112] (-) TimerEvent: {}
+[8.621379] (-) TimerEvent: {}
+[8.721649] (-) TimerEvent: {}
+[8.821888] (-) TimerEvent: {}
+[8.922161] (-) TimerEvent: {}
+[9.022431] (-) TimerEvent: {}
+[9.122712] (-) TimerEvent: {}
+[9.222989] (-) TimerEvent: {}
+[9.323275] (-) TimerEvent: {}
+[9.423528] (-) TimerEvent: {}
+[9.523842] (-) TimerEvent: {}
+[9.624136] (-) TimerEvent: {}
+[9.724370] (-) TimerEvent: {}
+[9.824644] (-) TimerEvent: {}
+[9.924921] (-) TimerEvent: {}
+[10.025182] (-) TimerEvent: {}
+[10.125457] (-) TimerEvent: {}
+[10.225737] (-) TimerEvent: {}
+[10.326016] (-) TimerEvent: {}
+[10.426271] (-) TimerEvent: {}
+[10.526552] (-) TimerEvent: {}
+[10.626829] (-) TimerEvent: {}
+[10.727117] (-) TimerEvent: {}
+[10.827401] (-) TimerEvent: {}
+[10.927673] (-) TimerEvent: {}
+[11.027956] (-) TimerEvent: {}
+[11.128184] (-) TimerEvent: {}
+[11.228444] (-) TimerEvent: {}
+[11.328698] (-) TimerEvent: {}
+[11.428969] (-) TimerEvent: {}
+[11.500088] (mpc_low) StdoutLine: {'line': b'[ 45%] Built target mpc_solver\n'}
+[11.518399] (mpc_low) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o\x1b[0m\n'}
+[11.529107] (-) TimerEvent: {}
+[11.629358] (-) TimerEvent: {}
+[11.706285] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:19\x1b[m\x1b[K:\n'}
+[11.706426] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kacados_solver_holder.hpp: No such file or directory\n'}
+[11.706502] (mpc_low) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"acados_solver_holder.hpp"\x1b[m\x1b[K\n'}
+[11.706558] (mpc_low) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.706612] (mpc_low) StderrLine: {'line': b'compilation terminated.\n'}
+[11.709488] (mpc_low) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1\n'}
+[11.709715] (mpc_low) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/mpc_low.dir/all] Error 2\n'}
+[11.709906] (mpc_low) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.712076] (mpc_low) CommandEnded: {'returncode': 2}
+[11.719753] (mpc_low) JobEnded: {'identifier': 'mpc_low', 'rc': 2}
+[11.729459] (-) TimerEvent: {}
+[11.730242] (-) EventReactorShutdown: {}

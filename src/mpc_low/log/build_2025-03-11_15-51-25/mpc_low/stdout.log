@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libmpc_low.so[0m
+[ 33%] Built target mpc_low
+[ 66%] [32mBuilding CXX object CMakeFiles/mpc_low_node.dir/src/low_solver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable custom_odometry_node_sim[0m
+[ 83%] Built target custom_odometry_node_sim
+[100%] [32m[1mLinking CXX executable mpc_low_node[0m
+[100%] Built target mpc_low_node
+-- Install configuration: "Release"
+-- Installing: /home/robot/mpc_low/install/mpc_low/lib/mpc_low/libmpc_low.so
+-- Set runtime path of "/home/robot/mpc_low/install/mpc_low/lib/mpc_low/libmpc_low.so" to ""
+-- Installing: /home/robot/mpc_low/install/mpc_low/lib/mpc_low/mpc_low_node
+-- Set runtime path of "/home/robot/mpc_low/install/mpc_low/lib/mpc_low/mpc_low_node" to ""
+-- Installing: /home/robot/mpc_low/install/mpc_low/lib/mpc_low/custom_odometry_node_sim
+-- Set runtime path of "/home/robot/mpc_low/install/mpc_low/lib/mpc_low/custom_odometry_node_sim" to ""
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/path.sh
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/path.dsv
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.bash
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.sh
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.zsh
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.dsv
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/package.dsv
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+-- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/package.xml

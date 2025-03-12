@@ -1,0 +1,38 @@
+In file included from [01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:20[m[K:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:19:7:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*)[m[K’
+   19 |   int [01;31m[Kmy_NMPC_solver[m[K::solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], double tracking_goal[30], double results[8], double trajectory[33]) {
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:1[m[K,
+                 from [01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:20[m[K:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:61:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*, double*)[m[K’
+   61 |     int [01;36m[Ksolve_my_mpc[m[K(double current_joint_position[7], double current_human_position[56], double current_joint_goal[7], double tracking_goal[70], double cgoal[3], double results[18], double my_weights[11]);
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:54:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass my_NMPC_solver[m[K’ defined here
+   54 | class [01;36m[Kmy_NMPC_solver[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:339:32:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  339 |     my_NMPC_solver myMpcSolver([01;31m[K5[m[K);
+      |                                [01;31m[K^[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:339:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:[m[K In constructor ‘[01m[KGoalFollower::GoalFollower()[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:26:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KGoalFollower[m[K’ does not have any field named ‘[01m[KmyMpcSolver[m[K’
+   26 |         : Node("goal_follower"), [01;31m[KmyMpcSolver[m[K(5)
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:[m[K In member function ‘[01m[Kvoid GoalFollower::amcl_pose_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:170:33:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  170 |         current_pose_[2] = tf2::[01;31m[KgetYaw[m[K(q);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:[m[K In member function ‘[01m[Kvoid GoalFollower::process_mpc_solution()[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:223:28:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmy_NMPC_solver GoalFollower::myMpcSolver(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  223 |         const int status = [01;31m[KmyMpcSolver[m[K.solve_my_mpc(
+      |                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:[m[K In member function ‘[01m[Kvoid GoalFollower::handle_solver_status(int)[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:261:13:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmy_NMPC_solver GoalFollower::myMpcSolver(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  261 |             [01;31m[KmyMpcSolver[m[K.reset_solver();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:262:13:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmy_NMPC_solver GoalFollower::myMpcSolver(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  262 |             [01;31m[KmyMpcSolver[m[K = my_NMPC_solver(mpc_horizon_);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/mpc_low.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

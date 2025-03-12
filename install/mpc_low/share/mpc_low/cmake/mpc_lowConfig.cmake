@@ -1,1 +1,0 @@
-/home/robot/debug_clear_ws/build/mpc_low/ament_cmake_core/mpc_lowConfig.cmake

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robot/debug_clear_ws/build/mpc_low/libmpc_low.so" "/home/robot/debug_clear_ws/build/mpc_low/mpc_low_node" "/home/robot/debug_clear_ws/build/mpc_low/custom_odometry_node_sim" "TARGETS" "mpc_low" "mpc_low_node" "custom_odometry_node_sim" "DESTINATION" "lib/mpc_low")

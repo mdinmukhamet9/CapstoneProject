@@ -86,6 +86,11 @@ ros2 launch yolo_bringup yolov8.launch.py use_3d:=True
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom camera_0_link
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom camera_0_color_optical_frame
 
+# detected jump back in time
+
+ros2 daemon stop
+ros2 daemon start
+
 
 
 

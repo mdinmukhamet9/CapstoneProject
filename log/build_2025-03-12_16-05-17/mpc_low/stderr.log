@@ -1,0 +1,90 @@
+In file included from [01m[K/usr/include/python3.10/numpy/ndarraytypes.h:1969[m[K,
+                 from [01m[K/usr/include/python3.10/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/include/python3.10/numpy/arrayobject.h:4[m[K,
+                 from [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:1230[m[K:
+[01m[K/usr/include/python3.10/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_5dtype_8itemsize_itemsize[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20296:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyDataType_ELSIZE[m[K’; did you mean ‘[01m[KPyDataType_ISUNSIZED[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20296 |   __pyx_r = [01;35m[KPyDataType_ELSIZE[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyDataType_ISUNSIZED[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_5dtype_9alignment_alignment[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20330:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyDataType_ALIGNMENT[m[K’; did you mean ‘[01m[KPyDataType_ISSIGNED[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20330 |   __pyx_r = [01;35m[KPyDataType_ALIGNMENT[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyDataType_ISSIGNED[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_5dtype_6fields_fields[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20368:15:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyDataType_FIELDS[m[K’; did you mean ‘[01m[KPyDataType_HASFIELDS[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20368 |   __pyx_t_1 = [01;35m[KPyDataType_FIELDS[m[K(__pyx_v_self);
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+      |               [32m[KPyDataType_HASFIELDS[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20368:13:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[KPyObject *[m[K’ {aka ‘[01m[Kstruct _object *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+20368 |   __pyx_t_1 [01;35m[K=[m[K PyDataType_FIELDS(__pyx_v_self);
+      |             [01;35m[K^[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_5dtype_5names_names[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20410:15:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyDataType_NAMES[m[K’; did you mean ‘[01m[KPyDataType_ISNUMBER[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20410 |   __pyx_t_1 = [01;35m[KPyDataType_NAMES[m[K(__pyx_v_self);
+      |               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+      |               [32m[KPyDataType_ISNUMBER[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20410:13:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[KPyObject *[m[K’ {aka ‘[01m[Kstruct _object *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+20410 |   __pyx_t_1 [01;35m[K=[m[K PyDataType_NAMES(__pyx_v_self);
+      |             [01;35m[K^[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_5dtype_8subarray_subarray[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20448:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyDataType_SUBARRAY[m[K’; did you mean ‘[01m[KPyDataType_HASSUBARRAY[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20448 |   __pyx_r = [01;35m[KPyDataType_SUBARRAY[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyDataType_HASSUBARRAY[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20448:11:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[KPyArray_ArrayDescr *[m[K’ {aka ‘[01m[Kstruct _arr_descr *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+20448 |   __pyx_r [01;35m[K=[m[K PyDataType_SUBARRAY(__pyx_v_self);
+      |           [01;35m[K^[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_5dtype_5flags_flags[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20482:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyDataType_FLAGS[m[K’; did you mean ‘[01m[KPyDataType_FLAGCHK[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20482 |   __pyx_r = [01;35m[KPyDataType_FLAGS[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyDataType_FLAGCHK[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_9broadcast_7numiter_numiter[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20516:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyArray_MultiIter_NUMITER[m[K’; did you mean ‘[01m[KPyArray_MultiIter_NEXTi[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20516 |   __pyx_r = [01;35m[KPyArray_MultiIter_NUMITER[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyArray_MultiIter_NEXTi[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_9broadcast_4size_size[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20550:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyArray_MultiIter_SIZE[m[K’; did you mean ‘[01m[KPyArray_MultiIter_DATA[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20550 |   __pyx_r = [01;35m[KPyArray_MultiIter_SIZE[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyArray_MultiIter_DATA[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_9broadcast_5index_index[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20584:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyArray_MultiIter_INDEX[m[K’; did you mean ‘[01m[KPyArray_MultiIter_NEXT[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20584 |   __pyx_r = [01;35m[KPyArray_MultiIter_INDEX[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyArray_MultiIter_NEXT[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_9broadcast_2nd_nd[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20618:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyArray_MultiIter_NDIM[m[K’; did you mean ‘[01m[KPyArray_MultiIter_NEXT[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20618 |   __pyx_r = [01;35m[KPyArray_MultiIter_NDIM[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyArray_MultiIter_NEXT[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_9broadcast_10dimensions_dimensions[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20652:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyArray_MultiIter_DIMS[m[K’; did you mean ‘[01m[KPyArray_MultiIter_DATA[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20652 |   __pyx_r = [01;35m[KPyArray_MultiIter_DIMS[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyArray_MultiIter_DATA[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20652:11:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Knpy_intp *[m[K’ {aka ‘[01m[Klong int *[m[K’} from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+20652 |   __pyx_r [01;35m[K=[m[K PyArray_MultiIter_DIMS(__pyx_v_self);
+      |           [01;35m[K^[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:[m[K In function ‘[01m[K__pyx_f_5numpy_9broadcast_5iters_iters[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20686:13:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[KPyArray_MultiIter_ITERS[m[K’; did you mean ‘[01m[KPyArray_MultiIter_NEXT[m[K’? [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+20686 |   __pyx_r = [01;35m[KPyArray_MultiIter_ITERS[m[K(__pyx_v_self);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KPyArray_MultiIter_NEXT[m[K
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:20686:11:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kvoid **[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+20686 |   __pyx_r [01;35m[K=[m[K PyArray_MultiIter_ITERS(__pyx_v_self);
+      |           [01;35m[K^[m[K
+In file included from [01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:19[m[K:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kacados_solver_holder.hpp: No such file or directory
+    1 | #include [01;31m[K"acados_solver_holder.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/mpc_low.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

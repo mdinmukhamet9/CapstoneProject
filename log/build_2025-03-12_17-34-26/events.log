@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (-) JobUnselected: {'identifier': 'clearpath_common'}
+[0.000137] (-) JobUnselected: {'identifier': 'clearpath_config'}
+[0.000156] (-) JobUnselected: {'identifier': 'clearpath_control'}
+[0.000288] (-) JobUnselected: {'identifier': 'clearpath_customization'}
+[0.000306] (-) JobUnselected: {'identifier': 'clearpath_description'}
+[0.000328] (-) JobUnselected: {'identifier': 'clearpath_generator_common'}
+[0.000480] (-) JobUnselected: {'identifier': 'clearpath_generator_gz'}
+[0.000497] (-) JobUnselected: {'identifier': 'clearpath_gz'}
+[0.000512] (-) JobUnselected: {'identifier': 'clearpath_manipulators'}
+[0.000527] (-) JobUnselected: {'identifier': 'clearpath_manipulators_description'}
+[0.000542] (-) JobUnselected: {'identifier': 'clearpath_mounts_description'}
+[0.000556] (-) JobUnselected: {'identifier': 'clearpath_msgs'}
+[0.000571] (-) JobUnselected: {'identifier': 'clearpath_platform'}
+[0.000585] (-) JobUnselected: {'identifier': 'clearpath_platform_description'}
+[0.000599] (-) JobUnselected: {'identifier': 'clearpath_platform_msgs'}
+[0.000614] (-) JobUnselected: {'identifier': 'clearpath_sensors_description'}
+[0.000628] (-) JobUnselected: {'identifier': 'clearpath_simulator'}
+[0.000642] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.000657] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.000672] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.000688] (mpc_low) JobQueued: {'identifier': 'mpc_low', 'dependencies': OrderedDict()}
+[0.000707] (mpc_low) JobStarted: {'identifier': 'mpc_low'}
+[0.008274] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'cmake'}
+[0.009331] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'build'}
+[0.009479] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/debug_clear_ws/build/mpc_low', '--', '-j12', '-l12'], 'cwd': '/home/robot/debug_clear_ws/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/debug_clear_ws/install/yolo_msgs/lib:/home/robot/debug_clear_ws/install/clearpath_platform/lib:/home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '2683'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robot/debug_clear_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3edccd9e_6eeb_42b4_9355_d95ed33a6da8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1692'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/debug_clear_ws/install/yolo_bringup:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/yolo_msgs:/home/robot/debug_clear_ws/install/mpc_low:/home/robot/debug_clear_ws/install/clearpath_simulator:/home/robot/debug_clear_ws/install/clearpath_gz:/home/robot/debug_clear_ws/install/clearpath_generator_gz:/home/robot/debug_clear_ws/install/clearpath_common:/home/robot/debug_clear_ws/install/clearpath_generator_common:/home/robot/debug_clear_ws/install/clearpath_description:/home/robot/debug_clear_ws/install/clearpath_sensors_description:/home/robot/debug_clear_ws/install/clearpath_platform:/home/robot/debug_clear_ws/install/clearpath_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_description:/home/robot/debug_clear_ws/install/clearpath_mounts_description:/home/robot/debug_clear_ws/install/clearpath_manipulators:/home/robot/debug_clear_ws/install/clearpath_manipulators_description:/home/robot/debug_clear_ws/install/clearpath_customization:/home/robot/debug_clear_ws/install/clearpath_control:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/debug_clear_ws/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages:/home/robot/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_generator_gz/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_platform_msgs/local/lib/python3.10/dist-packages:/home/robot/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/debug_clear_ws/install/yolo_bringup:/home/robot/debug_clear_ws/install/yolo_msgs:/home/robot/debug_clear_ws/install/mpc_low:/home/robot/debug_clear_ws/install/clearpath_simulator:/home/robot/debug_clear_ws/install/clearpath_gz:/home/robot/debug_clear_ws/install/clearpath_generator_gz:/home/robot/debug_clear_ws/install/clearpath_common:/home/robot/debug_clear_ws/install/clearpath_generator_common:/home/robot/debug_clear_ws/install/clearpath_description:/home/robot/debug_clear_ws/install/clearpath_sensors_description:/home/robot/debug_clear_ws/install/clearpath_platform:/home/robot/debug_clear_ws/install/clearpath_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_msgs:/home/robot/debug_clear_ws/install/clearpath_platform_description:/home/robot/debug_clear_ws/install/clearpath_mounts_description:/home/robot/debug_clear_ws/install/clearpath_manipulators:/home/robot/debug_clear_ws/install/clearpath_manipulators_description:/home/robot/debug_clear_ws/install/clearpath_customization:/home/robot/debug_clear_ws/install/clearpath_control:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble')]), 'shell': False}
+[0.062509] (mpc_low) StdoutLine: {'line': b'[ 45%] Built target mpc_solver\n'}
+[0.075971] (mpc_low) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpc_low\x1b[0m\n'}
+[0.098479] (mpc_low) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o\x1b[0m\n'}
+[0.099365] (-) TimerEvent: {}
+[0.199585] (-) TimerEvent: {}
+[0.299808] (-) TimerEvent: {}
+[0.400099] (-) TimerEvent: {}
+[0.500403] (-) TimerEvent: {}
+[0.600733] (-) TimerEvent: {}
+[0.700997] (-) TimerEvent: {}
+[0.801286] (-) TimerEvent: {}
+[0.901568] (-) TimerEvent: {}
+[1.001858] (-) TimerEvent: {}
+[1.102146] (-) TimerEvent: {}
+[1.202440] (-) TimerEvent: {}
+[1.302730] (-) TimerEvent: {}
+[1.403108] (-) TimerEvent: {}
+[1.503431] (-) TimerEvent: {}
+[1.603718] (-) TimerEvent: {}
+[1.703975] (-) TimerEvent: {}
+[1.804258] (-) TimerEvent: {}
+[1.904548] (-) TimerEvent: {}
+[2.004848] (-) TimerEvent: {}
+[2.105143] (-) TimerEvent: {}
+[2.205437] (-) TimerEvent: {}
+[2.305721] (-) TimerEvent: {}
+[2.405979] (-) TimerEvent: {}
+[2.506261] (-) TimerEvent: {}
+[2.606545] (-) TimerEvent: {}
+[2.706870] (-) TimerEvent: {}
+[2.764081] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:20\x1b[m\x1b[K:\n'}
+[2.764269] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:19:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.764366] (mpc_low) StderrLine: {'line': b'   19 |   int \x1b[01;31m\x1b[Kmy_NMPC_solver\x1b[m\x1b[K::solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], double tracking_goal[30], double results[8], double trajectory[33]) {\n'}
+[2.764452] (mpc_low) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.764533] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:1\x1b[m\x1b[K,\n'}
+[2.764614] (mpc_low) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:20\x1b[m\x1b[K:\n'}
+[2.764695] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:61:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.764789] (mpc_low) StderrLine: {'line': b'   61 |     int \x1b[01;36m\x1b[Ksolve_my_mpc\x1b[m\x1b[K(double current_joint_position[7], double current_human_position[56], double current_joint_goal[7], double tracking_goal[70], double cgoal[3], double results[18], double my_weights[11]);\n'}
+[2.764877] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.764971] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:54:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass my_NMPC_solver\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.765053] (mpc_low) StderrLine: {'line': b'   54 | class \x1b[01;36m\x1b[Kmy_NMPC_solver\x1b[m\x1b[K {\n'}
+[2.765131] (mpc_low) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.806960] (-) TimerEvent: {}
+[2.907246] (-) TimerEvent: {}
+[3.007569] (-) TimerEvent: {}
+[3.107895] (-) TimerEvent: {}
+[3.208184] (-) TimerEvent: {}
+[3.232818] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GoalFollower::amcl_pose_callback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.233004] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:170:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetYaw\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.233097] (mpc_low) StderrLine: {'line': b'  170 |         current_pose_[2] = tf2::\x1b[01;31m\x1b[KgetYaw\x1b[m\x1b[K(q);\n'}
+[3.233181] (mpc_low) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.237274] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GoalFollower::process_mpc_solution()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.237462] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:223:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmy_NMPC_solver::solve_my_mpc(std::array<double, 3>::pointer, std::array<double, 520>::pointer, std::array<double, 3>::pointer, std::array<double, 30>::pointer, double [8], double [33])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.237575] (mpc_low) StderrLine: {'line': b'  223 |         const int status = \x1b[01;31m\x1b[KmyMpcSolver.solve_my_mpc(\x1b[m\x1b[K\n'}
+[3.237672] (mpc_low) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.237776] (mpc_low) StderrLine: {'line': b'  224 | \x1b[01;31m\x1b[K            current_robot_position.data(),\x1b[m\x1b[K\n'}
+[3.237883] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K          \n'}
+[3.237978] (mpc_low) StderrLine: {'line': b'  225 | \x1b[01;31m\x1b[K            transformed_costmap.data(),\x1b[m\x1b[K\n'}
+[3.238073] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[3.238165] (mpc_low) StderrLine: {'line': b'  226 | \x1b[01;31m\x1b[K            current_robot_goal.data(),\x1b[m\x1b[K\n'}
+[3.238257] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K              \n'}
+[3.238349] (mpc_low) StderrLine: {'line': b'  227 | \x1b[01;31m\x1b[K            tracking_goal.data(),\x1b[m\x1b[K\n'}
+[3.238442] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                   \n'}
+[3.238535] (mpc_low) StderrLine: {'line': b'  228 | \x1b[01;31m\x1b[K            result,\x1b[m\x1b[K\n'}
+[3.238642] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~\x1b[m\x1b[K                                 \n'}
+[3.238736] (mpc_low) StderrLine: {'line': b'  229 | \x1b[01;31m\x1b[K            trajectory\x1b[m\x1b[K\n'}
+[3.238843] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                              \n'}
+[3.238937] (mpc_low) StderrLine: {'line': b'  230 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[3.239029] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                           \n'}
+[3.239130] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:1\x1b[m\x1b[K,\n'}
+[3.239224] (mpc_low) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:20\x1b[m\x1b[K:\n'}
+[3.239325] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:61:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.239437] (mpc_low) StderrLine: {'line': b'   61 |     int \x1b[01;36m\x1b[Ksolve_my_mpc\x1b[m\x1b[K(double current_joint_position[7], double current_human_position[56], double current_joint_goal[7], double tracking_goal[70], double cgoal[3], double results[18], double my_weights[11]);\n'}
+[3.239534] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.239627] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:61:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 6 provided\n'}
+[3.308308] (-) TimerEvent: {}
+[3.408569] (-) TimerEvent: {}
+[3.508851] (-) TimerEvent: {}
+[3.609132] (-) TimerEvent: {}
+[3.709432] (-) TimerEvent: {}
+[3.809773] (-) TimerEvent: {}
+[3.910059] (-) TimerEvent: {}
+[4.010342] (-) TimerEvent: {}
+[4.110629] (-) TimerEvent: {}
+[4.210925] (-) TimerEvent: {}
+[4.311190] (-) TimerEvent: {}
+[4.411475] (-) TimerEvent: {}
+[4.511764] (-) TimerEvent: {}
+[4.612051] (-) TimerEvent: {}
+[4.712333] (-) TimerEvent: {}
+[4.812616] (-) TimerEvent: {}
+[4.912843] (-) TimerEvent: {}
+[5.013136] (-) TimerEvent: {}
+[5.113413] (-) TimerEvent: {}
+[5.213699] (-) TimerEvent: {}
+[5.313999] (-) TimerEvent: {}
+[5.414280] (-) TimerEvent: {}
+[5.514605] (-) TimerEvent: {}
+[5.614923] (-) TimerEvent: {}
+[5.715206] (-) TimerEvent: {}
+[5.815511] (-) TimerEvent: {}
+[5.915819] (-) TimerEvent: {}
+[6.016109] (-) TimerEvent: {}
+[6.116419] (-) TimerEvent: {}
+[6.216723] (-) TimerEvent: {}
+[6.317016] (-) TimerEvent: {}
+[6.417299] (-) TimerEvent: {}
+[6.517587] (-) TimerEvent: {}
+[6.617839] (-) TimerEvent: {}
+[6.718127] (-) TimerEvent: {}
+[6.818413] (-) TimerEvent: {}
+[6.918700] (-) TimerEvent: {}
+[7.018963] (-) TimerEvent: {}
+[7.119253] (-) TimerEvent: {}
+[7.219549] (-) TimerEvent: {}
+[7.319865] (-) TimerEvent: {}
+[7.420152] (-) TimerEvent: {}
+[7.520446] (-) TimerEvent: {}
+[7.620864] (-) TimerEvent: {}
+[7.721110] (-) TimerEvent: {}
+[7.821371] (-) TimerEvent: {}
+[7.921632] (-) TimerEvent: {}
+[8.021901] (-) TimerEvent: {}
+[8.122169] (-) TimerEvent: {}
+[8.222450] (-) TimerEvent: {}
+[8.319146] (mpc_low) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1\n'}
+[8.319426] (mpc_low) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/mpc_low.dir/all] Error 2\n'}
+[8.319557] (mpc_low) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.321699] (mpc_low) CommandEnded: {'returncode': 2}
+[8.322664] (-) TimerEvent: {}
+[8.329849] (mpc_low) JobEnded: {'identifier': 'mpc_low', 'rc': 2}
+[8.340380] (-) EventReactorShutdown: {}

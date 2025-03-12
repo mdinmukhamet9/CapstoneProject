@@ -28,7 +28,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -392,7 +392,7 @@ mpc_low_BINARY_DIR:STATIC=/home/robot/debug_clear_ws/build/mpc_low
 mpc_low_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-mpc_low_LIB_DEPENDS:STATIC=general;/home/robot/acados/lib/libacados.so;general;/home/robot/acados/lib/libhpipm.so;general;/home/robot/acados/lib/libblasfeo.so;general;rclcpp::rclcpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_py;general;sensor_msgs::sensor_msgs__rosidl_generator_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;general;sensor_msgs::sensor_msgs__rosidl_generator_py;general;nav_msgs::nav_msgs__rosidl_generator_c;general;nav_msgs::nav_msgs__rosidl_typesupport_fastrtps_c;general;nav_msgs::nav_msgs__rosidl_typesupport_fastrtps_cpp;general;nav_msgs::nav_msgs__rosidl_typesupport_introspection_c;general;nav_msgs::nav_msgs__rosidl_typesupport_c;general;nav_msgs::nav_msgs__rosidl_typesupport_introspection_cpp;general;nav_msgs::nav_msgs__rosidl_typesupport_cpp;general;nav_msgs::nav_msgs__rosidl_generator_py;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;tf2::tf2;general;tf2_ros::tf2_ros;general;tf2_ros::static_transform_broadcaster_node;general;gazebo_msgs::gazebo_msgs__rosidl_generator_c;general;gazebo_msgs::gazebo_msgs__rosidl_typesupport_fastrtps_c;general;gazebo_msgs::gazebo_msgs__rosidl_typesupport_fastrtps_cpp;general;gazebo_msgs::gazebo_msgs__rosidl_typesupport_introspection_c;general;gazebo_msgs::gazebo_msgs__rosidl_typesupport_c;general;gazebo_msgs::gazebo_msgs__rosidl_typesupport_introspection_cpp;general;gazebo_msgs::gazebo_msgs__rosidl_typesupport_cpp;general;gazebo_msgs::gazebo_msgs__rosidl_generator_py;general;rosgraph_msgs::rosgraph_msgs__rosidl_generator_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_fastrtps_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_fastrtps_cpp;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_introspection_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_introspection_cpp;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_cpp;general;rosgraph_msgs::rosgraph_msgs__rosidl_generator_py;
+mpc_low_LIB_DEPENDS:STATIC=general;/home/robot/acados/lib/libacados.so;general;/home/robot/acados/lib/libhpipm.so;general;/home/robot/acados/lib/libblasfeo.so;
 
 //Value Computed by CMake
 mpc_low_SOURCE_DIR:STATIC=/home/robot/debug_clear_ws/src/mpc_low
@@ -761,8 +761,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

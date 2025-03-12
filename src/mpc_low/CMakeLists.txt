@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
+ENABLE_LANGUAGE(C)
+
 project(mpc_low)
 
 cmake_policy(SET CMP0057 NEW)  # Fix policy warning
@@ -52,13 +54,15 @@ include_directories(
   /home/robot/acados/acados/utils
   /home/robot/acados/acados
   /home/robot/acados/include/acados/utils 
-  solver/
+  ${CMAKE_SOURCE_DIR}/solver
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
   solver/acados_libs/include
   solver/acados_libs/include/acados
   solver/acados_libs/include/acados_c
   /home/robot/acados/include
   /home/robot/acados/include/blasfeo/include
   /home/robot/acados/include/hpipm/include
+  /usr/include/python3.10
 )
 
 # Find Acados libraries
@@ -70,29 +74,31 @@ if(NOT ACADOS_LIB OR NOT HPIPM_LIB OR NOT BLASFEO_LIB)
   message(FATAL_ERROR "One or more Acados libraries were not found! Check /home/robot/acados/lib")
 endif()
 
-# Create library
+# Locate all solver .c files
+file(GLOB SOLVER_SOURCES "${PROJECT_SOURCE_DIR}/solver/*.c")
+
+# Ensure files were found
+if(NOT SOLVER_SOURCES)
+  message(FATAL_ERROR "No solver source files found in ${PROJECT_SOURCE_DIR}/solver/")
+endif()
+
+# Create solver object library
+add_library(mpc_solver OBJECT ${SOLVER_SOURCES})
+set_target_properties(mpc_solver PROPERTIES LINKER_LANGUAGE C) # Ensure C compilation
+
+# Create main library
 add_library(mpc_low SHARED src/low_solver.cpp)
-target_link_libraries(mpc_low ${ACADOS_LIB} ${HPIPM_LIB} ${BLASFEO_LIB})
+target_link_libraries(mpc_low mpc_solver ${ACADOS_LIB} ${HPIPM_LIB} ${BLASFEO_LIB})
 
 # Add executable nodes
 
 add_executable(custom_odometry_node_sim src/custom_odometry_sim.cpp)
-ament_target_dependencies(mpc_low 
-  rclcpp 
-  std_msgs 
-  sensor_msgs 
-  nav_msgs 
-  geometry_msgs 
-  tf2 
-  tf2_ros 
-  tf2_geometry_msgs 
-  gazebo_msgs 
-  rosgraph_msgs 
-  Eigen3
-)
 target_link_libraries(custom_odometry_node_sim mpc_low)
 
-add_executable(mpc_low_node src/low_solver.cpp)
+add_executable(mpc_low_node)
+target_sources(mpc_low_node PRIVATE src/low_solver.cpp)
+target_link_libraries(mpc_low_node mpc_low)
+
 ament_target_dependencies(mpc_low_node 
   rclcpp 
   std_msgs 
@@ -106,7 +112,21 @@ ament_target_dependencies(mpc_low_node
   rosgraph_msgs 
   Eigen3
 )
-target_link_libraries(mpc_low_node mpc_low)
+
+ament_target_dependencies(custom_odometry_node_sim 
+  rclcpp 
+  std_msgs 
+  sensor_msgs 
+  nav_msgs 
+  geometry_msgs 
+  tf2 
+  tf2_ros 
+  tf2_geometry_msgs 
+  gazebo_msgs 
+  rosgraph_msgs 
+  Eigen3
+)
+
 
 # Install
 install(TARGETS mpc_low mpc_low_node custom_odometry_node_sim

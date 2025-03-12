@@ -1,72 +1,24 @@
-// standard
-#include <stdio.h>
-#include <stdlib.h>
-// acados
-#include "acados/utils/print.h"
-#include "acados/utils/math.h"
-#include "acados_c/ocp_nlp_interface.h"
-#include "acados_c/external_function_interface.h"
-#include "acados_solver_Jackal.h"
+#include "acados_solver_holder.hpp"
 
-// blasfeo
-#include "blasfeo/include/blasfeo_d_aux_ext_dep.h"
-
-#define NX     Jackal_NX
-#define NZ     Jackal_NZ
-#define NU     Jackal_NU
-#define NP     Jackal_NP
-#define NBX    Jackal_NBX
-#define NBX0   Jackal_NBX0
-#define NBU    Jackal_NBU
-#define NSBX   Jackal_NSBX
-#define NSBU   Jackal_NSBU
-#define NSH    Jackal_NSH
-#define NSG    Jackal_NSG
-#define NSPHI  Jackal_NSPHI
-#define NSHN   Jackal_NSHN
-#define NSGN   Jackal_NSGN
-#define NSPHIN Jackal_NSPHIN
-#define NSBXN  Jackal_NSBXN
-#define NS     Jackal_NS
-#define NSN    Jackal_NSN
-#define NG     Jackal_NG
-#define NBXN   Jackal_NBXN
-#define NGN    Jackal_NGN
-#define NY0    Jackal_NY0
-#define NY     Jackal_NY
-#define NYN    Jackal_NYN
-#define NH     Jackal_NH
-#define NPHI   Jackal_NPHI
-#define NHN    Jackal_NHN
-#define NPHIN  Jackal_NPHIN
-#define NR     Jackal_NR
-
-class my_NMPC_solver {
-private:
-  int num_steps;
-  // global data
-  Jackal_solver_capsule * acados_ocp_capsule;
-public:
-  my_NMPC_solver(int n) {
+my_NMPC_solver::my_NMPC_solver(int n) {
     num_steps = n; // set number of real-time iterations
-    Jackal_solver_capsule * my_acados_ocp_capsule = Jackal_acados_create_capsule();
+    Jackal_solver_capsule *my_acados_ocp_capsule = Jackal_acados_create_capsule();
     acados_ocp_capsule = my_acados_ocp_capsule;
     // there is an opportunity to change the number of shooting intervals in C without new code generation
-    int N = Jackal_N;
+    int N = JACKAL_N;
     // allocate the array and fill it accordingly
     double* new_time_steps = NULL;
     int status = Jackal_acados_create_with_discretization(acados_ocp_capsule, N, new_time_steps);
 
-    if (status)
-    {
+    if (status) {
         printf("Jackal_acados_create() returned status %d. Exiting.\n", status);
         exit(1);
     }
-    
-  }
-  int solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], double tracking_goal[30], double results[8], double trajectory[33]) {
+}
+
+  int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], double tracking_goal[30], double results[8], double trajectory[33]) {
     int status = -1;
-    int N = Jackal_N;
+    int N = JACKAL_N;
 
     ocp_nlp_config *nlp_config = Jackal_acados_get_nlp_config(acados_ocp_capsule);
     ocp_nlp_dims *nlp_dims = Jackal_acados_get_nlp_dims(acados_ocp_capsule);
@@ -292,7 +244,7 @@ public:
     for (int i=0;i<33;i++) trajectory[i] = xtraj[i];
 
 
-    //Jackal_acados_print_stats(acados_ocp_capsule);
+    //JACKAL_acados_print_stats(acados_ocp_capsule);
 
     //printf("\nSolver info:\n");
     //printf(" SQP iterations %2d  minimum time for %d solve %f [ms]  cost %f \n",
@@ -303,7 +255,7 @@ public:
     return status;
   }  // end of 'solve' function
 
-  int reset_solver(){
+  int my_NMPC_solver::reset_solver(){
     int status = -1;
     // free solver
     status = Jackal_acados_free(acados_ocp_capsule);
@@ -319,4 +271,3 @@ public:
   }
 
 
-};

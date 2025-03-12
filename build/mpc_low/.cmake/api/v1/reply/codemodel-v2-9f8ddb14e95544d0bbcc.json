@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4566393d2bbc5d4c84eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpc_low",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_odometry_node_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_odometry_node_sim-Release-6fabdfb788884179b338.json",
+					"name" : "custom_odometry_node_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low-Release-c93f2146637085724c4c.json",
+					"name" : "mpc_low",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low_node-Release-3434fae66a0f3ba1d126.json",
+					"name" : "mpc_low_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low_uninstall-Release-51453402c643b60f1de6.json",
+					"name" : "mpc_low_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_solver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_solver-Release-54ad283f846c6a38ffc0.json",
+					"name" : "mpc_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d93cdb4d47e4b00dffaa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robot/debug_clear_ws/build/mpc_low",
+		"source" : "/home/robot/debug_clear_ws/src/mpc_low"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,11 @@
+[0.011s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target mpc_solver[0m
+[0.064s] [  9%] [32mBuilding C object CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.o[0m
+[0.074s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:16:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.074s]    16 | #include [01;31m[K"Python.h"[m[K
+[0.074s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.074s] compilation terminated.
+[0.075s] gmake[2]: *** [CMakeFiles/mpc_solver.dir/build.make:76: CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.o] Error 1
+[0.075s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/mpc_solver.dir/all] Error 2
+[0.076s] gmake: *** [Makefile:146: all] Error 2
+[0.078s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/debug_clear_ws/install/yolo_ros:/home/robot/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12

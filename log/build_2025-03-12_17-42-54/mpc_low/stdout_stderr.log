@@ -1,0 +1,10 @@
+[ 45%] Built target mpc_solver
+[35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o[0m
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:[m[K In member function ‘[01m[Kvoid GoalFollower::amcl_pose_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/robot/debug_clear_ws/src/mpc_low/src/low_solver.cpp:170:33:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  170 |         current_pose_[2] = tf2::[01;31m[KgetYaw[m[K(q);
+      |                                 [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/mpc_low.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

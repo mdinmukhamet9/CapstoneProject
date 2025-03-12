@@ -1,0 +1,103 @@
+[0.115s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.115s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a7b322324d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a7b323c3a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a7b323c3a30>>, mixin_verb=('build',))[0m
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.153s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/robot/mpc_low'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.169s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_cmake' and name 'mpc_low'[0m
+[0.169s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.169s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.169s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.169s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.169s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.185s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.185s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.188s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 408 installed packages in /opt/ros/humble[0m
+[0.189s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'cmake_args' from command line to 'None'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'cmake_target' from command line to 'None'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mpc_low' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mpc_low' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/mpc_low/build/mpc_low', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/mpc_low/install/mpc_low', 'merge_install': False, 'path': '/home/robot/mpc_low', 'symlink_install': False, 'test_result_base': None}[0m
+[0.238s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.239s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.239s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/robot/mpc_low' with build type 'ament_cmake'
+[0.239s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/robot/mpc_low'
+[0.241s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.241s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.249s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12[0m
+[35.672s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/robot/mpc_low/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12[0m
+[35.682s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mpc_low/build/mpc_low[0m
+[35.697s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mpc_low)
+[35.698s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/robot/mpc_low/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mpc_low/build/mpc_low[0m
+[35.700s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low' for CMake module files
+[35.700s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low' for CMake config files
+[35.701s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mpc_low', 'cmake_prefix_path')
+[35.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robot/mpc_low/install/mpc_low/share/mpc_low/hook/cmake_prefix_path.ps1'
+[35.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robot/mpc_low/install/mpc_low/share/mpc_low/hook/cmake_prefix_path.dsv'
+[35.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robot/mpc_low/install/mpc_low/share/mpc_low/hook/cmake_prefix_path.sh'
+[35.710s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/lib'
+[35.710s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/bin'
+[35.710s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/lib/pkgconfig/mpc_low.pc'
+[35.711s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/lib/python3.10/site-packages'
+[35.711s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/bin'
+[35.711s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.ps1'
+[35.712s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.dsv'
+[35.712s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.sh'
+[35.713s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.bash'
+[35.713s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.zsh'
+[35.714s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/robot/mpc_low/install/mpc_low/share/colcon-core/packages/mpc_low)
+[35.714s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mpc_low)
+[35.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low' for CMake module files
+[35.715s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low' for CMake config files
+[35.715s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mpc_low', 'cmake_prefix_path')
+[35.715s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robot/mpc_low/install/mpc_low/share/mpc_low/hook/cmake_prefix_path.ps1'
+[35.716s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/robot/mpc_low/install/mpc_low/share/mpc_low/hook/cmake_prefix_path.dsv'
+[35.716s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/robot/mpc_low/install/mpc_low/share/mpc_low/hook/cmake_prefix_path.sh'
+[35.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/lib'
+[35.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/bin'
+[35.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/lib/pkgconfig/mpc_low.pc'
+[35.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/lib/python3.10/site-packages'
+[35.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/robot/mpc_low/install/mpc_low/bin'
+[35.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.ps1'
+[35.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.dsv'
+[35.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.sh'
+[35.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.bash'
+[35.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/robot/mpc_low/install/mpc_low/share/mpc_low/package.zsh'
+[35.719s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/robot/mpc_low/install/mpc_low/share/colcon-core/packages/mpc_low)
+[35.720s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[35.720s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[35.720s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[35.720s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[35.725s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.725s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.725s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[35.738s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[35.738s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robot/mpc_low/install/local_setup.ps1'
+[35.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/robot/mpc_low/install/_local_setup_util_ps1.py'
+[35.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robot/mpc_low/install/setup.ps1'
+[35.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robot/mpc_low/install/local_setup.sh'
+[35.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/robot/mpc_low/install/_local_setup_util_sh.py'
+[35.743s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robot/mpc_low/install/setup.sh'
+[35.744s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robot/mpc_low/install/local_setup.bash'
+[35.745s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robot/mpc_low/install/setup.bash'
+[35.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/robot/mpc_low/install/local_setup.zsh'
+[35.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/robot/mpc_low/install/setup.zsh'

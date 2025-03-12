@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o[0m
-[ 33%] [32m[1mLinking CXX shared library libmpc_low.so[0m
-[ 33%] Built target mpc_low
-[ 50%] [32mBuilding CXX object CMakeFiles/mpc_low_node.dir/src/low_solver.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.o[0m
-[ 83%] [32m[1mLinking CXX executable mpc_low_node[0m
-[ 83%] Built target mpc_low_node

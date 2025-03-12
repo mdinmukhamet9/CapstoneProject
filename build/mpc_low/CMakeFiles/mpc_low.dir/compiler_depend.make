@@ -299,10 +299,9 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /opt/ros/humble/include/rcutils/rcutils/macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
   /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
   /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
   /opt/ros/humble/include/rcl/rcl/context.h \
   /opt/ros/humble/include/rmw/rmw/init.h \
   /opt/ros/humble/include/rmw/rmw/init_options.h \
@@ -325,6 +324,7 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
   /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
   /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
@@ -842,16 +842,531 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp \
+  /home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp \
+  /home/robot/acados/include/acados/utils/print.h \
+  /home/robot/acados/include/acados/dense_qp/dense_qp_common.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_target.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_common.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_target.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_block_size.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_dim.h \
+  /home/robot/acados/include/hpipm/include/hpipm_common.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_res.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_dim.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_sol.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_sol.h \
+  /home/robot/acados/include/acados/ocp_nlp/ocp_nlp_common.h \
+  /home/robot/acados/include/acados/ocp_nlp/ocp_nlp_constraints_common.h \
+  /home/robot/acados/include/acados/ocp_qp/ocp_qp_common.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_dim.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_dim.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_res.h \
+  /home/robot/acados/include/hpipm/include/hpipm_common.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_dim.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_sol.h \
+  /home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_sol.h \
+  /home/robot/acados/include/acados/utils/external_function_generic.h \
+  /home/robot/acados/include/acados/ocp_nlp/ocp_nlp_cost_common.h \
+  /home/robot/acados/include/acados/ocp_nlp/ocp_nlp_dynamics_common.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_common.h \
+  /home/robot/acados/include/acados/sim/sim_common.h \
+  /home/robot/acados/include/acados/sim/sim_collocation_utils.h \
+  /home/robot/acados/include/acados/utils/timing.h \
+  /home/robot/acados/include/acados/ocp_nlp/ocp_nlp_reg_common.h \
+  /home/robot/acados/include/acados/ocp_qp/ocp_qp_xcond_solver.h \
+  /home/robot/acados/include/acados/ocp_qp/ocp_qp_common_frontend.h \
+  /home/robot/acados/include/acados/utils/math.h \
+  /home/robot/acados/include/acados_c/ocp_nlp_interface.h \
+  /home/robot/acados/include/acados/ocp_nlp/ocp_nlp_constraints_bgh.h \
+  /home/robot/acados/include/acados/sim/sim_erk_integrator.h \
+  /home/robot/acados/include/acados/sim/sim_irk_integrator.h \
+  /home/robot/acados/include/acados/sim/sim_lifted_irk_integrator.h \
+  /home/robot/acados/include/acados/sim/sim_gnsf.h \
+  /home/robot/acados/include/acados_c/ocp_qp_interface.h \
+  /home/robot/acados/include/acados_c/sim_interface.h \
+  /home/robot/acados/include/acados_c/external_function_interface.h \
+  /home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_d_aux_ext_dep.h \
+  /home/robot/acados/include/blasfeo/include/blasfeo_common.h \
+  /usr/include/eigen3/Eigen/Dense \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/complex \
+  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/c++/11/cstddef \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Memory.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+  /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+  /usr/include/eigen3/Eigen/src/Core/NumTraits.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+  /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+  /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+  /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+  /usr/include/eigen3/Eigen/src/Core/IO.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseBase.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h \
+  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h \
+  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/Core/EigenBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Product.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/Assign.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h \
+  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
+  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+  /usr/include/eigen3/Eigen/src/Core/DenseStorage.h \
+  /usr/include/eigen3/Eigen/src/Core/NestByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+  /usr/include/eigen3/Eigen/src/Core/NoAlias.h \
+  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Matrix.h \
+  /usr/include/eigen3/Eigen/src/Core/Array.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  /usr/include/eigen3/Eigen/src/Core/Dot.h \
+  /usr/include/eigen3/Eigen/src/Core/StableNorm.h \
+  /usr/include/eigen3/Eigen/src/Core/Stride.h \
+  /usr/include/eigen3/Eigen/src/Core/MapBase.h \
+  /usr/include/eigen3/Eigen/src/Core/Map.h \
+  /usr/include/eigen3/Eigen/src/Core/Ref.h \
+  /usr/include/eigen3/Eigen/src/Core/Block.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
+  /usr/include/eigen3/Eigen/src/Core/IndexedView.h \
+  /usr/include/eigen3/Eigen/src/Core/Reshaped.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpose.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/Diagonal.h \
+  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/Redux.h \
+  /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h \
+  /usr/include/eigen3/Eigen/src/Core/Swap.h \
+  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/Solve.h \
+  /usr/include/eigen3/Eigen/src/Core/Inverse.h \
+  /usr/include/eigen3/Eigen/src/Core/SolverBase.h \
+  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/Transpositions.h \
+  /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+  /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h \
+  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+  /usr/include/eigen3/Eigen/src/Core/Select.h \
+  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+  /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+  /usr/include/eigen3/Eigen/src/Core/Random.h \
+  /usr/include/eigen3/Eigen/src/Core/Replicate.h \
+  /usr/include/eigen3/Eigen/src/Core/Reverse.h \
+  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+  /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
+  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/include/eigen3/Eigen/src/misc/Kernel.h \
+  /usr/include/eigen3/Eigen/src/misc/Image.h \
+  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+  /usr/include/eigen3/Eigen/src/LU/Determinant.h \
+  /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
+  /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+  /usr/include/eigen3/Eigen/Cholesky \
+  /usr/include/eigen3/Eigen/Jacobi \
+  /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+  /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
+  /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+  /usr/include/eigen3/Eigen/QR \
+  /usr/include/eigen3/Eigen/Householder \
+  /usr/include/eigen3/Eigen/src/Householder/Householder.h \
+  /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+  /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+  /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+  /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  /usr/include/eigen3/Eigen/SVD \
+  /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+  /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+  /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
+  /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+  /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+  /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
 
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Translation.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
+
+/usr/include/eigen3/Eigen/Geometry:
+
+/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/include/eigen3/Eigen/src/Householder/Householder.h:
+
+/usr/include/eigen3/Eigen/Householder:
+
+/usr/include/eigen3/Eigen/QR:
+
+/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
+
+/usr/include/eigen3/Eigen/Jacobi:
+
+/usr/include/eigen3/Eigen/src/LU/Determinant.h:
+
+/usr/include/eigen3/Eigen/src/misc/Image.h:
+
+/usr/include/eigen3/Eigen/LU:
+
+/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/StlIterators.h:
+
+/usr/include/eigen3/Eigen/src/Core/Reverse.h:
+
+/usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
+
+/usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
+
+/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
+
+/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
+
+/usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
+
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/include/eigen3/Eigen/src/Core/Diagonal.h:
+
+/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/eigen3/Eigen/src/Core/Block.h:
+
+/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+
+/usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/usr/include/eigen3/Eigen/src/Core/Array.h:
+
+/usr/include/eigen3/Eigen/src/Core/Matrix.h:
+
+/usr/include/eigen3/Eigen/src/Core/NoAlias.h:
+
+/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
+
+/usr/include/eigen3/Eigen/src/Core/Product.h:
+
+/usr/include/eigen3/Eigen/src/Core/EigenBase.h:
+
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
+
+/usr/include/eigen3/Eigen/src/Core/IO.h:
+
+/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
+
+/usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
+
+/usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
+
+/usr/include/eigen3/Eigen/src/Core/NumTraits.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/Memory.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/Meta.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/Constants.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/c++/11/climits:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/Macros.h:
+
+/usr/include/eigen3/Eigen/Core:
+
+/usr/include/eigen3/Eigen/Dense:
+
+/home/robot/acados/include/blasfeo/include/blasfeo_d_aux_ext_dep.h:
+
+/home/robot/acados/include/acados_c/sim_interface.h:
+
+/home/robot/acados/include/acados_c/ocp_qp_interface.h:
+
+/home/robot/acados/include/acados/ocp_nlp/ocp_nlp_constraints_bgh.h:
+
+/home/robot/acados/include/acados_c/ocp_nlp_interface.h:
+
+/home/robot/acados/include/acados/utils/math.h:
+
+/home/robot/acados/include/acados/ocp_qp/ocp_qp_common_frontend.h:
+
+/home/robot/acados/include/acados/ocp_qp/ocp_qp_xcond_solver.h:
+
+/usr/include/eigen3/Eigen/src/Core/Solve.h:
+
+/home/robot/acados/include/acados/sim/sim_common.h:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_sol.h:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_res.h:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp_dim.h:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_ocp_qp.h:
+
+/home/robot/acados/include/acados/ocp_qp/ocp_qp_common.h:
+
+/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_res.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_dim.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
+
+/home/robot/acados/include/blasfeo/include/blasfeo_block_size.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
+
+/home/robot/acados/include/blasfeo/include/blasfeo_common.h:
+
+/home/robot/acados/include/acados/dense_qp/dense_qp_common.h:
+
+/home/robot/acados/include/acados/utils/print.h:
+
+/home/robot/debug_clear_ws/src/mpc_low/include/acados_solver_holder.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
+/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__traits.hpp:
 
@@ -879,9 +1394,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/kdl/utilities/kdl-config.h:
 
+/usr/include/c++/11/cstddef:
+
 /usr/include/kdl/frames.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
+
+/home/robot/acados/include/acados/ocp_nlp/ocp_nlp_common.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__type_support.hpp:
 
@@ -907,7 +1428,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
 
+/usr/include/eigen3/Eigen/src/misc/Kernel.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp:
 
@@ -916,6 +1441,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
 
@@ -981,15 +1508,27 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
+/home/robot/acados/include/acados/sim/sim_erk_integrator.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/Map.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:
+
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
+
 /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
@@ -1015,6 +1554,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
+/usr/include/limits.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
@@ -1031,11 +1572,17 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
+
+/usr/include/eigen3/Eigen/src/SVD/BDCSVD.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
 
@@ -1077,7 +1624,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
+/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
 
@@ -1103,6 +1654,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
@@ -1116,6 +1669,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
+
+/home/robot/acados/include/acados/sim/sim_collocation_utils.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
 
@@ -1131,15 +1686,25 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
@@ -1177,6 +1742,10 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
+
+/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
+
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
@@ -1184,6 +1753,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Select.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
@@ -1196,6 +1767,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/NestByValue.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
@@ -1222,6 +1795,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/c++/11/bits/stl_algo.h:
+
+/home/robot/acados/include/acados/ocp_nlp/ocp_nlp_dynamics_common.h:
 
 /usr/include/c++/11/bits/move.h:
 
@@ -1277,11 +1852,17 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/string_view:
 
+/usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
+
+/usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/11/numeric:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
 /opt/ros/humble/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp:
 
@@ -1303,6 +1884,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/iomanip:
 
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -1320,6 +1903,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
 
@@ -1349,6 +1934,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/utility:
 
+/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.h:
+
 /usr/include/c++/11/ios:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
@@ -1359,9 +1946,13 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/cstdint:
 
+/home/robot/acados/include/acados/sim/sim_gnsf.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
 /usr/include/c++/11/cstdio:
 
@@ -1378,6 +1969,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/home/robot/acados/include/acados/sim/sim_irk_integrator.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp:
 
@@ -1423,9 +2016,13 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/home/robot/acados/include/acados/ocp_nlp/ocp_nlp_cost_common.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/11/typeindex:
+
+/usr/include/eigen3/Eigen/src/Core/Dot.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -1459,19 +2056,31 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/home/robot/acados/include/acados_c/external_function_interface.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
+
+/usr/include/eigen3/Eigen/src/Core/Assign.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
+
 /usr/include/kdl/utilities/utility.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
+/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/eigen3/Eigen/Cholesky:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp:
 
@@ -1483,6 +2092,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
+
 /usr/include/c++/11/csignal:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
@@ -1493,7 +2104,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/unique_lock.h:
 
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
 /usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -1504,6 +2119,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/bits/exception_defines.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
 
 /usr/include/c++/11/unordered_set:
 
@@ -1589,6 +2206,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -1641,7 +2260,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/home/robot/acados/include/hpipm/include/hpipm_common.h:
+
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
@@ -1655,9 +2278,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
+/home/robot/acados/include/acados/utils/external_function_generic.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+
+/home/robot/acados/include/acados/sim/sim_lifted_irk_integrator.h:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
 
@@ -1672,6 +2301,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
 /usr/include/stdc-predef.h:
 
@@ -1695,6 +2326,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
 
+/usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
@@ -1702,6 +2335,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/bits/std_function.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/eigen3/Eigen/src/Core/Ref.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -1726,6 +2361,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Transform.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
@@ -1773,6 +2410,10 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseBase.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp:
 
 /usr/include/c++/11/ext/atomicity.h:
@@ -1799,6 +2440,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
+/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
@@ -1809,11 +2452,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl/rcl/init_options.h:
 
+/usr/include/eigen3/Eigen/SVD:
+
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
 /usr/include/c++/11/debug/assertions.h:
+
+/usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -1827,6 +2474,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/sstream.tcc:
 
+/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:
+
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
@@ -1834,6 +2483,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/11/iterator:
+
+/usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
 /usr/include/c++/11/bits/exception.h:
 
@@ -1859,6 +2510,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
+
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
@@ -1881,6 +2534,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/home/robot/acados/include/hpipm/include/hpipm_d_dense_qp_sol.h:
+
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
@@ -1896,6 +2551,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/backward/auto_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
@@ -1959,6 +2616,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
+
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
@@ -2017,6 +2676,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/istream.tcc:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
 /usr/include/c++/11/list:
 
 /usr/include/c++/11/bits/stl_list.h:
@@ -2035,6 +2696,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
+/home/robot/acados/include/acados/utils/timing.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/guard_condition.h:
@@ -2047,7 +2710,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
-/opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/usr/include/eigen3/Eigen/Eigenvalues:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
@@ -2055,19 +2726,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+/usr/include/eigen3/Eigen/src/Core/Replicate.h:
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
 /opt/ros/humble/include/tf2/tf2/visibility_control.h:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
+
+/home/robot/acados/include/acados/ocp_nlp/ocp_nlp_constraints_common.h:
 
 /opt/ros/humble/include/rmw/rmw/localhost.h:
 
@@ -2091,6 +2758,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
 
+/usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+
 /opt/ros/humble/include/rmw/rmw/types.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
@@ -2111,6 +2780,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
+/opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h:
+
 /opt/ros/humble/include/rcutils/rcutils/time.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types.h:
@@ -2129,11 +2800,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
+/usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
+
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
 
 /opt/ros/humble/include/rmw/rmw/rmw.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
 /usr/include/c++/11/bits/ostream.tcc:
 
@@ -2149,9 +2824,15 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
+/usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
+
+/usr/include/eigen3/Eigen/src/Core/Stride.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
+
+/usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
 
@@ -2160,6 +2841,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/bit:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -2179,7 +2862,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
+
 /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
+
+/usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
@@ -2205,7 +2892,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl/rcl/client.h:
 
+/usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
 /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
 /opt/ros/humble/include/rcl/rcl/context.h:
 
@@ -2223,9 +2914,13 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rcl/rcl/subscription.h:
 
+/usr/include/eigen3/Eigen/src/Core/Inverse.h:
+
 /opt/ros/humble/include/rcl/rcl/timer.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
@@ -2244,6 +2939,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/home/robot/acados/include/hpipm/include/hpipm_d_dense_qp.h:
 
 /usr/include/c++/11/clocale:
 
@@ -2268,6 +2965,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
@@ -2295,17 +2994,25 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/optional:
 
+/usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp:
 
 /usr/include/c++/11/sstream:
 
+/usr/include/eigen3/Eigen/src/Core/MapBase.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+
+/home/robot/acados/include/acados/ocp_nlp/ocp_nlp_reg_common.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Transpose.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
 
@@ -2329,9 +3036,13 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+
+/home/robot/acados/include/blasfeo/include/blasfeo_target.h:
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
@@ -2342,6 +3053,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
 /opt/ros/humble/include/rcutils/rcutils/logging.h:
 
@@ -2357,9 +3070,13 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/Transpositions.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/eigen3/Eigen/src/Core/Swap.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
 
@@ -2381,11 +3098,17 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
+/usr/include/eigen3/Eigen/src/Core/Random.h:
+
 /usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
+
+/usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
@@ -2423,6 +3146,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
 
+/usr/include/c++/11/complex:
+
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /opt/ros/humble/include/tracetools/tracetools/utils.hpp:
@@ -2431,9 +3156,13 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
@@ -2453,7 +3182,11 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
@@ -2480,6 +3213,8 @@ CMakeFiles/mpc_low.dir/src/low_solver.cpp.o: /home/robot/debug_clear_ws/src/mpc_
 /usr/include/c++/11/thread:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
