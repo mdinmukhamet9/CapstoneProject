@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.000435] (-) JobUnselected: {'identifier': 'clearpath_common'}
+[0.000462] (-) JobUnselected: {'identifier': 'clearpath_config'}
+[0.000480] (-) JobUnselected: {'identifier': 'clearpath_control'}
+[0.000494] (-) JobUnselected: {'identifier': 'clearpath_customization'}
+[0.000507] (-) JobUnselected: {'identifier': 'clearpath_description'}
+[0.000521] (-) JobUnselected: {'identifier': 'clearpath_generator_common'}
+[0.000534] (-) JobUnselected: {'identifier': 'clearpath_generator_gz'}
+[0.000548] (-) JobUnselected: {'identifier': 'clearpath_gz'}
+[0.000561] (-) JobUnselected: {'identifier': 'clearpath_manipulators'}
+[0.000574] (-) JobUnselected: {'identifier': 'clearpath_manipulators_description'}
+[0.000592] (-) JobUnselected: {'identifier': 'clearpath_mounts_description'}
+[0.000608] (-) JobUnselected: {'identifier': 'clearpath_msgs'}
+[0.000621] (-) JobUnselected: {'identifier': 'clearpath_platform'}
+[0.000635] (-) JobUnselected: {'identifier': 'clearpath_platform_description'}
+[0.000648] (-) JobUnselected: {'identifier': 'clearpath_platform_msgs'}
+[0.000661] (-) JobUnselected: {'identifier': 'clearpath_sensors_description'}
+[0.000674] (-) JobUnselected: {'identifier': 'clearpath_simulator'}
+[0.000700] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.000713] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.000726] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.000740] (mpc_low) JobQueued: {'identifier': 'mpc_low', 'dependencies': OrderedDict()}
+[0.000756] (mpc_low) JobStarted: {'identifier': 'mpc_low'}
+[0.007779] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'cmake'}
+[0.008001] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/debug_clear_ws/src/mpc_low', '-DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/mpc_low'], 'cwd': '/home/robot/debug_clear_ws/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/debug_clear_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '3427493'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robot/debug_clear_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e447d728_8e4a_4e31_81a9_a75c9ff4eb4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2467'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/debug_clear_ws/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[0.057134] (mpc_low) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099704] (-) TimerEvent: {}
+[0.106225] (mpc_low) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.112658] (mpc_low) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.173700] (mpc_low) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.182629] (mpc_low) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.182818] (mpc_low) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.183152] (mpc_low) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.186143] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199800] (-) TimerEvent: {}
+[0.259492] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.268142] (mpc_low) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.268417] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.268798] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.271727] (mpc_low) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299907] (-) TimerEvent: {}
+[0.400150] (-) TimerEvent: {}
+[0.500419] (-) TimerEvent: {}
+[0.597040] (mpc_low) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600520] (-) TimerEvent: {}
+[0.681434] (mpc_low) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700626] (-) TimerEvent: {}
+[0.719208] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.723856] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.731655] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.742387] (mpc_low) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.757108] (mpc_low) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.796760] (mpc_low) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.799118] (mpc_low) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800739] (-) TimerEvent: {}
+[0.874365] (mpc_low) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900835] (-) TimerEvent: {}
+[0.901100] (mpc_low) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.939929] (mpc_low) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.947568] (mpc_low) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000955] (-) TimerEvent: {}
+[1.009538] (mpc_low) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.009983] (mpc_low) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.075778] (mpc_low) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.076788] (mpc_low) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101045] (-) TimerEvent: {}
+[1.125429] (mpc_low) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.154954] (mpc_low) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.171000] (mpc_low) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.180912] (mpc_low) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.201146] (-) TimerEvent: {}
+[1.266774] (mpc_low) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.280594] (mpc_low) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.281764] (mpc_low) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.281916] (mpc_low) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.284370] (mpc_low) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.301209] (-) TimerEvent: {}
+[1.326085] (mpc_low) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.395293] (mpc_low) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.401293] (-) TimerEvent: {}
+[1.407535] (mpc_low) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.408274] (mpc_low) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robot/debug_clear_ws/src/mpc_low/include;/home/robot/debug_clear_ws/src/mpc_low/solver;/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model;/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints\n'}
+[1.408356] (mpc_low) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.410060] (mpc_low) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.413182] (mpc_low) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.414943] (mpc_low) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.426442] (mpc_low) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.426521] (mpc_low) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.428228] (mpc_low) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.429336] (mpc_low) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.487379] (mpc_low) StdoutLine: {'line': b'-- Generating done\n'}
+[1.495209] (mpc_low) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/debug_clear_ws/build/mpc_low\n'}
+[1.501415] (-) TimerEvent: {}
+[1.505394] (mpc_low) CommandEnded: {'returncode': 0}
+[1.506535] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'build'}
+[1.506576] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/debug_clear_ws/build/mpc_low', '--', '-j12', '-l12'], 'cwd': '/home/robot/debug_clear_ws/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/debug_clear_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '3427493'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robot/debug_clear_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e447d728_8e4a_4e31_81a9_a75c9ff4eb4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2467'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/debug_clear_ws/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[1.557464] (mpc_low) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/low_solver.dir/src/low_solver.cpp.o\x1b[0m\n'}
+[1.557797] (mpc_low) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_adj.c.o\x1b[0m\n'}
+[1.560151] (mpc_low) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_ode_fun.c.o\x1b[0m\n'}
+[1.560447] (mpc_low) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_forw.c.o\x1b[0m\n'}
+[1.560865] (mpc_low) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o\x1b[0m\n'}
+[1.562637] (mpc_low) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun.c.o\x1b[0m\n'}
+[1.562911] (mpc_low) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/acados_solver_Jackal.c.o\x1b[0m\n'}
+[1.563136] (mpc_low) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/low_solver.dir/solver/acados_solver_holder.cpp.o\x1b[0m\n'}
+[1.563262] (mpc_low) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/low_solver.dir/solver/acados_sim_solver_Jackal.c.o\x1b[0m\n'}
+[1.601553] (-) TimerEvent: {}
+[1.607534] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_adj_f0\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.608010] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.608140] (mpc_low) StderrLine: {'line': b'   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* \x1b[01;35m\x1b[Ki\x1b[m\x1b[Kw, casadi_real* w, int mem) {\n'}
+[1.608228] (mpc_low) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.608304] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.608382] (mpc_low) StderrLine: {'line': b'   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* \x1b[01;35m\x1b[Kw\x1b[m\x1b[K, int mem) {\n'}
+[1.608456] (mpc_low) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.608528] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.608613] (mpc_low) StderrLine: {'line': b'   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, \x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.608685] (mpc_low) StderrLine: {'line': b'      |                                                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.608757] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_adj_init_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.608828] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:124:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.608902] (mpc_low) StderrLine: {'line': b'  124 | CASADI_SYMBOL_EXPORT int Jackal_expl_vde_adj_init_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.608973] (mpc_low) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.609043] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_adj_free_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.609140] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:128:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.609202] (mpc_low) StderrLine: {'line': b'  128 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_adj_free_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.609254] (mpc_low) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.609304] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_adj_release\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.609356] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:135:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.609408] (mpc_low) StderrLine: {'line': b'  135 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_adj_release(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.609459] (mpc_low) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.610882] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_forw_f0\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.611042] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.611201] (mpc_low) StderrLine: {'line': b'   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* \x1b[01;35m\x1b[Ki\x1b[m\x1b[Kw, casadi_real* w, int mem) {\n'}
+[1.611287] (mpc_low) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.611388] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.611443] (mpc_low) StderrLine: {'line': b'   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* \x1b[01;35m\x1b[Kw\x1b[m\x1b[K, int mem) {\n'}
+[1.611492] (mpc_low) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.611539] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.611588] (mpc_low) StderrLine: {'line': b'   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, \x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.611635] (mpc_low) StderrLine: {'line': b'      |                                                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.612858] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_forw_init_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.613061] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:206:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.613234] (mpc_low) StderrLine: {'line': b'  206 | CASADI_SYMBOL_EXPORT int Jackal_expl_vde_forw_init_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.613371] (mpc_low) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.613626] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_forw_free_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.613761] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:210:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.613954] (mpc_low) StderrLine: {'line': b'  210 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_forw_free_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.614104] (mpc_low) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.614277] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_vde_forw_release\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.614363] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:217:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.614450] (mpc_low) StderrLine: {'line': b'  217 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_forw_release(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.614533] (mpc_low) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.614613] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_ode_fun_f0\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.614694] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.614813] (mpc_low) StderrLine: {'line': b'   57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* \x1b[01;35m\x1b[Ki\x1b[m\x1b[Kw, casadi_real* w, int mem) {\n'}
+[1.614941] (mpc_low) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.615112] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.615329] (mpc_low) StderrLine: {'line': b'   57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* \x1b[01;35m\x1b[Kw\x1b[m\x1b[K, int mem) {\n'}
+[1.615472] (mpc_low) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.615618] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.615815] (mpc_low) StderrLine: {'line': b'   57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, \x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.616017] (mpc_low) StderrLine: {'line': b'      |                                                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.616219] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_ode_fun_init_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.616403] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:96:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.616605] (mpc_low) StderrLine: {'line': b'   96 | CASADI_SYMBOL_EXPORT int Jackal_expl_ode_fun_init_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.616788] (mpc_low) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.616972] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_ode_fun_free_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.617196] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:100:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.617346] (mpc_low) StderrLine: {'line': b'  100 | CASADI_SYMBOL_EXPORT void Jackal_expl_ode_fun_free_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.617507] (mpc_low) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.617675] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_expl_ode_fun_release\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.617835] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:107:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.617981] (mpc_low) StderrLine: {'line': b'  107 | CASADI_SYMBOL_EXPORT void Jackal_expl_ode_fun_release(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.618104] (mpc_low) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.639749] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_f0\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.640252] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.640517] (mpc_low) StderrLine: {'line': b'   64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* \x1b[01;35m\x1b[Ki\x1b[m\x1b[Kw, casadi_real* w, int mem) {\n'}
+[1.641231] (mpc_low) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.641379] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.641535] (mpc_low) StderrLine: {'line': b'   64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* \x1b[01;35m\x1b[Kw\x1b[m\x1b[K, int mem) {\n'}
+[1.641675] (mpc_low) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.641814] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.641949] (mpc_low) StderrLine: {'line': b'   64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, \x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.642121] (mpc_low) StderrLine: {'line': b'      |                                                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.642311] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_init_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.642475] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2420:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.642651] (mpc_low) StderrLine: {'line': b' 2420 | CASADI_SYMBOL_EXPORT int Jackal_constr_h_fun_init_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.642800] (mpc_low) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.642917] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_free_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.643246] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2424:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.643425] (mpc_low) StderrLine: {'line': b' 2424 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_free_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.643560] (mpc_low) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.643691] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_release\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.643852] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2431:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.643985] (mpc_low) StderrLine: {'line': b' 2431 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_release(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.644117] (mpc_low) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.654000] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:280:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654485] (mpc_low) StderrLine: {'line': b'  280 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.654642] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.654782] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:285:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.654926] (mpc_low) StderrLine: {'line': b'  285 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.655060] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.655184] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:290:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.655281] (mpc_low) StderrLine: {'line': b'  290 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.655369] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.655456] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:295:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.655564] (mpc_low) StderrLine: {'line': b'  295 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.655653] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.655742] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:300:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.655847] (mpc_low) StderrLine: {'line': b'  300 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.655934] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.656022] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:305:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.656186] (mpc_low) StderrLine: {'line': b'  305 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[1.656322] (mpc_low) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.661615] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_acados_create_5_set_nlp_in\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.661811] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:383:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktmp_int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.661918] (mpc_low) StderrLine: {'line': b'  383 |     int \x1b[01;35m\x1b[Ktmp_int\x1b[m\x1b[K = 0;\n'}
+[1.662010] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.662598] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_acados_create_6_set_opts\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.662880] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1304:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kext_cost_num_hess\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.663055] (mpc_low) StderrLine: {'line': b' 1304 |     int \x1b[01;35m\x1b[Kext_cost_num_hess\x1b[m\x1b[K = 0;\n'}
+[1.663178] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.663460] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_acados_update_qp_solver_cond_N\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.663713] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1421:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcapsule\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.663839] (mpc_low) StderrLine: {'line': b' 1421 | int Jackal_acados_update_qp_solver_cond_N(\x1b[01;35m\x1b[KJackal_solver_capsule* capsule\x1b[m\x1b[K, int qp_solver_cond_N)\n'}
+[1.663956] (mpc_low) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[1.664165] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1421:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kqp_solver_cond_N\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.664313] (mpc_low) StderrLine: {'line': b' 1421 | int Jackal_acados_update_qp_solver_cond_N(Jackal_solver_capsule* capsule, \x1b[01;35m\x1b[Kint qp_solver_cond_N\x1b[m\x1b[K)\n'}
+[1.664412] (mpc_low) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.664518] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_acados_reset\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.664700] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1439:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knlp_solver\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.664809] (mpc_low) StderrLine: {'line': b' 1439 |     ocp_nlp_solver* \x1b[01;35m\x1b[Knlp_solver\x1b[m\x1b[K = capsule->nlp_solver;\n'}
+[1.664911] (mpc_low) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.665012] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knlp_in\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.665244] (mpc_low) StderrLine: {'line': b' 1438 |     ocp_nlp_in* \x1b[01;35m\x1b[Knlp_in\x1b[m\x1b[K = capsule->nlp_in;\n'}
+[1.665384] (mpc_low) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.665525] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1429:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreset_qp_solver_mem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.665675] (mpc_low) StderrLine: {'line': b' 1429 | int Jackal_acados_reset(Jackal_solver_capsule* capsule, \x1b[01;35m\x1b[Kint reset_qp_solver_mem\x1b[m\x1b[K)\n'}
+[1.665810] (mpc_low) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.691713] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_jac_uxt_zt_f0\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.691994] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kiw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.692192] (mpc_low) StderrLine: {'line': b'   68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* \x1b[01;35m\x1b[Ki\x1b[m\x1b[Kw, casadi_real* w, int mem) {\n'}
+[1.692404] (mpc_low) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.692625] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.692830] (mpc_low) StderrLine: {'line': b'   68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* \x1b[01;35m\x1b[Kw\x1b[m\x1b[K, int mem) {\n'}
+[1.692951] (mpc_low) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.693130] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.693245] (mpc_low) StderrLine: {'line': b'   68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, \x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.693345] (mpc_low) StderrLine: {'line': b'      |                                                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.693442] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_jac_uxt_zt_init_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.693588] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:3984:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.693733] (mpc_low) StderrLine: {'line': b' 3984 | CASADI_SYMBOL_EXPORT int Jackal_constr_h_fun_jac_uxt_zt_init_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.693874] (mpc_low) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.694011] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_jac_uxt_zt_free_mem\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.694141] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:3988:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.694247] (mpc_low) StderrLine: {'line': b' 3988 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_jac_uxt_zt_free_mem(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.694342] (mpc_low) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.694443] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KJackal_constr_h_fun_jac_uxt_zt_release\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.694542] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:3995:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmem\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.694657] (mpc_low) StderrLine: {'line': b' 3995 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_jac_uxt_zt_release(\x1b[01;35m\x1b[Kint mem\x1b[m\x1b[K) {\n'}
+[1.694775] (mpc_low) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[1.701662] (-) TimerEvent: {}
+[1.801970] (-) TimerEvent: {}
+[1.902253] (-) TimerEvent: {}
+[2.002538] (-) TimerEvent: {}
+[2.102834] (-) TimerEvent: {}
+[2.203130] (-) TimerEvent: {}
+[2.303404] (-) TimerEvent: {}
+[2.403687] (-) TimerEvent: {}
+[2.503991] (-) TimerEvent: {}
+[2.604274] (-) TimerEvent: {}
+[2.606743] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.606904] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:141:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kx_init\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.607106] (mpc_low) StderrLine: {'line': b'  141 |     double \x1b[01;35m\x1b[Kx_init\x1b[m\x1b[K[NX*(N+1)]={0.0};\n'}
+[2.607236] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.607363] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:163:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kxtraj\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.607478] (mpc_low) StderrLine: {'line': b'  163 |     double \x1b[01;35m\x1b[Kxtraj\x1b[m\x1b[K[NX * (N+1)] = {0.0};\n'}
+[2.607592] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.607701] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:164:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kutraj\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.607827] (mpc_low) StderrLine: {'line': b'  164 |     double \x1b[01;35m\x1b[Kutraj\x1b[m\x1b[K[NU * N] = {0.0};\n'}
+[2.607947] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.608210] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:35:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kidxbx\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.608444] (mpc_low) StderrLine: {'line': b'   35 |     int \x1b[01;35m\x1b[Kidxbx\x1b[m\x1b[K[NBX];   // indices of bounds on x (defines Jbx) at intermediate shooting nodes (1 to N-1)\n'}
+[2.608545] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.608640] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:41:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kidxsh\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.608740] (mpc_low) StderrLine: {'line': b'   41 |     int \x1b[01;35m\x1b[Kidxsh\x1b[m\x1b[K[NSH];\n'}
+[2.608837] (mpc_low) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.608923] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:43:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Klh\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.609014] (mpc_low) StderrLine: {'line': b'   43 |     double \x1b[01;35m\x1b[Klh\x1b[m\x1b[K[NH];\n'}
+[2.609211] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.609337] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kuh\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.609464] (mpc_low) StderrLine: {'line': b'   44 |     double \x1b[01;35m\x1b[Kuh\x1b[m\x1b[K[NH];\n'}
+[2.609584] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.609701] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:68:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KVx\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.609836] (mpc_low) StderrLine: {'line': b'   68 |     double \x1b[01;35m\x1b[KVx\x1b[m\x1b[K[NY*NX] = {0.0};\n'}
+[2.609959] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.610100] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:71:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KVx_e\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.610263] (mpc_low) StderrLine: {'line': b'   71 |     double \x1b[01;35m\x1b[KVx_e\x1b[m\x1b[K[NYN*NX] = {0.0};\n'}
+[2.610355] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.610444] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:74:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KVu\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.610545] (mpc_low) StderrLine: {'line': b'   74 |     double \x1b[01;35m\x1b[KVu\x1b[m\x1b[K[NY*NU] = {0.0};\n'}
+[2.610661] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.610781] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:89:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kzl\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.610875] (mpc_low) StderrLine: {'line': b'   89 |     double \x1b[01;35m\x1b[Kzl\x1b[m\x1b[K[NSH]={0.0};\n'}
+[2.610964] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.611081] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:90:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kzu\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.611207] (mpc_low) StderrLine: {'line': b'   90 |     double \x1b[01;35m\x1b[Kzu\x1b[m\x1b[K[NSH]={0.0};\n'}
+[2.611314] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.611428] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:92:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KZl\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.611542] (mpc_low) StderrLine: {'line': b'   92 |     double \x1b[01;35m\x1b[KZl\x1b[m\x1b[K[NSH] = {0.0};\n'}
+[2.611649] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.611756] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:93:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KZu\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.611882] (mpc_low) StderrLine: {'line': b'   93 |     double \x1b[01;35m\x1b[KZu\x1b[m\x1b[K[NSH] = {0.0};\n'}
+[2.611987] (mpc_low) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.612133] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:19:133:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktracking_goal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.612249] (mpc_low) StderrLine: {'line': b'   19 |   int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], \x1b[01;35m\x1b[Kdouble tracking_goal[30]\x1b[m\x1b[K, double results[8], double trajectory[33]) {\n'}
+[2.612346] (mpc_low) StderrLine: {'line': b'      |                                                                                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.704377] (-) TimerEvent: {}
+[2.804683] (-) TimerEvent: {}
+[2.904941] (-) TimerEvent: {}
+[3.005196] (-) TimerEvent: {}
+[3.105456] (-) TimerEvent: {}
+[3.205714] (-) TimerEvent: {}
+[3.305972] (-) TimerEvent: {}
+[3.406261] (-) TimerEvent: {}
+[3.506528] (-) TimerEvent: {}
+[3.606800] (-) TimerEvent: {}
+[3.707052] (-) TimerEvent: {}
+[3.807315] (-) TimerEvent: {}
+[3.907570] (-) TimerEvent: {}
+[4.007823] (-) TimerEvent: {}
+[4.108081] (-) TimerEvent: {}
+[4.208341] (-) TimerEvent: {}
+[4.308596] (-) TimerEvent: {}
+[4.408855] (-) TimerEvent: {}
+[4.509117] (-) TimerEvent: {}
+[4.609377] (-) TimerEvent: {}
+[4.709640] (-) TimerEvent: {}
+[4.809961] (-) TimerEvent: {}
+[4.910217] (-) TimerEvent: {}
+[5.010469] (-) TimerEvent: {}
+[5.110722] (-) TimerEvent: {}
+[5.210973] (-) TimerEvent: {}
+[5.311187] (-) TimerEvent: {}
+[5.411443] (-) TimerEvent: {}
+[5.511713] (-) TimerEvent: {}
+[5.611990] (-) TimerEvent: {}
+[5.712219] (-) TimerEvent: {}
+[5.812495] (-) TimerEvent: {}
+[5.912756] (-) TimerEvent: {}
+[6.013026] (-) TimerEvent: {}
+[6.113298] (-) TimerEvent: {}
+[6.213546] (-) TimerEvent: {}
+[6.313833] (-) TimerEvent: {}
+[6.414094] (-) TimerEvent: {}
+[6.514311] (-) TimerEvent: {}
+[6.614561] (-) TimerEvent: {}
+[6.714813] (-) TimerEvent: {}
+[6.815065] (-) TimerEvent: {}
+[6.915337] (-) TimerEvent: {}
+[7.015598] (-) TimerEvent: {}
+[7.115836] (-) TimerEvent: {}
+[7.216096] (-) TimerEvent: {}
+[7.316341] (-) TimerEvent: {}
+[7.416698] (-) TimerEvent: {}
+[7.516939] (-) TimerEvent: {}
+[7.617194] (-) TimerEvent: {}
+[7.717443] (-) TimerEvent: {}
+[7.817702] (-) TimerEvent: {}
+[7.918051] (-) TimerEvent: {}
+[8.018314] (-) TimerEvent: {}
+[8.118573] (-) TimerEvent: {}
+[8.218828] (-) TimerEvent: {}
+[8.319134] (-) TimerEvent: {}
+[8.419403] (-) TimerEvent: {}
+[8.519672] (-) TimerEvent: {}
+[8.619954] (-) TimerEvent: {}
+[8.720175] (-) TimerEvent: {}
+[8.820469] (-) TimerEvent: {}
+[8.920751] (-) TimerEvent: {}
+[9.021045] (-) TimerEvent: {}
+[9.121313] (-) TimerEvent: {}
+[9.221573] (-) TimerEvent: {}
+[9.321847] (-) TimerEvent: {}
+[9.422115] (-) TimerEvent: {}
+[9.522327] (-) TimerEvent: {}
+[9.622585] (-) TimerEvent: {}
+[9.722846] (-) TimerEvent: {}
+[9.823119] (-) TimerEvent: {}
+[9.923351] (-) TimerEvent: {}
+[10.023615] (-) TimerEvent: {}
+[10.123842] (-) TimerEvent: {}
+[10.224120] (-) TimerEvent: {}
+[10.324339] (-) TimerEvent: {}
+[10.424615] (-) TimerEvent: {}
+[10.524876] (-) TimerEvent: {}
+[10.625117] (-) TimerEvent: {}
+[10.725326] (-) TimerEvent: {}
+[10.825572] (-) TimerEvent: {}
+[10.925826] (-) TimerEvent: {}
+[11.026085] (-) TimerEvent: {}
+[11.126300] (-) TimerEvent: {}
+[11.226548] (-) TimerEvent: {}
+[11.326798] (-) TimerEvent: {}
+[11.427043] (-) TimerEvent: {}
+[11.527262] (-) TimerEvent: {}
+[11.627507] (-) TimerEvent: {}
+[11.727755] (-) TimerEvent: {}
+[11.828006] (-) TimerEvent: {}
+[11.928231] (-) TimerEvent: {}
+[12.028480] (-) TimerEvent: {}
+[12.128727] (-) TimerEvent: {}
+[12.228971] (-) TimerEvent: {}
+[12.329171] (-) TimerEvent: {}
+[12.429417] (-) TimerEvent: {}
+[12.529660] (-) TimerEvent: {}
+[12.629964] (-) TimerEvent: {}
+[12.730160] (-) TimerEvent: {}
+[12.830410] (-) TimerEvent: {}
+[12.930660] (-) TimerEvent: {}
+[13.030913] (-) TimerEvent: {}
+[13.131171] (-) TimerEvent: {}
+[13.231412] (-) TimerEvent: {}
+[13.331658] (-) TimerEvent: {}
+[13.431912] (-) TimerEvent: {}
+[13.532159] (-) TimerEvent: {}
+[13.632406] (-) TimerEvent: {}
+[13.732654] (-) TimerEvent: {}
+[13.832905] (-) TimerEvent: {}
+[13.933169] (-) TimerEvent: {}
+[14.033417] (-) TimerEvent: {}
+[14.133664] (-) TimerEvent: {}
+[14.233911] (-) TimerEvent: {}
+[14.334181] (-) TimerEvent: {}
+[14.434427] (-) TimerEvent: {}
+[14.534677] (-) TimerEvent: {}
+[14.634935] (-) TimerEvent: {}
+[14.735189] (-) TimerEvent: {}
+[14.835442] (-) TimerEvent: {}
+[14.935693] (-) TimerEvent: {}
+[15.035908] (-) TimerEvent: {}
+[15.136173] (-) TimerEvent: {}
+[15.236423] (-) TimerEvent: {}
+[15.336677] (-) TimerEvent: {}
+[15.436924] (-) TimerEvent: {}
+[15.537118] (-) TimerEvent: {}
+[15.637370] (-) TimerEvent: {}
+[15.737619] (-) TimerEvent: {}
+[15.837854] (-) TimerEvent: {}
+[15.938111] (-) TimerEvent: {}
+[16.038329] (-) TimerEvent: {}
+[16.138575] (-) TimerEvent: {}
+[16.238830] (-) TimerEvent: {}
+[16.339107] (-) TimerEvent: {}
+[16.439381] (-) TimerEvent: {}
+[16.539637] (-) TimerEvent: {}
+[16.639887] (-) TimerEvent: {}
+[16.740137] (-) TimerEvent: {}
+[16.840382] (-) TimerEvent: {}
+[16.940633] (-) TimerEvent: {}
+[17.040908] (-) TimerEvent: {}
+[17.141161] (-) TimerEvent: {}
+[17.241413] (-) TimerEvent: {}
+[17.341712] (-) TimerEvent: {}
+[17.442023] (-) TimerEvent: {}
+[17.473266] (mpc_low) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable low_solver\x1b[0m\n'}
+[17.542163] (-) TimerEvent: {}
+[17.642434] (-) TimerEvent: {}
+[17.742726] (-) TimerEvent: {}
+[17.843019] (-) TimerEvent: {}
+[17.943305] (-) TimerEvent: {}
+[18.043572] (-) TimerEvent: {}
+[18.143862] (-) TimerEvent: {}
+[18.244142] (-) TimerEvent: {}
+[18.344420] (-) TimerEvent: {}
+[18.444696] (-) TimerEvent: {}
+[18.544956] (-) TimerEvent: {}
+[18.645232] (-) TimerEvent: {}
+[18.745496] (-) TimerEvent: {}
+[18.845763] (-) TimerEvent: {}
+[18.945992] (-) TimerEvent: {}
+[18.960719] (mpc_low) StdoutLine: {'line': b'[100%] Built target low_solver\n'}
+[18.971629] (mpc_low) CommandEnded: {'returncode': 0}
+[18.972484] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'install'}
+[18.981654] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/debug_clear_ws/build/mpc_low'], 'cwd': '/home/robot/debug_clear_ws/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot/debug_clear_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '3427493'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robot/debug_clear_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e447d728_8e4a_4e31_81a9_a75c9ff4eb4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2467'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/debug_clear_ws/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:')]), 'shell': False}
+[18.988825] (mpc_low) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.988996] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/low_solver\n'}
+[18.996611] (mpc_low) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/low_solver" to ""\n'}
+[18.996898] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low\n'}
+[18.996994] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low\n'}
+[18.997106] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh\n'}
+[18.997362] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv\n'}
+[18.997533] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh\n'}
+[18.997623] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv\n'}
+[18.997765] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash\n'}
+[18.997861] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh\n'}
+[18.997960] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh\n'}
+[18.998049] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv\n'}
+[18.998198] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv\n'}
+[18.998395] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low\n'}
+[18.998549] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake\n'}
+[18.998649] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake\n'}
+[18.998767] (mpc_low) StdoutLine: {'line': b'-- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml\n'}
+[19.000701] (mpc_low) CommandEnded: {'returncode': 0}
+[19.014514] (mpc_low) JobEnded: {'identifier': 'mpc_low', 'rc': 0}
+[19.015253] (-) EventReactorShutdown: {}

@@ -270,4 +270,3 @@ my_NMPC_solver::my_NMPC_solver(int n) {
     return status;
   }
 
-

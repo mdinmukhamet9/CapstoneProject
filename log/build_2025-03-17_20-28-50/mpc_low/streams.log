@@ -1,0 +1,287 @@
+[0.009s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake /home/robot/debug_clear_ws/src/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/mpc_low
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.596s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.681s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.719s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.723s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.796s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.798s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.874s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.900s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.947s] -- Looking for pthread.h
+[1.009s] -- Looking for pthread.h - found
+[1.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.076s] -- Found Threads: TRUE  
+[1.125s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.154s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.170s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.180s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.266s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.280s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.281s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.281s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.284s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.325s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.395s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.407s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.408s] -- Configured cppcheck include dirs: /home/robot/debug_clear_ws/src/mpc_low/include;/home/robot/debug_clear_ws/src/mpc_low/solver;/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model;/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints
+[1.408s] -- Configured cppcheck exclude dirs and/or files: 
+[1.409s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.412s] -- Added test 'lint_cmake' to check CMake code style
+[1.414s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.426s] -- Added test 'uncrustify' to check C / C++ code style
+[1.426s] -- Configured uncrustify additional arguments: 
+[1.428s] -- Added test 'xmllint' to check XML markup files
+[1.429s] -- Configuring done
+[1.487s] -- Generating done
+[1.495s] -- Build files have been written to: /home/robot/debug_clear_ws/build/mpc_low
+[1.505s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake /home/robot/debug_clear_ws/src/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/mpc_low
+[1.506s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[1.557s] [ 10%] [32mBuilding CXX object CMakeFiles/low_solver.dir/src/low_solver.cpp.o[0m
+[1.557s] [ 20%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_adj.c.o[0m
+[1.560s] [ 30%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_ode_fun.c.o[0m
+[1.560s] [ 40%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_forw.c.o[0m
+[1.560s] [ 50%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o[0m
+[1.562s] [ 60%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun.c.o[0m
+[1.562s] [ 70%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/acados_solver_Jackal.c.o[0m
+[1.562s] [ 80%] [32mBuilding CXX object CMakeFiles/low_solver.dir/solver/acados_solver_holder.cpp.o[0m
+[1.563s] [ 90%] [32mBuilding C object CMakeFiles/low_solver.dir/solver/acados_sim_solver_Jackal.c.o[0m
+[1.607s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_f0[m[K’:
+[1.607s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.607s]    59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[1.608s]       |                                                                              [01;35m[K^[m[K
+[1.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.608s]    59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[1.608s]       |                                                                                               [01;35m[K^[m[K
+[1.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.608s]    59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[1.608s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[1.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_init_mem[m[K’:
+[1.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:124:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.608s]   124 | CASADI_SYMBOL_EXPORT int Jackal_expl_vde_adj_init_mem([01;35m[Kint mem[m[K) {
+[1.608s]       |                                                       [01;35m[K~~~~^~~[m[K
+[1.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_free_mem[m[K’:
+[1.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:128:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.608s]   128 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_adj_free_mem([01;35m[Kint mem[m[K) {
+[1.609s]       |                                                        [01;35m[K~~~~^~~[m[K
+[1.609s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_release[m[K’:
+[1.609s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:135:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.609s]   135 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_adj_release([01;35m[Kint mem[m[K) {
+[1.609s]       |                                                       [01;35m[K~~~~^~~[m[K
+[1.610s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_f0[m[K’:
+[1.610s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.611s]    61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[1.611s]       |                                                                              [01;35m[K^[m[K
+[1.611s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.611s]    61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[1.611s]       |                                                                                               [01;35m[K^[m[K
+[1.611s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.611s]    61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[1.611s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[1.612s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_init_mem[m[K’:
+[1.612s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:206:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.613s]   206 | CASADI_SYMBOL_EXPORT int Jackal_expl_vde_forw_init_mem([01;35m[Kint mem[m[K) {
+[1.613s]       |                                                        [01;35m[K~~~~^~~[m[K
+[1.613s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_free_mem[m[K’:
+[1.613s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:210:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.613s]   210 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_forw_free_mem([01;35m[Kint mem[m[K) {
+[1.613s]       |                                                         [01;35m[K~~~~^~~[m[K
+[1.614s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_release[m[K’:
+[1.614s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:217:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.614s]   217 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_forw_release([01;35m[Kint mem[m[K) {
+[1.614s]       |                                                        [01;35m[K~~~~^~~[m[K
+[1.614s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_f0[m[K’:
+[1.614s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.614s]    57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[1.614s]       |                                                                              [01;35m[K^[m[K
+[1.615s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.615s]    57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[1.615s]       |                                                                                               [01;35m[K^[m[K
+[1.615s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.615s]    57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[1.615s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[1.616s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_init_mem[m[K’:
+[1.616s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:96:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.616s]    96 | CASADI_SYMBOL_EXPORT int Jackal_expl_ode_fun_init_mem([01;35m[Kint mem[m[K) {
+[1.616s]       |                                                       [01;35m[K~~~~^~~[m[K
+[1.616s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_free_mem[m[K’:
+[1.617s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:100:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.617s]   100 | CASADI_SYMBOL_EXPORT void Jackal_expl_ode_fun_free_mem([01;35m[Kint mem[m[K) {
+[1.617s]       |                                                        [01;35m[K~~~~^~~[m[K
+[1.617s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_release[m[K’:
+[1.617s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:107:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.617s]   107 | CASADI_SYMBOL_EXPORT void Jackal_expl_ode_fun_release([01;35m[Kint mem[m[K) {
+[1.617s]       |                                                       [01;35m[K~~~~^~~[m[K
+[1.639s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_f0[m[K’:
+[1.640s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.640s]    64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[1.641s]       |                                                                              [01;35m[K^[m[K
+[1.641s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.641s]    64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[1.641s]       |                                                                                               [01;35m[K^[m[K
+[1.641s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.641s]    64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[1.642s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[1.642s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_init_mem[m[K’:
+[1.642s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2420:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.642s]  2420 | CASADI_SYMBOL_EXPORT int Jackal_constr_h_fun_init_mem([01;35m[Kint mem[m[K) {
+[1.642s]       |                                                       [01;35m[K~~~~^~~[m[K
+[1.642s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_free_mem[m[K’:
+[1.643s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2424:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.643s]  2424 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_free_mem([01;35m[Kint mem[m[K) {
+[1.643s]       |                                                        [01;35m[K~~~~^~~[m[K
+[1.643s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_release[m[K’:
+[1.643s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2431:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.643s]  2431 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_release([01;35m[Kint mem[m[K) {
+[1.643s]       |                                                       [01;35m[K~~~~^~~[m[K
+[1.654s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:280:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.654s]   280 | }[01;35m[K;[m[K
+[1.654s]       |  [01;35m[K^[m[K
+[1.654s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:285:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.654s]   285 | }[01;35m[K;[m[K
+[1.654s]       |  [01;35m[K^[m[K
+[1.654s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:290:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.655s]   290 | }[01;35m[K;[m[K
+[1.655s]       |  [01;35m[K^[m[K
+[1.655s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:295:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.655s]   295 | }[01;35m[K;[m[K
+[1.655s]       |  [01;35m[K^[m[K
+[1.655s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:300:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.655s]   300 | }[01;35m[K;[m[K
+[1.655s]       |  [01;35m[K^[m[K
+[1.655s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:305:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.656s]   305 | }[01;35m[K;[m[K
+[1.656s]       |  [01;35m[K^[m[K
+[1.661s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_create_5_set_nlp_in[m[K’:
+[1.661s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:383:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp_int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.661s]   383 |     int [01;35m[Ktmp_int[m[K = 0;
+[1.661s]       |         [01;35m[K^~~~~~~[m[K
+[1.662s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_create_6_set_opts[m[K’:
+[1.662s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1304:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kext_cost_num_hess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.662s]  1304 |     int [01;35m[Kext_cost_num_hess[m[K = 0;
+[1.662s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.663s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_update_qp_solver_cond_N[m[K’:
+[1.663s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1421:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcapsule[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.663s]  1421 | int Jackal_acados_update_qp_solver_cond_N([01;35m[KJackal_solver_capsule* capsule[m[K, int qp_solver_cond_N)
+[1.663s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.664s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1421:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kqp_solver_cond_N[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.664s]  1421 | int Jackal_acados_update_qp_solver_cond_N(Jackal_solver_capsule* capsule, [01;35m[Kint qp_solver_cond_N[m[K)
+[1.664s]       |                                                                           [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[1.664s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_reset[m[K’:
+[1.664s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1439:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knlp_solver[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.664s]  1439 |     ocp_nlp_solver* [01;35m[Knlp_solver[m[K = capsule->nlp_solver;
+[1.664s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[1.664s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1438:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knlp_in[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.665s]  1438 |     ocp_nlp_in* [01;35m[Knlp_in[m[K = capsule->nlp_in;
+[1.665s]       |                 [01;35m[K^~~~~~[m[K
+[1.665s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1429:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreset_qp_solver_mem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.665s]  1429 | int Jackal_acados_reset(Jackal_solver_capsule* capsule, [01;35m[Kint reset_qp_solver_mem[m[K)
+[1.665s]       |                                                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[1.691s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_f0[m[K’:
+[1.691s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.692s]    68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+[1.692s]       |                                                                              [01;35m[K^[m[K
+[1.692s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.692s]    68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+[1.692s]       |                                                                                               [01;35m[K^[m[K
+[1.692s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.693s]    68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+[1.693s]       |                                                                                                  [01;35m[K~~~~^~~[m[K
+[1.693s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_init_mem[m[K’:
+[1.693s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:3984:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.693s]  3984 | CASADI_SYMBOL_EXPORT int Jackal_constr_h_fun_jac_uxt_zt_init_mem([01;35m[Kint mem[m[K) {
+[1.693s]       |                                                                  [01;35m[K~~~~^~~[m[K
+[1.693s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_free_mem[m[K’:
+[1.693s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:3988:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.694s]  3988 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_jac_uxt_zt_free_mem([01;35m[Kint mem[m[K) {
+[1.694s]       |                                                                   [01;35m[K~~~~^~~[m[K
+[1.694s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_release[m[K’:
+[1.694s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:3995:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.694s]  3995 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_jac_uxt_zt_release([01;35m[Kint mem[m[K) {
+[1.694s]       |                                                                  [01;35m[K~~~~^~~[m[K
+[2.606s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:[m[K In member function ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*)[m[K’:
+[2.606s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:141:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kx_init[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.606s]   141 |     double [01;35m[Kx_init[m[K[NX*(N+1)]={0.0};
+[2.607s]       |            [01;35m[K^~~~~~[m[K
+[2.607s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:163:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kxtraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.607s]   163 |     double [01;35m[Kxtraj[m[K[NX * (N+1)] = {0.0};
+[2.607s]       |            [01;35m[K^~~~~[m[K
+[2.607s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:164:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kutraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.607s]   164 |     double [01;35m[Kutraj[m[K[NU * N] = {0.0};
+[2.607s]       |            [01;35m[K^~~~~[m[K
+[2.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:35:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbx[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.608s]    35 |     int [01;35m[Kidxbx[m[K[NBX];   // indices of bounds on x (defines Jbx) at intermediate shooting nodes (1 to N-1)
+[2.608s]       |         [01;35m[K^~~~~[m[K
+[2.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:41:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxsh[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.608s]    41 |     int [01;35m[Kidxsh[m[K[NSH];
+[2.608s]       |         [01;35m[K^~~~~[m[K
+[2.608s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:43:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klh[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.608s]    43 |     double [01;35m[Klh[m[K[NH];
+[2.609s]       |            [01;35m[K^~[m[K
+[2.609s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kuh[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.609s]    44 |     double [01;35m[Kuh[m[K[NH];
+[2.609s]       |            [01;35m[K^~[m[K
+[2.609s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:68:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KVx[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.609s]    68 |     double [01;35m[KVx[m[K[NY*NX] = {0.0};
+[2.609s]       |            [01;35m[K^~[m[K
+[2.609s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:71:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KVx_e[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.610s]    71 |     double [01;35m[KVx_e[m[K[NYN*NX] = {0.0};
+[2.610s]       |            [01;35m[K^~~~[m[K
+[2.610s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:74:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KVu[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.610s]    74 |     double [01;35m[KVu[m[K[NY*NU] = {0.0};
+[2.610s]       |            [01;35m[K^~[m[K
+[2.610s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:89:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzl[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.610s]    89 |     double [01;35m[Kzl[m[K[NSH]={0.0};
+[2.610s]       |            [01;35m[K^~[m[K
+[2.610s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:90:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.611s]    90 |     double [01;35m[Kzu[m[K[NSH]={0.0};
+[2.611s]       |            [01;35m[K^~[m[K
+[2.611s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:92:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KZl[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.611s]    92 |     double [01;35m[KZl[m[K[NSH] = {0.0};
+[2.611s]       |            [01;35m[K^~[m[K
+[2.611s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:93:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KZu[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.611s]    93 |     double [01;35m[KZu[m[K[NSH] = {0.0};
+[2.611s]       |            [01;35m[K^~[m[K
+[2.611s] [01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:19:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktracking_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.612s]    19 |   int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], [01;35m[Kdouble tracking_goal[30][m[K, double results[8], double trajectory[33]) {
+[2.612s]       |                                                                                                                              [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[17.473s] [100%] [32m[1mLinking CXX executable low_solver[0m
+[18.960s] [100%] Built target low_solver
+[18.971s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[18.981s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low
+[18.988s] -- Install configuration: ""
+[18.988s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/low_solver
+[18.996s] -- Set runtime path of "/home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/low_solver" to ""
+[18.996s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+[18.996s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+[18.996s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+[18.997s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+[18.998s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+[18.998s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+[18.998s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+[18.998s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml
+[19.000s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low

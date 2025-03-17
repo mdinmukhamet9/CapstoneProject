@@ -1,9 +1,6 @@
 /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/uninstall.dir
 /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/mpc_low_uninstall.dir
-/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/mpc_solver.dir
-/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/mpc_low.dir
-/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/custom_odometry_node_sim.dir
-/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/mpc_low_node.dir
+/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/low_solver.dir
 /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/test.dir
 /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/edit_cache.dir
 /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles/rebuild_cache.dir

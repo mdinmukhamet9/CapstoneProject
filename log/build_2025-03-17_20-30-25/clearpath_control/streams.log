@@ -1,0 +1,99 @@
+[0.043s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_control': /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_common/clearpath_control -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_control
+[0.466s] -- The C compiler identification is GNU 11.4.0
+[0.466s] -- The CXX compiler identification is GNU 11.4.0
+[0.466s] -- Detecting C compiler ABI info
+[0.466s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.467s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.561s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.568s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.611s] -- Configuring done
+[1.617s] -- Generating done
+[1.618s] -- Build files have been written to: /home/robot/debug_clear_ws/build/clearpath_control
+[1.670s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_control' returned '0': /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_common/clearpath_control -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_control
+[1.671s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_control': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_control -- -j12 -l12
+[1.772s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_control' returned '0': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_control -- -j12 -l12
+[1.774s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_control': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_control
+[1.788s] -- Install configuration: ""
+[1.788s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config
+[1.789s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/r100
+[1.789s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/r100/control.yaml
+[1.789s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_ps4.yaml
+[1.792s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_interactive_markers.yaml
+[1.792s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_logitech.yaml
+[1.792s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/r100/localization.yaml
+[1.793s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/w200
+[1.793s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/w200/control.yaml
+[1.793s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_ps4.yaml
+[1.793s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_interactive_markers.yaml
+[1.793s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_logitech.yaml
+[1.800s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/w200/localization.yaml
+[1.801s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do100
+[1.801s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do100/control.yaml
+[1.801s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_ps4.yaml
+[1.801s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_interactive_markers.yaml
+[1.802s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_logitech.yaml
+[1.802s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do100/localization.yaml
+[1.802s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/twist_mux.yaml
+[1.802s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/j100
+[1.802s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/j100/control.yaml
+[1.803s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_ps4.yaml
+[1.803s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_interactive_markers.yaml
+[1.803s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_logitech.yaml
+[1.803s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/j100/localization.yaml
+[1.803s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd150
+[1.803s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd150/control.yaml
+[1.804s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_ps4.yaml
+[1.804s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_interactive_markers.yaml
+[1.804s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_logitech.yaml
+[1.804s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd150/localization.yaml
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/a200
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/a200/control.yaml
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_ps4.yaml
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_interactive_markers.yaml
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_logitech.yaml
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/a200/localization.yaml
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd100
+[1.805s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd100/control.yaml
+[1.806s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_ps4.yaml
+[1.808s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_interactive_markers.yaml
+[1.808s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_logitech.yaml
+[1.808s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/dd100/localization.yaml
+[1.809s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do150
+[1.809s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do150/control.yaml
+[1.809s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_ps4.yaml
+[1.809s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_interactive_markers.yaml
+[1.809s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_logitech.yaml
+[1.810s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/do150/localization.yaml
+[1.810s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/generic
+[1.810s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_ps4.yaml
+[1.810s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_interactive_markers.yaml
+[1.811s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_logitech.yaml
+[1.813s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/config/generic/localization.yaml
+[1.813s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/launch
+[1.813s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/launch/control.launch.py
+[1.813s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/launch/teleop_joy.launch.py
+[1.813s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/launch/teleop_base.launch.py
+[1.814s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/launch/localization.launch.py
+[1.814s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/ament_index/resource_index/package_run_dependencies/clearpath_control
+[1.819s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/ament_index/resource_index/parent_prefix_path/clearpath_control
+[1.819s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/environment/ament_prefix_path.sh
+[1.819s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/environment/ament_prefix_path.dsv
+[1.820s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/environment/path.sh
+[1.820s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/environment/path.dsv
+[1.820s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/local_setup.bash
+[1.820s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/local_setup.sh
+[1.821s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/local_setup.zsh
+[1.821s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/local_setup.dsv
+[1.822s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/package.dsv
+[1.823s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/ament_index/resource_index/packages/clearpath_control
+[1.823s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/cmake/clearpath_controlConfig.cmake
+[1.824s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/cmake/clearpath_controlConfig-version.cmake
+[1.827s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_control/share/clearpath_control/package.xml
+[1.836s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_control' returned '0': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_control

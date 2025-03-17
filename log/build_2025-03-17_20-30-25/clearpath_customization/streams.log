@@ -1,0 +1,64 @@
+[0.423s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_customization': /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_common/clearpath_customization -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_customization
+[0.528s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.671s] -- Detecting C compiler ABI info
+[0.800s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.823s] -- Detecting C compile features - done
+[0.830s] -- Detecting CXX compiler ABI info
+[0.987s] -- Detecting CXX compiler ABI info - done
+[1.005s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.006s] -- Detecting CXX compile features
+[1.007s] -- Detecting CXX compile features - done
+[1.012s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.823s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.948s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.949s] -- Added test 'lint_cmake' to check CMake code style
+[1.950s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.953s] -- Added test 'xmllint' to check XML markup files
+[1.954s] -- Configuring done
+[1.959s] -- Generating done
+[1.962s] -- Build files have been written to: /home/robot/debug_clear_ws/build/clearpath_customization
+[1.969s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_customization' returned '0': /usr/bin/cmake /home/robot/debug_clear_ws/src/clearpath_common/clearpath_customization -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/clearpath_customization
+[1.971s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_customization': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_customization -- -j12 -l12
+[2.024s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_customization' returned '0': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/clearpath_customization -- -j12 -l12
+[2.027s] Invoking command in '/home/robot/debug_clear_ws/build/clearpath_customization': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_customization
+[2.035s] -- Install configuration: ""
+[2.035s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/lib/clearpath_customization/generate_bringup
+[2.035s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/lib/clearpath_customization/generate_description
+[2.035s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup
+[2.036s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/CMakeLists.txt
+[2.036s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/launch
+[2.036s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/launch/project_bringup.launch.py
+[2.036s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/launch/device.launch.py
+[2.037s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/LICENSE
+[2.037s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/package.xml
+[2.037s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/config
+[2.037s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_bringup/config/device.yaml
+[2.037s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description
+[2.038s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/CMakeLists.txt
+[2.038s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/meshes
+[2.038s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/meshes/donut.stl
+[2.038s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/urdf
+[2.038s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/urdf/project_description.urdf.xacro
+[2.039s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/urdf/donut.urdf.xacro
+[2.039s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/LICENSE
+[2.039s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/project_description/package.xml
+[2.039s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/ament_index/resource_index/package_run_dependencies/clearpath_customization
+[2.039s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/ament_index/resource_index/parent_prefix_path/clearpath_customization
+[2.039s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/environment/ament_prefix_path.sh
+[2.040s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/environment/ament_prefix_path.dsv
+[2.040s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/environment/path.sh
+[2.040s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/environment/path.dsv
+[2.040s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/local_setup.bash
+[2.040s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/local_setup.sh
+[2.041s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/local_setup.zsh
+[2.041s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/local_setup.dsv
+[2.041s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/package.dsv
+[2.041s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/ament_index/resource_index/packages/clearpath_customization
+[2.042s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/cmake/clearpath_customizationConfig.cmake
+[2.042s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/cmake/clearpath_customizationConfig-version.cmake
+[2.042s] -- Installing: /home/robot/debug_clear_ws/install/clearpath_customization/share/clearpath_customization/package.xml
+[2.045s] Invoked command in '/home/robot/debug_clear_ws/build/clearpath_customization' returned '0': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/clearpath_customization

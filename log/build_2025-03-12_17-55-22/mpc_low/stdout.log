@@ -1,4 +1,0 @@
-[ 45%] Built target mpc_solver
-[35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
-[ 54%] [32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o[0m
-[ 63%] [32m[1mLinking CXX shared library libmpc_low.so[0m

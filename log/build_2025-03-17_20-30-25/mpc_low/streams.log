@@ -1,0 +1,23 @@
+[0.428s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[1.511s] [35m[1mConsolidate compiler generated dependencies of target low_solver[0m
+[1.512s] [100%] Built target low_solver
+[1.521s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+[1.535s] Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low
+[1.588s] -- Install configuration: ""
+[1.589s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/low_solver
+[1.589s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+[1.589s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+[1.589s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+[1.590s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+[1.590s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+[1.590s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+[1.590s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+[1.590s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+[1.590s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+[1.591s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+[1.591s] -- Installing: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+[1.591s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+[1.591s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+[1.591s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+[1.591s] -- Up-to-date: /home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml
+[1.597s] Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low

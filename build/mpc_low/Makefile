@@ -198,87 +198,144 @@ mpc_low_uninstall/fast:
 .PHONY : mpc_low_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named mpc_solver
+# Target rules for targets named low_solver
 
 # Build rule for target.
-mpc_solver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mpc_solver
-.PHONY : mpc_solver
+low_solver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 low_solver
+.PHONY : low_solver
 
 # fast build rule for target.
-mpc_solver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/build
-.PHONY : mpc_solver/fast
+low_solver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/build
+.PHONY : low_solver/fast
 
-#=============================================================================
-# Target rules for targets named mpc_low
-
-# Build rule for target.
-mpc_low: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mpc_low
-.PHONY : mpc_low
-
-# fast build rule for target.
-mpc_low/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/build
-.PHONY : mpc_low/fast
-
-#=============================================================================
-# Target rules for targets named custom_odometry_node_sim
-
-# Build rule for target.
-custom_odometry_node_sim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 custom_odometry_node_sim
-.PHONY : custom_odometry_node_sim
-
-# fast build rule for target.
-custom_odometry_node_sim/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/build
-.PHONY : custom_odometry_node_sim/fast
-
-#=============================================================================
-# Target rules for targets named mpc_low_node
-
-# Build rule for target.
-mpc_low_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mpc_low_node
-.PHONY : mpc_low_node
-
-# fast build rule for target.
-mpc_low_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/build
-.PHONY : mpc_low_node/fast
-
-solver/acados_ocp_solver_pyx.o: solver/acados_ocp_solver_pyx.c.o
-.PHONY : solver/acados_ocp_solver_pyx.o
+solver/Jackal_constraints/Jackal_constr_h_fun.o: solver/Jackal_constraints/Jackal_constr_h_fun.c.o
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun.o
 
 # target to build an object file
-solver/acados_ocp_solver_pyx.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.o
-.PHONY : solver/acados_ocp_solver_pyx.c.o
+solver/Jackal_constraints/Jackal_constr_h_fun.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun.c.o
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun.c.o
 
-solver/acados_ocp_solver_pyx.i: solver/acados_ocp_solver_pyx.c.i
-.PHONY : solver/acados_ocp_solver_pyx.i
+solver/Jackal_constraints/Jackal_constr_h_fun.i: solver/Jackal_constraints/Jackal_constr_h_fun.c.i
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun.i
 
 # target to preprocess a source file
-solver/acados_ocp_solver_pyx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.i
-.PHONY : solver/acados_ocp_solver_pyx.c.i
+solver/Jackal_constraints/Jackal_constr_h_fun.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun.c.i
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun.c.i
 
-solver/acados_ocp_solver_pyx.s: solver/acados_ocp_solver_pyx.c.s
-.PHONY : solver/acados_ocp_solver_pyx.s
+solver/Jackal_constraints/Jackal_constr_h_fun.s: solver/Jackal_constraints/Jackal_constr_h_fun.c.s
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun.s
 
 # target to generate assembly for a file
-solver/acados_ocp_solver_pyx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.s
-.PHONY : solver/acados_ocp_solver_pyx.c.s
+solver/Jackal_constraints/Jackal_constr_h_fun.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun.c.s
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun.c.s
+
+solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.o: solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.o
+
+# target to build an object file
+solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o
+
+solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.i: solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.i
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.i
+
+# target to preprocess a source file
+solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.i
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.i
+
+solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.s: solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.s
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.s
+
+# target to generate assembly for a file
+solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.s
+.PHONY : solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.s
+
+solver/Jackal_model/Jackal_expl_ode_fun.o: solver/Jackal_model/Jackal_expl_ode_fun.c.o
+.PHONY : solver/Jackal_model/Jackal_expl_ode_fun.o
+
+# target to build an object file
+solver/Jackal_model/Jackal_expl_ode_fun.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_ode_fun.c.o
+.PHONY : solver/Jackal_model/Jackal_expl_ode_fun.c.o
+
+solver/Jackal_model/Jackal_expl_ode_fun.i: solver/Jackal_model/Jackal_expl_ode_fun.c.i
+.PHONY : solver/Jackal_model/Jackal_expl_ode_fun.i
+
+# target to preprocess a source file
+solver/Jackal_model/Jackal_expl_ode_fun.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_ode_fun.c.i
+.PHONY : solver/Jackal_model/Jackal_expl_ode_fun.c.i
+
+solver/Jackal_model/Jackal_expl_ode_fun.s: solver/Jackal_model/Jackal_expl_ode_fun.c.s
+.PHONY : solver/Jackal_model/Jackal_expl_ode_fun.s
+
+# target to generate assembly for a file
+solver/Jackal_model/Jackal_expl_ode_fun.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_ode_fun.c.s
+.PHONY : solver/Jackal_model/Jackal_expl_ode_fun.c.s
+
+solver/Jackal_model/Jackal_expl_vde_adj.o: solver/Jackal_model/Jackal_expl_vde_adj.c.o
+.PHONY : solver/Jackal_model/Jackal_expl_vde_adj.o
+
+# target to build an object file
+solver/Jackal_model/Jackal_expl_vde_adj.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_adj.c.o
+.PHONY : solver/Jackal_model/Jackal_expl_vde_adj.c.o
+
+solver/Jackal_model/Jackal_expl_vde_adj.i: solver/Jackal_model/Jackal_expl_vde_adj.c.i
+.PHONY : solver/Jackal_model/Jackal_expl_vde_adj.i
+
+# target to preprocess a source file
+solver/Jackal_model/Jackal_expl_vde_adj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_adj.c.i
+.PHONY : solver/Jackal_model/Jackal_expl_vde_adj.c.i
+
+solver/Jackal_model/Jackal_expl_vde_adj.s: solver/Jackal_model/Jackal_expl_vde_adj.c.s
+.PHONY : solver/Jackal_model/Jackal_expl_vde_adj.s
+
+# target to generate assembly for a file
+solver/Jackal_model/Jackal_expl_vde_adj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_adj.c.s
+.PHONY : solver/Jackal_model/Jackal_expl_vde_adj.c.s
+
+solver/Jackal_model/Jackal_expl_vde_forw.o: solver/Jackal_model/Jackal_expl_vde_forw.c.o
+.PHONY : solver/Jackal_model/Jackal_expl_vde_forw.o
+
+# target to build an object file
+solver/Jackal_model/Jackal_expl_vde_forw.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_forw.c.o
+.PHONY : solver/Jackal_model/Jackal_expl_vde_forw.c.o
+
+solver/Jackal_model/Jackal_expl_vde_forw.i: solver/Jackal_model/Jackal_expl_vde_forw.c.i
+.PHONY : solver/Jackal_model/Jackal_expl_vde_forw.i
+
+# target to preprocess a source file
+solver/Jackal_model/Jackal_expl_vde_forw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_forw.c.i
+.PHONY : solver/Jackal_model/Jackal_expl_vde_forw.c.i
+
+solver/Jackal_model/Jackal_expl_vde_forw.s: solver/Jackal_model/Jackal_expl_vde_forw.c.s
+.PHONY : solver/Jackal_model/Jackal_expl_vde_forw.s
+
+# target to generate assembly for a file
+solver/Jackal_model/Jackal_expl_vde_forw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/Jackal_model/Jackal_expl_vde_forw.c.s
+.PHONY : solver/Jackal_model/Jackal_expl_vde_forw.c.s
 
 solver/acados_sim_solver_Jackal.o: solver/acados_sim_solver_Jackal.c.o
 .PHONY : solver/acados_sim_solver_Jackal.o
 
 # target to build an object file
 solver/acados_sim_solver_Jackal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_sim_solver_Jackal.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_sim_solver_Jackal.c.o
 .PHONY : solver/acados_sim_solver_Jackal.c.o
 
 solver/acados_sim_solver_Jackal.i: solver/acados_sim_solver_Jackal.c.i
@@ -286,7 +343,7 @@ solver/acados_sim_solver_Jackal.i: solver/acados_sim_solver_Jackal.c.i
 
 # target to preprocess a source file
 solver/acados_sim_solver_Jackal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_sim_solver_Jackal.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_sim_solver_Jackal.c.i
 .PHONY : solver/acados_sim_solver_Jackal.c.i
 
 solver/acados_sim_solver_Jackal.s: solver/acados_sim_solver_Jackal.c.s
@@ -294,7 +351,7 @@ solver/acados_sim_solver_Jackal.s: solver/acados_sim_solver_Jackal.c.s
 
 # target to generate assembly for a file
 solver/acados_sim_solver_Jackal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_sim_solver_Jackal.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_sim_solver_Jackal.c.s
 .PHONY : solver/acados_sim_solver_Jackal.c.s
 
 solver/acados_solver_Jackal.o: solver/acados_solver_Jackal.c.o
@@ -302,7 +359,7 @@ solver/acados_solver_Jackal.o: solver/acados_solver_Jackal.c.o
 
 # target to build an object file
 solver/acados_solver_Jackal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_solver_Jackal.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_solver_Jackal.c.o
 .PHONY : solver/acados_solver_Jackal.c.o
 
 solver/acados_solver_Jackal.i: solver/acados_solver_Jackal.c.i
@@ -310,7 +367,7 @@ solver/acados_solver_Jackal.i: solver/acados_solver_Jackal.c.i
 
 # target to preprocess a source file
 solver/acados_solver_Jackal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_solver_Jackal.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_solver_Jackal.c.i
 .PHONY : solver/acados_solver_Jackal.c.i
 
 solver/acados_solver_Jackal.s: solver/acados_solver_Jackal.c.s
@@ -318,88 +375,39 @@ solver/acados_solver_Jackal.s: solver/acados_solver_Jackal.c.s
 
 # target to generate assembly for a file
 solver/acados_solver_Jackal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/acados_solver_Jackal.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_solver_Jackal.c.s
 .PHONY : solver/acados_solver_Jackal.c.s
 
-solver/main_Jackal.o: solver/main_Jackal.c.o
-.PHONY : solver/main_Jackal.o
+solver/acados_solver_holder.o: solver/acados_solver_holder.cpp.o
+.PHONY : solver/acados_solver_holder.o
 
 # target to build an object file
-solver/main_Jackal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/main_Jackal.c.o
-.PHONY : solver/main_Jackal.c.o
+solver/acados_solver_holder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_solver_holder.cpp.o
+.PHONY : solver/acados_solver_holder.cpp.o
 
-solver/main_Jackal.i: solver/main_Jackal.c.i
-.PHONY : solver/main_Jackal.i
-
-# target to preprocess a source file
-solver/main_Jackal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/main_Jackal.c.i
-.PHONY : solver/main_Jackal.c.i
-
-solver/main_Jackal.s: solver/main_Jackal.c.s
-.PHONY : solver/main_Jackal.s
-
-# target to generate assembly for a file
-solver/main_Jackal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/main_Jackal.c.s
-.PHONY : solver/main_Jackal.c.s
-
-solver/main_sim_Jackal.o: solver/main_sim_Jackal.c.o
-.PHONY : solver/main_sim_Jackal.o
-
-# target to build an object file
-solver/main_sim_Jackal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/main_sim_Jackal.c.o
-.PHONY : solver/main_sim_Jackal.c.o
-
-solver/main_sim_Jackal.i: solver/main_sim_Jackal.c.i
-.PHONY : solver/main_sim_Jackal.i
+solver/acados_solver_holder.i: solver/acados_solver_holder.cpp.i
+.PHONY : solver/acados_solver_holder.i
 
 # target to preprocess a source file
-solver/main_sim_Jackal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/main_sim_Jackal.c.i
-.PHONY : solver/main_sim_Jackal.c.i
+solver/acados_solver_holder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_solver_holder.cpp.i
+.PHONY : solver/acados_solver_holder.cpp.i
 
-solver/main_sim_Jackal.s: solver/main_sim_Jackal.c.s
-.PHONY : solver/main_sim_Jackal.s
-
-# target to generate assembly for a file
-solver/main_sim_Jackal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/solver/main_sim_Jackal.c.s
-.PHONY : solver/main_sim_Jackal.c.s
-
-src/custom_odometry_sim.o: src/custom_odometry_sim.cpp.o
-.PHONY : src/custom_odometry_sim.o
-
-# target to build an object file
-src/custom_odometry_sim.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.o
-.PHONY : src/custom_odometry_sim.cpp.o
-
-src/custom_odometry_sim.i: src/custom_odometry_sim.cpp.i
-.PHONY : src/custom_odometry_sim.i
-
-# target to preprocess a source file
-src/custom_odometry_sim.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.i
-.PHONY : src/custom_odometry_sim.cpp.i
-
-src/custom_odometry_sim.s: src/custom_odometry_sim.cpp.s
-.PHONY : src/custom_odometry_sim.s
+solver/acados_solver_holder.s: solver/acados_solver_holder.cpp.s
+.PHONY : solver/acados_solver_holder.s
 
 # target to generate assembly for a file
-src/custom_odometry_sim.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.s
-.PHONY : src/custom_odometry_sim.cpp.s
+solver/acados_solver_holder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/solver/acados_solver_holder.cpp.s
+.PHONY : solver/acados_solver_holder.cpp.s
 
 src/low_solver.o: src/low_solver.cpp.o
 .PHONY : src/low_solver.o
 
 # target to build an object file
 src/low_solver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/src/low_solver.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/src/low_solver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/src/low_solver.cpp.o
 .PHONY : src/low_solver.cpp.o
 
 src/low_solver.i: src/low_solver.cpp.i
@@ -407,8 +415,7 @@ src/low_solver.i: src/low_solver.cpp.i
 
 # target to preprocess a source file
 src/low_solver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/src/low_solver.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/src/low_solver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/src/low_solver.cpp.i
 .PHONY : src/low_solver.cpp.i
 
 src/low_solver.s: src/low_solver.cpp.s
@@ -416,8 +423,7 @@ src/low_solver.s: src/low_solver.cpp.s
 
 # target to generate assembly for a file
 src/low_solver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/src/low_solver.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/src/low_solver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/src/low_solver.cpp.s
 .PHONY : src/low_solver.cpp.s
 
 # Help Target
@@ -435,28 +441,31 @@ help:
 	@echo "... test"
 	@echo "... mpc_low_uninstall"
 	@echo "... uninstall"
-	@echo "... custom_odometry_node_sim"
-	@echo "... mpc_low"
-	@echo "... mpc_low_node"
-	@echo "... mpc_solver"
-	@echo "... solver/acados_ocp_solver_pyx.o"
-	@echo "... solver/acados_ocp_solver_pyx.i"
-	@echo "... solver/acados_ocp_solver_pyx.s"
+	@echo "... low_solver"
+	@echo "... solver/Jackal_constraints/Jackal_constr_h_fun.o"
+	@echo "... solver/Jackal_constraints/Jackal_constr_h_fun.i"
+	@echo "... solver/Jackal_constraints/Jackal_constr_h_fun.s"
+	@echo "... solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.o"
+	@echo "... solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.i"
+	@echo "... solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.s"
+	@echo "... solver/Jackal_model/Jackal_expl_ode_fun.o"
+	@echo "... solver/Jackal_model/Jackal_expl_ode_fun.i"
+	@echo "... solver/Jackal_model/Jackal_expl_ode_fun.s"
+	@echo "... solver/Jackal_model/Jackal_expl_vde_adj.o"
+	@echo "... solver/Jackal_model/Jackal_expl_vde_adj.i"
+	@echo "... solver/Jackal_model/Jackal_expl_vde_adj.s"
+	@echo "... solver/Jackal_model/Jackal_expl_vde_forw.o"
+	@echo "... solver/Jackal_model/Jackal_expl_vde_forw.i"
+	@echo "... solver/Jackal_model/Jackal_expl_vde_forw.s"
 	@echo "... solver/acados_sim_solver_Jackal.o"
 	@echo "... solver/acados_sim_solver_Jackal.i"
 	@echo "... solver/acados_sim_solver_Jackal.s"
 	@echo "... solver/acados_solver_Jackal.o"
 	@echo "... solver/acados_solver_Jackal.i"
 	@echo "... solver/acados_solver_Jackal.s"
-	@echo "... solver/main_Jackal.o"
-	@echo "... solver/main_Jackal.i"
-	@echo "... solver/main_Jackal.s"
-	@echo "... solver/main_sim_Jackal.o"
-	@echo "... solver/main_sim_Jackal.i"
-	@echo "... solver/main_sim_Jackal.s"
-	@echo "... src/custom_odometry_sim.o"
-	@echo "... src/custom_odometry_sim.i"
-	@echo "... src/custom_odometry_sim.s"
+	@echo "... solver/acados_solver_holder.o"
+	@echo "... solver/acados_solver_holder.i"
+	@echo "... solver/acados_solver_holder.s"
 	@echo "... src/low_solver.o"
 	@echo "... src/low_solver.i"
 	@echo "... src/low_solver.s"

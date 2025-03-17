@@ -1,0 +1,16 @@
+/home/robot/debug_clear_ws/install/mpc_low/lib/mpc_low/low_solver
+/home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+/home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+/home/robot/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+/home/robot/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml

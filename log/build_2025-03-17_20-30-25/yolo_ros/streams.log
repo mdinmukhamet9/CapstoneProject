@@ -1,0 +1,45 @@
+[1.197s] Invoking command in '/home/robot/debug_clear_ws/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolo_msgs:/home/robot/debug_clear_ws/install/mpc_low:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/debug_clear_ws/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/debug_clear_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages:/home/robot/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/robot/debug_clear_ws/build/yolo_ros/build install --record /home/robot/debug_clear_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[1.554s] running egg_info
+[1.589s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[1.589s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[1.590s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[1.590s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[1.590s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[1.591s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[1.591s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.639s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.641s] running build
+[1.642s] running build_py
+[1.642s] creating /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[1.642s] copying yolo_ros/detect_3d_node.py -> /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[1.642s] copying yolo_ros/tracking_node.py -> /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[1.643s] copying yolo_ros/yolo_node.py -> /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[1.643s] copying yolo_ros/__init__.py -> /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[1.643s] copying yolo_ros/debug_node.py -> /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[1.644s] running install
+[1.652s] running install_lib
+[1.682s] creating /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.682s] copying /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.682s] copying /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.682s] copying /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.683s] copying /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.683s] copying /home/robot/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.683s] byte-compiling /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[1.687s] byte-compiling /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[1.688s] byte-compiling /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[1.690s] byte-compiling /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[1.690s] byte-compiling /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[1.693s] running install_data
+[1.693s] creating /home/robot/debug_clear_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.693s] copying resource/yolo_ros -> /home/robot/debug_clear_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[1.694s] copying package.xml -> /home/robot/debug_clear_ws/install/yolo_ros/share/yolo_ros
+[1.694s] running install_egg_info
+[1.719s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[1.720s] running install_scripts
+[1.925s] Installing debug_node script to /home/robot/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[1.925s] Installing detect_3d_node script to /home/robot/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[1.926s] Installing tracking_node script to /home/robot/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[1.926s] Installing yolo_node script to /home/robot/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[1.926s] writing list of installed files to '/home/robot/debug_clear_ws/build/yolo_ros/install.log'
+[1.956s] Invoked command in '/home/robot/debug_clear_ws/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/debug_clear_ws/install/yolo_msgs:/home/robot/debug_clear_ws/install/mpc_low:/opt/ros/humble LD_LIBRARY_PATH=/home/robot/debug_clear_ws/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/debug_clear_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages:/home/robot/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/robot/debug_clear_ws/build/yolo_ros/build install --record /home/robot/debug_clear_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

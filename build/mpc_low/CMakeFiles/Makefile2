@@ -63,10 +63,7 @@ CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/mpc_low
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/mpc_solver.dir/all
-all: CMakeFiles/mpc_low.dir/all
-all: CMakeFiles/custom_odometry_node_sim.dir/all
-all: CMakeFiles/mpc_low_node.dir/all
+all: CMakeFiles/low_solver.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,10 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/mpc_low_uninstall.dir/clean
-clean: CMakeFiles/mpc_solver.dir/clean
-clean: CMakeFiles/mpc_low.dir/clean
-clean: CMakeFiles/custom_odometry_node_sim.dir/clean
-clean: CMakeFiles/mpc_low_node.dir/clean
+clean: CMakeFiles/low_solver.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,110 +129,30 @@ CMakeFiles/mpc_low_uninstall.dir/clean:
 .PHONY : CMakeFiles/mpc_low_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mpc_solver.dir
+# Target rules for target CMakeFiles/low_solver.dir
 
 # All Build rule for target.
-CMakeFiles/mpc_solver.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles --progress-num=7,8,9,10,11 "Built target mpc_solver"
-.PHONY : CMakeFiles/mpc_solver.dir/all
+CMakeFiles/low_solver.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target low_solver"
+.PHONY : CMakeFiles/low_solver.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mpc_solver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mpc_solver.dir/all
+CMakeFiles/low_solver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/low_solver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 0
-.PHONY : CMakeFiles/mpc_solver.dir/rule
+.PHONY : CMakeFiles/low_solver.dir/rule
 
 # Convenience name for target.
-mpc_solver: CMakeFiles/mpc_solver.dir/rule
-.PHONY : mpc_solver
+low_solver: CMakeFiles/low_solver.dir/rule
+.PHONY : low_solver
 
 # clean rule for target.
-CMakeFiles/mpc_solver.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_solver.dir/build.make CMakeFiles/mpc_solver.dir/clean
-.PHONY : CMakeFiles/mpc_solver.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/mpc_low.dir
-
-# All Build rule for target.
-CMakeFiles/mpc_low.dir/all: CMakeFiles/mpc_solver.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles --progress-num=3,4 "Built target mpc_low"
-.PHONY : CMakeFiles/mpc_low.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/mpc_low.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mpc_low.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 0
-.PHONY : CMakeFiles/mpc_low.dir/rule
-
-# Convenience name for target.
-mpc_low: CMakeFiles/mpc_low.dir/rule
-.PHONY : mpc_low
-
-# clean rule for target.
-CMakeFiles/mpc_low.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low.dir/build.make CMakeFiles/mpc_low.dir/clean
-.PHONY : CMakeFiles/mpc_low.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/custom_odometry_node_sim.dir
-
-# All Build rule for target.
-CMakeFiles/custom_odometry_node_sim.dir/all: CMakeFiles/mpc_solver.dir/all
-CMakeFiles/custom_odometry_node_sim.dir/all: CMakeFiles/mpc_low.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles --progress-num=1,2 "Built target custom_odometry_node_sim"
-.PHONY : CMakeFiles/custom_odometry_node_sim.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/custom_odometry_node_sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/custom_odometry_node_sim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 0
-.PHONY : CMakeFiles/custom_odometry_node_sim.dir/rule
-
-# Convenience name for target.
-custom_odometry_node_sim: CMakeFiles/custom_odometry_node_sim.dir/rule
-.PHONY : custom_odometry_node_sim
-
-# clean rule for target.
-CMakeFiles/custom_odometry_node_sim.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/custom_odometry_node_sim.dir/build.make CMakeFiles/custom_odometry_node_sim.dir/clean
-.PHONY : CMakeFiles/custom_odometry_node_sim.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/mpc_low_node.dir
-
-# All Build rule for target.
-CMakeFiles/mpc_low_node.dir/all: CMakeFiles/mpc_solver.dir/all
-CMakeFiles/mpc_low_node.dir/all: CMakeFiles/mpc_low.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/mpc_low/CMakeFiles --progress-num=5,6 "Built target mpc_low_node"
-.PHONY : CMakeFiles/mpc_low_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/mpc_low_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mpc_low_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/mpc_low/CMakeFiles 0
-.PHONY : CMakeFiles/mpc_low_node.dir/rule
-
-# Convenience name for target.
-mpc_low_node: CMakeFiles/mpc_low_node.dir/rule
-.PHONY : mpc_low_node
-
-# clean rule for target.
-CMakeFiles/mpc_low_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpc_low_node.dir/build.make CMakeFiles/mpc_low_node.dir/clean
-.PHONY : CMakeFiles/mpc_low_node.dir/clean
+CMakeFiles/low_solver.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/low_solver.dir/build.make CMakeFiles/low_solver.dir/clean
+.PHONY : CMakeFiles/low_solver.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

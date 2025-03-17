@@ -17,7 +17,7 @@
 #include <chrono>
 #include <mutex>
 
-#include "acados_solver_holder.cpp"
+#include "acados_solver_holder.hpp"
 
 class GoalFollower : public rclcpp::Node
 {
@@ -46,9 +46,10 @@ private:
     std::array<double, 7> goal_from_target_ = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
     void initialize_parameters() {
         // Declare and get parameters
-        this->declare_parameter("goal_topic", "/received_global_plan");
-        this->declare_parameter("costmap_topic", "/local_costmap/costmap");
-        this->declare_parameter("amcl_pose_topic", "/amcl_pose");
+        // Declare and get parameters with updated topic names
+        this->declare_parameter("goal_topic", "/j100_0001/received_global_plan");  // Updated from /received_global_plan
+        this->declare_parameter("costmap_topic", "/j100_0001/local_costmap/costmap");  // Updated from /local_costmap/costmap
+        this->declare_parameter("amcl_pose_topic", "/j100_0001/amcl_pose");  // Updated from /amcl_pose
         this->declare_parameter("data_file_path", "data_low.csv");
         this->declare_parameter("perf_file_path", "data_perf.csv");
         this->declare_parameter("control_rate", 40.0);
@@ -61,6 +62,7 @@ private:
         perf_file_path_ = this->get_parameter("perf_file_path").as_string();
         control_rate_ = this->get_parameter("control_rate").as_double();
         mpc_horizon_ = this->get_parameter("mpc_horizon").as_int();
+
     }
 
     void initialize_publishers() {

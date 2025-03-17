@@ -58,7 +58,7 @@ private:
 
 public:
     my_NMPC_solver(int n);
-    int solve_my_mpc(double current_joint_position[7], double current_human_position[56], double current_joint_goal[7], double tracking_goal[70], double cgoal[3], double results[18]);
+    int solve_my_mpc(double current_robot_position[3], double costmap_data[520], double current_robot_goal[3], double tracking_goal[30], double results[8], double trajectory[33]);
     int reset_solver();
 };
 

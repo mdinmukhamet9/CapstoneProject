@@ -1,8 +1,0 @@
-[01m[K/home/robot/debug_clear_ws/src/mpc_low/solver/acados_ocp_solver_pyx.c:16:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
-   16 | #include [01;31m[K"Python.h"[m[K
-      |          [01;31m[K^~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/mpc_solver.dir/build.make:76: CMakeFiles/mpc_solver.dir/solver/acados_ocp_solver_pyx.c.o] Error 1
-gmake[2]: *** Waiting for unfinished jobs....
-gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/mpc_solver.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

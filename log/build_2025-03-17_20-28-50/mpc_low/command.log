@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake /home/robot/debug_clear_ws/src/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/mpc_low
+Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake /home/robot/debug_clear_ws/src/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/debug_clear_ws/install/mpc_low
+Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake --build /home/robot/debug_clear_ws/build/mpc_low -- -j12 -l12
+Invoking command in '/home/robot/debug_clear_ws/build/mpc_low': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low
+Invoked command in '/home/robot/debug_clear_ws/build/mpc_low' returned '0': /usr/bin/cmake --install /home/robot/debug_clear_ws/build/mpc_low
