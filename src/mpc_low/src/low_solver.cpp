@@ -23,7 +23,7 @@ class GoalFollower : public rclcpp::Node
 {
 public:
     GoalFollower() 
-        : Node("goal_follower"), myMpcSolver(5)
+        : Node("goal_follower"), myMpcSolver(2)
     {
         initialize_parameters();
         initialize_publishers();
@@ -198,6 +198,7 @@ private:
         }
 
         process_mpc_solution();
+        //publish_trajectory();
         publish_motor_commands();
         //publish_trajectory();
         publish_robot_arrow();
@@ -231,7 +232,9 @@ private:
             result,
             trajectory
         );
+        //publish_trajectory();
         update_trajectory_data(trajectory);
+        publish_trajectory();
         RCLCPP_INFO(this->get_logger(), "MPC Trajectory:");
         for (int i = 0; i < 11; ++i) {
             RCLCPP_INFO(this->get_logger(), "Point %d: x=%.3f, y=%.3f", 
@@ -265,6 +268,7 @@ private:
             tracking_goal[3*i] = goal_pose_[0] - current_pose_[0];
             tracking_goal[3*i+1] = goal_pose_[1] - current_pose_[1];
             tracking_goal[3*i+2] = goal_pose_[2];
+
         }
         return tracking_goal;
     }
@@ -279,36 +283,42 @@ private:
 
     void update_trajectory_data(const double trajectory[33]) {
         current_trajectory_.poses.clear();
-        //auto now = now(); // Current ROS time
-        // gets current time once
-        //auto current_time = this->now(); 
-        RCLCPP_INFO(this->get_logger(), "trajectory[0-2]: %.2f, %.2f, %.2f", 
-            trajectory[0], trajectory[1], trajectory[2]);
-        for (int i = 0; i < 33; ++i) {
-            
+        RCLCPP_INFO(this->get_logger(), "trajectory[0-2]: %.2f, %.2f, %.2f",   
+        trajectory[0], trajectory[1], trajectory[2]);
+
+        rclcpp::Time now = this->now();
+        double time_step = 0.1; // Seconds between points
+
+        for (int i = 0; i < 11; ++i) {  
+             // Verify we have valid data
+             if (3*i+2 >= 33) break; // Safety check  
             geometry_msgs::msg::PoseStamped pose;
-            pose.header.stamp = this->now() + rclcpp::Duration::from_seconds(i * 1); //() + rclcpp::Duration(i * 0.1);
-            pose.header.frame_id = "map";
-            // current_trajectory_.header.stamp = current_time; //() + rclcpp::Duration(i * 0.1);
-            // current_trajectory_.header.frame_id = "map";
-            //nmpc_path_pub_->publish(current_trajectory_);
+            pose.header.stamp = this->now();
+            pose.header.frame_id = "map"; // 
+            pose.header.stamp = now + rclcpp::Duration::from_seconds(i * time_step);
+           
+            
+            pose.pose.position.x = 2*trajectory[3*i] + current_pose_[0];
+            pose.pose.position.y = 2*trajectory[3*i+1] + current_pose_[1];
 
-            pose.pose.position.x = trajectory[2*i] + current_pose_[0];
-            pose.pose.position.y = trajectory[2*i+1] + current_pose_[1];
+            tf2::Quaternion q;
+            q.setRPY(0, 0, trajectory[3*i+2]);
+            pose.pose.orientation = tf2::toMsg(q);
+            
             current_trajectory_.poses.push_back(pose);
-
-            pose.pose.position.x = trajectory[3*i] + current_pose_[0];
-            pose.pose.position.y = trajectory[3*i+1] + current_pose_[1];
-            current_trajectory_.poses.push_back(pose);
+    
+    // Debug output
+        RCLCPP_INFO(this->get_logger(), "Updated trajectory with %zu points", 
+                    current_trajectory_.poses.size());
         }
-        current_trajectory_.header.frame_id = "map"; // added to fix the path
-        current_trajectory_.header.stamp = now(); // push the time to the header
-        
-        nmpc_path_pub_->publish(current_trajectory_);
     }
 
     void publish_trajectory() {
-        current_trajectory_.header.stamp = this->now();
+        if (current_trajectory_.poses.empty()) {
+            RCLCPP_WARN(this->get_logger(), "error to publish empty traj");
+            return;
+        }
+        current_trajectory_.header.stamp = now();//this->now()+ rclcpp::Duration::from_seconds(3);
         current_trajectory_.header.frame_id = "map";
         nmpc_path_pub_->publish(current_trajectory_);
     }
@@ -379,6 +389,7 @@ private:
     std::array<double, 6> current_pose_ = {0};
     std::array<double, 520> costmap_data_;
     nav_msgs::msg::Path current_trajectory_;
+    nav_msgs::msg::Path current1_trajectory_;
     std::array<double, 2> wheel_commands_ = {0};
 
     // Configuration
