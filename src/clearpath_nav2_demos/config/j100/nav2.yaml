@@ -69,7 +69,7 @@ bt_navigator_navigate_to_pose_rclcpp_node:
 controller_server:
   ros__parameters:
     use_sim_time: True
-    controller_frequency: 20.0
+    controller_frequency: 20.0 # reduced from 20
     min_x_velocity_threshold: 0.001
     min_y_velocity_threshold: 0.5
     min_theta_velocity_threshold: 0.001
@@ -92,8 +92,8 @@ controller_server:
     general_goal_checker:
       stateful: True
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.3
-      yaw_goal_tolerance: 0.3
+      xy_goal_tolerance: 0.65
+      yaw_goal_tolerance: 0.8
     # DWB parameters
     FollowPath:
       plugin: "mpc_low::MPCController"
@@ -103,25 +103,6 @@ controller_server:
       max_angular_vel: 1.0
       nmpc_horizon_steps: 10
       transform_tolerance: 0.2
-    # FollowPath:
-    #       plugin: "dwb_core::DWBLocalPlanner"
-    #       critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "GoalDist", "PathDist"]
-    #       BaseObstacle.scale: 0.02
-    #       GoalDist.scale: 0.2
-    #       PathDist.scale: 0.2
-    #       RotateToGoal.scale: 0.2
-    #       GoalAlign.scale: 0.1
-    #       PathAlign.scale: 0.1
-    #       forward_point_distance: 0.325
-    #       max_vel_x: 0.5
-    #       max_vel_y: 0.0
-    #       max_vel_theta: 1.0
-    #       acc_limit_x: 2.5
-    #       acc_limit_y: 0.0
-    #       acc_limit_theta: 3.2
-    #       decelerate_x: 2.5
-    #       decelerate_y: 0.0
-    #       decelerate_theta: 3.2
 
 local_costmap:
   local_costmap:
@@ -134,13 +115,13 @@ local_costmap:
       rolling_window: true
       width: 5
       height: 5
-      resolution: 0.06
+      resolution: 0.05
       footprint: "[ [0.254, 0.2159], [0.254, -0.2159], [-0.254, -0.2159], [-0.254, 0.2159] ]"
       plugins: ["static_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 4.0
-        inflation_radius: 0.8
+        cost_scaling_factor: 6.0 #4.0
+        inflation_radius: 0.8 #0.8
       voxel_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
@@ -175,7 +156,7 @@ global_costmap:
       robot_base_frame: base_link
       use_sim_time: True
       footprint: "[ [0.254, 0.2159], [0.254, -0.2159], [-0.254, -0.2159], [-0.254, 0.2159] ]"
-      resolution: 0.06
+      resolution: 0.05
       track_unknown_space: true
       plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
       obstacle_layer:
@@ -197,8 +178,8 @@ global_costmap:
         map_subscribe_transient_local: True
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 4.0
-        inflation_radius: 0.8
+        cost_scaling_factor: 10.0 # reduced from 4.0
+        inflation_radius: 0.8 # before was 0.8
       always_send_full_costmap: True
 
 planner_server:
@@ -208,7 +189,8 @@ planner_server:
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner/NavfnPlanner"
-      tolerance: 0.5
+      #plugin: "nav2_smac_planner/SmacHybridPlanner" #"nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.5 # increased from 0.5
       use_astar: false
       allow_unknown: true
 
