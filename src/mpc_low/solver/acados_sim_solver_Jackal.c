@@ -74,7 +74,7 @@ int Jackal_acados_sim_create(Jackal_sim_solver_capsule * capsule)
     bool tmp_bool;
 
     
-    double Tsim = 0.025;
+    double Tsim = 0.1;
 
     
     // explicit ode

@@ -1,4 +1,3 @@
-
 #include "mpc_controller.hpp"
 #include "nav2_util/geometry_utils.hpp"
 #include "nav2_util/node_utils.hpp"
@@ -7,9 +6,6 @@
 #include <nav_msgs/msg/odometry.hpp>
 #include <stdexcept>
 #include <cmath>
-#include <fstream>
-#include <tf2_ros/buffer.h>
-#include <tf2_ros/transform_listener.h>
 
 using std::hypot;
 using std::min;
@@ -36,9 +32,7 @@ nmpc_horizon_steps_(5),
 prev_linear_vel_(0.0),
 prev_angular_vel_(0.0),
 publish_counter_(0),
-wheel_base_(0.5),
-actual_linear_vel_(0.0),
-actual_angular_vel_(0.0)
+wheel_base_(0.5)
 {std::fill(tracking_goal_, tracking_goal_ + 30, 0.0);}
 
 void MPCController::configure(
@@ -54,7 +48,6 @@ void MPCController::configure(
     }
     
     costmap_ros_ = costmap_ros;
-    tf_buffer_ = tf;
     tf_ = tf;
     plugin_name_ = name;
     logger_ = node->get_logger();
@@ -78,7 +71,7 @@ void MPCController::configure(
     declare_parameter_if_not_declared(node, plugin_name_ + ".weight_terminal_x", rclcpp::ParameterValue(10.0));
     declare_parameter_if_not_declared(node, plugin_name_ + ".weight_terminal_y", rclcpp::ParameterValue(10.0));
     declare_parameter_if_not_declared(node, plugin_name_ + ".weight_terminal", rclcpp::ParameterValue(0.1));
-    declare_parameter_if_not_declared(node, plugin_name_ + ".blend_factor", rclcpp::ParameterValue(0.3)); 
+    declare_parameter_if_not_declared(node, plugin_name_ + ".blend_factor", rclcpp::ParameterValue(0.3)); // Reduced from 0.7
     declare_parameter_if_not_declared(node, plugin_name_ + ".r_wheel", rclcpp::ParameterValue(0.1));
     declare_parameter_if_not_declared(node, plugin_name_ + ".alpha", rclcpp::ParameterValue(1.5));
     declare_parameter_if_not_declared(node, plugin_name_ + ".B", rclcpp::ParameterValue(0.3765));
@@ -101,10 +94,6 @@ void MPCController::configure(
     node->get_parameter(plugin_name_ + ".weight_terminal_x", weight_terminal_x_);
     node->get_parameter(plugin_name_ + ".weight_terminal_y", weight_terminal_y_);
     node->get_parameter(plugin_name_ + ".blend_factor", blend_factor_);
-    node->declare_parameter("min_lookahead_distance", 0.5);
-    node->declare_parameter("max_lookahead_distance", 1.5);
-    node->get_parameter("min_lookahead_distance", min_lookahead_distance_);
-    node->get_parameter("max_lookahead_distance", max_lookahead_distance_);
 
     nmpc_solver_ = std::make_unique<my_NMPC_solver>(nmpc_horizon_steps_);
     global_pub_ = node->create_publisher<nav_msgs::msg::Path>("received_global_plan", 1);
@@ -115,40 +104,7 @@ void MPCController::configure(
     publish_counter_ = 0;
     odom_sub_ = node->create_subscription<nav_msgs::msg::Odometry>(
         "/odom", 10, std::bind(&MPCController::odomCallback, this, std::placeholders::_1));
-    detection_sub_ = node->create_subscription<yolo_msgs::msg::DetectionArray>(
-        "/yolo/detections_3d", 10, std::bind(&MPCController::detectionCallback, this, std::placeholders::_1));
-    cmd_vel_sub_ = node->create_subscription<geometry_msgs::msg::Twist>(
-        "/j100_0001/cmd_vel", 10, std::bind(&MPCController::cmdVelCallback, this, std::placeholders::_1)); // New subscription    
-    
-    
-    goal_data_csv_.open("mpc_goal_data.csv");
-    goal_data_csv_ << "time_stamp,robot_x,robot_y,robot_yaw,selected_goal_x,selected_goal_y,final_goal_x,final_goal_y,linear_vel,angular_vel,actual_linear_vel,actual_angular_vel\n";
 }
-
-void MPCController::cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
-{
-    actual_linear_vel_ = msg->linear.x;
-    actual_angular_vel_ = msg->angular.z;
-    // RCLCPP_DEBUG(logger_, "Received cmd_vel: linear.x=%.3f, angular.z=%.3f", actual_linear_vel_, actual_angular_vel_);
-}
-
-void MPCController::detectionCallback(const yolo_msgs::msg::DetectionArray::SharedPtr msg) {
-    person_detected_ = false;
-    for (const auto& detection : msg->detections) {
-        if (detection.class_name == "person") {
-            person_position_ = detection.bbox3d.center.position;
-            // Transform from camera_0_link to base_link (camera offset: 0.1, 0.0, 0.18)
-            person_position_.x -= 0.1;  
-            person_position_.z -= 0.18; 
-            person_detected_ = true;
-            RCLCPP_INFO(logger_,
-                        "Person detected in base_link at (x=%.2f, y=%.2f, z=%.2f)",
-                        person_position_.x, person_position_.y, person_position_.z);
-            break;
-        }
-    }
-}
-
 void MPCController::odomCallback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
     RCLCPP_INFO(logger_, "Odometry Position: [%.3f, %.3f, %.3f], Velocity: [%.3f, %.3f]",
@@ -166,12 +122,6 @@ void MPCController::cleanup()
     global_pub_.reset();
     traj_pub_.reset();
     marker_pub_.reset();
-    cmd_vel_sub_.reset();
-    detection_sub_.reset();
-    
-    if (goal_data_csv_.is_open()) {
-        goal_data_csv_.close();
-    }
 }
 
 void MPCController::activate()
@@ -208,111 +158,6 @@ void MPCController::setSpeedLimit(const double & speed_limit, const bool & perce
     }
 }
 
-geometry_msgs::msg::PoseStamped MPCController::selectGoalPose(
-    const geometry_msgs::msg::PoseStamped& current_pose,
-    const nav_msgs::msg::Path& global_plan,
-    rclcpp::Logger logger,
-    rclcpp::Clock::SharedPtr clock)
-{
-    geometry_msgs::msg::PoseStamped goal;
-    goal.header = global_plan.header;
-
-    // 1. Handle empty plan case
-    if (global_plan.poses.empty()) {
-        RCLCPP_WARN_THROTTLE(logger, *clock, 1000, "Empty path received");
-        return goal;
-    }
-
-    // 2. Get current position
-    const double current_x = current_pose.pose.position.x;
-    const double current_y = current_pose.pose.position.y;
-
-    // 3. Calculate distances
-    const auto& final_pose = global_plan.poses.back().pose.position;
-    const double dist_to_final = std::hypot(
-        final_pose.x - current_x,
-        final_pose.y - current_y);
-
-    // 4. Determine lookahead distance
-    double lookahead = min_lookahead_distance_;
-    if (dist_to_final > max_lookahead_distance_) {
-        lookahead = max_lookahead_distance_;
-    } else if (dist_to_final > min_lookahead_distance_) {
-        lookahead = dist_to_final;
-    }
-
-    // 5. Find goal point
-    size_t goal_index = global_plan.poses.size() - 1; // Default to final goal
-    double accumulated_dist = 0.0;
-
-    // Find first point that meets or exceeds lookahead distance
-    for (size_t i = 1; i < global_plan.poses.size(); ++i) {
-        const double dx = global_plan.poses[i].pose.position.x - 
-                        global_plan.poses[i-1].pose.position.x;
-        const double dy = global_plan.poses[i].pose.position.y - 
-                        global_plan.poses[i-1].pose.position.y;
-        accumulated_dist += std::hypot(dx, dy);
-
-        if (accumulated_dist >= lookahead) {
-            goal_index = i;
-            break;
-        }
-    }
-
-    // 6. Ensure minimum distance requirement
-    double actual_dist = std::hypot(
-        global_plan.poses[goal_index].pose.position.x - current_x,
-        global_plan.poses[goal_index].pose.position.y - current_y);
-
-    // If we're not at the final goal and the selected point is too close
-    if (actual_dist < min_lookahead_distance_ && goal_index < global_plan.poses.size() - 1) {
-        // Search forward for first point that meets minimum distance
-        for (size_t i = goal_index + 1; i < global_plan.poses.size(); ++i) {
-            actual_dist = std::hypot(
-                global_plan.poses[i].pose.position.x - current_x,
-                global_plan.poses[i].pose.position.y - current_y);
-            
-            if (actual_dist >= min_lookahead_distance_ || i == global_plan.poses.size() - 1) {
-                goal_index = i;
-                break;
-            }
-        }
-    }
-
-    // 7. Handle orientation
-    goal = global_plan.poses[goal_index];
-    if (goal_index < global_plan.poses.size() - 1) {
-        // For intermediate goals, use next point
-        const auto& next_pose = global_plan.poses[goal_index + 1];
-        const double yaw = std::atan2(
-            next_pose.pose.position.y - goal.pose.position.y,
-            next_pose.pose.position.x - goal.pose.position.x);
-        
-        tf2::Quaternion q;
-        q.setRPY(0, 0, yaw);
-        goal.pose.orientation = tf2::toMsg(q);
-    } else if (goal_index > 0) {
-        // For final goal, use previous point
-        const auto& prev_pose = global_plan.poses[goal_index - 1];
-        const double yaw = std::atan2(
-            goal.pose.position.y - prev_pose.pose.position.y,
-            goal.pose.position.x - prev_pose.pose.position.x);
-        
-        tf2::Quaternion q;
-        q.setRPY(0, 0, yaw);
-        goal.pose.orientation = tf2::toMsg(q);
-    }
-
-    // 8. Debug output
-    RCLCPP_INFO(logger_,"Selected goal %zu/%zu: (%.3f, %.3f) @ %.3frad | Lookahead: %.3fm | Dist to final: %.3fm | Actual dist: %.3fm \n",
-        goal_index, global_plan.poses.size() - 1,
-        goal.pose.position.x, goal.pose.position.y,
-        tf2::getYaw(goal.pose.orientation),
-        lookahead, dist_to_final, actual_dist);
-
-    return goal;
-}
-
 geometry_msgs::msg::TwistStamped MPCController::computeVelocityCommands(
     const geometry_msgs::msg::PoseStamped & pose,
     const geometry_msgs::msg::Twist & velocity,
@@ -322,113 +167,113 @@ geometry_msgs::msg::TwistStamped MPCController::computeVelocityCommands(
     (void)goal_checker;
 
     auto transformed_plan = transformGlobalPlan(pose);
-    RCLCPP_INFO(logger_, "Global plan size: %zu", transformed_plan.poses.size());
 
-    // Get current position
     double current_position[3] = {
         pose.pose.position.x,
         pose.pose.position.y,
-        tf2::getYaw(pose.pose.orientation)
+        normalize_angle(tf2::getYaw(pose.pose.orientation)) // Normalize robot yaw
     };
 
-    // Select goal pose using the unified function
-    geometry_msgs::msg::PoseStamped selected_goal_pose = selectGoalPose(pose, transformed_plan, logger_, clock_);
-    publishGoalMarker(selected_goal_pose);
 
-    // Calculate relative goal (FIXED SECTION)
-    double current_robot_goal[3] = {0.0};
-    bool goal_found = !transformed_plan.poses.empty();
-    
-    if (goal_found) {
-        // --- NEW CODE: Transform goal into robot's frame ---
-        try {
-            geometry_msgs::msg::PoseStamped goal_in_robot_frame;
-            tf_buffer_->transform(selected_goal_pose, goal_in_robot_frame, pose.header.frame_id, tf2::durationFromSec(0.1));
-            
-            current_robot_goal[0] = goal_in_robot_frame.pose.position.x;
-            current_robot_goal[1] = goal_in_robot_frame.pose.position.y;
-            current_robot_goal[2] = tf2::getYaw(goal_in_robot_frame.pose.orientation);
+    double tracking_goal[30] = {0.0}; // Horizon of 10 steps (30 elements)
 
-            RCLCPP_DEBUG(logger_, "Goal in Robot Frame: (%.3f, %.3f, %.3f)",
-                current_robot_goal[0], current_robot_goal[1], current_robot_goal[2]);
-        } catch (tf2::TransformException &ex) {
-            RCLCPP_ERROR(logger_, "TF Exception: %s", ex.what());
-            // Fallback to simple difference (less accurate)
-            current_robot_goal[0] = selected_goal_pose.pose.position.x - current_position[0];
-            current_robot_goal[1] = selected_goal_pose.pose.position.y - current_position[1];
-            current_robot_goal[2] = tf2::getYaw(selected_goal_pose.pose.orientation) - current_position[2];
+    RCLCPP_INFO(logger_, "Global plan size: %zu", transformed_plan.poses.size());
+    if (transformed_plan.poses.size() > 1) {
+        double x_diff = transformed_plan.poses[1].pose.position.x - transformed_plan.poses[0].pose.position.x;
+        double y_diff = transformed_plan.poses[1].pose.position.y - transformed_plan.poses[0].pose.position.y;
+        double spacing = std::sqrt(x_diff * x_diff + y_diff * y_diff);
+        RCLCPP_INFO(logger_, "Global plan pose spacing: %.3f m", spacing);
+    }
+    double trajectory_length = 0.0;
+    geometry_msgs::msg::PoseStamped selected_goal_pose;
+    bool goal_found = false;
+    double max_lookahead = 1.0;
+    double min_lookahead = 1.0;
+    static double last_x = current_position[0];  // Track progress
+    static double last_y = current_position[1];
+    double dist_moved = std::hypot(current_position[0] - last_x, current_position[1] - last_y);
+    double dist_to_final = std::hypot(
+        transformed_plan.poses.back().pose.position.x - current_position[0],
+        transformed_plan.poses.back().pose.position.y - current_position[1]);
+    for (size_t i = 1; i < transformed_plan.poses.size(); ++i) {
+        double x_diff = transformed_plan.poses[i].pose.position.x - transformed_plan.poses[i-1].pose.position.x;
+        double y_diff = transformed_plan.poses[i].pose.position.y - transformed_plan.poses[i-1].pose.position.y;
+        trajectory_length += std::sqrt(x_diff * x_diff + y_diff * y_diff);
+
+        // Use final goal if within 0.5 m, otherwise select goal 0.2–2.0 m ahead
+        if (dist_to_final < 0.1 || trajectory_length >= min_lookahead && trajectory_length <= max_lookahead) {
+            selected_goal_pose = (dist_to_final < 0.1) ? transformed_plan.poses.back() : transformed_plan.poses[i];
+            goal_found = true;
+            break;
         }
+    }
+    if (!goal_found && !transformed_plan.poses.empty()) {
+        selected_goal_pose = transformed_plan.poses.back();
+        goal_found = true;
+        RCLCPP_INFO(logger_, "Using final path point as goal.");
+    }else if (dist_moved < 0.01 && dist_to_final > 1.0) {  // Stuck detection
+        selected_goal_pose = transformed_plan.poses.back();
+        goal_found = true;
+        RCLCPP_INFO(logger_, "Stuck detected (moved %.3f m), selecting final goal.", dist_moved);
+        
+    }
+    // Update last position
+last_x = current_position[0];
+last_y = current_position[1];
+
+    double current_robot_goal[3] = {0.0};
+    if (goal_found) {
+        current_robot_goal[0] = selected_goal_pose.pose.position.x - current_position[0];
+        current_robot_goal[1] = selected_goal_pose.pose.position.y - current_position[1];
+        double angle_goal = 2* std::atan2( selected_goal_pose.pose.orientation.z, selected_goal_pose.pose.orientation.w);
+        current_robot_goal[2] = angle_goal;
+
+        double dist_to_final = std::sqrt(
+            (transformed_plan.poses.back().pose.position.x - current_position[0])*transformed_plan.poses.back().pose.position.x - current_position[0])
+            + (transformed_plan.poses.back().pose.position.y - current_position[1])*(transformed_plan.poses.back().pose.position.y - current_position[1]);
 
     } else {
-        RCLCPP_WARN_THROTTLE(logger_, *clock_, 1000,  
-            "No valid goal found in transformed plan (size: %zu)", 
-            transformed_plan.poses.size());
+        RCLCPP_WARN(logger_, "No valid goal found in transformed plan");
     }
-    
-    // Extract costmap as a grid (not obstacle positions)
-    double costmap_data[520] = {0.0}; // 260*2, 260 nearest points aproximately 10% of all costmap
-    nav2_costmap_2d::Costmap2D * costmap = costmap_ros_->getCostmap();
-    double resolution = costmap->getResolution();
-    unsigned int width = costmap->getSizeInCellsX();
-    unsigned int height = costmap->getSizeInCellsY();
-    double origin_x = costmap->getOriginX();
-    double origin_y = costmap->getOriginY();
+    RCLCPP_INFO(logger_, "Selected goal: [%.3f, %.3f, %.3f], Distance to final goal: %.3f",
+        current_robot_goal[0], current_robot_goal[1], current_robot_goal[2], dist_to_final);
 
-    int obstacle_count = 0;
-    for (unsigned int y = 0; y < height && obstacle_count < max_obstacles_; ++y) {
-        for (unsigned int x = 0; x < width && obstacle_count < max_obstacles_; ++x) {
-            unsigned char cost = costmap->getCost(x, y);
-            if (cost >= nav2_costmap_2d::LETHAL_OBSTACLE || cost == nav2_costmap_2d::NO_INFORMATION) {
-                double world_x, world_y;
-                costmap->mapToWorld(x, y, world_x, world_y);
-                // Transform to base_link frame
-                geometry_msgs::msg::PoseStamped world_pose, base_pose;
-                world_pose.header.frame_id = costmap_ros_->getGlobalFrameID();
-                world_pose.header.stamp = pose.header.stamp;
-                world_pose.pose.position.x = world_x;
-                world_pose.pose.position.y = world_y;
-                world_pose.pose.position.z = 0.0;
-                world_pose.pose.orientation.w = 1.0;
-                try {
-                    transformPose(tf_, costmap_ros_->getBaseFrameID(), world_pose, base_pose, transform_tolerance_);
-                    costmap_data[obstacle_count * 2] = base_pose.pose.position.x;
-                    costmap_data[obstacle_count * 2 + 1] = base_pose.pose.position.y;
-                    obstacle_count++;
-                } catch (tf2::TransformException &ex) {
-                    RCLCPP_WARN(logger_, "Failed to transform obstacle position: %s", ex.what());
-                }
-            }
-        }
-    }
-    RCLCPP_INFO(logger_, "Found %d obstacles in costmap", obstacle_count);
-
-
+        
+    double costmap_data[520] = {0.0}; // 260*2
 
     double results[8] = {0.0};
     double trajectory[33] = {0.0};
     double weights[6] = {weight_x_, weight_y_, weight_yaw_, weight_terminal_x_, weight_terminal_y_, weight_terminal_};
-    double person_pos[3] = {0.0};
-    if (person_detected_) {
-        person_pos[0] = person_position_.x;
-        person_pos[1] = person_position_.y;
-        person_pos[2] = person_position_.z;
-    }
+    double fake_position[3] = {0.0};
+    fake_position[3] = current_position[3];
 
     
-    RCLCPP_INFO(logger_, "CURRENT ROBOT POSITION: %.3f, %.3f, %.3f, CURR ROBOT GOAL: %.3f, %.3f, %.3f \n",
-        current_position[0], current_position[1], current_position[2], current_robot_goal[0], current_robot_goal[1], current_robot_goal[2]);
+    //double fake_goal[3] = {1.0, 0.5, 0.0}; 
 
-    int status = nmpc_solver_->solve_my_mpc(current_position, costmap_data, current_robot_goal, tracking_goal_, results, trajectory, weights, person_detected_, person_pos);
+    geometry_msgs::msg::PoseStamped fake_goal_pose;
+    fake_goal_pose.header.frame_id = "map";
+    fake_goal_pose.pose.position.x = current_robot_goal[0];
+    fake_goal_pose.pose.position.y = current_robot_goal[1];
+    fake_goal_pose.pose.position.z = 0.0;
+
+    tf2::Quaternion q;
+    q.setRPY(0.0, 0.0, current_robot_goal[2]);
+    fake_goal_pose.pose.orientation = tf2::toMsg(q);
+
+    publishGoalMarker(selected_goal_pose);
+
+
+    int status = nmpc_solver_->solve_my_mpc(fake_position, costmap_data, current_robot_goal, tracking_goal, results, trajectory, weights);
     double phi_dot_1 = results[0];  // left wheel velocity (rad/s)
     double phi_dot_2 = results[1];  // right wheel velocity (rad/s)
     double linear_vel = (r_wheel_ / (2.0)) * (phi_dot_1 + phi_dot_2);
     double angular_vel = (r_wheel_ / (alpha_ * B_)) * (phi_dot_1 - phi_dot_2);
-    double time_er = clock_ ->now().seconds();
-    RCLCPP_INFO(logger_, "Computed controls: phi_dot_1=%.3f, phi_dot_2=%.3f, linear=%.3f, angular=%.3f \n",
+
+    RCLCPP_INFO(logger_, "Computed controls: phi_dot_1=%.3f, phi_dot_2=%.3f, linear=%.3f, angular=%.3f",
         phi_dot_1, phi_dot_2, linear_vel, angular_vel);
 
     if (status != ACADOS_SUCCESS) {
-        RCLCPP_WARN(logger_, "NMPC solver failed with status %d, resetting solver \n", status);
+        RCLCPP_WARN(logger_, "NMPC solver failed with status %d, resetting solver", status);
         nmpc_solver_->reset_solver();
         nmpc_solver_ = std::make_unique<my_NMPC_solver>(nmpc_horizon_steps_);
         linear_vel = 0.0;
@@ -436,22 +281,13 @@ geometry_msgs::msg::TwistStamped MPCController::computeVelocityCommands(
         yaw_diff = normalize_angle(yaw_diff); // Normalize fallback yaw difference
         angular_vel = std::max(-0.5, std::min(0.5, yaw_diff * 1.0));
     } 
-    if (goal_data_csv_.is_open() && goal_found) {
-        goal_data_csv_ 
-                    << time_er <<","
-                    << current_position[0] << ","
-                    << current_position[1] << ","
-                    << current_position[2] << ","
-                    << selected_goal_pose.pose.position.x << ","
-                    << selected_goal_pose.pose.position.y << ","
-                    << transformed_plan.poses.back().pose.position.x << ","
-                    << transformed_plan.poses.back().pose.position.y << ","
-                    << linear_vel << ","
-                    << angular_vel << ","
-                    << actual_linear_vel_ << "," // New fields
-                    << actual_angular_vel_ << "\n";
-        goal_data_csv_.flush(); // Ensure data is written immediately
-    }
+
+    const double smoothing_factor = 0.1;
+    linear_vel = smoothing_factor * prev_linear_vel_ + (1.0 - smoothing_factor) * linear_vel;
+    angular_vel = smoothing_factor * prev_angular_vel_ + (1.0 - smoothing_factor) * angular_vel;
+    prev_linear_vel_ = linear_vel;
+    prev_angular_vel_ = angular_vel;
+
     publish_counter_++;
     if (publish_counter_ % 1 == 0) {
         nav_msgs::msg::Path predicted_path;
@@ -481,7 +317,7 @@ geometry_msgs::msg::TwistStamped MPCController::computeVelocityCommands(
     }
 
 
-    geometry_msgs::msg::TwistStamped cmd_vel;
+geometry_msgs::msg::TwistStamped cmd_vel;
     cmd_vel.header.frame_id = pose.header.frame_id;
     cmd_vel.header.stamp = clock_->now();
     cmd_vel.twist.linear.x = linear_vel;
@@ -524,16 +360,6 @@ nav_msgs::msg::Path MPCController::transformGlobalPlan(
         [&robot_pose](const geometry_msgs::msg::PoseStamped & ps) {
             return euclidean_distance(robot_pose, ps);
         });
-    double robot_yaw = tf2::getYaw(robot_pose.pose.orientation);
-    while (transformation_begin != global_plan_.poses.end()) {
-        double dx = transformation_begin->pose.position.x - robot_pose.pose.position.x;
-        double dy = transformation_begin->pose.position.y - robot_pose.pose.position.y;
-        double angle_to_point = std::atan2(dy, dx);
-        if (std::abs(normalize_angle(angle_to_point - robot_yaw)) < M_PI/2) {
-            break;  // Point is in front of robot
-        }
-        ++transformation_begin;
-    }
 
     auto transformation_end = std::find_if(
         transformation_begin, global_plan_.poses.end(),
@@ -614,8 +440,9 @@ bool MPCController::transformPose(
 }
 void MPCController::publishGoalMarker(const geometry_msgs::msg::PoseStamped& goal_pose) {
     visualization_msgs::msg::Marker marker;
-    marker.header.frame_id = goal_pose.header.frame_id;
-    marker.header.stamp = clock_->now();
+    // marker.header.frame_id = "map";
+    // marker.header.stamp = clock_->now();
+    marker.header = goal_pose.header;  // Use the same header as the goal pose
     marker.ns = "local_goal";
     marker.id = 0;
     marker.type = visualization_msgs::msg::Marker::ARROW;
@@ -625,11 +452,11 @@ void MPCController::publishGoalMarker(const geometry_msgs::msg::PoseStamped& goa
     marker.scale.x = 0.5;
     marker.scale.y = 0.1;
     marker.scale.z = 0.1;
-    marker.color.r = 0.0f;
-    marker.color.g = 1.0f;
-    marker.color.b = 0.0f;
+    marker.color.r = 0.0;
+    marker.color.g = 1.0;
+    marker.color.b = 0.0;
     marker.color.a = 1.0;
-    marker.lifetime = rclcpp::Duration::from_seconds(0.2);
+    marker.lifetime = rclcpp::Duration::from_seconds(0.5);
     
     if (!goal_marker_pub_->is_activated()) {
         RCLCPP_WARN(logger_, "Goal marker publisher not active!");
@@ -641,7 +468,7 @@ void MPCController::publishGoalMarker(const geometry_msgs::msg::PoseStamped& goa
 
 void MPCController::publishFinalGoalMarker(const geometry_msgs::msg::PoseStamped& goal_pose) {
     visualization_msgs::msg::Marker marker;
-    marker.header.frame_id = global_plan_.header.frame_id;
+    marker.header.frame_id = global_plan_.header.frame_id;  // Use original frame
     marker.header.stamp = clock_->now();
     marker.ns = "final_goal";
     marker.id = 1;  // Different ID from the local goal marker

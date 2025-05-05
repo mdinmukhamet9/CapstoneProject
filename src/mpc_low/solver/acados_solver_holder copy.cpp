@@ -25,8 +25,7 @@ my_NMPC_solver::my_NMPC_solver(int n) {
 
 int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costmap_data[520], 
                                 double current_robot_goal[3], double tracking_goal[30],
-                                double results[8], double trajectory[33], double weights[5],
-                                bool person_detected, double person_pos[3]) {
+                                double results[8], double trajectory[33], double weights[5]) {
     printf("\n--- MPC Inputs ---\n");
     printf("Start: [%.3f, %.3f, %.3f]\n", current_robot_position[0], current_robot_position[1], current_robot_position[2]);
     printf("Goal (relative): [%.3f, %.3f, %.3f]\n", current_robot_goal[0], current_robot_goal[1], current_robot_goal[2]);
@@ -74,7 +73,7 @@ int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costma
 
     double W[(NU+NX)*(NU+NX)] = {0.0};
     double WN[NX*NX] = {0.0};
-
+    
     W[0] = weights[0];
     W[1*(NU+NX)+1] = weights[1];
     W[2*(NU+NX)+2] = weights[2];
@@ -84,138 +83,57 @@ int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costma
     WN[0] = weights[3];       // terminal weight for x
     WN[NX+1] = weights[4];    // terminal weight for y (new weight)
     WN[2*NX+2] = weights[5];  // terminal weight for theta (new weight)
-
+    printf("W: [%.3f, %.3f, %.3f, %.3f, %.3f, %.3f]\n", weights[0], weights[1], weights[2], weights[3], weights[4], weights[5]);
+    // Process costmap as a grid
+    double costmap_resolution = 0.05;
+    int costmap_width = 26;
+    int costmap_height = 20;
+    double costmap_origin_x = -costmap_width * costmap_resolution / 2.0;
+    double costmap_origin_y = -costmap_height * costmap_resolution / 2.0;
     double lsh[NSH] = {0.0}, ush[NSH] = {0.0};
-    const double r_base = 0.254;   
-    const double r_obst = 0.07;     
-    const double min_distance = r_base + r_obst; // 0.324 m
-    const double a = 0.5; 
-
-
-    double p[NP];
-    for (int i = 0; i < NP; i++) {
-        p[i] = costmap_data[i];
-    }
-
-    for(int i = 0; i <= N; i++) {
-        Jackal_acados_update_params(acados_ocp_capsule, i, p, NP);
-    }
-
-    for(int stage = 0; stage < N; stage++) {
-        ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "yref", y_ref);
-
-        double x_pred[3] = {0.0};
-        double x_init_stage[NX] = {0.0};
-        ocp_nlp_out_get(nlp_config, nlp_dims, nlp_out, stage, "x", x_init_stage);
-        x_pred[0] = x_init_stage[0];
-        x_pred[1] = x_init_stage[1];
-        x_pred[2] = x_init_stage[2];
-
-        double robot_x = current_robot_position[0] + x_pred[0];
-        double robot_y = current_robot_position[1] + x_pred[1];
-
-        // Obstacle avoidance constraints for 260 obstacles
-        for (int k = 0; k < 260; k++) {
-            double obs_x = p[k * 2];
-            double obs_y = p[k * 2 + 1];
-            if (obs_x == 0.0 && obs_y == 0.0) { // Skip empty entries
-                lsh[k] = 0.0;
-                ush[k] = 0.0;
-                continue;
-            }
-            double dx = robot_x - obs_x;
-            double dy = robot_y - obs_y;
-            double distance_squared = dx * dx + dy * dy;
-            double min_distance_squared = min_distance * min_distance;
-
-            if (distance_squared < min_distance_squared) {
-                lsh[k] = -1e8; // Heavy penalty for violation
-                ush[k] = 0.0;  // Upper bound as per notebook
-                printf("Stage %d, Obstacle %d: Safety violation, distance=%.3f, min_distance=%.3f\n", stage, k, sqrt(distance_squared), min_distance);
-            } else {
-                lsh[k] = 0.0;
-                ush[k] = 0.0;
-            }
-        }
-
-        // Dynamic speed adjustment for human (if detected)
-        if (person_detected) {
-            double dx = robot_x - person_pos[0];
-            double dy = robot_y - person_pos[1];
-            double dist_to_human = sqrt(dx * dx + dy * dy);
-
-            double u_stage[NU] = {0.0};
-            ocp_nlp_out_get(nlp_config, nlp_dims, nlp_out, stage, "u", u_stage);
-            double phi_dot_1 = u_stage[0];
-            double phi_dot_2 = u_stage[1];
-            double linear_vel = (0.1 / 2.0) * (phi_dot_1 + phi_dot_2);
-            double v_squared = linear_vel * linear_vel;
-
-            double max_v_squared = dist_to_human * dist_to_human * a * a;
-            if (v_squared > max_v_squared) {
-                double speed_violation = v_squared - max_v_squared;
-                W[18] += speed_violation; 
-                W[24] += speed_violation; 
-                printf("Stage %d: Speed violation, v^2=%.3f, max_v^2=%.3f, penalty=%.3f\n", stage, v_squared, max_v_squared, speed_violation * 100.0);
-            }
-        }
-
-        ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "lsh", lsh);
-        ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "ush", ush);
-        ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "idxsh", idxsh);
-        ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "W", W);
-    }
-
-    // // Process costmap as a grid
-    // double costmap_resolution = 0.05;
-    // int costmap_width = 26;
-    // int costmap_height = 20;
-    // double costmap_origin_x = -costmap_width * costmap_resolution / 2.0;
-    // double costmap_origin_y = -costmap_height * costmap_resolution / 2.0;
-    // double lsh[NSH] = {0.0}, ush[NSH] = {0.0};
-    // double obstacle_weight = 5.0;
+    double obstacle_weight = 5.0;
 
     
-    // printf("Costmap values near robot:\n");
-    // for (int j = -2; j <= 2; j++) {
-    //     for (int i = -2; i <= 2; i++) {
-    //         int idx = (j + costmap_height/2) * costmap_width + (i + costmap_width/2);
-    //         printf("%.0f ", costmap_data[idx]);
-    //     }
-    //     printf("\n");
-    // }
+    printf("Costmap values near robot:\n");
+    for (int j = -2; j <= 2; j++) {
+        for (int i = -2; i <= 2; i++) {
+            int idx = (j + costmap_height/2) * costmap_width + (i + costmap_width/2);
+            printf("%.0f ", costmap_data[idx]);
+        }
+        printf("\n");
+    }
 
-    // double y_ref_value[NY] = {0.0};
-    // for (int i=0;i<3;i++) y_ref_value[i] = current_robot_goal[i];
-    // for(int stage = 0; stage < N; stage++) {
-    //     ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "yref", y_ref_value);
-    //     /*double x_pred = current_robot_position[0] + tracking_goal[stage * 3];
-    //     double y_pred = current_robot_position[1] + tracking_goal[stage * 3 + 1];
-    //     if (tracking_goal[stage * 3] == 0.0) {
-    //         double alpha = (double)stage / N;
-    //         x_pred = current_robot_position[0] + alpha * current_robot_goal[0]*1.2;
-    //         y_pred = current_robot_position[1] + alpha * current_robot_goal[1]*1.2;
-    //     }
+    double y_ref_value[NY] = {0.0};
+    for (int i=0;i<3;i++) y_ref_value[i] = current_robot_goal[i];
+    for(int stage = 0; stage < N; stage++) {
+        ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "yref", y_ref_value);
+        /*double x_pred = current_robot_position[0] + tracking_goal[stage * 3];
+        double y_pred = current_robot_position[1] + tracking_goal[stage * 3 + 1];
+        if (tracking_goal[stage * 3] == 0.0) {
+            double alpha = (double)stage / N;
+            x_pred = current_robot_position[0] + alpha * current_robot_goal[0]*1.2;
+            y_pred = current_robot_position[1] + alpha * current_robot_goal[1]*1.2;
+        }
 
-    //     int idx_x = static_cast<int>((x_pred - costmap_origin_x) / costmap_resolution);
-    //     int idx_y = static_cast<int>((y_pred - costmap_origin_y) / costmap_resolution);
+        int idx_x = static_cast<int>((x_pred - costmap_origin_x) / costmap_resolution);
+        int idx_y = static_cast<int>((y_pred - costmap_origin_y) / costmap_resolution);
 
-    //     if (idx_x >= 0 && idx_x < costmap_width && idx_y >= 0 && idx_y < costmap_height) {
-    //         int costmap_idx = idx_y * costmap_width + idx_x;
-    //         double cost = costmap_data[costmap_idx];
-    //         if (cost > 0) {
-    //             double scaled_cost = (cost / 255.0) * obstacle_weight;
-    //             lsh[0] = -scaled_cost;
-    //             ush[0] = scaled_cost;
-    //             ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "lsh", lsh);
-    //             ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "ush", ush);
-    //             ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "idxsh", idxsh);
-    //         }
-    //     }*/
+        if (idx_x >= 0 && idx_x < costmap_width && idx_y >= 0 && idx_y < costmap_height) {
+            int costmap_idx = idx_y * costmap_width + idx_x;
+            double cost = costmap_data[costmap_idx];
+            if (cost > 0) {
+                double scaled_cost = (cost / 255.0) * obstacle_weight;
+                lsh[0] = -scaled_cost;
+                ush[0] = scaled_cost;
+                ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "lsh", lsh);
+                ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "ush", ush);
+                ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, stage, "idxsh", idxsh);
+            }
+        }*/
 
-    //     ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "W", W);
-    //     // ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "yref", y_ref);
-    // }
+        ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "W", W);
+        // ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, stage, "yref", y_ref);
+    }
     // double y_ref_N[NYN] = {0.0};
     y_ref_N[0] = current_robot_goal[0];
     y_ref_N[1] = current_robot_goal[1];
@@ -232,11 +150,11 @@ int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costma
         ocp_nlp_out_set(nlp_config, nlp_dims, nlp_out, i, "x", &x_init[i*NX]);
     }
 
-    // double p[NP];
-    // for(int i=0; i<NP; i++) p[i] = 100.0;
-    // for(int i=0; i<=N; i++) {
-    //     Jackal_acados_update_params(acados_ocp_capsule, i, p, NP);
-    // }
+    double p[NP];
+    for(int i=0; i<NP; i++) p[i] = 100.0;
+    for(int i=0; i<=N; i++) {
+        Jackal_acados_update_params(acados_ocp_capsule, i, p, NP);
+    }
 
     int NTIMINGS = 1;//std::max(10, num_steps);
     int print_level = 0;
@@ -300,7 +218,7 @@ int my_NMPC_solver::solve_my_mpc(double current_robot_position[3], double costma
         }
         printf("]\n");
     }
-    double linear_vel = (0.1 / (2.0)) * (utraj[0] + utraj[1]); // r_wheel=0.1, alpha = 1.5
+    double linear_vel = (0.1 / (2.0)) * (utraj[0] + utraj[1]); // r_wheel=0.1, alpha=3.6
     double angular_vel = (0.1 / (1.5 * 0.3765)) * (utraj[0] - utraj[1]); // B=0.1615
     printf("\n--- MPC Solution ---\n");
     printf("Control commands: phi_dot_1=%.3f, phi_dot_2=%.3f, linear=%.3f, angular=%.3f\n", 

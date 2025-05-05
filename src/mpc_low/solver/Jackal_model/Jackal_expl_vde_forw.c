@@ -80,9 +80,9 @@ static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw,
   a9=(a8*a6);
   a7=(a7+a9);
   if (res[0]!=0) res[0][1]=a7;
-  a7=8.5999312005503953e-02;
+  a7=1.7706949977866315e-01;
   a9=(a7*a3);
-  a10=-8.5999312005503953e-02;
+  a10=-1.7706949977866315e-01;
   a11=(a10*a6);
   a9=(a9+a11);
   if (res[0]!=0) res[0][2]=a9;
