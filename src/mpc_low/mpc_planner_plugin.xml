@@ -1,0 +1,5 @@
+<library path="mpc_low_plugin">
+  <class name="nav2_mpc_planner/MPCPlanner" type="nav2_mpc_planner::MPCPlanner" base_class_type="nav2_core::GlobalPlanner">
+    <description>This is an MPC-based global planner plugin that generates optimized trajectories using nonlinear model predictive control.</description>
+  </class>
+</library>
