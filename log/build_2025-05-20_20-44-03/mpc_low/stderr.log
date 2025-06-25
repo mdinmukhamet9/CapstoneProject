@@ -1,0 +1,6 @@
+[0myolo_msgs include dir: /opt/ros/humble/include/std_msgs;/opt/ros/humble/include/geometry_msgs;/opt/ros/humble/include/rosidl_runtime_c;/opt/ros/humble/include/rosidl_typesupport_interface;/opt/ros/humble/include/rcutils;/opt/ros/humble/include/rosidl_runtime_cpp;/opt/ros/humble/include/rosidl_typesupport_fastrtps_c;/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp;/opt/ros/humble/include/rosidl_typesupport_c;/opt/ros/humble/include/rmw;/opt/ros/humble/include/rosidl_typesupport_cpp;/home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs[0m
+[31mCMake Error at CMakeLists.txt:109 (install):
+  install TARGETS given unknown argument "cmd_publisher".
+
+[0m
+gmake: *** [Makefile:483: cmake_check_build_system] Error 1

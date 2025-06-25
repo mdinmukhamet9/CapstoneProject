@@ -1,0 +1,44 @@
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:[m[K In member function ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*, double*, bool, double*)[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:175:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kx_init[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  175 |     double [01;35m[Kx_init[m[K[NX*(N+1)]={0.0};
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:194:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kxtraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  194 |     double [01;35m[Kxtraj[m[K[NX*(N+1)], utraj[NU*N];
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:194:29:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kutraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  194 |     double xtraj[NX*(N+1)], [01;35m[Kutraj[m[K[NU*N];
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbx[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   44 |     int idxbx0[NBX0], [01;35m[Kidxbx[m[K[NBX], idxbu[NBU], idxsh[NSH];
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbu[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   44 |     int idxbx0[NBX0], idxbx[NBX], [01;35m[Kidxbu[m[K[NBU], idxsh[NSH];
+      |                                   [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:59:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |     double [01;35m[Kpi[m[K = M_PI;
+      |            [01;35m[K^~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:60:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klbx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |     double [01;35m[Klbx[m[K[3] = {-10.0, -10.0, -2*M_PI};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:61:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kubx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   61 |     double [01;35m[Kubx[m[K[3] = {+10.0, +10.0, 2*M_PI};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:62:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klbu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |     double [01;35m[Klbu[m[K[2] = {-10, -10};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:63:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kubu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |     double [01;35m[Kubu[m[K[2] = {10, 10};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:27:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktracking_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |                                 double current_robot_goal[3], [01;35m[Kdouble tracking_goal[30][m[K,
+      |                                                               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped mpc_low::MPCController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:340:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresolution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  340 |     double [01;35m[Kresolution[m[K = costmap->getResolution();
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:343:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korigin_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  343 |     double [01;35m[Korigin_x[m[K = costmap->getOriginX();
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:344:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korigin_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  344 |     double [01;35m[Korigin_y[m[K = costmap->getOriginY();
+      |            [01;35m[K^~~~~~~~[m[K

@@ -1,1 +1,18 @@
-/home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Status.msg
+# This message represents lower-frequency status updates
+# Default publish frequency is 1Hz.
+
+std_msgs/Header header
+
+# Robot Hardware ID
+string hardware_id
+
+# Firmware version
+string firmware_version
+
+# Times since MCU power-on.
+builtin_interfaces/Duration mcu_uptime
+builtin_interfaces/Duration connection_uptime
+
+# Temperature of MCU's PCB in Celsius.
+float32 pcb_temperature
+float32 mcu_temperature

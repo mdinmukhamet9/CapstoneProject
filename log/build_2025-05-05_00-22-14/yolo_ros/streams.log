@@ -1,0 +1,49 @@
+[1.608s] Invoking command in '/home/dimash/debug_clear_ws/src/yolo_ros/yolo_ros': CMAKE_PREFIX_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs:/home/dimash/debug_clear_ws/install/yolo_bringup:/home/dimash/debug_clear_ws/install/point_cloud_debug:/home/dimash/debug_clear_ws/install/mpc_low:/home/dimash/debug_clear_ws/install/clearpath_simulator:/home/dimash/debug_clear_ws/install/clearpath_gz:/home/dimash/debug_clear_ws/install/clearpath_generator_gz:/home/dimash/debug_clear_ws/install/clearpath_common:/home/dimash/debug_clear_ws/install/clearpath_generator_common:/home/dimash/debug_clear_ws/install/clearpath_description:/home/dimash/debug_clear_ws/install/clearpath_sensors_description:/home/dimash/debug_clear_ws/install/clearpath_platform:/home/dimash/debug_clear_ws/install/clearpath_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_description:/home/dimash/debug_clear_ws/install/clearpath_nav2_demos:/home/dimash/debug_clear_ws/install/clearpath_mounts_description:/home/dimash/debug_clear_ws/install/clearpath_manipulators:/home/dimash/debug_clear_ws/install/clearpath_manipulators_description:/home/dimash/debug_clear_ws/install/clearpath_customization:/home/dimash/debug_clear_ws/install/clearpath_control LD_LIBRARY_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs/lib:/home/dimash/debug_clear_ws/install/mpc_low/lib:/home/dimash/debug_clear_ws/install/clearpath_platform/lib:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib PYTHONPATH=/home/dimash/debug_clear_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/dimash/debug_clear_ws/build/yolo_ros/build install --record /home/dimash/debug_clear_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[2.025s] running egg_info
+[2.025s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[2.025s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[2.025s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[2.025s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[2.025s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[2.025s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[2.026s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[2.029s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[2.029s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[2.030s] running build
+[2.030s] running build_py
+[2.030s] creating /home/dimash/debug_clear_ws/build/yolo_ros/build
+[2.030s] creating /home/dimash/debug_clear_ws/build/yolo_ros/build/lib
+[2.030s] creating /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[2.030s] copying yolo_ros/__init__.py -> /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[2.030s] copying yolo_ros/yolo_node.py -> /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[2.030s] copying yolo_ros/detect_3d_node.py -> /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[2.031s] copying yolo_ros/tracking_node.py -> /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[2.031s] copying yolo_ros/debug_node.py -> /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros
+[2.031s] running install
+[2.031s] running install_lib
+[2.032s] creating /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.033s] copying /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.033s] copying /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.033s] copying /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.033s] copying /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.033s] copying /home/dimash/debug_clear_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[2.034s] byte-compiling /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[2.034s] byte-compiling /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[2.037s] byte-compiling /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[2.041s] byte-compiling /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[2.042s] byte-compiling /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[2.045s] running install_data
+[2.045s] creating /home/dimash/debug_clear_ws/install/yolo_ros/share/ament_index
+[2.045s] creating /home/dimash/debug_clear_ws/install/yolo_ros/share/ament_index/resource_index
+[2.045s] creating /home/dimash/debug_clear_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[2.045s] copying resource/yolo_ros -> /home/dimash/debug_clear_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[2.046s] copying package.xml -> /home/dimash/debug_clear_ws/install/yolo_ros/share/yolo_ros
+[2.046s] running install_egg_info
+[2.048s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[2.049s] running install_scripts
+[2.079s] Installing debug_node script to /home/dimash/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[2.079s] Installing detect_3d_node script to /home/dimash/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[2.080s] Installing tracking_node script to /home/dimash/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[2.080s] Installing yolo_node script to /home/dimash/debug_clear_ws/install/yolo_ros/lib/yolo_ros
+[2.081s] writing list of installed files to '/home/dimash/debug_clear_ws/build/yolo_ros/install.log'
+[2.126s] Invoked command in '/home/dimash/debug_clear_ws/src/yolo_ros/yolo_ros' returned '0': CMAKE_PREFIX_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs:/home/dimash/debug_clear_ws/install/yolo_bringup:/home/dimash/debug_clear_ws/install/point_cloud_debug:/home/dimash/debug_clear_ws/install/mpc_low:/home/dimash/debug_clear_ws/install/clearpath_simulator:/home/dimash/debug_clear_ws/install/clearpath_gz:/home/dimash/debug_clear_ws/install/clearpath_generator_gz:/home/dimash/debug_clear_ws/install/clearpath_common:/home/dimash/debug_clear_ws/install/clearpath_generator_common:/home/dimash/debug_clear_ws/install/clearpath_description:/home/dimash/debug_clear_ws/install/clearpath_sensors_description:/home/dimash/debug_clear_ws/install/clearpath_platform:/home/dimash/debug_clear_ws/install/clearpath_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_description:/home/dimash/debug_clear_ws/install/clearpath_nav2_demos:/home/dimash/debug_clear_ws/install/clearpath_mounts_description:/home/dimash/debug_clear_ws/install/clearpath_manipulators:/home/dimash/debug_clear_ws/install/clearpath_manipulators_description:/home/dimash/debug_clear_ws/install/clearpath_customization:/home/dimash/debug_clear_ws/install/clearpath_control LD_LIBRARY_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs/lib:/home/dimash/debug_clear_ws/install/mpc_low/lib:/home/dimash/debug_clear_ws/install/clearpath_platform/lib:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib:/home/dimash/acados/lib PYTHONPATH=/home/dimash/debug_clear_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/dimash/debug_clear_ws/build/yolo_ros/build install --record /home/dimash/debug_clear_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

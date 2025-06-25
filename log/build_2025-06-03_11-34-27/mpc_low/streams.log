@@ -1,0 +1,111 @@
+[0.567s] Invoking command in '/home/dimash/debug_clear_ws/build/mpc_low': CMAKE_PREFIX_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs:/home/dimash/debug_clear_ws/install/yolo_bringup:/home/dimash/debug_clear_ws/install/mpc_low:/home/dimash/debug_clear_ws/install/point_cloud_debug:/home/dimash/debug_clear_ws/install/move_model_plugin:/home/dimash/debug_clear_ws/install/clearpath_simulator:/home/dimash/debug_clear_ws/install/clearpath_gz:/home/dimash/debug_clear_ws/install/clearpath_generator_gz:/home/dimash/debug_clear_ws/install/clearpath_common:/home/dimash/debug_clear_ws/install/clearpath_generator_common:/home/dimash/debug_clear_ws/install/clearpath_description:/home/dimash/debug_clear_ws/install/clearpath_sensors_description:/home/dimash/debug_clear_ws/install/clearpath_platform:/home/dimash/debug_clear_ws/install/clearpath_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_description:/home/dimash/debug_clear_ws/install/clearpath_nav2_demos:/home/dimash/debug_clear_ws/install/clearpath_mounts_description:/home/dimash/debug_clear_ws/install/clearpath_manipulators:/home/dimash/debug_clear_ws/install/clearpath_manipulators_description:/home/dimash/debug_clear_ws/install/clearpath_customization:/home/dimash/debug_clear_ws/install/clearpath_control:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs/lib:/home/dimash/debug_clear_ws/install/mpc_low/lib:/home/dimash/debug_clear_ws/install/move_model_plugin/lib:/home/dimash/debug_clear_ws/install/clearpath_platform/lib:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dimash/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dimash/acados/lib:/home/dimash/acados/lib /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/mpc_low -- -j8 -l8
+[0.664s] [ 16%] Built target cmd_publisher
+[0.666s] [ 25%] [32mBuilding CXX object CMakeFiles/mpc_low_plugin.dir/solver/acados_solver_holder.cpp.o[0m
+[2.361s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:[m[K In member function ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*, double*, bool, double*)[m[K’:
+[2.361s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:217:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kx_init[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.361s]   217 |     double [01;35m[Kx_init[m[K[NX*(N+1)]={0.0};
+[2.361s]       |            [01;35m[K^~~~~~[m[K
+[2.364s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:236:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kxtraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.364s]   236 |     double [01;35m[Kxtraj[m[K[NX*(N+1)], utraj[NU*N];
+[2.364s]       |            [01;35m[K^~~~~[m[K
+[2.364s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:236:29:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kutraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.364s]   236 |     double xtraj[NX*(N+1)], [01;35m[Kutraj[m[K[NU*N];
+[2.364s]       |                             [01;35m[K^~~~~[m[K
+[2.364s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbx[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.365s]    44 |     int idxbx0[NBX0], [01;35m[Kidxbx[m[K[NBX], idxbu[NBU], idxsh[NSH];
+[2.365s]       |                       [01;35m[K^~~~~[m[K
+[2.365s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbu[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.365s]    44 |     int idxbx0[NBX0], idxbx[NBX], [01;35m[Kidxbu[m[K[NBU], idxsh[NSH];
+[2.365s]       |                                   [01;35m[K^~~~~[m[K
+[2.365s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:59:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.365s]    59 |     double [01;35m[Kpi[m[K = M_PI;
+[2.365s]       |            [01;35m[K^~[m[K
+[2.365s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:60:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klbx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.365s]    60 |     double [01;35m[Klbx[m[K[3] = {-10.0, -10.0, -2*M_PI};
+[2.365s]       |            [01;35m[K^~~[m[K
+[2.366s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:61:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kubx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.366s]    61 |     double [01;35m[Kubx[m[K[3] = {+10.0, +10.0, 2*M_PI};
+[2.366s]       |            [01;35m[K^~~[m[K
+[2.366s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:62:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klbu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.366s]    62 |     double [01;35m[Klbu[m[K[2] = {-10, -10};
+[2.366s]       |            [01;35m[K^~~[m[K
+[2.366s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:63:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kubu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.366s]    63 |     double [01;35m[Kubu[m[K[2] = {10, 10};
+[2.366s]       |            [01;35m[K^~~[m[K
+[2.366s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:92:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.367s]    92 |     const double [01;35m[Ka[m[K = 0.5;
+[2.367s]       |                  [01;35m[K^[m[K
+[2.367s] [01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:27:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktracking_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.367s]    27 |                                 double current_robot_goal[3], [01;35m[Kdouble tracking_goal[30][m[K,
+[2.367s]       |                                                               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.528s] [ 33%] [32m[1mLinking CXX shared library libmpc_low_plugin.so[0m
+[4.745s] [100%] Built target mpc_low_plugin
+[4.756s] Invoked command in '/home/dimash/debug_clear_ws/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs:/home/dimash/debug_clear_ws/install/yolo_bringup:/home/dimash/debug_clear_ws/install/mpc_low:/home/dimash/debug_clear_ws/install/point_cloud_debug:/home/dimash/debug_clear_ws/install/move_model_plugin:/home/dimash/debug_clear_ws/install/clearpath_simulator:/home/dimash/debug_clear_ws/install/clearpath_gz:/home/dimash/debug_clear_ws/install/clearpath_generator_gz:/home/dimash/debug_clear_ws/install/clearpath_common:/home/dimash/debug_clear_ws/install/clearpath_generator_common:/home/dimash/debug_clear_ws/install/clearpath_description:/home/dimash/debug_clear_ws/install/clearpath_sensors_description:/home/dimash/debug_clear_ws/install/clearpath_platform:/home/dimash/debug_clear_ws/install/clearpath_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_description:/home/dimash/debug_clear_ws/install/clearpath_nav2_demos:/home/dimash/debug_clear_ws/install/clearpath_mounts_description:/home/dimash/debug_clear_ws/install/clearpath_manipulators:/home/dimash/debug_clear_ws/install/clearpath_manipulators_description:/home/dimash/debug_clear_ws/install/clearpath_customization:/home/dimash/debug_clear_ws/install/clearpath_control:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs/lib:/home/dimash/debug_clear_ws/install/mpc_low/lib:/home/dimash/debug_clear_ws/install/move_model_plugin/lib:/home/dimash/debug_clear_ws/install/clearpath_platform/lib:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dimash/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dimash/acados/lib:/home/dimash/acados/lib /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/mpc_low -- -j8 -l8
+[4.758s] Invoking command in '/home/dimash/debug_clear_ws/build/mpc_low': CMAKE_PREFIX_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs:/home/dimash/debug_clear_ws/install/yolo_bringup:/home/dimash/debug_clear_ws/install/mpc_low:/home/dimash/debug_clear_ws/install/point_cloud_debug:/home/dimash/debug_clear_ws/install/move_model_plugin:/home/dimash/debug_clear_ws/install/clearpath_simulator:/home/dimash/debug_clear_ws/install/clearpath_gz:/home/dimash/debug_clear_ws/install/clearpath_generator_gz:/home/dimash/debug_clear_ws/install/clearpath_common:/home/dimash/debug_clear_ws/install/clearpath_generator_common:/home/dimash/debug_clear_ws/install/clearpath_description:/home/dimash/debug_clear_ws/install/clearpath_sensors_description:/home/dimash/debug_clear_ws/install/clearpath_platform:/home/dimash/debug_clear_ws/install/clearpath_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_description:/home/dimash/debug_clear_ws/install/clearpath_nav2_demos:/home/dimash/debug_clear_ws/install/clearpath_mounts_description:/home/dimash/debug_clear_ws/install/clearpath_manipulators:/home/dimash/debug_clear_ws/install/clearpath_manipulators_description:/home/dimash/debug_clear_ws/install/clearpath_customization:/home/dimash/debug_clear_ws/install/clearpath_control:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs/lib:/home/dimash/debug_clear_ws/install/mpc_low/lib:/home/dimash/debug_clear_ws/install/move_model_plugin/lib:/home/dimash/debug_clear_ws/install/clearpath_platform/lib:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dimash/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dimash/acados/lib:/home/dimash/acados/lib /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/mpc_low
+[4.764s] -- Install configuration: ""
+[4.764s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/lib/mpc_low/cmd_publisher
+[4.764s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/mpc_controller_plugin.xml
+[4.764s] -- Installing: /home/dimash/debug_clear_ws/install/mpc_low/lib/libmpc_low_plugin.so
+[4.780s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/mpc_low/lib/libmpc_low_plugin.so" to ""
+[4.780s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/
+[4.780s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include//acados_solver_holder.hpp
+[4.780s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include//mpc_controller.hpp
+[4.781s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include//mpc_planner.hpp
+[4.782s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver
+[4.782s] -- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_holder.cpp
+[4.782s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_Jackal.c
+[4.782s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_sim_Jackal.c
+[4.782s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints
+[4.782s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c
+[4.782s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.o
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.o
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constraints.h
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Makefile
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_Jackal
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_holder copy.cpp
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_ocp_solver_pyx.so
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.o
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c
+[4.783s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_model.h
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.o
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.o
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_Jackal.c
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_sim_solver_Jackal.h
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_sim_solver_Jackal.c
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_Jackal.o
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver.pxd
+[4.784s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_sim_Jackal.o
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_sim_solver_Jackal.o
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/libacados_ocp_solver_Jackal.so
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_ocp_solver_pyx.o
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_Jackal.o
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_sim_Jackal
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_ocp_solver_pyx.c
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_Jackal.h
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/mpc_controller_plugin.xml
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/library_path.sh
+[4.785s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/library_path.dsv
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+[4.786s] -- Installing: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+[4.786s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/nav2_core__pluginlib__plugin/mpc_low
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/ament_cmake_export_libraries-extras.cmake
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+[4.787s] -- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml
+[4.788s] Invoked command in '/home/dimash/debug_clear_ws/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs:/home/dimash/debug_clear_ws/install/yolo_bringup:/home/dimash/debug_clear_ws/install/mpc_low:/home/dimash/debug_clear_ws/install/point_cloud_debug:/home/dimash/debug_clear_ws/install/move_model_plugin:/home/dimash/debug_clear_ws/install/clearpath_simulator:/home/dimash/debug_clear_ws/install/clearpath_gz:/home/dimash/debug_clear_ws/install/clearpath_generator_gz:/home/dimash/debug_clear_ws/install/clearpath_common:/home/dimash/debug_clear_ws/install/clearpath_generator_common:/home/dimash/debug_clear_ws/install/clearpath_description:/home/dimash/debug_clear_ws/install/clearpath_sensors_description:/home/dimash/debug_clear_ws/install/clearpath_platform:/home/dimash/debug_clear_ws/install/clearpath_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs:/home/dimash/debug_clear_ws/install/clearpath_platform_description:/home/dimash/debug_clear_ws/install/clearpath_nav2_demos:/home/dimash/debug_clear_ws/install/clearpath_mounts_description:/home/dimash/debug_clear_ws/install/clearpath_manipulators:/home/dimash/debug_clear_ws/install/clearpath_manipulators_description:/home/dimash/debug_clear_ws/install/clearpath_customization:/home/dimash/debug_clear_ws/install/clearpath_control:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble LD_LIBRARY_PATH=/home/dimash/debug_clear_ws/install/yolo_msgs/lib:/home/dimash/debug_clear_ws/install/mpc_low/lib:/home/dimash/debug_clear_ws/install/move_model_plugin/lib:/home/dimash/debug_clear_ws/install/clearpath_platform/lib:/home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib:/home/dimash/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/dimash/acados/lib:/home/dimash/acados/lib /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/mpc_low

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/robot/debug_clear_ws/src/yolo_ros/yolo_bringup
-# Build directory: /home/robot/debug_clear_ws/build/yolo_bringup
+# Source directory: /home/dimash/debug_clear_ws/src/yolo_ros/yolo_bringup
+# Build directory: /home/dimash/debug_clear_ws/build/yolo_bringup
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

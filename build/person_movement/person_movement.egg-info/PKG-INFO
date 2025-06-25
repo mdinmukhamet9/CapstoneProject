@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: person-movement
+Version: 0.0.0
+Summary: A package to move a person model in Gazebo and publish its position
+Home-page: UNKNOWN
+Maintainer: dimash
+Maintainer-email: your_email@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

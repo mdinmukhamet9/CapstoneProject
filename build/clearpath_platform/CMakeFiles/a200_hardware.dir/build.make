@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a200_hardware.dir/depend.make
@@ -70,172 +70,172 @@ include CMakeFiles/a200_hardware.dir/progress.make
 include CMakeFiles/a200_hardware.dir/flags.make
 
 CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp
+CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp
 CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp > CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp > CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp -o CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp -o CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp
+CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp
 CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/status.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/status.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/status.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp > CMakeFiles/a200_hardware.dir/src/a200/status.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp > CMakeFiles/a200_hardware.dir/src/a200/status.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/status.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/status.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp -o CMakeFiles/a200_hardware.dir/src/a200/status.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/status.cpp -o CMakeFiles/a200_hardware.dir/src/a200/status.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/horizon_legacy_wrapper.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/crc.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/crc.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_data.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_data.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_request.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_request.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Message_cmd.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Message_cmd.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Transport.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transport.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Number.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.s
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o: CMakeFiles/a200_hardware.dir/flags.make
-CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp
+CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o: CMakeFiles/a200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o -MF CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o.d -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp > CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.i
 
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp -o CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.s
 
 # Object files for target a200_hardware
 a200_hardware_OBJECTS = \
@@ -268,12 +268,12 @@ liba200_hardware.so: CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Transp
 liba200_hardware.so: CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Number.cpp.o
 liba200_hardware.so: CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o
 liba200_hardware.so: CMakeFiles/a200_hardware.dir/build.make
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
 liba200_hardware.so: /opt/ros/humble/lib/libfake_components.so
 liba200_hardware.so: /opt/ros/humble/lib/libmock_components.so
 liba200_hardware.so: /opt/ros/humble/lib/libhardware_interface.so
@@ -385,8 +385,8 @@ liba200_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c
 liba200_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 liba200_hardware.so: /opt/ros/humble/lib/librcpputils.so
 liba200_hardware.so: /opt/ros/humble/lib/librcutils.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
-liba200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+liba200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
 liba200_hardware.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 liba200_hardware.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 liba200_hardware.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -469,7 +469,7 @@ liba200_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.s
 liba200_hardware.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 liba200_hardware.so: /opt/ros/humble/lib/librcutils.so
 liba200_hardware.so: CMakeFiles/a200_hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library liba200_hardware.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library liba200_hardware.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a200_hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -481,6 +481,6 @@ CMakeFiles/a200_hardware.dir/clean:
 .PHONY : CMakeFiles/a200_hardware.dir/clean
 
 CMakeFiles/a200_hardware.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/a200_hardware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/a200_hardware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/a200_hardware.dir/depend
 

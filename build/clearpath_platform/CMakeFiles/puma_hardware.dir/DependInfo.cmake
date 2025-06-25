@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp" "CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o" "gcc" "CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o.d"
-  "/home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp" "CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o" "gcc" "CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o.d"
+  "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp" "CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o" "gcc" "CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o.d"
+  "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp" "CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o" "gcc" "CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o.d"
   )
 
 # Targets to which this target links.

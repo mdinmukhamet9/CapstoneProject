@@ -10,7 +10,7 @@ def generate_launch_description():
 
     launch_arg_imu_filter = DeclareLaunchArgument(
         'imu_filter',
-        default_value='/home/robot/debug_clear_ws/platform/config/imu_filter.yaml',
+        default_value='/home/dimash/debug_clear_ws/platform/config/imu_filter.yaml',
         description='')
 
     imu_filter = LaunchConfiguration('imu_filter')
@@ -30,7 +30,7 @@ def generate_launch_description():
                 (
                     'setup_path'
                     ,
-                    '/home/robot/debug_clear_ws'
+                    '/home/dimash/debug_clear_ws/'
                 )
                 ,
                 (
@@ -140,7 +140,7 @@ def generate_launch_description():
                 {
                     'use_sim_time': True
                     ,
-                    'config_file': '/home/robot/debug_clear_ws/sensors/config/imu_0.yaml'
+                    'config_file': '/home/dimash/debug_clear_ws/sensors/config/imu_0.yaml'
                     ,
                 }
                 ,
@@ -201,7 +201,7 @@ def generate_launch_description():
                 {
                     'use_sim_time': True
                     ,
-                    'config_file': '/home/robot/debug_clear_ws/sensors/config/gps_0.yaml'
+                    'config_file': '/home/dimash/debug_clear_ws/sensors/config/gps_0.yaml'
                     ,
                 }
                 ,

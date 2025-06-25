@@ -1,0 +1,21 @@
+[1.137s] Invoking command in '/home/dimash/debug_clear_ws/src/person_movement': PYTHONPATH=/home/dimash/debug_clear_ws/build/person_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_movement build --build-base /home/dimash/debug_clear_ws/build/person_movement/build install --record /home/dimash/debug_clear_ws/build/person_movement/install.log --single-version-externally-managed install_data
+[1.427s] running egg_info
+[1.427s] writing ../../build/person_movement/person_movement.egg-info/PKG-INFO
+[1.428s] writing dependency_links to ../../build/person_movement/person_movement.egg-info/dependency_links.txt
+[1.428s] writing entry points to ../../build/person_movement/person_movement.egg-info/entry_points.txt
+[1.428s] writing requirements to ../../build/person_movement/person_movement.egg-info/requires.txt
+[1.428s] writing top-level names to ../../build/person_movement/person_movement.egg-info/top_level.txt
+[1.431s] reading manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+[1.432s] writing manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+[1.432s] running build
+[1.432s] running build_py
+[1.432s] running install
+[1.433s] running install_lib
+[1.435s] running install_data
+[1.435s] running install_egg_info
+[1.438s] removing '/home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement-0.0.0-py3.10.egg-info' (and everything under it)
+[1.438s] Copying ../../build/person_movement/person_movement.egg-info to /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement-0.0.0-py3.10.egg-info
+[1.439s] running install_scripts
+[1.462s] Installing move_and_publish_person script to /home/dimash/debug_clear_ws/install/person_movement/lib/person_movement
+[1.462s] writing list of installed files to '/home/dimash/debug_clear_ws/build/person_movement/install.log'
+[1.487s] Invoked command in '/home/dimash/debug_clear_ws/src/person_movement' returned '0': PYTHONPATH=/home/dimash/debug_clear_ws/build/person_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_movement build --build-base /home/dimash/debug_clear_ws/build/person_movement/build install --record /home/dimash/debug_clear_ws/build/person_movement/install.log --single-version-externally-managed install_data

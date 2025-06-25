@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-339cc64881d90401b452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpc_low",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmd_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmd_publisher-957b9392b607dad1b8fc.json",
+					"name" : "cmd_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low_plugin-1e6f6588ddedc6b74ad1.json",
+					"name" : "mpc_low_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low_uninstall-269890d15c4be9bd755b.json",
+					"name" : "mpc_low_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-442a92cbfeafd07ac887.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dimash/debug_clear_ws/build/mpc_low",
+		"source" : "/home/dimash/debug_clear_ws/src/mpc_low"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_manipulators
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_manipulators
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_manipulators
 
 # Utility rule file for clearpath_manipulators_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clearpath_manipulators_uninstall.dir/compiler_depend.make
 include CMakeFiles/clearpath_manipulators_uninstall.dir/progress.make
 
 CMakeFiles/clearpath_manipulators_uninstall:
-	/usr/bin/cmake -P /home/robot/debug_clear_ws/build/clearpath_manipulators/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 clearpath_manipulators_uninstall: CMakeFiles/clearpath_manipulators_uninstall
 clearpath_manipulators_uninstall: CMakeFiles/clearpath_manipulators_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/clearpath_manipulators_uninstall.dir/clean:
 .PHONY : CMakeFiles/clearpath_manipulators_uninstall.dir/clean
 
 CMakeFiles/clearpath_manipulators_uninstall.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_manipulators && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_manipulators /home/robot/debug_clear_ws/src/clearpath_common/clearpath_manipulators /home/robot/debug_clear_ws/build/clearpath_manipulators /home/robot/debug_clear_ws/build/clearpath_manipulators /home/robot/debug_clear_ws/build/clearpath_manipulators/CMakeFiles/clearpath_manipulators_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_manipulators && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators /home/dimash/debug_clear_ws/build/clearpath_manipulators /home/dimash/debug_clear_ws/build/clearpath_manipulators /home/dimash/debug_clear_ws/build/clearpath_manipulators/CMakeFiles/clearpath_manipulators_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_manipulators_uninstall.dir/depend
 

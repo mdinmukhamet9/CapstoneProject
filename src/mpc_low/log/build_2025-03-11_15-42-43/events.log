@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000823] (mpc_low) JobQueued: {'identifier': 'mpc_low', 'dependencies': OrderedDict()}
+[0.000853] (mpc_low) JobStarted: {'identifier': 'mpc_low'}
+[0.007738] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'cmake'}
+[0.008392] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/mpc_low', '-DCMAKE_INSTALL_PREFIX=/home/robot/mpc_low/install/mpc_low'], 'cwd': '/home/robot/mpc_low/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '1360002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62e43268_1baa_4528_8442_c1c121968ea4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.432'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/mpc_low/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058737] (mpc_low) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100031] (-) TimerEvent: {}
+[0.109513] (mpc_low) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116602] (mpc_low) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.179152] (mpc_low) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.186151] (mpc_low) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.186358] (mpc_low) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.186679] (mpc_low) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.189529] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200132] (-) TimerEvent: {}
+[0.263275] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.270276] (mpc_low) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.270519] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.270946] (mpc_low) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.273480] (mpc_low) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300249] (-) TimerEvent: {}
+[0.400497] (-) TimerEvent: {}
+[0.500765] (-) TimerEvent: {}
+[0.600993] (-) TimerEvent: {}
+[0.644542] (mpc_low) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.701106] (-) TimerEvent: {}
+[0.735193] (mpc_low) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.778438] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.783446] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.791135] (mpc_low) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801221] (-) TimerEvent: {}
+[0.802440] (mpc_low) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.818157] (mpc_low) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.861989] (mpc_low) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.864615] (mpc_low) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901342] (-) TimerEvent: {}
+[0.946413] (mpc_low) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.972582] (mpc_low) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.001464] (-) TimerEvent: {}
+[1.013128] (mpc_low) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.022515] (mpc_low) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.087844] (mpc_low) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.088287] (mpc_low) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101586] (-) TimerEvent: {}
+[1.155575] (mpc_low) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.156577] (mpc_low) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201706] (-) TimerEvent: {}
+[1.206536] (mpc_low) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.239443] (mpc_low) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.251637] (mpc_low) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.269197] (mpc_low) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.301830] (-) TimerEvent: {}
+[1.361262] (mpc_low) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.375664] (mpc_low) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.376835] (mpc_low) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.377020] (mpc_low) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.380851] (mpc_low) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.401946] (-) TimerEvent: {}
+[1.495809] (mpc_low) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.502056] (-) TimerEvent: {}
+[1.521143] (mpc_low) StdoutLine: {'line': b'-- Generating done\n'}
+[1.530380] (mpc_low) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/mpc_low/build/mpc_low\n'}
+[1.540681] (mpc_low) CommandEnded: {'returncode': 0}
+[1.542386] (mpc_low) JobProgress: {'identifier': 'mpc_low', 'progress': 'build'}
+[1.542439] (mpc_low) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/mpc_low/build/mpc_low', '--', '-j12', '-l12'], 'cwd': '/home/robot/mpc_low/build/mpc_low', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robot'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/acados/lib:/home/robot/acados/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '1360002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-Nitro-AN515-54:@/tmp/.ICE-unix/2631,unix/robot-Nitro-AN515-54:/tmp/.ICE-unix/2631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62e43268_1baa_4528_8442_c1c121968ea4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.432'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/mpc_low/build/mpc_low'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.588866] (mpc_low) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o\x1b[0m\n'}
+[1.602189] (-) TimerEvent: {}
+[1.702439] (-) TimerEvent: {}
+[1.802688] (-) TimerEvent: {}
+[1.902912] (-) TimerEvent: {}
+[2.003163] (-) TimerEvent: {}
+[2.103420] (-) TimerEvent: {}
+[2.203676] (-) TimerEvent: {}
+[2.303865] (-) TimerEvent: {}
+[2.404124] (-) TimerEvent: {}
+[2.504381] (-) TimerEvent: {}
+[2.604643] (-) TimerEvent: {}
+[2.704854] (-) TimerEvent: {}
+[2.805101] (-) TimerEvent: {}
+[2.905357] (-) TimerEvent: {}
+[3.005612] (-) TimerEvent: {}
+[3.105871] (-) TimerEvent: {}
+[3.206136] (-) TimerEvent: {}
+[3.306395] (-) TimerEvent: {}
+[3.406651] (-) TimerEvent: {}
+[3.506863] (-) TimerEvent: {}
+[3.607144] (-) TimerEvent: {}
+[3.707405] (-) TimerEvent: {}
+[3.807672] (-) TimerEvent: {}
+[3.907856] (-) TimerEvent: {}
+[3.981559] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[3.981712] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kmy_NMPC_solver::my_NMPC_solver(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.981783] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:55:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_N\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.981840] (mpc_low) StderrLine: {'line': b'   55 |     int N = \x1b[01;31m\x1b[KJackal_N\x1b[m\x1b[K;\n'}
+[3.981890] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.988072] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[3.988209] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.988269] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:69:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_N\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.988326] (mpc_low) StderrLine: {'line': b'   69 |     int N = \x1b[01;31m\x1b[KJackal_N\x1b[m\x1b[K;\n'}
+[3.988376] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.996112] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[3.996241] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:19:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NBX0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NBX0\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.996301] (mpc_low) StderrLine: {'line': b'   19 | #define NBX0   \x1b[01;31m\x1b[KJackal_NBX0\x1b[m\x1b[K\n'}
+[3.996352] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.996402] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:80:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNBX0\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.996452] (mpc_low) StderrLine: {'line': b'   80 |     int idxbx0[\x1b[01;36m\x1b[KNBX0\x1b[m\x1b[K];   // indices of bounds on x (defines Jbx) at intermediate shooting nodes (1 to N-1)\n'}
+[3.996513] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.001905] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.002027] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:81:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kidxbx0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.002086] (mpc_low) StderrLine: {'line': b'   81 |     for (int i=0;i<NBX0;i++) \x1b[01;31m\x1b[Kidxbx0\x1b[m\x1b[K[i]=i;\n'}
+[4.002138] (mpc_low) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.007933] (-) TimerEvent: {}
+[4.009273] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.009396] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:18:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NBX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NBX\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.009458] (mpc_low) StderrLine: {'line': b'   18 | #define NBX    \x1b[01;31m\x1b[KJackal_NBX\x1b[m\x1b[K\n'}
+[4.009525] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.009574] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:83:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNBX\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.009624] (mpc_low) StderrLine: {'line': b'   83 |     int idxbx[\x1b[01;36m\x1b[KNBX\x1b[m\x1b[K];   // indices of bounds on x (defines Jbx) at intermediate shooting nodes (1 to N-1)\n'}
+[4.009673] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.014689] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.014816] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:84:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kidxbx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.014875] (mpc_low) StderrLine: {'line': b'   84 |     for (int i=0;i<NBX;i++) \x1b[01;31m\x1b[Kidxbx\x1b[m\x1b[K[i]=i;\n'}
+[4.014925] (mpc_low) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.024702] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.024857] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:20:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NBU\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NBU\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.024940] (mpc_low) StderrLine: {'line': b'   20 | #define NBU    \x1b[01;31m\x1b[KJackal_NBU\x1b[m\x1b[K\n'}
+[4.025000] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.025057] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:86:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNBU\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.025115] (mpc_low) StderrLine: {'line': b'   86 |     int idxbu[\x1b[01;36m\x1b[KNBU\x1b[m\x1b[K];\n'}
+[4.025170] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.030507] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.030645] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:87:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kidxbu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.030705] (mpc_low) StderrLine: {'line': b'   87 |     for (int i=0;i<NBU;i++) \x1b[01;31m\x1b[Kidxbu\x1b[m\x1b[K[i]=i;\n'}
+[4.030756] (mpc_low) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.038086] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.038240] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:23:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NSH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NSH\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.038305] (mpc_low) StderrLine: {'line': b'   23 | #define NSH    \x1b[01;31m\x1b[KJackal_NSH\x1b[m\x1b[K\n'}
+[4.038358] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.038407] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:89:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNSH\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.038458] (mpc_low) StderrLine: {'line': b'   89 |     int idxsh[\x1b[01;36m\x1b[KNSH\x1b[m\x1b[K];\n'}
+[4.038506] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.043609] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.043729] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:90:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kidxsh\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.043797] (mpc_low) StderrLine: {'line': b'   90 |     for (int i=0;i<NSH;i++) \x1b[01;31m\x1b[Kidxsh\x1b[m\x1b[K[i]=i; // set stick constraint as slack\n'}
+[4.043850] (mpc_low) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.050323] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.050452] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:38:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NH\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.050523] (mpc_low) StderrLine: {'line': b'   38 | #define NH     \x1b[01;31m\x1b[KJackal_NH\x1b[m\x1b[K\n'}
+[4.050574] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.050623] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:91:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNH\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.050672] (mpc_low) StderrLine: {'line': b'   91 |     double lh[\x1b[01;36m\x1b[KNH\x1b[m\x1b[K];\n'}
+[4.050724] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.055127] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.055247] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:93:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klh\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.055302] (mpc_low) StderrLine: {'line': b'   93 |     for (int i=0;i<NH;i++) \x1b[01;31m\x1b[Klh\x1b[m\x1b[K[i]=-10e6;\n'}
+[4.055351] (mpc_low) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.059650] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:94:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuh\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.059778] (mpc_low) StderrLine: {'line': b'   94 |     for (int i=0;i<NH;i++) \x1b[01;31m\x1b[Kuh\x1b[m\x1b[K[i]=0.0;\n'}
+[4.059839] (mpc_low) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.064632] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:100:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klbx0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.064752] (mpc_low) StderrLine: {'line': b'  100 |     for (int i=0;i<3;i++) \x1b[01;31m\x1b[Klbx0\x1b[m\x1b[K[i] = current_robot_position[i];\n'}
+[4.064818] (mpc_low) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.069714] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:101:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kubx0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.069849] (mpc_low) StderrLine: {'line': b'  101 |     for (int i=0;i<3;i++) \x1b[01;31m\x1b[Kubx0\x1b[m\x1b[K[i] = current_robot_position[i];\n'}
+[4.069907] (mpc_low) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.075453] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:105:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kidxbx0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.075578] (mpc_low) StderrLine: {'line': b'  105 |     ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, 0, "idxbx", \x1b[01;31m\x1b[Kidxbx0\x1b[m\x1b[K);\n'}
+[4.075633] (mpc_low) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.080638] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:106:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klbx0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.080775] (mpc_low) StderrLine: {'line': b'  106 |     ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, 0, "lbx", \x1b[01;31m\x1b[Klbx0\x1b[m\x1b[K);\n'}
+[4.080842] (mpc_low) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.085687] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:107:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kubx0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.085840] (mpc_low) StderrLine: {'line': b'  107 |     ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, 0, "ubx", \x1b[01;31m\x1b[Kubx0\x1b[m\x1b[K);\n'}
+[4.085904] (mpc_low) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.092397] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.092528] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:36:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.092599] (mpc_low) StderrLine: {'line': b'   36 | #define NY     \x1b[01;31m\x1b[KJackal_NY\x1b[m\x1b[K\n'}
+[4.092651] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.092700] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:116:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.092749] (mpc_low) StderrLine: {'line': b'  116 |     double Vx[\x1b[01;36m\x1b[KNY\x1b[m\x1b[K*NX] = {0.0};\n'}
+[4.092809] (mpc_low) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.099083] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:14:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NX\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.099212] (mpc_low) StderrLine: {'line': b'   14 | #define NX     \x1b[01;31m\x1b[KJackal_NX\x1b[m\x1b[K\n'}
+[4.099270] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.099323] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:116:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNX\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.099375] (mpc_low) StderrLine: {'line': b'  116 |     double Vx[NY*\x1b[01;36m\x1b[KNX\x1b[m\x1b[K] = {0.0};\n'}
+[4.099424] (mpc_low) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.103818] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.103939] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:117:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.103995] (mpc_low) StderrLine: {'line': b'  117 |     for (int i=0;i<NX;i++) \x1b[01;31m\x1b[KVx\x1b[m\x1b[K[NY*i+i] = 1.0;\n'}
+[4.104045] (mpc_low) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.108043] (-) TimerEvent: {}
+[4.111020] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.111143] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:37:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NYN\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NYN\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.111213] (mpc_low) StderrLine: {'line': b'   37 | #define NYN    \x1b[01;31m\x1b[KJackal_NYN\x1b[m\x1b[K\n'}
+[4.111264] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.111313] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:119:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNYN\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.111366] (mpc_low) StderrLine: {'line': b'  119 |     double Vx_e[\x1b[01;36m\x1b[KNYN\x1b[m\x1b[K*NX] = {0.0};\n'}
+[4.111413] (mpc_low) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.115712] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.115839] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:120:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.115896] (mpc_low) StderrLine: {'line': b'  120 |     for (int i=0;i<NX;i++) \x1b[01;31m\x1b[KVx\x1b[m\x1b[K[NYN*i+i] = 1.0;\n'}
+[4.115945] (mpc_low) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.122302] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.122426] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:16:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NU\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NU\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.122485] (mpc_low) StderrLine: {'line': b'   16 | #define NU     \x1b[01;31m\x1b[KJackal_NU\x1b[m\x1b[K\n'}
+[4.122537] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.122585] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:122:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNU\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.122635] (mpc_low) StderrLine: {'line': b'  122 |     double Vu[NY*\x1b[01;36m\x1b[KNU\x1b[m\x1b[K] = {0.0};\n'}
+[4.122682] (mpc_low) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.127160] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.127281] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:123:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.127338] (mpc_low) StderrLine: {'line': b'  123 |     for (int i=0;i<NU;i++) \x1b[01;31m\x1b[KVu\x1b[m\x1b[K[NY*i+i] = 1.0;\n'}
+[4.127387] (mpc_low) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.133287] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:131:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.133420] (mpc_low) StderrLine: {'line': b'  131 |     for (int ii = 0; ii < (NX); ii++) \x1b[01;31m\x1b[KW\x1b[m\x1b[K[ii+ii*(NU+NX)] = weights_diag[ii];\n'}
+[4.133493] (mpc_low) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.142433] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:131:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kweights_diag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.142584] (mpc_low) StderrLine: {'line': b'  131 |     for (int ii = 0; ii < (NX); ii++) W[ii+ii*(NU+NX)] = \x1b[01;31m\x1b[Kweights_diag\x1b[m\x1b[K[ii];\n'}
+[4.142642] (mpc_low) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.147234] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:132:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.147375] (mpc_low) StderrLine: {'line': b'  132 |     for (int ii = NX; ii < (NU+NX); ii++) \x1b[01;31m\x1b[KW\x1b[m\x1b[K[ii+ii*(NU+NX)] = 1000;\n'}
+[4.147429] (mpc_low) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.151855] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:134:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWN\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.151978] (mpc_low) StderrLine: {'line': b'  134 |     for (int ii = 0; ii < (NX); ii++) \x1b[01;31m\x1b[KWN\x1b[m\x1b[K[ii+ii*(NX)] = weights_diag[ii]*1000.0;\n'}
+[4.152035] (mpc_low) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.152084] (mpc_low) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KN\x1b[m\x1b[K\n'}
+[4.160367] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:134:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kweights_diag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.160497] (mpc_low) StderrLine: {'line': b'  134 |     for (int ii = 0; ii < (NX); ii++) WN[ii+ii*(NX)] = \x1b[01;31m\x1b[Kweights_diag\x1b[m\x1b[K[ii]*1000.0;\n'}
+[4.160557] (mpc_low) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.165115] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:135:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWN\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.165238] (mpc_low) StderrLine: {'line': b'  135 |     \x1b[01;31m\x1b[KWN\x1b[m\x1b[K[NX-1+(NX-1)*(NX)] = 100000000.0;\n'}
+[4.165295] (mpc_low) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.165344] (mpc_low) StderrLine: {'line': b'      |     \x1b[32m\x1b[KN\x1b[m\x1b[K\n'}
+[4.169706] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:142:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KZl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.169837] (mpc_low) StderrLine: {'line': b'  142 |     for (int i=0;i<NSH;i++) \x1b[01;31m\x1b[KZl\x1b[m\x1b[K[i] = 0.0;\n'}
+[4.169895] (mpc_low) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.174409] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:143:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KZu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.174586] (mpc_low) StderrLine: {'line': b'  143 |     for (int i=0;i<NSH;i++) \x1b[01;31m\x1b[KZu\x1b[m\x1b[K[i] = 10000.0;\n'}
+[4.174643] (mpc_low) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.179705] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:146:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_ref\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.179850] (mpc_low) StderrLine: {'line': b'  146 |     for (int i=0;i<3;i++) \x1b[01;31m\x1b[Ky_ref\x1b[m\x1b[K[i] = current_robot_goal[i];\n'}
+[4.179913] (mpc_low) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.185004] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:147:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_ref\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.185141] (mpc_low) StderrLine: {'line': b'  147 |     for (int i=0;i<2;i++) \x1b[01;31m\x1b[Ky_ref\x1b[m\x1b[K[i+3] = 0.0;\n'}
+[4.185196] (mpc_low) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.190865] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:149:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_ref_N\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.190988] (mpc_low) StderrLine: {'line': b'  149 |     for (int i=0;i<NYN;i++) \x1b[01;31m\x1b[Ky_ref_N\x1b[m\x1b[K[i] = current_robot_goal[i];\n'}
+[4.191046] (mpc_low) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.196230] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:154:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kidxbu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.196353] (mpc_low) StderrLine: {'line': b'  154 |         ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, ii, "idxbu", \x1b[01;31m\x1b[Kidxbu\x1b[m\x1b[K);\n'}
+[4.196409] (mpc_low) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.200909] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:169:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KW\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.201040] (mpc_low) StderrLine: {'line': b'  169 |         ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, ii, "W", \x1b[01;31m\x1b[KW\x1b[m\x1b[K);\n'}
+[4.201096] (mpc_low) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.206235] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:181:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_ref\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.206355] (mpc_low) StderrLine: {'line': b'  181 |         ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, ii, "yref", \x1b[01;31m\x1b[Ky_ref\x1b[m\x1b[K);\n'}
+[4.206412] (mpc_low) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.208140] (-) TimerEvent: {}
+[4.212196] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:184:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_ref_N\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.212318] (mpc_low) StderrLine: {'line': b'  184 |     ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, N, "yref", \x1b[01;31m\x1b[Ky_ref_N\x1b[m\x1b[K);\n'}
+[4.212385] (mpc_low) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.217520] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:190:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_init\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ku_int\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.217659] (mpc_low) StderrLine: {'line': b'  190 |     for (int i=0; i<=N;i++) for (int j=0;j<NX;j++) \x1b[01;31m\x1b[Kx_init\x1b[m\x1b[K[i*NX+j]=current_robot_position[j];\n'}
+[4.217718] (mpc_low) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.217787] (mpc_low) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[Ku_int\x1b[m\x1b[K\n'}
+[4.224194] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.224327] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:17:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJackal_NP\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KJACKAL_NP\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.224387] (mpc_low) StderrLine: {'line': b'   17 | #define NP     \x1b[01;31m\x1b[KJackal_NP\x1b[m\x1b[K\n'}
+[4.224440] (mpc_low) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.224490] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:195:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KNP\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.224540] (mpc_low) StderrLine: {'line': b'  195 |     double p[\x1b[01;36m\x1b[KNP\x1b[m\x1b[K] = {0.0};\n'}
+[4.224588] (mpc_low) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.228833] (mpc_low) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/mpc_low/src/low_solver.cpp:17\x1b[m\x1b[K:\n'}
+[4.228951] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:196:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.229008] (mpc_low) StderrLine: {'line': b'  196 |     for (int i = 0; i < 520; i++) \x1b[01;31m\x1b[Kp\x1b[m\x1b[K[i] = costmap_data[i];\n'}
+[4.229059] (mpc_low) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.233517] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:200:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpi\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.233640] (mpc_low) StderrLine: {'line': b'  200 |         Jackal_acados_update_params(acados_ocp_capsule, ii, \x1b[01;31m\x1b[Kp\x1b[m\x1b[K, NP);\n'}
+[4.233695] (mpc_low) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.233744] (mpc_low) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Kpi\x1b[m\x1b[K\n'}
+[4.239647] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:225:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_init\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ku_int\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.239834] (mpc_low) StderrLine: {'line': b'  225 |             ocp_nlp_out_set(nlp_config, nlp_dims, nlp_out, i, "x", \x1b[01;31m\x1b[Kx_init\x1b[m\x1b[K); // Check if OK??\n'}
+[4.239898] (mpc_low) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.239948] (mpc_low) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Ku_int\x1b[m\x1b[K\n'}
+[4.244188] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:226:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ku0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ky0\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.244311] (mpc_low) StderrLine: {'line': b'  226 |             ocp_nlp_out_set(nlp_config, nlp_dims, nlp_out, i, "u", \x1b[01;31m\x1b[Ku0\x1b[m\x1b[K);\n'}
+[4.244366] (mpc_low) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.244415] (mpc_low) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Ky0\x1b[m\x1b[K\n'}
+[4.249529] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:256:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxtraj\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.249679] (mpc_low) StderrLine: {'line': b'  256 |         ocp_nlp_out_get(nlp_config, nlp_dims, nlp_out, ii, "x", &\x1b[01;31m\x1b[Kxtraj\x1b[m\x1b[K[ii*NX]);\n'}
+[4.249735] (mpc_low) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.254791] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:258:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kutraj\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.254912] (mpc_low) StderrLine: {'line': b'  258 |         ocp_nlp_out_get(nlp_config, nlp_dims, nlp_out, ii, "u", &\x1b[01;31m\x1b[Kutraj\x1b[m\x1b[K[ii*NU]);\n'}
+[4.254969] (mpc_low) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.260133] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:287:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kutraj\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.260257] (mpc_low) StderrLine: {'line': b'  287 |         if (\x1b[01;31m\x1b[Kutraj\x1b[m\x1b[K[i]!=utraj[i]) results[7] = 0.0;\n'}
+[4.260313] (mpc_low) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.265404] (mpc_low) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:292:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxtraj\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.265546] (mpc_low) StderrLine: {'line': b'  292 |     for (int i=0;i<33;i++) trajectory[i] = \x1b[01;31m\x1b[Kxtraj\x1b[m\x1b[K[i];\n'}
+[4.265601] (mpc_low) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.308274] (-) TimerEvent: {}
+[4.408533] (-) TimerEvent: {}
+[4.508796] (-) TimerEvent: {}
+[4.609017] (-) TimerEvent: {}
+[4.709392] (-) TimerEvent: {}
+[4.809644] (-) TimerEvent: {}
+[4.909868] (-) TimerEvent: {}
+[5.010121] (-) TimerEvent: {}
+[5.110382] (-) TimerEvent: {}
+[5.210634] (-) TimerEvent: {}
+[5.310868] (-) TimerEvent: {}
+[5.411129] (-) TimerEvent: {}
+[5.511402] (-) TimerEvent: {}
+[5.611688] (-) TimerEvent: {}
+[5.712031] (-) TimerEvent: {}
+[5.812311] (-) TimerEvent: {}
+[5.912586] (-) TimerEvent: {}
+[6.012856] (-) TimerEvent: {}
+[6.113117] (-) TimerEvent: {}
+[6.213377] (-) TimerEvent: {}
+[6.313633] (-) TimerEvent: {}
+[6.413899] (-) TimerEvent: {}
+[6.514159] (-) TimerEvent: {}
+[6.614421] (-) TimerEvent: {}
+[6.714683] (-) TimerEvent: {}
+[6.814953] (-) TimerEvent: {}
+[6.915175] (-) TimerEvent: {}
+[7.015427] (-) TimerEvent: {}
+[7.115750] (-) TimerEvent: {}
+[7.216016] (-) TimerEvent: {}
+[7.316274] (-) TimerEvent: {}
+[7.416538] (-) TimerEvent: {}
+[7.516800] (-) TimerEvent: {}
+[7.617060] (-) TimerEvent: {}
+[7.717315] (-) TimerEvent: {}
+[7.817574] (-) TimerEvent: {}
+[7.917833] (-) TimerEvent: {}
+[8.018114] (-) TimerEvent: {}
+[8.118389] (-) TimerEvent: {}
+[8.218609] (-) TimerEvent: {}
+[8.318898] (-) TimerEvent: {}
+[8.419196] (-) TimerEvent: {}
+[8.519456] (-) TimerEvent: {}
+[8.619795] (-) TimerEvent: {}
+[8.664261] (mpc_low) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1\n'}
+[8.664491] (mpc_low) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/mpc_low.dir/all] Error 2\n'}
+[8.664629] (mpc_low) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.666729] (mpc_low) CommandEnded: {'returncode': 2}
+[8.674019] (mpc_low) JobEnded: {'identifier': 'mpc_low', 'rc': 2}
+[8.684576] (-) EventReactorShutdown: {}

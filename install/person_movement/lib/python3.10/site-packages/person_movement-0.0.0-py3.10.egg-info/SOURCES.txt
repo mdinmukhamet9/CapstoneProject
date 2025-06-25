@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/person_movement/person_movement.egg-info/PKG-INFO
+../../build/person_movement/person_movement.egg-info/SOURCES.txt
+../../build/person_movement/person_movement.egg-info/dependency_links.txt
+../../build/person_movement/person_movement.egg-info/entry_points.txt
+../../build/person_movement/person_movement.egg-info/requires.txt
+../../build/person_movement/person_movement.egg-info/top_level.txt
+../../build/person_movement/person_movement.egg-info/zip-safe
+person_movement/__init__.py
+person_movement/move_and_publish_person.py
+resource/person_movement
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

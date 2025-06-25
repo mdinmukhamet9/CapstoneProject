@@ -1,7 +1,7 @@
 CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o: \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/hardware.cpp \
  /usr/include/stdc-predef.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/hardware.hpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/hardware.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -666,33 +666,33 @@ CMakeFiles/a200_hardware.dir/src/a200/hardware.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32__type_support.hpp \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/horizon_legacy_wrapper.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/clearpath.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Exception.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_cmd.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_request.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_data.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Transport.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/status.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/power.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__struct.hpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/horizon_legacy_wrapper.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/clearpath.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Exception.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_cmd.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_request.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Message_data.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Transport.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/status.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__builder.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__traits.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/power__type_support.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/status.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__struct.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__builder.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__traits.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/status__type_support.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/stop_status.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp \
  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \

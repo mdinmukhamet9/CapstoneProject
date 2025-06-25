@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_generator_common
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_generator_common
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_generator_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/robot/debug_clear_ws/build/clearpath_generator_common /home/robot/debug_clear_ws/build/clearpath_generator_common /home/robot/debug_clear_ws/build/clearpath_generator_common/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_generator_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/dimash/debug_clear_ws/build/clearpath_generator_common /home/dimash/debug_clear_ws/build/clearpath_generator_common /home/dimash/debug_clear_ws/build/clearpath_generator_common/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

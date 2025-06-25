@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lighting_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/lighting_node.dir/progress.make
 include CMakeFiles/lighting_node.dir/flags.make
 
 CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: CMakeFiles/lighting_node.dir/flags.make
-CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp
+CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp
 CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o: CMakeFiles/lighting_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o -MF CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o.d -o CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o -MF CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o.d -o CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp
 
 CMakeFiles/lighting_node.dir/src/lighting/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lighting_node.dir/src/lighting/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp > CMakeFiles/lighting_node.dir/src/lighting/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp > CMakeFiles/lighting_node.dir/src/lighting/main.cpp.i
 
 CMakeFiles/lighting_node.dir/src/lighting/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lighting_node.dir/src/lighting/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp -o CMakeFiles/lighting_node.dir/src/lighting/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/main.cpp -o CMakeFiles/lighting_node.dir/src/lighting/main.cpp.s
 
 # Object files for target lighting_node
 lighting_node_OBJECTS = \
@@ -93,20 +93,20 @@ lighting_node_EXTERNAL_OBJECTS =
 lighting_node: CMakeFiles/lighting_node.dir/src/lighting/main.cpp.o
 lighting_node: CMakeFiles/lighting_node.dir/build.make
 lighting_node: libclearpath_platform_lighting.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
 lighting_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 lighting_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 lighting_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 lighting_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 lighting_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 lighting_node: /opt/ros/humble/lib/librclcpp.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
-lighting_node: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+lighting_node: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
 lighting_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 lighting_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 lighting_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -180,7 +180,7 @@ lighting_node: /opt/ros/humble/lib/librcpputils.so
 lighting_node: /opt/ros/humble/lib/librcutils.so
 lighting_node: /opt/ros/humble/lib/libtracetools.so
 lighting_node: CMakeFiles/lighting_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lighting_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lighting_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lighting_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/lighting_node.dir/clean:
 .PHONY : CMakeFiles/lighting_node.dir/clean
 
 CMakeFiles/lighting_node.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/lighting_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/lighting_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lighting_node.dir/depend
 

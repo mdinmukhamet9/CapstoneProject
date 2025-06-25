@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target cmd_publisher[0m
+[ 83%] Built target mpc_low_plugin
+[ 91%] [32mBuilding CXX object CMakeFiles/cmd_publisher.dir/src/cmd_publisher.cpp.o[0m

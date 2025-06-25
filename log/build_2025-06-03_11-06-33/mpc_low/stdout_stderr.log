@@ -1,0 +1,281 @@
+[  8%] [32mBuilding CXX object CMakeFiles/cmd_publisher.dir/src/cmd_publisher.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mpc_low_plugin.dir/src/mpc_controller.cpp.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/acados_solver_Jackal.c.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mpc_low_plugin.dir/solver/acados_solver_holder.cpp.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/acados_sim_solver_Jackal.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/Jackal_model/Jackal_expl_vde_forw.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/Jackal_model/Jackal_expl_vde_adj.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/Jackal_model/Jackal_expl_ode_fun.c.o[0m
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_f0[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:59:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_init_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:124:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  124 | CASADI_SYMBOL_EXPORT int Jackal_expl_vde_adj_init_mem([01;35m[Kint mem[m[K) {
+      |                                                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_free_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:128:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  128 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_adj_free_mem([01;35m[Kint mem[m[K) {
+      |                                                        [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:[m[K In function ‘[01m[KJackal_expl_vde_adj_release[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c:135:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  135 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_adj_release([01;35m[Kint mem[m[K) {
+      |                                                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_f0[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:61:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_init_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:206:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  206 | CASADI_SYMBOL_EXPORT int Jackal_expl_vde_forw_init_mem([01;35m[Kint mem[m[K) {
+      |                                                        [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_free_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:210:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  210 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_forw_free_mem([01;35m[Kint mem[m[K) {
+      |                                                         [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:[m[K In function ‘[01m[KJackal_expl_vde_forw_release[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c:217:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  217 | CASADI_SYMBOL_EXPORT void Jackal_expl_vde_forw_release([01;35m[Kint mem[m[K) {
+      |                                                        [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_create_5_set_nlp_in[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_f0[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:383:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp_int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  383 |     int [01;35m[Ktmp_int[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_create_6_set_opts[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1310:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kext_cost_num_hess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1310 |     int [01;35m[Kext_cost_num_hess[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_update_qp_solver_cond_N[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1427:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcapsule[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1427 | int Jackal_acados_update_qp_solver_cond_N([01;35m[KJackal_solver_capsule* capsule[m[K, int qp_solver_cond_N)
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1427:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kqp_solver_cond_N[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1427 | int Jackal_acados_update_qp_solver_cond_N(Jackal_solver_capsule* capsule, [01;35m[Kint qp_solver_cond_N[m[K)
+      |                                                                           [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:[m[K In function ‘[01m[KJackal_acados_reset[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1445:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knlp_solver[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1445 |     ocp_nlp_solver* [01;35m[Knlp_solver[m[K = capsule->nlp_solver;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1444:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knlp_in[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1444 |     ocp_nlp_in* [01;35m[Knlp_in[m[K = capsule->nlp_in;
+      |                 [01;35m[K^~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:57:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_init_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:96:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   96 | CASADI_SYMBOL_EXPORT int Jackal_expl_ode_fun_init_mem([01;35m[Kint mem[m[K) {
+      |                                                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_free_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:100:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  100 | CASADI_SYMBOL_EXPORT void Jackal_expl_ode_fun_free_mem([01;35m[Kint mem[m[K) {
+      |                                                        [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:[m[K In function ‘[01m[KJackal_expl_ode_fun_release[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c:107:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  107 | CASADI_SYMBOL_EXPORT void Jackal_expl_ode_fun_release([01;35m[Kint mem[m[K) {
+      |                                                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_Jackal.c:1435:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreset_qp_solver_mem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1435 | int Jackal_acados_reset(Jackal_solver_capsule* capsule, [01;35m[Kint reset_qp_solver_mem[m[K)
+      |                                                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[ 75%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c.o[0m
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:280:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  280 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:285:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  285 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:290:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  290 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:295:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  295 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:300:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  300 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_sim_solver_Jackal.c:305:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  305 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[ 83%] [32mBuilding C object CMakeFiles/mpc_low_plugin.dir/solver/Jackal_constraints/Jackal_constr_h_fun.c.o[0m
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_f0[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:64:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_init_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2441:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2441 | CASADI_SYMBOL_EXPORT int Jackal_constr_h_fun_init_mem([01;35m[Kint mem[m[K) {
+      |                                                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_free_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2445:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2445 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_free_mem([01;35m[Kint mem[m[K) {
+      |                                                        [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:[m[K In function ‘[01m[KJackal_constr_h_fun_release[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c:2452:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2452 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_release([01;35m[Kint mem[m[K) {
+      |                                                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_f0[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kiw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* [01;35m[Ki[m[Kw, casadi_real* w, int mem) {
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* [01;35m[Kw[m[K, int mem) {
+      |                                                                                               [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:68:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   68 | static int casadi_f0(const casadi_real** arg, casadi_real** res, casadi_int* iw, casadi_real* w, [01;35m[Kint mem[m[K) {
+      |                                                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_init_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:4022:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 4022 | CASADI_SYMBOL_EXPORT int Jackal_constr_h_fun_jac_uxt_zt_init_mem([01;35m[Kint mem[m[K) {
+      |                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_free_mem[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:4026:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 4026 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_jac_uxt_zt_free_mem([01;35m[Kint mem[m[K) {
+      |                                                                   [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:[m[K In function ‘[01m[KJackal_constr_h_fun_jac_uxt_zt_release[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c:4033:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmem[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 4033 | CASADI_SYMBOL_EXPORT void Jackal_constr_h_fun_jac_uxt_zt_release([01;35m[Kint mem[m[K) {
+      |                                                                  [01;35m[K~~~~^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:[m[K In member function ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*, double*, bool, double*)[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:207:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kx_init[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  207 |     double [01;35m[Kx_init[m[K[NX*(N+1)]={0.0};
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:226:12:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kxtraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  226 |     double [01;35m[Kxtraj[m[K[NX*(N+1)], utraj[NU*N];
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:226:29:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kutraj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  226 |     double xtraj[NX*(N+1)], [01;35m[Kutraj[m[K[NU*N];
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbx[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   44 |     int idxbx0[NBX0], [01;35m[Kidxbx[m[K[NBX], idxbu[NBU], idxsh[NSH];
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:44:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kidxbu[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   44 |     int idxbx0[NBX0], idxbx[NBX], [01;35m[Kidxbu[m[K[NBU], idxsh[NSH];
+      |                                   [01;35m[K^~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:59:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |     double [01;35m[Kpi[m[K = M_PI;
+      |            [01;35m[K^~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:60:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klbx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   60 |     double [01;35m[Klbx[m[K[3] = {-10.0, -10.0, -2*M_PI};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:61:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kubx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   61 |     double [01;35m[Kubx[m[K[3] = {+10.0, +10.0, 2*M_PI};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:62:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klbu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |     double [01;35m[Klbu[m[K[2] = {-10, -10};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:63:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kubu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   63 |     double [01;35m[Kubu[m[K[2] = {10, 10};
+      |            [01;35m[K^~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:92:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   92 |     const double [01;35m[Ka[m[K = 0.5;
+      |                  [01;35m[K^[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/solver/acados_solver_holder.cpp:27:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktracking_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |                                 double current_robot_goal[3], [01;35m[Kdouble tracking_goal[30][m[K,
+      |                                                               [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped mpc_low::MPCController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:340:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresolution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  340 |     double [01;35m[Kresolution[m[K = costmap->getResolution();
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:343:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korigin_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  343 |     double [01;35m[Korigin_x[m[K = costmap->getOriginX();
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/mpc_controller.cpp:344:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korigin_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  344 |     double [01;35m[Korigin_y[m[K = costmap->getOriginY();
+      |            [01;35m[K^~~~~~~~[m[K
+[ 91%] [32m[1mLinking CXX executable cmd_publisher[0m
+[ 91%] Built target cmd_publisher
+[100%] [32m[1mLinking CXX shared library libmpc_low_plugin.so[0m
+[100%] Built target mpc_low_plugin
+-- Install configuration: ""
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/lib/mpc_low/cmd_publisher
+-- Set runtime path of "/home/dimash/debug_clear_ws/install/mpc_low/lib/mpc_low/cmd_publisher" to ""
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/mpc_controller_plugin.xml
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/lib/libmpc_low_plugin.so
+-- Set runtime path of "/home/dimash/debug_clear_ws/install/mpc_low/lib/libmpc_low_plugin.so" to ""
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include//acados_solver_holder.hpp
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include//mpc_controller.hpp
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include//mpc_planner.hpp
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_holder.cpp
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_Jackal.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_sim_Jackal.c
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun_jac_uxt_zt.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constr_h_fun.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_constraints/Jackal_constraints.h
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Makefile
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_Jackal
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_holder copy.cpp
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_ocp_solver_pyx.so
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_forw.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_model.h
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_vde_adj.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/Jackal_model/Jackal_expl_ode_fun.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_Jackal.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_sim_solver_Jackal.h
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_sim_solver_Jackal.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_Jackal.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver.pxd
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_sim_Jackal.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_sim_solver_Jackal.o
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/libacados_ocp_solver_Jackal.so
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_ocp_solver_pyx.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_Jackal.o
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/main_sim_Jackal
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_ocp_solver_pyx.c
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/include/mpc_low/solver/acados_solver_Jackal.h
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/mpc_controller_plugin.xml
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/library_path.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/library_path.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/environment/path.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.bash
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.zsh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/local_setup.dsv
+-- Installing: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/package.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/ament_index/resource_index/nav2_core__pluginlib__plugin/mpc_low
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/mpc_low/share/mpc_low/package.xml

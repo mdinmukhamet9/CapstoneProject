@@ -1,0 +1,16 @@
+/home/dimash/debug_clear_ws/install/point_cloud_debug/lib/point_cloud_debug/point_cloud_debug_node
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/ament_index/resource_index/package_run_dependencies/point_cloud_debug
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/ament_index/resource_index/parent_prefix_path/point_cloud_debug
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/environment/ament_prefix_path.sh
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/environment/ament_prefix_path.dsv
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/environment/path.sh
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/environment/path.dsv
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/local_setup.bash
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/local_setup.sh
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/local_setup.zsh
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/local_setup.dsv
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/package.dsv
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/ament_index/resource_index/packages/point_cloud_debug
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/cmake/point_cloud_debugConfig.cmake
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/cmake/point_cloud_debugConfig-version.cmake
+/home/dimash/debug_clear_ws/install/point_cloud_debug/share/point_cloud_debug/package.xml

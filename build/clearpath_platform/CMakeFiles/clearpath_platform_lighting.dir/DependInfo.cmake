@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o" "gcc" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o.d"
-  "/home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o" "gcc" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o.d"
-  "/home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o" "gcc" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o.d"
+  "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o" "gcc" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o.d"
+  "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o" "gcc" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o.d"
+  "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o" "gcc" "CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform_msgs
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform_msgs
 
 # Utility rule file for clearpath_platform_msgs__cpp.
 
@@ -175,8 +175,8 @@ rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp: /opt/ros/humble/shar
 rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp: rosidl_generator_cpp/clearpath_platform_msgs/msg/drive.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/drive__builder.hpp
@@ -388,6 +388,6 @@ CMakeFiles/clearpath_platform_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/clearpath_platform_msgs__cpp.dir/clean
 
 CMakeFiles/clearpath_platform_msgs__cpp.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/clearpath_platform_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/clearpath_platform_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_platform_msgs__cpp.dir/depend
 

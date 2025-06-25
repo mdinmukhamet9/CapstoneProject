@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Utility rule file for clearpath_platform_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clearpath_platform_uninstall.dir/compiler_depend.make
 include CMakeFiles/clearpath_platform_uninstall.dir/progress.make
 
 CMakeFiles/clearpath_platform_uninstall:
-	/usr/bin/cmake -P /home/robot/debug_clear_ws/build/clearpath_platform/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dimash/debug_clear_ws/build/clearpath_platform/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 clearpath_platform_uninstall: CMakeFiles/clearpath_platform_uninstall
 clearpath_platform_uninstall: CMakeFiles/clearpath_platform_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/clearpath_platform_uninstall.dir/clean:
 .PHONY : CMakeFiles/clearpath_platform_uninstall.dir/clean
 
 CMakeFiles/clearpath_platform_uninstall.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/clearpath_platform_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/clearpath_platform_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_platform_uninstall.dir/depend
 

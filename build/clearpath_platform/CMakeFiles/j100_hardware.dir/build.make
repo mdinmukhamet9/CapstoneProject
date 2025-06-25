@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Include any dependencies generated for this target.
 include CMakeFiles/j100_hardware.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/j100_hardware.dir/progress.make
 include CMakeFiles/j100_hardware.dir/flags.make
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: CMakeFiles/j100_hardware.dir/flags.make
-CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp
+CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp
 CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o: CMakeFiles/j100_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o -MF CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o -MF CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp > CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp > CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.i
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp -o CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware.cpp -o CMakeFiles/j100_hardware.dir/src/j100/hardware.cpp.s
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: CMakeFiles/j100_hardware.dir/flags.make
-CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp
+CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp
 CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o: CMakeFiles/j100_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o -MF CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o -MF CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp > CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp > CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.i
 
 CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp -o CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/j100/hardware_interface.cpp -o CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cpp.s
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: CMakeFiles/j100_hardware.dir/flags.make
-CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp
+CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o: CMakeFiles/j100_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o -MF CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o -MF CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp > CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp > CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.i
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware.cpp -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.s
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: CMakeFiles/j100_hardware.dir/flags.make
-CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp
+CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o: CMakeFiles/j100_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o -MF CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o -MF CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o.d -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp > CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp > CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.i
 
 CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/diff_drive/hardware_interface.cpp -o CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.s
 
 # Object files for target j100_hardware
 j100_hardware_OBJECTS = \
@@ -140,12 +140,12 @@ libj100_hardware.so: CMakeFiles/j100_hardware.dir/src/j100/hardware_interface.cp
 libj100_hardware.so: CMakeFiles/j100_hardware.dir/src/diff_drive/hardware.cpp.o
 libj100_hardware.so: CMakeFiles/j100_hardware.dir/src/diff_drive/hardware_interface.cpp.o
 libj100_hardware.so: CMakeFiles/j100_hardware.dir/build.make
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
 libj100_hardware.so: /opt/ros/humble/lib/libfake_components.so
 libj100_hardware.so: /opt/ros/humble/lib/libmock_components.so
 libj100_hardware.so: /opt/ros/humble/lib/libhardware_interface.so
@@ -257,8 +257,8 @@ libj100_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c
 libj100_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 libj100_hardware.so: /opt/ros/humble/lib/librcpputils.so
 libj100_hardware.so: /opt/ros/humble/lib/librcutils.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
-libj100_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+libj100_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
 libj100_hardware.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libj100_hardware.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libj100_hardware.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -341,7 +341,7 @@ libj100_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.s
 libj100_hardware.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libj100_hardware.so: /opt/ros/humble/lib/librcutils.so
 libj100_hardware.so: CMakeFiles/j100_hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libj100_hardware.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libj100_hardware.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/j100_hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -353,6 +353,6 @@ CMakeFiles/j100_hardware.dir/clean:
 .PHONY : CMakeFiles/j100_hardware.dir/clean
 
 CMakeFiles/j100_hardware.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/j100_hardware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/j100_hardware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/j100_hardware.dir/depend
 

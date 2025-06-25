@@ -1,7 +1,7 @@
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/linux_serial.cpp.o: \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/linux_serial.cpp \
  /usr/include/stdc-predef.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/serial.h \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/serial.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

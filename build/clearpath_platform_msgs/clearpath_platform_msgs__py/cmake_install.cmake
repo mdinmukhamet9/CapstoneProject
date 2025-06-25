@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot/debug_clear_ws/build/clearpath_platform_msgs/clearpath_platform_msgs__py
+# Install script for directory: /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/clearpath_platform_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot/debug_clear_ws/install/clearpath_platform_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/dimash/debug_clear_ws/install/clearpath_platform_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ad8d948bd1c0be29e573.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mpc_low",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_odometry_node_sim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_odometry_node_sim-Release-3e4918c940b92b63271c.json",
+					"name" : "custom_odometry_node_sim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low-Release-20d293ca947cf7f08844.json",
+					"name" : "mpc_low",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low_node-Release-ab0e5d29981970c74c21.json",
+					"name" : "mpc_low_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_low_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_low_uninstall-Release-75817d08ebb5292eea0b.json",
+					"name" : "mpc_low_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-86ab49d8762eda4e46b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robot/mpc_low/build/mpc_low",
+		"source" : "/home/robot/mpc_low"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

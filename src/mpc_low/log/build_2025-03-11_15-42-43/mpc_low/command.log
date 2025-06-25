@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/mpc_low/install/mpc_low
+Invoked command in '/home/robot/mpc_low/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/mpc_low/install/mpc_low
+Invoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12
+Invoked command in '/home/robot/mpc_low/build/mpc_low' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12

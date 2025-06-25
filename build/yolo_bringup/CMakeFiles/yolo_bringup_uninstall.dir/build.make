@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/yolo_ros/yolo_bringup
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/yolo_ros/yolo_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/yolo_bringup
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/yolo_bringup
 
 # Utility rule file for yolo_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/yolo_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/yolo_bringup_uninstall.dir/progress.make
 
 CMakeFiles/yolo_bringup_uninstall:
-	/usr/bin/cmake -P /home/robot/debug_clear_ws/build/yolo_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dimash/debug_clear_ws/build/yolo_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 yolo_bringup_uninstall: CMakeFiles/yolo_bringup_uninstall
 yolo_bringup_uninstall: CMakeFiles/yolo_bringup_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/yolo_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/yolo_bringup_uninstall.dir/clean
 
 CMakeFiles/yolo_bringup_uninstall.dir/depend:
-	cd /home/robot/debug_clear_ws/build/yolo_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/yolo_ros/yolo_bringup /home/robot/debug_clear_ws/src/yolo_ros/yolo_bringup /home/robot/debug_clear_ws/build/yolo_bringup /home/robot/debug_clear_ws/build/yolo_bringup /home/robot/debug_clear_ws/build/yolo_bringup/CMakeFiles/yolo_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/yolo_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/yolo_ros/yolo_bringup /home/dimash/debug_clear_ws/src/yolo_ros/yolo_bringup /home/dimash/debug_clear_ws/build/yolo_bringup /home/dimash/debug_clear_ws/build/yolo_bringup /home/dimash/debug_clear_ws/build/yolo_bringup/CMakeFiles/yolo_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/yolo_bringup_uninstall.dir/depend
 

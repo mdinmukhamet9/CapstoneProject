@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_generator_common
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_generator_common
 
 # Utility rule file for ament_cmake_python_build_clearpath_generator_common_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/c
 include CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg:
-	cd /home/robot/debug_clear_ws/build/clearpath_generator_common/ament_cmake_python/clearpath_generator_common && /usr/bin/python3 setup.py egg_info
+	cd /home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_python/clearpath_generator_common && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_clearpath_generator_common_egg: CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg
 ament_cmake_python_build_clearpath_generator_common_egg: CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_generator_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/robot/debug_clear_ws/build/clearpath_generator_common /home/robot/debug_clear_ws/build/clearpath_generator_common /home/robot/debug_clear_ws/build/clearpath_generator_common/CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_generator_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common /home/dimash/debug_clear_ws/build/clearpath_generator_common /home/dimash/debug_clear_ws/build/clearpath_generator_common /home/dimash/debug_clear_ws/build/clearpath_generator_common/CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_clearpath_generator_common_egg.dir/depend
 

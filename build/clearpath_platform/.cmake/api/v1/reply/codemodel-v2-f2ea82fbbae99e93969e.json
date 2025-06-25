@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-88bd5f0b7a4b6b06b138.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "clearpath_platform",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a200_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a200_hardware-a571ce19205993008293.json",
+					"name" : "a200_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_lighting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_lighting-b50ed6f212d414863ced.json",
+					"name" : "clearpath_platform_lighting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_uninstall-32934a789b0567183ffa.json",
+					"name" : "clearpath_platform_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "j100_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-j100_hardware-5f68bdfae12a65cc1c28.json",
+					"name" : "j100_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lighting_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lighting_node-a5d3fa4d472aa7d0c35d.json",
+					"name" : "lighting_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "puma_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-puma_hardware-482de3aec80c0c78fc3a.json",
+					"name" : "puma_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9183e8aaac6e69946b7d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "w200_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-w200_hardware-65c88aa37c13c5ed6b3e.json",
+					"name" : "w200_hardware",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dimash/debug_clear_ws/build/clearpath_platform",
+		"source" : "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

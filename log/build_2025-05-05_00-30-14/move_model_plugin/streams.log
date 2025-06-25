@@ -1,0 +1,241 @@
+[0.072s] Invoking command in '/home/dimash/debug_clear_ws/build/move_model_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dimash/debug_clear_ws/src/move_model_plugin -DCMAKE_INSTALL_PREFIX=/home/dimash/debug_clear_ws/install/move_model_plugin
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.380s] -- Detecting CXX compiler ABI info
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.688s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.819s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[0.832s] -- Searching for dependencies of ignition-gazebo6
+[0.838s] -- Looking for sdformat12 -- found version 12.8.0
+[0.839s] -- Searching for dependencies of sdformat12
+[0.846s] -- Checking for module 'tinyxml2'
+[0.865s] --   Found tinyxml2, version 9.0.0
+[0.911s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.911s] -- Searching for dependencies of ignition-math6
+[0.917s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.917s] -- Searching for dependencies of ignition-utils1
+[0.926s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.926s] -- Searching for dependencies of ignition-plugin1
+[0.926s] -- Searching for <ignition-plugin1> component [loader]
+[0.934s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.934s] -- Searching for dependencies of ignition-plugin1-loader
+[0.934s] -- Searching for <ignition-plugin1> component [register]
+[0.941s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.941s] -- Searching for dependencies of ignition-plugin1-register
+[0.949s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.950s] -- Searching for dependencies of ignition-transport11
+[1.134s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.154s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.159s] -- Checking for module 'libzmq >= 4'
+[1.178s] --   Found libzmq , version 4.3.4
+[1.216s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.223s] -- Checking for module 'uuid'
+[1.237s] --   Found uuid, version 2.37.2
+[1.269s] -- Found UUID: TRUE  
+[1.269s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.270s] -- Searching for dependencies of ignition-utils1
+[1.270s] -- Searching for <ignition-utils1> component [cli]
+[1.277s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.277s] -- Searching for dependencies of ignition-utils1-cli
+[1.283s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.284s] -- Searching for dependencies of ignition-msgs8
+[1.312s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.312s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.328s] -- Searching for <ignition-transport11> component [log]
+[1.334s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.335s] -- Searching for dependencies of ignition-transport11-log
+[1.335s] -- Searching for <ignition-transport11> component [parameters]
+[1.342s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.342s] -- Searching for dependencies of ignition-transport11-parameters
+[1.344s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.350s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.351s] -- Searching for dependencies of ignition-common4
+[1.353s] -- Looking for dlfcn.h - found
+[1.353s] -- Looking for libdl - found
+[1.354s] -- Found DL: TRUE  
+[1.362s] -- Searching for <ignition-common4> component [profiler]
+[1.367s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.367s] -- Searching for dependencies of ignition-common4-profiler
+[1.368s] -- Searching for <ignition-common4> component [events]
+[1.372s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.373s] -- Searching for dependencies of ignition-common4-events
+[1.373s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.374s] -- Searching for <ignition-common4> component [av]
+[1.378s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.378s] -- Searching for dependencies of ignition-common4-av
+[1.383s] -- Checking for module 'libswscale'
+[1.396s] --   Found libswscale, version 5.9.100
+[1.426s] -- Found SWSCALE: TRUE  
+[1.431s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.445s] --   Found libavdevice , version 58.13.100
+[1.474s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.481s] -- Checking for module 'libavformat'
+[1.495s] --   Found libavformat, version 58.76.100
+[1.528s] -- Found AVFORMAT: TRUE  
+[1.534s] -- Checking for module 'libavcodec'
+[1.549s] --   Found libavcodec, version 58.134.100
+[1.580s] -- Found AVCODEC: TRUE  
+[1.586s] -- Checking for module 'libavutil'
+[1.601s] --   Found libavutil, version 56.70.100
+[1.631s] -- Found AVUTIL: TRUE  
+[1.639s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[1.639s] -- Searching for dependencies of ignition-fuel_tools7
+[1.732s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.744s] -- Checking for module 'jsoncpp'
+[1.760s] --   Found jsoncpp, version 1.9.5
+[1.800s] -- Found JSONCPP: TRUE  
+[1.811s] -- Checking for module 'libzip'
+[1.825s] --   Found libzip, version 1.7.3
+[1.853s] -- Found ZIP: TRUE  
+[1.853s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.854s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.854s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.859s] -- Looking for ignition-gui6 -- found version 6.8.0
+[1.860s] -- Searching for dependencies of ignition-gui6
+[1.884s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.885s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.885s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.885s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.890s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.890s] -- Searching for dependencies of ignition-rendering6
+[1.891s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.891s] -- Searching for dependencies of ignition-math6
+[1.891s] -- Searching for <ignition-math6> component [eigen3]
+[1.895s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.895s] -- Searching for dependencies of ignition-math6-eigen3
+[1.905s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.905s] -- Searching for dependencies of ignition-common4
+[1.905s] -- Looking for dlfcn.h - found
+[1.905s] -- Looking for libdl - found
+[1.914s] -- Searching for <ignition-common4> component [graphics]
+[1.918s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.918s] -- Searching for dependencies of ignition-common4-graphics
+[1.919s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.919s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.920s] -- Searching for <ignition-common4> component [events]
+[1.921s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.921s] -- Searching for dependencies of ignition-plugin1
+[1.921s] -- Searching for <ignition-plugin1> component [all]
+[1.925s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.926s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.928s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.960s] -- Looking for ignition-physics5 -- found version 5.3.2
+[1.961s] -- Searching for dependencies of ignition-physics5
+[1.961s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.961s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.962s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.963s] -- Searching for <ignition-physics5> component [heightmap]
+[1.967s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[1.967s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.968s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.968s] -- Searching for <ignition-physics5> component [mesh]
+[1.972s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[1.973s] -- Searching for dependencies of ignition-physics5-mesh
+[1.973s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.973s] -- Searching for <ignition-physics5> component [sdf]
+[1.977s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[1.978s] -- Searching for dependencies of ignition-physics5-sdf
+[1.978s] -- Looking for sdformat12 -- found version 12.8.0
+[1.984s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[1.984s] -- Searching for dependencies of ignition-sensors6
+[2.002s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.003s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.003s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.004s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.004s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.004s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.005s] -- Looking for sdformat12 -- found version 12.8.0
+[2.005s] -- Searching for <ignition-sensors6> component [air_pressure]
+[2.009s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[2.010s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[2.011s] -- Searching for <ignition-sensors6> component [altimeter]
+[2.015s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[2.015s] -- Searching for dependencies of ignition-sensors6-altimeter
+[2.016s] -- Searching for <ignition-sensors6> component [imu]
+[2.020s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[2.020s] -- Searching for dependencies of ignition-sensors6-imu
+[2.021s] -- Searching for <ignition-sensors6> component [force_torque]
+[2.025s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[2.025s] -- Searching for dependencies of ignition-sensors6-force_torque
+[2.026s] -- Searching for <ignition-sensors6> component [logical_camera]
+[2.030s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[2.030s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.031s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.035s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[2.035s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.036s] -- Searching for <ignition-sensors6> component [navsat]
+[2.040s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[2.040s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.041s] -- Searching for <ignition-sensors6> component [rendering]
+[2.045s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[2.045s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.046s] -- Searching for <ignition-sensors6> component [lidar]
+[2.050s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[2.050s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.051s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.052s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.056s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[2.056s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.056s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.057s] -- Searching for <ignition-sensors6> component [camera]
+[2.061s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[2.061s] -- Searching for dependencies of ignition-sensors6-camera
+[2.062s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.063s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.066s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[2.067s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.068s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.072s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[2.072s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.073s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.077s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[2.077s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.078s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.079s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.083s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[2.084s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.084s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.085s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.089s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[2.089s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.090s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.091s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.092s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.096s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.186s] -- Configuring done
+[2.201s] -- Generating done
+[2.205s] -- Build files have been written to: /home/dimash/debug_clear_ws/build/move_model_plugin
+[2.215s] Invoked command in '/home/dimash/debug_clear_ws/build/move_model_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake /home/dimash/debug_clear_ws/src/move_model_plugin -DCMAKE_INSTALL_PREFIX=/home/dimash/debug_clear_ws/install/move_model_plugin
+[2.217s] Invoking command in '/home/dimash/debug_clear_ws/build/move_model_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/move_model_plugin -- -j8 -l8
+[2.264s] [ 50%] [32mBuilding CXX object CMakeFiles/move_model_plugin.dir/src/move_model_plugin.cpp.o[0m
+[6.377s] [100%] [32m[1mLinking CXX shared library libmove_model_plugin.so[0m
+[6.660s] [100%] Built target move_model_plugin
+[6.669s] Invoked command in '/home/dimash/debug_clear_ws/build/move_model_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/move_model_plugin -- -j8 -l8
+[6.671s] Invoking command in '/home/dimash/debug_clear_ws/build/move_model_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/move_model_plugin
+[6.677s] -- Install configuration: ""
+[6.677s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/lib/libmove_model_plugin.so
+[6.678s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/package_run_dependencies/move_model_plugin
+[6.679s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/parent_prefix_path/move_model_plugin
+[6.679s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.sh
+[6.679s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.dsv
+[6.679s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.sh
+[6.679s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.dsv
+[6.679s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.bash
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.sh
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.zsh
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.dsv
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.dsv
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/packages/move_model_plugin
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig.cmake
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig-version.cmake
+[6.680s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.xml
+[6.682s] Invoked command in '/home/dimash/debug_clear_ws/build/move_model_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/move_model_plugin

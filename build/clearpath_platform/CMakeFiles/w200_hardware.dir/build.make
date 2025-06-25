@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Include any dependencies generated for this target.
 include CMakeFiles/w200_hardware.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/w200_hardware.dir/progress.make
 include CMakeFiles/w200_hardware.dir/flags.make
 
 CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o: CMakeFiles/w200_hardware.dir/flags.make
-CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp
+CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp
 CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o: CMakeFiles/w200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o -MF CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o.d -o CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o -MF CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o.d -o CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp
 
 CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp > CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp > CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.i
 
 CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp -o CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware.cpp -o CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.s
 
 CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o: CMakeFiles/w200_hardware.dir/flags.make
-CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp
+CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp
 CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o: CMakeFiles/w200_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o -MF CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o.d -o CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o -MF CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o.d -o CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp
 
 CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp > CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp > CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.i
 
 CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp -o CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/w200/hardware_interface.cpp -o CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.s
 
 # Object files for target w200_hardware
 w200_hardware_OBJECTS = \
@@ -108,12 +108,12 @@ w200_hardware_EXTERNAL_OBJECTS =
 libw200_hardware.so: CMakeFiles/w200_hardware.dir/src/w200/hardware.cpp.o
 libw200_hardware.so: CMakeFiles/w200_hardware.dir/src/w200/hardware_interface.cpp.o
 libw200_hardware.so: CMakeFiles/w200_hardware.dir/build.make
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
 libw200_hardware.so: /opt/ros/humble/lib/libfake_components.so
 libw200_hardware.so: /opt/ros/humble/lib/libmock_components.so
 libw200_hardware.so: /opt/ros/humble/lib/libhardware_interface.so
@@ -225,8 +225,8 @@ libw200_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c
 libw200_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 libw200_hardware.so: /opt/ros/humble/lib/librcpputils.so
 libw200_hardware.so: /opt/ros/humble/lib/librcutils.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
-libw200_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+libw200_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
 libw200_hardware.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libw200_hardware.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libw200_hardware.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -309,7 +309,7 @@ libw200_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.s
 libw200_hardware.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libw200_hardware.so: /opt/ros/humble/lib/librcutils.so
 libw200_hardware.so: CMakeFiles/w200_hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libw200_hardware.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libw200_hardware.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/w200_hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -321,6 +321,6 @@ CMakeFiles/w200_hardware.dir/clean:
 .PHONY : CMakeFiles/w200_hardware.dir/clean
 
 CMakeFiles/w200_hardware.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/w200_hardware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/w200_hardware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/w200_hardware.dir/depend
 

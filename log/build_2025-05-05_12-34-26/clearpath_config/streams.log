@@ -1,0 +1,20 @@
+[1.361s] Invoking command in '/home/dimash/debug_clear_ws/src/clearpath_config': PYTHONPATH=/home/dimash/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clearpath_config build --build-base /home/dimash/debug_clear_ws/build/clearpath_config/build install --record /home/dimash/debug_clear_ws/build/clearpath_config/install.log --single-version-externally-managed install_data
+[1.973s] running egg_info
+[1.974s] writing ../../build/clearpath_config/clearpath_config.egg-info/PKG-INFO
+[1.975s] writing dependency_links to ../../build/clearpath_config/clearpath_config.egg-info/dependency_links.txt
+[1.975s] writing requirements to ../../build/clearpath_config/clearpath_config.egg-info/requires.txt
+[1.975s] writing top-level names to ../../build/clearpath_config/clearpath_config.egg-info/top_level.txt
+[1.981s] reading manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[1.982s] adding license file 'LICENSE'
+[1.986s] writing manifest file '../../build/clearpath_config/clearpath_config.egg-info/SOURCES.txt'
+[1.986s] running build
+[1.986s] running build_py
+[1.997s] running install
+[1.997s] running install_lib
+[2.005s] running install_data
+[2.007s] running install_egg_info
+[2.010s] removing '/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config-0.3.3-py3.10.egg-info' (and everything under it)
+[2.010s] Copying ../../build/clearpath_config/clearpath_config.egg-info to /home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages/clearpath_config-0.3.3-py3.10.egg-info
+[2.013s] running install_scripts
+[2.050s] writing list of installed files to '/home/dimash/debug_clear_ws/build/clearpath_config/install.log'
+[2.221s] Invoked command in '/home/dimash/debug_clear_ws/src/clearpath_config' returned '0': PYTHONPATH=/home/dimash/debug_clear_ws/build/clearpath_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clearpath_config build --build-base /home/dimash/debug_clear_ws/build/clearpath_config/build install --record /home/dimash/debug_clear_ws/build/clearpath_config/install.log --single-version-externally-managed install_data

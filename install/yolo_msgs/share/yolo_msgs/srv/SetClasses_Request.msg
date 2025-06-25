@@ -1,1 +1,1 @@
-/home/robot/debug_clear_ws/build/yolo_msgs/rosidl_cmake/srv/SetClasses_Request.msg
+string[] classes

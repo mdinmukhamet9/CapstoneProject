@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target mpc_low[0m
+[0.064s] [ 16%] [32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o[0m
+[16.266s] [ 33%] [32m[1mLinking CXX shared library libmpc_low.so[0m
+[16.505s] [ 33%] Built target mpc_low
+[16.524s] [ 66%] [32mBuilding CXX object CMakeFiles/mpc_low_node.dir/src/low_solver.cpp.o[0m
+[16.524s] [ 66%] [32mBuilding CXX object CMakeFiles/custom_odometry_node_sim.dir/src/custom_odometry_sim.cpp.o[0m
+[31.206s] [ 83%] [32m[1mLinking CXX executable custom_odometry_node_sim[0m
+[31.457s] [ 83%] Built target custom_odometry_node_sim
+[35.173s] [100%] [32m[1mLinking CXX executable mpc_low_node[0m
+[35.421s] [100%] Built target mpc_low_node
+[35.433s] Invoked command in '/home/robot/mpc_low/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12
+[35.442s] Invoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mpc_low/build/mpc_low
+[35.449s] -- Install configuration: "Release"
+[35.449s] -- Installing: /home/robot/mpc_low/install/mpc_low/lib/mpc_low/libmpc_low.so
+[35.451s] -- Set runtime path of "/home/robot/mpc_low/install/mpc_low/lib/mpc_low/libmpc_low.so" to ""
+[35.451s] -- Installing: /home/robot/mpc_low/install/mpc_low/lib/mpc_low/mpc_low_node
+[35.452s] -- Set runtime path of "/home/robot/mpc_low/install/mpc_low/lib/mpc_low/mpc_low_node" to ""
+[35.453s] -- Installing: /home/robot/mpc_low/install/mpc_low/lib/mpc_low/custom_odometry_node_sim
+[35.454s] -- Set runtime path of "/home/robot/mpc_low/install/mpc_low/lib/mpc_low/custom_odometry_node_sim" to ""
+[35.454s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/ament_index/resource_index/package_run_dependencies/mpc_low
+[35.454s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/ament_index/resource_index/parent_prefix_path/mpc_low
+[35.454s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/ament_prefix_path.sh
+[35.454s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/ament_prefix_path.dsv
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/path.sh
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/environment/path.dsv
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.bash
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.sh
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.zsh
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/local_setup.dsv
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/package.dsv
+[35.455s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/ament_index/resource_index/packages/mpc_low
+[35.456s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig.cmake
+[35.456s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/cmake/mpc_lowConfig-version.cmake
+[35.456s] -- Installing: /home/robot/mpc_low/install/mpc_low/share/mpc_low/package.xml
+[35.458s] Invoked command in '/home/robot/mpc_low/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mpc_low/build/mpc_low

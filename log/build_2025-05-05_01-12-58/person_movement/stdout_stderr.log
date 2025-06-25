@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/person_movement/person_movement.egg-info
+writing ../../build/person_movement/person_movement.egg-info/PKG-INFO
+writing dependency_links to ../../build/person_movement/person_movement.egg-info/dependency_links.txt
+writing entry points to ../../build/person_movement/person_movement.egg-info/entry_points.txt
+writing requirements to ../../build/person_movement/person_movement.egg-info/requires.txt
+writing top-level names to ../../build/person_movement/person_movement.egg-info/top_level.txt
+writing manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+reading manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+writing manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dimash/debug_clear_ws/build/person_movement/build
+creating /home/dimash/debug_clear_ws/build/person_movement/build/lib
+creating /home/dimash/debug_clear_ws/build/person_movement/build/lib/person_movement
+copying person_movement/__init__.py -> /home/dimash/debug_clear_ws/build/person_movement/build/lib/person_movement
+running install
+running install_lib
+creating /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement
+copying /home/dimash/debug_clear_ws/build/person_movement/build/lib/person_movement/__init__.py -> /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement
+byte-compiling /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dimash/debug_clear_ws/install/person_movement/share/ament_index
+creating /home/dimash/debug_clear_ws/install/person_movement/share/ament_index/resource_index
+creating /home/dimash/debug_clear_ws/install/person_movement/share/ament_index/resource_index/packages
+copying resource/person_movement -> /home/dimash/debug_clear_ws/install/person_movement/share/ament_index/resource_index/packages
+copying package.xml -> /home/dimash/debug_clear_ws/install/person_movement/share/person_movement
+running install_egg_info
+Copying ../../build/person_movement/person_movement.egg-info to /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_and_publish_person script to /home/dimash/debug_clear_ws/install/person_movement/lib/person_movement
+writing list of installed files to '/home/dimash/debug_clear_ws/build/person_movement/install.log'

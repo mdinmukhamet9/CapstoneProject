@@ -1,0 +1,16 @@
+/home/dimash/debug_clear_ws/install/move_model_plugin/lib/libmove_model_plugin.so
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/package_run_dependencies/move_model_plugin
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/parent_prefix_path/move_model_plugin
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.sh
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.dsv
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.sh
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.dsv
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.bash
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.sh
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.zsh
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.dsv
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.dsv
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/packages/move_model_plugin
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig.cmake
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig-version.cmake
+/home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.xml

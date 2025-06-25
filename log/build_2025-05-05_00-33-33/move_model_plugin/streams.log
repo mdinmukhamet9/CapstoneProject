@@ -1,0 +1,25 @@
+[0.139s] Invoking command in '/home/dimash/debug_clear_ws/build/move_model_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/move_model_plugin -- -j8 -l8
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target move_model_plugin[0m
+[0.213s] [ 50%] [32mBuilding CXX object CMakeFiles/move_model_plugin.dir/src/move_model_plugin.cpp.o[0m
+[4.740s] [100%] [32m[1mLinking CXX shared library libmove_model_plugin.so[0m
+[4.973s] [100%] Built target move_model_plugin
+[4.983s] Invoked command in '/home/dimash/debug_clear_ws/build/move_model_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/move_model_plugin -- -j8 -l8
+[4.984s] Invoking command in '/home/dimash/debug_clear_ws/build/move_model_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/move_model_plugin
+[4.991s] -- Install configuration: ""
+[4.991s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/lib/libmove_model_plugin.so
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/package_run_dependencies/move_model_plugin
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/parent_prefix_path/move_model_plugin
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.sh
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.dsv
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.sh
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.dsv
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.bash
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.sh
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.zsh
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.dsv
+[4.993s] -- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.dsv
+[4.993s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/packages/move_model_plugin
+[4.994s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig.cmake
+[4.994s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig-version.cmake
+[4.994s] -- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.xml
+[4.995s] Invoked command in '/home/dimash/debug_clear_ws/build/move_model_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/move_model_plugin

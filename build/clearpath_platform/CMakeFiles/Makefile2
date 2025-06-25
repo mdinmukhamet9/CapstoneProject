@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/puma_hardware.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/clearpath_platform_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -119,14 +119,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/clearpath_platform_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearpath_platform_uninstall.dir/build.make CMakeFiles/clearpath_platform_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearpath_platform_uninstall.dir/build.make CMakeFiles/clearpath_platform_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num= "Built target clearpath_platform_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num= "Built target clearpath_platform_uninstall"
 .PHONY : CMakeFiles/clearpath_platform_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clearpath_platform_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clearpath_platform_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/clearpath_platform_uninstall.dir/rule
 
 # Convenience name for target.
@@ -145,14 +145,14 @@ CMakeFiles/clearpath_platform_uninstall.dir/clean:
 CMakeFiles/clearpath_platform_lighting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearpath_platform_lighting.dir/build.make CMakeFiles/clearpath_platform_lighting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clearpath_platform_lighting.dir/build.make CMakeFiles/clearpath_platform_lighting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=14,15,16,17 "Built target clearpath_platform_lighting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=14,15,16,17 "Built target clearpath_platform_lighting"
 .PHONY : CMakeFiles/clearpath_platform_lighting.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clearpath_platform_lighting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clearpath_platform_lighting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/clearpath_platform_lighting.dir/rule
 
 # Convenience name for target.
@@ -171,14 +171,14 @@ CMakeFiles/clearpath_platform_lighting.dir/clean:
 CMakeFiles/lighting_node.dir/all: CMakeFiles/clearpath_platform_lighting.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lighting_node.dir/build.make CMakeFiles/lighting_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lighting_node.dir/build.make CMakeFiles/lighting_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=23,24 "Built target lighting_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=23,24 "Built target lighting_node"
 .PHONY : CMakeFiles/lighting_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lighting_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lighting_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/lighting_node.dir/rule
 
 # Convenience name for target.
@@ -197,14 +197,14 @@ CMakeFiles/lighting_node.dir/clean:
 CMakeFiles/a200_hardware.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a200_hardware.dir/build.make CMakeFiles/a200_hardware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/a200_hardware.dir/build.make CMakeFiles/a200_hardware.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target a200_hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target a200_hardware"
 .PHONY : CMakeFiles/a200_hardware.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/a200_hardware.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/a200_hardware.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/a200_hardware.dir/rule
 
 # Convenience name for target.
@@ -223,14 +223,14 @@ CMakeFiles/a200_hardware.dir/clean:
 CMakeFiles/j100_hardware.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/j100_hardware.dir/build.make CMakeFiles/j100_hardware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/j100_hardware.dir/build.make CMakeFiles/j100_hardware.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=18,19,20,21,22 "Built target j100_hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=18,19,20,21,22 "Built target j100_hardware"
 .PHONY : CMakeFiles/j100_hardware.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/j100_hardware.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/j100_hardware.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/j100_hardware.dir/rule
 
 # Convenience name for target.
@@ -249,14 +249,14 @@ CMakeFiles/j100_hardware.dir/clean:
 CMakeFiles/w200_hardware.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/w200_hardware.dir/build.make CMakeFiles/w200_hardware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/w200_hardware.dir/build.make CMakeFiles/w200_hardware.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=28,29,30 "Built target w200_hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=28,29,30 "Built target w200_hardware"
 .PHONY : CMakeFiles/w200_hardware.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/w200_hardware.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/w200_hardware.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/w200_hardware.dir/rule
 
 # Convenience name for target.
@@ -275,14 +275,14 @@ CMakeFiles/w200_hardware.dir/clean:
 CMakeFiles/puma_hardware.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/puma_hardware.dir/build.make CMakeFiles/puma_hardware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/puma_hardware.dir/build.make CMakeFiles/puma_hardware.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=25,26,27 "Built target puma_hardware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=25,26,27 "Built target puma_hardware"
 .PHONY : CMakeFiles/puma_hardware.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/puma_hardware.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/puma_hardware.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles 0
 .PHONY : CMakeFiles/puma_hardware.dir/rule
 
 # Convenience name for target.

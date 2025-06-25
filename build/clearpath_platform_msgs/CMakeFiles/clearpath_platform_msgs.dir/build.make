@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform_msgs
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform_msgs
 
 # Utility rule file for clearpath_platform_msgs.
 
@@ -66,16 +66,16 @@ include CMakeFiles/clearpath_platform_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/clearpath_platform_msgs.dir/progress.make
 
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Drive.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/DriveFeedback.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Fans.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Feedback.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Lights.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Power.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/RGB.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Status.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/StopStatus.msg
-CMakeFiles/clearpath_platform_msgs: /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/srv/ConfigureMcu.srv
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Drive.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/DriveFeedback.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Fans.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Feedback.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Lights.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Power.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/RGB.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Status.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/StopStatus.msg
+CMakeFiles/clearpath_platform_msgs: /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs/srv/ConfigureMcu.srv
 CMakeFiles/clearpath_platform_msgs: rosidl_cmake/srv/ConfigureMcu_Request.msg
 CMakeFiles/clearpath_platform_msgs: rosidl_cmake/srv/ConfigureMcu_Response.msg
 CMakeFiles/clearpath_platform_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -124,6 +124,6 @@ CMakeFiles/clearpath_platform_msgs.dir/clean:
 .PHONY : CMakeFiles/clearpath_platform_msgs.dir/clean
 
 CMakeFiles/clearpath_platform_msgs.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/clearpath_platform_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/clearpath_platform_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_platform_msgs.dir/depend
 

@@ -1,0 +1,258 @@
+[0.009s] Invoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/mpc_low/install/mpc_low
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.644s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.734s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.778s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.783s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.790s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.817s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.861s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.864s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.946s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.972s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.022s] -- Looking for pthread.h
+[1.087s] -- Looking for pthread.h - found
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.156s] -- Found Threads: TRUE  
+[1.206s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.239s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.251s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.268s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.360s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.375s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.376s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.376s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.380s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.495s] -- Configuring done
+[1.520s] -- Generating done
+[1.530s] -- Build files have been written to: /home/robot/mpc_low/build/mpc_low
+[1.540s] Invoked command in '/home/robot/mpc_low/build/mpc_low' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/mpc_low -DCMAKE_INSTALL_PREFIX=/home/robot/mpc_low/install/mpc_low
+[1.542s] Invoking command in '/home/robot/mpc_low/build/mpc_low': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12
+[1.588s] [ 16%] [32mBuilding CXX object CMakeFiles/mpc_low.dir/src/low_solver.cpp.o[0m
+[3.981s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[3.981s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:[m[K In constructor ‘[01m[Kmy_NMPC_solver::my_NMPC_solver(int)[m[K’:
+[3.981s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:55:13:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_N[m[K’ was not declared in this scope
+[3.981s]    55 |     int N = [01;31m[KJackal_N[m[K;
+[3.981s]       |             [01;31m[K^~~~~~~~[m[K
+[3.987s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[3.987s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:[m[K In member function ‘[01m[Kint my_NMPC_solver::solve_my_mpc(double*, double*, double*, double*, double*, double*)[m[K’:
+[3.987s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:69:13:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_N[m[K’ was not declared in this scope
+[3.987s]    69 |     int N = [01;31m[KJackal_N[m[K;
+[3.988s]       |             [01;31m[K^~~~~~~~[m[K
+[3.995s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[3.995s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:19:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NBX0[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NBX0[m[K’?
+[3.995s]    19 | #define NBX0   [01;31m[KJackal_NBX0[m[K
+[3.996s]       |                [01;31m[K^~~~~~~~~~~[m[K
+[3.996s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:80:16:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNBX0[m[K’
+[3.996s]    80 |     int idxbx0[[01;36m[KNBX0[m[K];   // indices of bounds on x (defines Jbx) at intermediate shooting nodes (1 to N-1)
+[3.996s]       |                [01;36m[K^~~~[m[K
+[4.001s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.001s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:81:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kidxbx0[m[K’ was not declared in this scope
+[4.001s]    81 |     for (int i=0;i<NBX0;i++) [01;31m[Kidxbx0[m[K[i]=i;
+[4.001s]       |                              [01;31m[K^~~~~~[m[K
+[4.009s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.009s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NBX[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NBX[m[K’?
+[4.009s]    18 | #define NBX    [01;31m[KJackal_NBX[m[K
+[4.009s]       |                [01;31m[K^~~~~~~~~~[m[K
+[4.009s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:83:15:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNBX[m[K’
+[4.009s]    83 |     int idxbx[[01;36m[KNBX[m[K];   // indices of bounds on x (defines Jbx) at intermediate shooting nodes (1 to N-1)
+[4.009s]       |               [01;36m[K^~~[m[K
+[4.014s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.014s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:84:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kidxbx[m[K’ was not declared in this scope
+[4.014s]    84 |     for (int i=0;i<NBX;i++) [01;31m[Kidxbx[m[K[i]=i;
+[4.014s]       |                             [01;31m[K^~~~~[m[K
+[4.024s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.024s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NBU[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NBU[m[K’?
+[4.024s]    20 | #define NBU    [01;31m[KJackal_NBU[m[K
+[4.024s]       |                [01;31m[K^~~~~~~~~~[m[K
+[4.024s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:86:15:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNBU[m[K’
+[4.024s]    86 |     int idxbu[[01;36m[KNBU[m[K];
+[4.024s]       |               [01;36m[K^~~[m[K
+[4.030s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.030s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:87:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kidxbu[m[K’ was not declared in this scope
+[4.030s]    87 |     for (int i=0;i<NBU;i++) [01;31m[Kidxbu[m[K[i]=i;
+[4.030s]       |                             [01;31m[K^~~~~[m[K
+[4.037s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.037s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:23:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NSH[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NSH[m[K’?
+[4.037s]    23 | #define NSH    [01;31m[KJackal_NSH[m[K
+[4.038s]       |                [01;31m[K^~~~~~~~~~[m[K
+[4.038s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:89:15:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNSH[m[K’
+[4.038s]    89 |     int idxsh[[01;36m[KNSH[m[K];
+[4.038s]       |               [01;36m[K^~~[m[K
+[4.043s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.043s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:90:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kidxsh[m[K’ was not declared in this scope
+[4.043s]    90 |     for (int i=0;i<NSH;i++) [01;31m[Kidxsh[m[K[i]=i; // set stick constraint as slack
+[4.043s]       |                             [01;31m[K^~~~~[m[K
+[4.050s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.050s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:38:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NH[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NH[m[K’?
+[4.050s]    38 | #define NH     [01;31m[KJackal_NH[m[K
+[4.050s]       |                [01;31m[K^~~~~~~~~[m[K
+[4.050s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:91:15:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNH[m[K’
+[4.050s]    91 |     double lh[[01;36m[KNH[m[K];
+[4.050s]       |               [01;36m[K^~[m[K
+[4.054s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.054s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:93:28:[m[K [01;31m[Kerror: [m[K‘[01m[Klh[m[K’ was not declared in this scope
+[4.054s]    93 |     for (int i=0;i<NH;i++) [01;31m[Klh[m[K[i]=-10e6;
+[4.055s]       |                            [01;31m[K^~[m[K
+[4.059s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:94:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kuh[m[K’ was not declared in this scope
+[4.059s]    94 |     for (int i=0;i<NH;i++) [01;31m[Kuh[m[K[i]=0.0;
+[4.059s]       |                            [01;31m[K^~[m[K
+[4.064s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:100:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klbx0[m[K’ was not declared in this scope
+[4.064s]   100 |     for (int i=0;i<3;i++) [01;31m[Klbx0[m[K[i] = current_robot_position[i];
+[4.064s]       |                           [01;31m[K^~~~[m[K
+[4.069s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:101:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kubx0[m[K’ was not declared in this scope
+[4.069s]   101 |     for (int i=0;i<3;i++) [01;31m[Kubx0[m[K[i] = current_robot_position[i];
+[4.069s]       |                           [01;31m[K^~~~[m[K
+[4.075s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:105:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kidxbx0[m[K’ was not declared in this scope
+[4.075s]   105 |     ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, 0, "idxbx", [01;31m[Kidxbx0[m[K);
+[4.075s]       |                                                                             [01;31m[K^~~~~~[m[K
+[4.080s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:106:75:[m[K [01;31m[Kerror: [m[K‘[01m[Klbx0[m[K’ was not declared in this scope
+[4.080s]   106 |     ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, 0, "lbx", [01;31m[Klbx0[m[K);
+[4.080s]       |                                                                           [01;31m[K^~~~[m[K
+[4.085s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:107:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kubx0[m[K’ was not declared in this scope
+[4.085s]   107 |     ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, 0, "ubx", [01;31m[Kubx0[m[K);
+[4.085s]       |                                                                           [01;31m[K^~~~[m[K
+[4.092s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.092s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:36:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NY[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NY[m[K’?
+[4.092s]    36 | #define NY     [01;31m[KJackal_NY[m[K
+[4.092s]       |                [01;31m[K^~~~~~~~~[m[K
+[4.092s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:116:15:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNY[m[K’
+[4.092s]   116 |     double Vx[[01;36m[KNY[m[K*NX] = {0.0};
+[4.092s]       |               [01;36m[K^~[m[K
+[4.098s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:14:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NX[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NX[m[K’?
+[4.098s]    14 | #define NX     [01;31m[KJackal_NX[m[K
+[4.098s]       |                [01;31m[K^~~~~~~~~[m[K
+[4.098s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:116:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNX[m[K’
+[4.099s]   116 |     double Vx[NY*[01;36m[KNX[m[K] = {0.0};
+[4.099s]       |                  [01;36m[K^~[m[K
+[4.103s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.103s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:117:28:[m[K [01;31m[Kerror: [m[K‘[01m[KVx[m[K’ was not declared in this scope
+[4.103s]   117 |     for (int i=0;i<NX;i++) [01;31m[KVx[m[K[NY*i+i] = 1.0;
+[4.103s]       |                            [01;31m[K^~[m[K
+[4.110s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.110s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:37:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NYN[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NYN[m[K’?
+[4.110s]    37 | #define NYN    [01;31m[KJackal_NYN[m[K
+[4.110s]       |                [01;31m[K^~~~~~~~~~[m[K
+[4.110s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:119:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNYN[m[K’
+[4.111s]   119 |     double Vx_e[[01;36m[KNYN[m[K*NX] = {0.0};
+[4.111s]       |                 [01;36m[K^~~[m[K
+[4.115s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.115s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[KVx[m[K’ was not declared in this scope
+[4.115s]   120 |     for (int i=0;i<NX;i++) [01;31m[KVx[m[K[NYN*i+i] = 1.0;
+[4.115s]       |                            [01;31m[K^~[m[K
+[4.122s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.122s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:16:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NU[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NU[m[K’?
+[4.122s]    16 | #define NU     [01;31m[KJackal_NU[m[K
+[4.122s]       |                [01;31m[K^~~~~~~~~[m[K
+[4.122s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:122:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNU[m[K’
+[4.122s]   122 |     double Vu[NY*[01;36m[KNU[m[K] = {0.0};
+[4.122s]       |                  [01;36m[K^~[m[K
+[4.126s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.126s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:123:28:[m[K [01;31m[Kerror: [m[K‘[01m[KVu[m[K’ was not declared in this scope
+[4.127s]   123 |     for (int i=0;i<NU;i++) [01;31m[KVu[m[K[NY*i+i] = 1.0;
+[4.127s]       |                            [01;31m[K^~[m[K
+[4.133s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:131:39:[m[K [01;31m[Kerror: [m[K‘[01m[KW[m[K’ was not declared in this scope
+[4.133s]   131 |     for (int ii = 0; ii < (NX); ii++) [01;31m[KW[m[K[ii+ii*(NU+NX)] = weights_diag[ii];
+[4.133s]       |                                       [01;31m[K^[m[K
+[4.142s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:131:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kweights_diag[m[K’ was not declared in this scope
+[4.142s]   131 |     for (int ii = 0; ii < (NX); ii++) W[ii+ii*(NU+NX)] = [01;31m[Kweights_diag[m[K[ii];
+[4.142s]       |                                                          [01;31m[K^~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:132:43:[m[K [01;31m[Kerror: [m[K‘[01m[KW[m[K’ was not declared in this scope
+[4.147s]   132 |     for (int ii = NX; ii < (NU+NX); ii++) [01;31m[KW[m[K[ii+ii*(NU+NX)] = 1000;
+[4.147s]       |                                           [01;31m[K^[m[K
+[4.151s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:134:39:[m[K [01;31m[Kerror: [m[K‘[01m[KWN[m[K’ was not declared in this scope; did you mean ‘[01m[KN[m[K’?
+[4.151s]   134 |     for (int ii = 0; ii < (NX); ii++) [01;31m[KWN[m[K[ii+ii*(NX)] = weights_diag[ii]*1000.0;
+[4.151s]       |                                       [01;31m[K^~[m[K
+[4.151s]       |                                       [32m[KN[m[K
+[4.160s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:134:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kweights_diag[m[K’ was not declared in this scope
+[4.160s]   134 |     for (int ii = 0; ii < (NX); ii++) WN[ii+ii*(NX)] = [01;31m[Kweights_diag[m[K[ii]*1000.0;
+[4.160s]       |                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[4.164s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:135:5:[m[K [01;31m[Kerror: [m[K‘[01m[KWN[m[K’ was not declared in this scope; did you mean ‘[01m[KN[m[K’?
+[4.164s]   135 |     [01;31m[KWN[m[K[NX-1+(NX-1)*(NX)] = 100000000.0;
+[4.164s]       |     [01;31m[K^~[m[K
+[4.165s]       |     [32m[KN[m[K
+[4.169s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:142:29:[m[K [01;31m[Kerror: [m[K‘[01m[KZl[m[K’ was not declared in this scope
+[4.169s]   142 |     for (int i=0;i<NSH;i++) [01;31m[KZl[m[K[i] = 0.0;
+[4.169s]       |                             [01;31m[K^~[m[K
+[4.174s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:143:29:[m[K [01;31m[Kerror: [m[K‘[01m[KZu[m[K’ was not declared in this scope
+[4.174s]   143 |     for (int i=0;i<NSH;i++) [01;31m[KZu[m[K[i] = 10000.0;
+[4.174s]       |                             [01;31m[K^~[m[K
+[4.179s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:146:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_ref[m[K’ was not declared in this scope
+[4.179s]   146 |     for (int i=0;i<3;i++) [01;31m[Ky_ref[m[K[i] = current_robot_goal[i];
+[4.179s]       |                           [01;31m[K^~~~~[m[K
+[4.184s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:147:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_ref[m[K’ was not declared in this scope
+[4.184s]   147 |     for (int i=0;i<2;i++) [01;31m[Ky_ref[m[K[i+3] = 0.0;
+[4.184s]       |                           [01;31m[K^~~~~[m[K
+[4.190s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:149:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_ref_N[m[K’ was not declared in this scope
+[4.190s]   149 |     for (int i=0;i<NYN;i++) [01;31m[Ky_ref_N[m[K[i] = current_robot_goal[i];
+[4.190s]       |                             [01;31m[K^~~~~~~[m[K
+[4.195s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:154:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kidxbu[m[K’ was not declared in this scope
+[4.196s]   154 |         ocp_nlp_constraints_model_set(nlp_config, nlp_dims, nlp_in, ii, "idxbu", [01;31m[Kidxbu[m[K);
+[4.196s]       |                                                                                  [01;31m[K^~~~~[m[K
+[4.200s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:169:71:[m[K [01;31m[Kerror: [m[K‘[01m[KW[m[K’ was not declared in this scope
+[4.200s]   169 |         ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, ii, "W", [01;31m[KW[m[K);
+[4.200s]       |                                                                       [01;31m[K^[m[K
+[4.205s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:181:74:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_ref[m[K’ was not declared in this scope
+[4.206s]   181 |         ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, ii, "yref", [01;31m[Ky_ref[m[K);
+[4.206s]       |                                                                          [01;31m[K^~~~~[m[K
+[4.211s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:184:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_ref_N[m[K’ was not declared in this scope
+[4.212s]   184 |     ocp_nlp_cost_model_set(nlp_config, nlp_dims, nlp_in, N, "yref", [01;31m[Ky_ref_N[m[K);
+[4.212s]       |                                                                     [01;31m[K^~~~~~~[m[K
+[4.217s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:190:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_init[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+[4.217s]   190 |     for (int i=0; i<=N;i++) for (int j=0;j<NX;j++) [01;31m[Kx_init[m[K[i*NX+j]=current_robot_position[j];
+[4.217s]       |                                                    [01;31m[K^~~~~~[m[K
+[4.217s]       |                                                    [32m[Ku_int[m[K
+[4.223s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.224s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:17:16:[m[K [01;31m[Kerror: [m[K‘[01m[KJackal_NP[m[K’ was not declared in this scope; did you mean ‘[01m[KJACKAL_NP[m[K’?
+[4.224s]    17 | #define NP     [01;31m[KJackal_NP[m[K
+[4.224s]       |                [01;31m[K^~~~~~~~~[m[K
+[4.224s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:195:14:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KNP[m[K’
+[4.224s]   195 |     double p[[01;36m[KNP[m[K] = {0.0};
+[4.224s]       |              [01;36m[K^~[m[K
+[4.228s] In file included from [01m[K/home/robot/mpc_low/src/low_solver.cpp:17[m[K:
+[4.228s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:196:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[4.228s]   196 |     for (int i = 0; i < 520; i++) [01;31m[Kp[m[K[i] = costmap_data[i];
+[4.228s]       |                                   [01;31m[K^[m[K
+[4.233s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:200:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope; did you mean ‘[01m[Kpi[m[K’?
+[4.233s]   200 |         Jackal_acados_update_params(acados_ocp_capsule, ii, [01;31m[Kp[m[K, NP);
+[4.233s]       |                                                             [01;31m[K^[m[K
+[4.233s]       |                                                             [32m[Kpi[m[K
+[4.239s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:225:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_init[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+[4.239s]   225 |             ocp_nlp_out_set(nlp_config, nlp_dims, nlp_out, i, "x", [01;31m[Kx_init[m[K); // Check if OK??
+[4.239s]       |                                                                    [01;31m[K^~~~~~[m[K
+[4.239s]       |                                                                    [32m[Ku_int[m[K
+[4.243s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:226:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ku0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+[4.243s]   226 |             ocp_nlp_out_set(nlp_config, nlp_dims, nlp_out, i, "u", [01;31m[Ku0[m[K);
+[4.244s]       |                                                                    [01;31m[K^~[m[K
+[4.244s]       |                                                                    [32m[Ky0[m[K
+[4.249s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:256:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kxtraj[m[K’ was not declared in this scope
+[4.249s]   256 |         ocp_nlp_out_get(nlp_config, nlp_dims, nlp_out, ii, "x", &[01;31m[Kxtraj[m[K[ii*NX]);
+[4.249s]       |                                                                  [01;31m[K^~~~~[m[K
+[4.254s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:258:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kutraj[m[K’ was not declared in this scope
+[4.254s]   258 |         ocp_nlp_out_get(nlp_config, nlp_dims, nlp_out, ii, "u", &[01;31m[Kutraj[m[K[ii*NU]);
+[4.254s]       |                                                                  [01;31m[K^~~~~[m[K
+[4.259s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:287:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kutraj[m[K’ was not declared in this scope
+[4.259s]   287 |         if ([01;31m[Kutraj[m[K[i]!=utraj[i]) results[7] = 0.0;
+[4.259s]       |             [01;31m[K^~~~~[m[K
+[4.265s] [01m[K/home/robot/mpc_low/solver/acados_solver_holder.cpp:292:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kxtraj[m[K’ was not declared in this scope
+[4.265s]   292 |     for (int i=0;i<33;i++) trajectory[i] = [01;31m[Kxtraj[m[K[i];
+[4.265s]       |                                            [01;31m[K^~~~~[m[K
+[8.663s] gmake[2]: *** [CMakeFiles/mpc_low.dir/build.make:76: CMakeFiles/mpc_low.dir/src/low_solver.cpp.o] Error 1
+[8.664s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/mpc_low.dir/all] Error 2
+[8.664s] gmake: *** [Makefile:146: all] Error 2
+[8.666s] Invoked command in '/home/robot/mpc_low/build/mpc_low' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mpc_low/build/mpc_low -- -j12 -l12

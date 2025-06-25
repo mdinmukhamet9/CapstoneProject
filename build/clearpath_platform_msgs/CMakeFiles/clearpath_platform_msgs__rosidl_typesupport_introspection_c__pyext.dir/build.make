@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform_msgs
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__
 CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make
 CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
 CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -MF CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o.d -o CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -c /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -MF CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o.d -o CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o -c /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
 
 CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.i
 
 CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.s
 
 # Object files for target clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext
 clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
@@ -125,7 +125,7 @@ rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_ty
 rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.di
 .PHONY : CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean
 
 CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 

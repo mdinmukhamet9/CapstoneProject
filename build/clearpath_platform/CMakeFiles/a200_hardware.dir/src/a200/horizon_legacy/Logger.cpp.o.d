@@ -1,5 +1,5 @@
 CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o: \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/a200/horizon_legacy/Logger.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -178,4 +178,4 @@ CMakeFiles/a200_hardware.dir/src/a200/horizon_legacy/Logger.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Logger.h
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/a200/horizon_legacy/Logger.h

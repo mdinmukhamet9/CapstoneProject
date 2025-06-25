@@ -1,0 +1,34 @@
+[1.150s] Invoking command in '/home/dimash/debug_clear_ws/src/person_movement': PYTHONPATH=/home/dimash/debug_clear_ws/build/person_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_movement build --build-base /home/dimash/debug_clear_ws/build/person_movement/build install --record /home/dimash/debug_clear_ws/build/person_movement/install.log --single-version-externally-managed install_data
+[1.447s] running egg_info
+[1.448s] creating ../../build/person_movement/person_movement.egg-info
+[1.448s] writing ../../build/person_movement/person_movement.egg-info/PKG-INFO
+[1.448s] writing dependency_links to ../../build/person_movement/person_movement.egg-info/dependency_links.txt
+[1.449s] writing entry points to ../../build/person_movement/person_movement.egg-info/entry_points.txt
+[1.449s] writing requirements to ../../build/person_movement/person_movement.egg-info/requires.txt
+[1.449s] writing top-level names to ../../build/person_movement/person_movement.egg-info/top_level.txt
+[1.449s] writing manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+[1.451s] reading manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+[1.451s] writing manifest file '../../build/person_movement/person_movement.egg-info/SOURCES.txt'
+[1.451s] running build
+[1.452s] running build_py
+[1.452s] creating /home/dimash/debug_clear_ws/build/person_movement/build
+[1.452s] creating /home/dimash/debug_clear_ws/build/person_movement/build/lib
+[1.452s] creating /home/dimash/debug_clear_ws/build/person_movement/build/lib/person_movement
+[1.452s] copying person_movement/__init__.py -> /home/dimash/debug_clear_ws/build/person_movement/build/lib/person_movement
+[1.452s] running install
+[1.452s] running install_lib
+[1.453s] creating /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement
+[1.453s] copying /home/dimash/debug_clear_ws/build/person_movement/build/lib/person_movement/__init__.py -> /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement
+[1.453s] byte-compiling /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement/__init__.py to __init__.cpython-310.pyc
+[1.453s] running install_data
+[1.454s] creating /home/dimash/debug_clear_ws/install/person_movement/share/ament_index
+[1.454s] creating /home/dimash/debug_clear_ws/install/person_movement/share/ament_index/resource_index
+[1.454s] creating /home/dimash/debug_clear_ws/install/person_movement/share/ament_index/resource_index/packages
+[1.454s] copying resource/person_movement -> /home/dimash/debug_clear_ws/install/person_movement/share/ament_index/resource_index/packages
+[1.454s] copying package.xml -> /home/dimash/debug_clear_ws/install/person_movement/share/person_movement
+[1.454s] running install_egg_info
+[1.457s] Copying ../../build/person_movement/person_movement.egg-info to /home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages/person_movement-0.0.0-py3.10.egg-info
+[1.458s] running install_scripts
+[1.478s] Installing move_and_publish_person script to /home/dimash/debug_clear_ws/install/person_movement/lib/person_movement
+[1.478s] writing list of installed files to '/home/dimash/debug_clear_ws/build/person_movement/install.log'
+[1.517s] Invoked command in '/home/dimash/debug_clear_ws/src/person_movement' returned '0': PYTHONPATH=/home/dimash/debug_clear_ws/build/person_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dimash/debug_clear_ws/install/person_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/person_movement build --build-base /home/dimash/debug_clear_ws/build/person_movement/build install --record /home/dimash/debug_clear_ws/build/person_movement/install.log --single-version-externally-managed install_data

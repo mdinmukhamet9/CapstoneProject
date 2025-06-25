@@ -1,12 +1,12 @@
 CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o: \
- /home/robot/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp \
+ /home/dimash/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp \
  /usr/include/stdc-predef.h \
- /home/robot/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp \
+ /home/dimash/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/robot/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
- /home/robot/debug_clear_ws/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/pose2_d__struct.hpp \
+ /home/dimash/debug_clear_ws/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
+ /home/dimash/debug_clear_ws/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/pose2_d__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -162,7 +162,7 @@ CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fas
  /usr/include/c++/11/stdexcept \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /home/robot/debug_clear_ws/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/point2_d__struct.hpp \
+ /home/dimash/debug_clear_ws/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/point2_d__struct.hpp \
  /opt/ros/humble/include/fastcdr/fastcdr/Cdr.h \
  /opt/ros/humble/include/fastcdr/fastcdr/fastcdr_dll.h \
  /opt/ros/humble/include/fastcdr/fastcdr/config.h \

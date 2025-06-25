@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target cmd_publisher[0m
+[ 83%] Built target mpc_low_plugin
+[ 91%] [32mBuilding CXX object CMakeFiles/cmd_publisher.dir/src/cmd_publisher.cpp.o[0m
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/cmd_publisher.cpp:[m[K In member function ‘[01m[Kvoid CmdVelPublisher::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/cmd_publisher.cpp:151:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2::Matrix3x3::Matrix3x3(tf2::Quaternion (&)(...))[m[K’
+  151 |         tf2::Matrix3x3 m(q[01;31m[K)[m[K;
+      |                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h:19[m[K,
+                 from [01m[K/home/dimash/debug_clear_ws/src/mpc_low/src/cmd_publisher.cpp:11[m[K:
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:66:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Matrix3x3::Matrix3x3(const tf2::Matrix3x3&)[m[K’
+   66 |         TF2SIMD_FORCE_INLINE [01;36m[KMatrix3x3[m[K (const Matrix3x3& other)
+      |                              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:66:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion(...)[m[K’ to ‘[01m[Kconst tf2::Matrix3x3&[m[K’
+   66 |         TF2SIMD_FORCE_INLINE Matrix3x3 ([01;36m[Kconst Matrix3x3& other[m[K)
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:57:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Matrix3x3::Matrix3x3(const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&)[m[K’
+   57 |         [01;36m[KMatrix3x3[m[K(const tf2Scalar& xx, const tf2Scalar& xy, const tf2Scalar& xz,
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:57:9:[m[K [01;36m[Knote: [m[K  candidate expects 9 arguments, 1 provided
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:47:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Matrix3x3::Matrix3x3(const tf2::Quaternion&)[m[K’
+   47 |         explicit [01;36m[KMatrix3x3[m[K(const Quaternion& q) { setRotation(q); }
+      |                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:47:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion(...)[m[K’ to ‘[01m[Kconst tf2::Quaternion&[m[K’
+   47 |         explicit Matrix3x3([01;36m[Kconst Quaternion& q[m[K) { setRotation(q); }
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:41:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Matrix3x3::Matrix3x3()[m[K’
+   41 |         [01;36m[KMatrix3x3[m[K () {}
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp:41:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/cmd_publisher.dir/build.make:76: CMakeFiles/cmd_publisher.dir/src/cmd_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cmd_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

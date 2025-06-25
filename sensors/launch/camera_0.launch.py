@@ -27,7 +27,7 @@ def generate_launch_description():
                 {
                     'use_sim_time': True
                     ,
-                    'config_file': '/home/robot/debug_clear_ws/sensors/config/camera_0.yaml'
+                    'config_file': '/home/dimash/debug_clear_ws/sensors/config/camera_0.yaml'
                     ,
                 }
                 ,

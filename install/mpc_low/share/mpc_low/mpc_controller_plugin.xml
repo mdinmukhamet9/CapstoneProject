@@ -1,0 +1,7 @@
+<library path="mpc_low_plugin">
+    <class type="mpc_low::MPCController" base_class_type="nav2_core::Controller">
+        <description>
+            Nonlinear Model Predictive Control (NMPC) controller for Nav2
+        </description>
+    </class>
+</library>

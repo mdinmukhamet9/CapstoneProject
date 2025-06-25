@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_generator_common
+# Install script for directory: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot/debug_clear_ws/install/clearpath_generator_common")
+  set(CMAKE_INSTALL_PREFIX "/home/dimash/debug_clear_ws/install/clearpath_generator_common")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/robot/debug_clear_ws/build/clearpath_generator_common/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/clearpath_generator_common" TYPE PROGRAM FILES
+    "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/description/generate_description"
+    "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/discovery_server/generate_discovery_server"
+    "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/bash/generate_bash"
+    "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/semantic_description/generate_semantic_description"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/clearpath_generator_common/moveit_collision_updater"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/clearpath_generator_common" TYPE EXECUTABLE FILES "/home/robot/debug_clear_ws/build/clearpath_generator_common/moveit_collision_updater")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/clearpath_generator_common" TYPE EXECUTABLE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/moveit_collision_updater")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/clearpath_generator_common/moveit_collision_updater" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/clearpath_generator_common/moveit_collision_updater")
     file(RPATH_CHANGE
@@ -67,11 +72,86 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/environment" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/environment" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/clearpath_generator_common-0.3.4-py3.10.egg-info" TYPE DIRECTORY FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_python/clearpath_generator_common/clearpath_generator_common.egg-info/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/clearpath_generator_common" TYPE DIRECTORY FILES "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common/clearpath_generator_common/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/robot/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common"
+        "/home/dimash/debug_clear_ws/install/clearpath_generator_common/local/lib/python3.10/dist-packages/clearpath_generator_common"
       )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/clearpath_generator_common")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/clearpath_generator_common")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/environment" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/environment" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_index/share/ament_index/resource_index/packages/clearpath_generator_common")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common/cmake" TYPE FILE FILES
+    "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_core/clearpath_generator_commonConfig.cmake"
+    "/home/dimash/debug_clear_ws/build/clearpath_generator_common/ament_cmake_core/clearpath_generator_commonConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_generator_common" TYPE FILE FILES "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_generator_common/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -82,5 +162,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robot/debug_clear_ws/build/clearpath_generator_common/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dimash/debug_clear_ws/build/clearpath_generator_common/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

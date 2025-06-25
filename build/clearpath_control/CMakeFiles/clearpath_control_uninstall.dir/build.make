@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_control
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_control
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_control
 
 # Utility rule file for clearpath_control_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clearpath_control_uninstall.dir/compiler_depend.make
 include CMakeFiles/clearpath_control_uninstall.dir/progress.make
 
 CMakeFiles/clearpath_control_uninstall:
-	/usr/bin/cmake -P /home/robot/debug_clear_ws/build/clearpath_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dimash/debug_clear_ws/build/clearpath_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 clearpath_control_uninstall: CMakeFiles/clearpath_control_uninstall
 clearpath_control_uninstall: CMakeFiles/clearpath_control_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/clearpath_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/clearpath_control_uninstall.dir/clean
 
 CMakeFiles/clearpath_control_uninstall.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_control /home/robot/debug_clear_ws/src/clearpath_common/clearpath_control /home/robot/debug_clear_ws/build/clearpath_control /home/robot/debug_clear_ws/build/clearpath_control /home/robot/debug_clear_ws/build/clearpath_control/CMakeFiles/clearpath_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_control /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_control /home/dimash/debug_clear_ws/build/clearpath_control /home/dimash/debug_clear_ws/build/clearpath_control /home/dimash/debug_clear_ws/build/clearpath_control/CMakeFiles/clearpath_control_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_control_uninstall.dir/depend
 

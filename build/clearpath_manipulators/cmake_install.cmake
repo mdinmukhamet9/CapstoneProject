@@ -1,8 +1,8 @@
-# Install script for directory: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_manipulators
+# Install script for directory: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robot/debug_clear_ws/install/clearpath_manipulators")
+  set(CMAKE_INSTALL_PREFIX "/home/dimash/debug_clear_ws/install/clearpath_manipulators")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,69 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/robot/debug_clear_ws/build/clearpath_manipulators/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE DIRECTORY FILES
+    "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators/config"
+    "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators/launch"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/clearpath_manipulators")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/clearpath_manipulators")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators/environment" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators/environment" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_index/share/ament_index/resource_index/packages/clearpath_manipulators")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators/cmake" TYPE FILE FILES
+    "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_core/clearpath_manipulatorsConfig.cmake"
+    "/home/dimash/debug_clear_ws/build/clearpath_manipulators/ament_cmake_core/clearpath_manipulatorsConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clearpath_manipulators" TYPE FILE FILES "/home/dimash/debug_clear_ws/src/clearpath_common/clearpath_manipulators/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +116,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robot/debug_clear_ws/build/clearpath_manipulators/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dimash/debug_clear_ws/build/clearpath_manipulators/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

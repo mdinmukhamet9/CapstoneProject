@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform_msgs
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform_msgs
 
 # Utility rule file for ament_cmake_python_build_clearpath_platform_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/comp
 include CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform_msgs/ament_cmake_python/clearpath_platform_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/ament_cmake_python/clearpath_platform_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_clearpath_platform_msgs_egg: CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg
 ament_cmake_python_build_clearpath_platform_msgs_egg: CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs /home/robot/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/src/clearpath_msgs/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs /home/dimash/debug_clear_ws/build/clearpath_platform_msgs/CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_clearpath_platform_msgs_egg.dir/depend
 

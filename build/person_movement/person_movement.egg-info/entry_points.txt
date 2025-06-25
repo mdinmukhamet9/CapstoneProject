@@ -1,0 +1,3 @@
+[console_scripts]
+move_and_publish_person = person_movement.move_and_publish_person:main
+

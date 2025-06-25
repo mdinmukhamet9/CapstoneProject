@@ -1,0 +1,18 @@
+[100%] Built target move_model_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/lib/libmove_model_plugin.so
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/package_run_dependencies/move_model_plugin
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/parent_prefix_path/move_model_plugin
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/environment/path.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.bash
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.sh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.zsh
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/local_setup.dsv
+-- Installing: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.dsv
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/ament_index/resource_index/packages/move_model_plugin
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/cmake/move_model_pluginConfig-version.cmake
+-- Up-to-date: /home/dimash/debug_clear_ws/install/move_model_plugin/share/move_model_plugin/package.xml

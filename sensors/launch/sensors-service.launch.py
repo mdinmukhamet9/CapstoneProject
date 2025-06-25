@@ -11,8 +11,8 @@ def generate_launch_description():
     # Include Packages
 
     # Declare launch files
-    launch_file_lidar2d_0 = '/home/robot/debug_clear_ws/sensors/launch/lidar2d_0.launch.py'
-    launch_file_camera_0 = '/home/robot/debug_clear_ws/sensors/launch/camera_0.launch.py'
+    launch_file_lidar2d_0 = '/home/dimash/debug_clear_ws/sensors/launch/lidar2d_0.launch.py'
+    launch_file_camera_0 = '/home/dimash/debug_clear_ws/sensors/launch/camera_0.launch.py'
 
     # Include launch files
     launch_lidar2d_0 = IncludeLaunchDescription(

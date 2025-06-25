@@ -1,5 +1,5 @@
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -84,7 +84,7 @@ CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/color.hpp \
+ /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/include/clearpath_platform/lighting/color.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
  /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
@@ -104,8 +104,8 @@ CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rgb.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__struct.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h /usr/include/c++/11/cstdlib \
@@ -193,8 +193,8 @@ CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: \
  /usr/include/c++/11/stdexcept \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__builder.hpp \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__traits.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \
@@ -222,9 +222,9 @@ CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/robot/debug_clear_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h

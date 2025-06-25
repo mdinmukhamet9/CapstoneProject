@@ -49,7 +49,7 @@ ARGUMENTS = [
     DeclareLaunchArgument('world', default_value='warehouse',
                           description='Gazebo World'),
     DeclareLaunchArgument('setup_path',
-                          default_value=[EnvironmentVariable('HOME'), '/clearpath/'],
+                          default_value=[EnvironmentVariable('HOME'), '/debug_clear_ws/'],
                           description='Clearpath setup path')
 ]
 

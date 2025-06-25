@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Include any dependencies generated for this target.
 include CMakeFiles/puma_hardware.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/puma_hardware.dir/progress.make
 include CMakeFiles/puma_hardware.dir/flags.make
 
 CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o: CMakeFiles/puma_hardware.dir/flags.make
-CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp
+CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp
 CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o: CMakeFiles/puma_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o -MF CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o.d -o CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o -MF CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o.d -o CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp
 
 CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp > CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp > CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.i
 
 CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp -o CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware.cpp -o CMakeFiles/puma_hardware.dir/src/puma/hardware.cpp.s
 
 CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o: CMakeFiles/puma_hardware.dir/flags.make
-CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp
+CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp
 CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o: CMakeFiles/puma_hardware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o -MF CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o.d -o CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o -MF CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o.d -o CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp
 
 CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp > CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp > CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.i
 
 CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp -o CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/puma/hardware_interface.cpp -o CMakeFiles/puma_hardware.dir/src/puma/hardware_interface.cpp.s
 
 # Object files for target puma_hardware
 puma_hardware_OBJECTS = \
@@ -114,12 +114,12 @@ libpuma_hardware.so: /opt/ros/humble/lib/libpuma_motor_msgs__rosidl_typesupport_
 libpuma_hardware.so: /opt/ros/humble/lib/libpuma_motor_msgs__rosidl_typesupport_introspection_cpp.so
 libpuma_hardware.so: /opt/ros/humble/lib/libpuma_motor_msgs__rosidl_typesupport_cpp.so
 libpuma_hardware.so: /opt/ros/humble/lib/libpuma_motor_msgs__rosidl_generator_py.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
 libpuma_hardware.so: /opt/ros/humble/lib/libfake_components.so
 libpuma_hardware.so: /opt/ros/humble/lib/libmock_components.so
 libpuma_hardware.so: /opt/ros/humble/lib/libhardware_interface.so
@@ -233,8 +233,8 @@ libpuma_hardware.so: /opt/ros/humble/lib/librcpputils.so
 libpuma_hardware.so: /opt/ros/humble/lib/librcutils.so
 libpuma_hardware.so: /opt/ros/humble/lib/libpuma_motor_msgs__rosidl_typesupport_c.so
 libpuma_hardware.so: /opt/ros/humble/lib/libpuma_motor_msgs__rosidl_generator_c.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
-libpuma_hardware.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+libpuma_hardware.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
 libpuma_hardware.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libpuma_hardware.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libpuma_hardware.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -317,7 +317,7 @@ libpuma_hardware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.s
 libpuma_hardware.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libpuma_hardware.so: /opt/ros/humble/lib/librcutils.so
 libpuma_hardware.so: CMakeFiles/puma_hardware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libpuma_hardware.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libpuma_hardware.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/puma_hardware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -329,6 +329,6 @@ CMakeFiles/puma_hardware.dir/clean:
 .PHONY : CMakeFiles/puma_hardware.dir/clean
 
 CMakeFiles/puma_hardware.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/puma_hardware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/puma_hardware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/puma_hardware.dir/depend
 

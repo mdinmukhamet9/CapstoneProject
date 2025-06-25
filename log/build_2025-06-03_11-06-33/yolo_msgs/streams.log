@@ -1,0 +1,531 @@
+[0.688s] Invoking command in '/home/dimash/debug_clear_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/yolo_msgs -- -j8 -l8
+[1.016s] [  0%] Built target yolo_msgs__cpp
+[1.016s] [  0%] Built target ament_cmake_python_copy_yolo_msgs
+[1.017s] [  1%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__functions.c.o[0m
+[1.017s] [  1%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/vector2__functions.c.o[0m
+[1.017s] [  2%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/pose2_d__functions.c.o[0m
+[1.017s] [  3%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[1.092s] [  4%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/point2_d__type_support.cpp.o[0m
+[1.092s] [  5%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[1.092s] [  6%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/point2_d__type_support.cpp.o[0m
+[1.200s] [  7%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/vector2__type_support.cpp.o[0m
+[1.222s] [  8%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[1.234s] [  9%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/vector2__type_support.cpp.o[0m
+[1.234s] [ 10%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/vector2__type_support.cpp.o[0m
+[1.594s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/mask__functions.c.o[0m
+[1.969s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d__functions.c.o[0m
+[2.260s] [ 12%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d_array__functions.c.o[0m
+[2.427s] [ 13%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.c.o[0m
+[2.663s] [ 14%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d_array__functions.c.o[0m
+[2.852s] [ 15%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection__functions.c.o[0m
+[2.882s] [ 15%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/pose2_d__type_support.cpp.o[0m
+[2.974s] [ 16%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[3.076s] [ 17%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[3.143s] [ 17%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection_array__functions.c.o[0m
+[3.143s] running egg_info
+[3.144s] writing yolo_msgs.egg-info/PKG-INFO
+[3.144s] writing dependency_links to yolo_msgs.egg-info/dependency_links.txt
+[3.144s] writing top-level names to yolo_msgs.egg-info/top_level.txt
+[3.166s] reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[3.183s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[3.294s] [ 17%] Built target ament_cmake_python_build_yolo_msgs_egg
+[3.326s] [ 18%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/srv/detail/set_classes__functions.c.o[0m
+[3.342s] [ 18%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box2_d__type_support.cpp.o[0m
+[3.441s] [ 19%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[3.539s] [ 20%] [32m[1mLinking C shared library libyolo_msgs__rosidl_generator_c.so[0m
+[3.672s] [ 21%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[3.752s] [ 22%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[3.792s] [ 23%] Built target yolo_msgs__rosidl_generator_c
+[3.843s] [ 24%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/mask__type_support.cpp.o[0m
+[4.407s] [ 25%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/mask__type_support.cpp.o[0m
+[4.813s] [ 26%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d__type_support.cpp.o[0m
+[4.835s] [ 27%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point2_d_array__type_support.cpp.o[0m
+[5.339s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[5.501s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[5.676s] [ 28%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d__type_support.cpp.o[0m
+[5.719s] [ 29%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp.o[0m
+[6.112s] [ 30%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/key_point3_d_array__type_support.cpp.o[0m
+[6.851s] [ 31%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/point2_d__type_support_c.cpp.o[0m
+[7.007s] [ 32%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[7.123s] [ 32%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/vector2__type_support_c.cpp.o[0m
+[7.140s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[7.359s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[7.901s] [ 34%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/dds_fastrtps/detection_array__type_support.cpp.o[0m
+[7.926s] [ 35%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[8.551s] [ 36%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box2_d__type_support_c.cpp.o[0m
+[8.669s] [ 37%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[8.791s] [ 38%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/point2_d__type_support.c.o[0m
+[8.896s] [ 39%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection__type_support.cpp.o[0m
+[8.932s] [ 40%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/vector2__type_support.c.o[0m
+[8.979s] [ 41%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/mask__type_support.cpp.o[0m
+[9.116s] [ 41%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[9.277s] [ 42%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box2_d__type_support.c.o[0m
+[9.366s] [ 43%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_msgs/srv/detail/dds_fastrtps/set_classes__type_support.cpp.o[0m
+[9.440s] [ 44%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[9.448s] [ 45%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d__type_support.cpp.o[0m
+[9.586s] [ 46%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/mask__type_support.c.o[0m
+[9.604s] [ 47%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/msg/detection_array__type_support.cpp.o[0m
+[9.645s] [ 48%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d__type_support.c.o[0m
+[9.735s] [ 49%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp.o[0m
+[9.748s] [ 49%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d_array__type_support.c.o[0m
+[9.833s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[9.886s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/point2_d__type_support.cpp.o[0m
+[9.887s] [ 51%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d__type_support.c.o[0m
+[9.977s] [ 52%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/vector2__type_support.cpp.o[0m
+[10.046s] [ 53%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point3_d_array__type_support.c.o[0m
+[10.056s] [ 54%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/pose2_d__type_support.cpp.o[0m
+[10.155s] [ 55%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box2_d__type_support.cpp.o[0m
+[10.187s] [ 56%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection__type_support.c.o[0m
+[10.238s] [ 57%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[10.251s] [ 58%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/detection_array__type_support.c.o[0m
+[10.305s] [ 58%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_msgs/srv/detail/set_classes__type_support.c.o[0m
+[10.360s] [ 58%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/mask__type_support.cpp.o[0m
+[10.434s] [ 59%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp.o[0m
+[10.449s] [ 60%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d__type_support.cpp.o[0m
+[10.484s] [ 60%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp.o[0m
+[10.493s] [ 61%] [32m[1mLinking C shared library libyolo_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.566s] [ 62%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point2_d_array__type_support.cpp.o[0m
+[10.642s] [ 63%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[10.650s] [ 63%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_msgs/srv/set_classes__type_support.cpp.o[0m
+[10.670s] [ 64%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/mask__type_support_c.cpp.o[0m
+[10.755s] [ 65%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d__type_support.cpp.o[0m
+[10.833s] [ 65%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.840s] [ 65%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d__type_support_c.cpp.o[0m
+[10.873s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/key_point3_d_array__type_support.cpp.o[0m
+[10.947s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection__type_support.cpp.o[0m
+[11.033s] [ 67%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/msg/detection_array__type_support.cpp.o[0m
+[11.057s] [ 68%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection__type_support.cpp.o[0m
+[11.100s] [ 69%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[11.113s] [ 70%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_msgs/srv/set_classes__type_support.cpp.o[0m
+[11.137s] [ 71%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point2_d_array__type_support_c.cpp.o[0m
+[11.204s] [ 72%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_c.so[0m
+[11.325s] [ 73%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_cpp.so[0m
+[11.352s] [ 74%] Built target yolo_msgs__rosidl_typesupport_c
+[11.382s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d__type_support_c.cpp.o[0m
+[11.486s] [ 76%] Built target yolo_msgs__rosidl_typesupport_cpp
+[11.515s] [ 77%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/key_point3_d_array__type_support_c.cpp.o[0m
+[11.690s] [ 78%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/detection_array__type_support.cpp.o[0m
+[11.700s] [ 79%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/srv/detail/set_classes__type_support.cpp.o[0m
+[11.789s] [ 80%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[12.033s] [ 80%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/msg/detail/detection_array__type_support_c.cpp.o[0m
+[12.203s] [ 81%] [32mBuilding CXX object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_msgs/srv/detail/set_classes__type_support_c.cpp.o[0m
+[12.946s] [ 82%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.114s] [ 83%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[13.293s] [ 84%] [32m[1mLinking CXX shared library libyolo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.581s] [ 84%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[13.644s] [ 84%] Built target yolo_msgs
+[13.715s] [ 85%] Built target yolo_msgs__py
+[13.810s] [ 86%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_point2_d_s.c.o[0m
+[13.819s] [ 86%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_vector2_s.c.o[0m
+[13.820s] [ 87%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_pose2_d_s.c.o[0m
+[13.826s] [ 88%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c.o[0m
+[13.837s] [ 89%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d_s.c.o[0m
+[13.841s] [ 89%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c.o[0m
+[13.842s] [ 90%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_mask_s.c.o[0m
+[13.862s] [ 91%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d_s.c.o[0m
+[14.120s] [ 92%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_s.c.o[0m
+[14.291s] [ 93%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array_s.c.o[0m
+[14.314s] [ 94%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_s.c.o[0m
+[14.341s] [ 94%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/msg/_detection_array_s.c.o[0m
+[14.363s] [ 95%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c.o[0m
+[14.786s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/libyolo_msgs__rosidl_generator_py.so[0m
+[14.966s] [ 96%] Built target yolo_msgs__rosidl_generator_py
+[15.066s] [ 97%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.067s] [ 98%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.069s] [ 99%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.406s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.549s] [ 99%] Built target yolo_msgs__rosidl_typesupport_c__pyext
+[15.558s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.612s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.719s] [100%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.734s] [100%] Built target yolo_msgs__rosidl_typesupport_introspection_c__pyext
+[15.789s] Invoked command in '/home/dimash/debug_clear_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/yolo_msgs -- -j8 -l8
+[15.790s] Invoking command in '/home/dimash/debug_clear_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/yolo_msgs
+[15.814s] -- Install configuration: ""
+[15.817s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs
+[15.817s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.c
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.h
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.h
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__functions.h
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.h
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[15.818s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.c
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.c
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.h
+[15.819s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.h
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.h
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.h
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.h
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.h
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__functions.c
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.c
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.h
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__functions.c
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.c
+[15.820s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__functions.h
+[15.821s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.h
+[15.821s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.h
+[15.824s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.h
+[15.824s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.h
+[15.824s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__functions.h
+[15.824s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__functions.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.c
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__functions.c
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__functions.c
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__functions.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.h
+[15.825s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.c
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__functions.h
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__functions.c
+[15.826s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.h
+[15.832s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__functions.h
+[15.832s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__functions.c
+[15.832s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.h
+[15.832s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.h
+[15.832s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.h
+[15.833s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.833s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.h
+[15.833s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.h
+[15.833s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.h
+[15.833s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.h
+[15.833s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.h
+[15.837s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.h
+[15.837s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.h
+[15.837s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.h
+[15.837s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.h
+[15.838s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.h
+[15.838s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/library_path.sh
+[15.838s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/library_path.dsv
+[15.838s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+[15.838s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so" to ""
+[15.838s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[15.839s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[15.839s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[15.839s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_c.h
+[15.840s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[15.840s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[15.840s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[15.841s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.842s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+[15.842s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.c
+[15.842s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_c.h
+[15.843s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[15.843s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[15.852s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.c
+[15.853s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.c
+[15.854s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[15.854s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.c
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.c
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.c
+[15.857s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[15.858s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.c
+[15.858s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[15.858s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[15.858s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[15.858s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.858s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+[15.858s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.858s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+[15.858s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so" to ""
+[15.858s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[15.859s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[15.859s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__builder.hpp
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__traits.hpp
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.hpp
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__struct.hpp
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/set_classes.hpp
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp
+[15.864s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__builder.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__builder.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp
+[15.865s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__builder.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__builder.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__builder.hpp
+[15.866s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp
+[15.867s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp
+[15.867s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__builder.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp
+[15.875s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__builder.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__builder.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__builder.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__builder.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__builder.hpp
+[15.876s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d_array.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box2_d.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/vector2.hpp
+[15.877s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/point2_d.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/pose2_d.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/bounding_box3_d.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point2_d.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/key_point3_d_array.hpp
+[15.884s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/mask.hpp
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_fastrtps_cpp.hpp
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/dds_fastrtps
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.885s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/dds_fastrtps
+[15.886s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[15.886s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.886s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.887s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs
+[15.887s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv
+[15.891s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail
+[15.891s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__rosidl_typesupport_introspection_cpp.hpp
+[15.891s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/srv/detail/set_classes__type_support.cpp
+[15.891s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg
+[15.891s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail
+[15.891s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__type_support.cpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__type_support.cpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__type_support.cpp
+[15.892s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__type_support.cpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.cpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__type_support.cpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__type_support.cpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__type_support.cpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__type_support.cpp
+[15.893s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__type_support.cpp
+[15.894s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[15.894s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__type_support.cpp
+[15.894s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__type_support.cpp
+[15.894s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+[15.894s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.894s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+[15.894s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so" to ""
+[15.894s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.sh
+[15.894s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/pythonpath.dsv
+[15.894s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info
+[15.895s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/PKG-INFO
+[15.895s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/SOURCES.txt
+[15.895s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/dependency_links.txt
+[15.902s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs-4.0.1-py3.10.egg-info/top_level.txt
+[15.902s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs
+[15.902s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.902s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/__init__.py
+[15.902s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv
+[15.902s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/__init__.py
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes_s.c
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv/_set_classes.py
+[15.903s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/libyolo_msgs__rosidl_generator_py.so
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d.py
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d.py
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/__init__.py
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d.py
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array_s.c
+[15.903s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box2_d_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_point2_d_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array.py
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_mask.py
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_array_s.c
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d.py
+[15.904s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2_s.c
+[15.905s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d.py
+[15.905s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_vector2.py
+[15.913s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_bounding_box3_d_s.c
+[15.913s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array.py
+[15.913s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point3_d_s.c
+[15.913s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_key_point2_d_array.py
+[15.913s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection_array_s.c
+[15.914s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_detection.py
+[15.914s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg/_pose2_d.py
+[15.914s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.914s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.914s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.914s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.049s] Listing '/home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs'...
+[16.049s] Listing '/home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/msg'...
+[16.049s] Listing '/home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/srv'...
+[16.073s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.073s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.074s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.074s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.075s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.075s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/local/lib/python3.10/dist-packages/yolo_msgs/yolo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.081s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+[16.082s] -- Set runtime path of "/home/dimash/debug_clear_ws/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so" to ""
+[16.082s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Point2D.idl
+[16.082s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Vector2.idl
+[16.082s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.idl
+[16.083s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.idl
+[16.083s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.idl
+[16.083s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Mask.idl
+[16.083s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.idl
+[16.083s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.idl
+[16.083s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.idl
+[16.087s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.idl
+[16.087s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Detection.idl
+[16.087s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.idl
+[16.087s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.idl
+[16.087s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Point2D.msg
+[16.088s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Vector2.msg
+[16.088s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Pose2D.msg
+[16.088s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox2D.msg
+[16.090s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/BoundingBox3D.msg
+[16.090s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Mask.msg
+[16.090s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2D.msg
+[16.090s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint2DArray.msg
+[16.090s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3D.msg
+[16.090s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/KeyPoint3DArray.msg
+[16.091s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/Detection.msg
+[16.091s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/msg/DetectionArray.msg
+[16.094s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses.srv
+[16.094s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Request.msg
+[16.094s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/srv/SetClasses_Response.msg
+[16.094s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/ament_index/resource_index/package_run_dependencies/yolo_msgs
+[16.094s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/ament_index/resource_index/parent_prefix_path/yolo_msgs
+[16.094s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.sh
+[16.095s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/ament_prefix_path.dsv
+[16.095s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/path.sh
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/environment/path.dsv
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/local_setup.bash
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/local_setup.sh
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/local_setup.zsh
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/local_setup.dsv
+[16.098s] -- Installing: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/package.dsv
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/ament_index/resource_index/packages/yolo_msgs
+[16.098s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport.cmake
+[16.099s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.099s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.099s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.099s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.101s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.101s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport.cmake
+[16.101s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.101s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_cppExport.cmake
+[16.101s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/export_yolo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake-extras.cmake
+[16.102s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.103s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.103s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.103s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.103s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.103s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.103s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig.cmake
+[16.107s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/cmake/yolo_msgsConfig-version.cmake
+[16.107s] -- Up-to-date: /home/dimash/debug_clear_ws/install/yolo_msgs/share/yolo_msgs/package.xml
+[16.119s] Invoked command in '/home/dimash/debug_clear_ws/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dimash/debug_clear_ws/install/yolo_ros:/home/dimash/debug_clear_ws/install/person_movement:/home/dimash/debug_clear_ws/install/clearpath_config:/opt/ros/humble /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/yolo_msgs

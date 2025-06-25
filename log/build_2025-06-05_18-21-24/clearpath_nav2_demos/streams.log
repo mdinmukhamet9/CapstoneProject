@@ -1,0 +1,61 @@
+[0.053s] Invoking command in '/home/dimash/debug_clear_ws/build/clearpath_nav2_demos': AMENT_PREFIX_PATH=/home/dimash/debug_clear_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/clearpath_nav2_demos -- -j8 -l8
+[0.100s] Invoked command in '/home/dimash/debug_clear_ws/build/clearpath_nav2_demos' returned '0': AMENT_PREFIX_PATH=/home/dimash/debug_clear_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dimash/debug_clear_ws/build/clearpath_nav2_demos -- -j8 -l8
+[0.102s] Invoking command in '/home/dimash/debug_clear_ws/build/clearpath_nav2_demos': AMENT_PREFIX_PATH=/home/dimash/debug_clear_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/clearpath_nav2_demos
+[0.118s] -- Install configuration: ""
+[0.118s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config
+[0.118s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100
+[0.118s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/slam.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/nav2.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/r100/localization.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/nav2 copy.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/slam.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/nav2.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/j100/localization.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/slam.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/nav2.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd150/localization.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/slam.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/nav2.yaml
+[0.119s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/a200/localization.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/slam.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/nav2.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/dd100/localization.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/slam.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/nav2.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do100/localization.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/slam.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/nav2.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/w200/localization.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/slam.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/nav2.yaml
+[0.120s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/config/do150/localization.yaml
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/localization.launch.py
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/slam.launch.py
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/launch/nav2.launch.py
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps/warehouse.pgm
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/maps/warehouse.yaml
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/ament_index/resource_index/package_run_dependencies/clearpath_nav2_demos
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/ament_index/resource_index/parent_prefix_path/clearpath_nav2_demos
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/path.sh
+[0.121s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/environment/path.dsv
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.bash
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.sh
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.zsh
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/local_setup.dsv
+[0.122s] -- Installing: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/package.dsv
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/ament_index/resource_index/packages/clearpath_nav2_demos
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/cmake/clearpath_nav2_demosConfig.cmake
+[0.122s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/cmake/clearpath_nav2_demosConfig-version.cmake
+[0.123s] -- Up-to-date: /home/dimash/debug_clear_ws/install/clearpath_nav2_demos/share/clearpath_nav2_demos/package.xml
+[0.160s] Invoked command in '/home/dimash/debug_clear_ws/build/clearpath_nav2_demos' returned '0': AMENT_PREFIX_PATH=/home/dimash/debug_clear_ws/install/clearpath_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/home/dimash/debug_clear_ws/install/clearpath_config/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dimash/debug_clear_ws/build/clearpath_nav2_demos

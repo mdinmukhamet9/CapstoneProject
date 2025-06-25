@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform
+CMAKE_SOURCE_DIR = /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robot/debug_clear_ws/build/clearpath_platform
+CMAKE_BINARY_DIR = /home/dimash/debug_clear_ws/build/clearpath_platform
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clearpath_platform_lighting.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/clearpath_platform_lighting.dir/progress.make
 include CMakeFiles/clearpath_platform_lighting.dir/flags.make
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o: CMakeFiles/clearpath_platform_lighting.dir/flags.make
-CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp
+CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o: CMakeFiles/clearpath_platform_lighting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o -MF CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o.d -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o -MF CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o.d -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp > CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp > CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.i
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/lighting.cpp -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/lighting.cpp.s
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o: CMakeFiles/clearpath_platform_lighting.dir/flags.make
-CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp
+CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o: CMakeFiles/clearpath_platform_lighting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o -MF CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o.d -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o -MF CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o.d -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp > CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp > CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.i
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/sequence.cpp -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.s
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: CMakeFiles/clearpath_platform_lighting.dir/flags.make
-CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp
+CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o: CMakeFiles/clearpath_platform_lighting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o -MF CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o.d -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o -c /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o -MF CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o.d -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o -c /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp > CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp > CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.i
 
 CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform/src/lighting/color.cpp -o CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.s
 
 # Object files for target clearpath_platform_lighting
 clearpath_platform_lighting_OBJECTS = \
@@ -124,20 +124,20 @@ libclearpath_platform_lighting.so: CMakeFiles/clearpath_platform_lighting.dir/sr
 libclearpath_platform_lighting.so: CMakeFiles/clearpath_platform_lighting.dir/src/lighting/sequence.cpp.o
 libclearpath_platform_lighting.so: CMakeFiles/clearpath_platform_lighting.dir/src/lighting/color.cpp.o
 libclearpath_platform_lighting.so: CMakeFiles/clearpath_platform_lighting.dir/build.make
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/librclcpp.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
-libclearpath_platform_lighting.so: /home/robot/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+libclearpath_platform_lighting.so: /home/dimash/debug_clear_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -211,7 +211,7 @@ libclearpath_platform_lighting.so: /opt/ros/humble/lib/librcpputils.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/librcutils.so
 libclearpath_platform_lighting.so: /opt/ros/humble/lib/libtracetools.so
 libclearpath_platform_lighting.so: CMakeFiles/clearpath_platform_lighting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libclearpath_platform_lighting.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libclearpath_platform_lighting.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clearpath_platform_lighting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +223,6 @@ CMakeFiles/clearpath_platform_lighting.dir/clean:
 .PHONY : CMakeFiles/clearpath_platform_lighting.dir/clean
 
 CMakeFiles/clearpath_platform_lighting.dir/depend:
-	cd /home/robot/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/src/clearpath_common/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform /home/robot/debug_clear_ws/build/clearpath_platform/CMakeFiles/clearpath_platform_lighting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dimash/debug_clear_ws/build/clearpath_platform && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/src/clearpath_common/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform /home/dimash/debug_clear_ws/build/clearpath_platform/CMakeFiles/clearpath_platform_lighting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearpath_platform_lighting.dir/depend
 
